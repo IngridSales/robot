@@ -9,7 +9,11 @@ Test Teardown        Take Screenshot
 Cenário: Email não cadastrado
 
     Ir Para Pagina
-
+    Acceso           isalesmartins93@gmail.com          123123
+    Buscar e Fechar Toast
+    ...         Usuário e/ou senha inválidos.
+    [Teardown]  Thinking and Screenshot       2
+    
 Cenário: Entrar com um usuário cadastrado
     
     Ir Para Pagina
