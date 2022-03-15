@@ -6,37 +6,31 @@ Resource                ${EXECDIR}/resources/base.robot
 
 
 *** Keywords ***
+Go To Page
+
+    Go To           https://bodytest-web-drakke.herokuapp.com/
+
 Acceso
 
     [Arguments]         ${email}        ${pass}
-
     Fill Text       css=#email          ${email}
     Fill Text       css=#password       ${pass}
     Click           css=button >> text=Entrar
 
-Buscar e Fechar Toast
+Wait For Toast
 
-    # [Arguments]         ${span_toast}
     [Arguments]         ${txt_esperado}
     Wait For Elements State         css=.Toastify__toast-body >> text=${txt_esperado}       visible         5
-    # Get Text        xpath=//div[@class="Toastify"]      contains        ${span_toast}
-    # Click           css=button >> text=✖︎
     
 Buscar Span Email Inválido
 
-    [Arguments]         ${span_email_inv}           
-
+    [Arguments]         ${span_email_inv}     
     Get Text        css=span        contains        ${span_email_inv}
 
 Buscar Span Senha Inválida
 
     [Arguments]         ${span_senha_inv}           
-
     Get Text        css=span        contains        ${span_senha_inv}
-
-Ir Para Pagina
-
-    Go To           https://bodytest-web-drakke.herokuapp.com/
 
 Clear Storage e Screenshot
 
@@ -46,6 +40,12 @@ Clear Storage e Screenshot
 Thinking and Screenshot
 
     [Arguments]         ${timeout}
-
     Sleep       ${timeout}
     Take Screenshot     
+
+Span Campos Obrigatórios
+
+    [Arguments]         ${span_email_obr}       ${span_senha_obr}
+
+    Get Text        css=span >> text=${span_email_obr}
+    Get Text       css=span >> text=${span_senha_obr}

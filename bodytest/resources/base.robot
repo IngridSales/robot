@@ -3,8 +3,7 @@
 Documentation       Base do Projeto
 
 Library             Browser
-# Resource            ${EXECDIR}/resources/test.robot
-Resource            ${EXECDIR}/resources/actions/actions.robot
+Resource            ${EXECDIR}/resources/actions/login.robot
 
 
 *** Keywords ***
