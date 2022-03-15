@@ -3,8 +3,8 @@
 Documentation       Base do Projeto
 
 Library             Browser
-Resource            ${EXECDIR}/resources/test.robot
-
+# Resource            ${EXECDIR}/resources/test.robot
+Resource            ${EXECDIR}/resources/actions/actions.robot
 
 
 *** Keywords ***
@@ -12,4 +12,4 @@ Resource            ${EXECDIR}/resources/test.robot
 Inicio de Sesion
 
     New Browser     chromium        false
-    New Page        https://bodytest-web-drakke.herokuapp.com/
+    New Page        about:blank
