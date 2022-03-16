@@ -21,7 +21,7 @@
 #     Fill Text       css=#email      tonyzinho@gmail.com
 #     Fill Text       css=#age        53
 #     Fill Text       css=#weight       77
-#     Fill Text       xpath=#feet_tall       1,70
+#     Fill Text       css=#feet_tall       1,70
 
 #     Click           xpath=//input[type="number"]
 #     Get Text        xpath=//div[text()="Aluno cadastrado com sucesso."]
