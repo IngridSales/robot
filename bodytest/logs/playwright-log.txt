@@ -1,499 +1,500 @@
-{"level":30,"time":"2022-03-18T17:43:11.589Z","pid":55538,"hostname":"ingrid","msg":"Listening on 55121"}
-{"level":30,"time":"2022-03-18T17:43:11.800Z","pid":55538,"hostname":"ingrid","msg":"Start of node method getBrowserCatalog"}
-{"level":30,"time":"2022-03-18T17:43:11.802Z","pid":55538,"hostname":"ingrid","msg":"End of node method getBrowserCatalog"}
-{"level":30,"time":"2022-03-18T17:43:11.857Z","pid":55538,"hostname":"ingrid","msg":"Start of node method newBrowser"}
-{"level":30,"time":"2022-03-18T17:43:13.116Z","pid":55538,"hostname":"ingrid","msg":"End of node method newBrowser"}
-{"level":30,"time":"2022-03-18T17:43:13.135Z","pid":55538,"hostname":"ingrid","msg":"Start of node method newPage"}
-{"level":30,"time":"2022-03-18T17:43:13.136Z","pid":55538,"hostname":"ingrid","msg":"currentBrowser: [object Object]"}
-{"level":30,"time":"2022-03-18T17:43:13.195Z","pid":55538,"hostname":"ingrid","msg":"Changed active context"}
-{"level":30,"time":"2022-03-18T17:43:14.284Z","pid":55538,"hostname":"ingrid","msg":"Video path: undefined"}
-{"level":30,"time":"2022-03-18T17:43:14.285Z","pid":55538,"hostname":"ingrid","msg":"Changed active page"}
-{"level":30,"time":"2022-03-18T17:43:14.540Z","pid":55538,"hostname":"ingrid","msg":"End of node method newPage"}
-{"level":30,"time":"2022-03-18T17:43:14.551Z","pid":55538,"hostname":"ingrid","msg":"Start of node method getBrowserCatalog"}
-{"level":30,"time":"2022-03-18T17:43:14.616Z","pid":55538,"hostname":"ingrid","msg":"End of node method getBrowserCatalog"}
-{"level":30,"time":"2022-03-18T17:43:14.624Z","pid":55538,"hostname":"ingrid","msg":"Start of node method goTo"}
-{"level":30,"time":"2022-03-18T17:43:19.874Z","pid":55538,"hostname":"ingrid","msg":"End of node method goTo"}
-{"level":30,"time":"2022-03-18T17:43:19.890Z","pid":55538,"hostname":"ingrid","msg":"Start of node method fillText"}
-{"level":30,"time":"2022-03-18T17:43:19.892Z","pid":55538,"hostname":"ingrid","msg":"Strict mode is enabled, find Locator with css=#email in page."}
-{"level":30,"time":"2022-03-18T17:43:20.134Z","pid":55538,"hostname":"ingrid","msg":"End of node method fillText"}
-{"level":30,"time":"2022-03-18T17:43:20.143Z","pid":55538,"hostname":"ingrid","msg":"Start of node method fillText"}
-{"level":30,"time":"2022-03-18T17:43:20.143Z","pid":55538,"hostname":"ingrid","msg":"Strict mode is enabled, find Locator with css=#password in page."}
-{"level":30,"time":"2022-03-18T17:43:20.232Z","pid":55538,"hostname":"ingrid","msg":"End of node method fillText"}
-{"level":30,"time":"2022-03-18T17:43:20.242Z","pid":55538,"hostname":"ingrid","msg":"Start of node method click"}
-{"level":30,"time":"2022-03-18T17:43:20.243Z","pid":55538,"hostname":"ingrid","msg":"Strict mode is enabled, find Locator with css=button >> text=Entrar in page."}
-{"level":30,"time":"2022-03-18T17:43:20.415Z","pid":55538,"hostname":"ingrid","msg":"End of node method click"}
-{"level":30,"time":"2022-03-18T17:43:20.421Z","pid":55538,"hostname":"ingrid","msg":"Start of node method click"}
-{"level":30,"time":"2022-03-18T17:43:20.421Z","pid":55538,"hostname":"ingrid","msg":"Strict mode is enabled, find Locator with xpath=//a[@href=\"/alunos\"] in page."}
-{"level":30,"time":"2022-03-18T17:43:22.018Z","pid":55538,"hostname":"ingrid","msg":"End of node method click"}
-{"level":30,"time":"2022-03-18T17:43:22.030Z","pid":55538,"hostname":"ingrid","msg":"Start of node method click"}
-{"level":30,"time":"2022-03-18T17:43:22.031Z","pid":55538,"hostname":"ingrid","msg":"Strict mode is enabled, find Locator with xpath=//a[@href=\"/alunos/new\"] in page."}
-{"level":30,"time":"2022-03-18T17:43:22.627Z","pid":55538,"hostname":"ingrid","msg":"End of node method click"}
-{"level":30,"time":"2022-03-18T17:43:22.641Z","pid":55538,"hostname":"ingrid","msg":"Start of node method fillText"}
-{"level":30,"time":"2022-03-18T17:43:22.644Z","pid":55538,"hostname":"ingrid","msg":"Strict mode is enabled, find Locator with css=input[placeholder=\"Digite seu nome completo\"] in page."}
-{"level":30,"time":"2022-03-18T17:43:22.853Z","pid":55538,"hostname":"ingrid","msg":"End of node method fillText"}
-{"level":30,"time":"2022-03-18T17:43:22.859Z","pid":55538,"hostname":"ingrid","msg":"Start of node method fillText"}
-{"level":30,"time":"2022-03-18T17:43:22.861Z","pid":55538,"hostname":"ingrid","msg":"Strict mode is enabled, find Locator with css=input[placeholder=\"Digite seu endereço de e-Mail\"] in page."}
-{"level":30,"time":"2022-03-18T17:43:22.972Z","pid":55538,"hostname":"ingrid","msg":"End of node method fillText"}
-{"level":30,"time":"2022-03-18T17:43:22.978Z","pid":55538,"hostname":"ingrid","msg":"Start of node method fillText"}
-{"level":30,"time":"2022-03-18T17:43:22.979Z","pid":55538,"hostname":"ingrid","msg":"Strict mode is enabled, find Locator with css=input[placeholder=\"Sua Idade\"] in page."}
-{"level":30,"time":"2022-03-18T17:43:23.117Z","pid":55538,"hostname":"ingrid","msg":"End of node method fillText"}
-{"level":30,"time":"2022-03-18T17:43:23.126Z","pid":55538,"hostname":"ingrid","msg":"Start of node method fillText"}
-{"level":30,"time":"2022-03-18T17:43:23.127Z","pid":55538,"hostname":"ingrid","msg":"Strict mode is enabled, find Locator with css=input[placeholder=\"Seu Peso\"] in page."}
-{"level":30,"time":"2022-03-18T17:43:23.255Z","pid":55538,"hostname":"ingrid","msg":"End of node method fillText"}
-{"level":30,"time":"2022-03-18T17:43:23.262Z","pid":55538,"hostname":"ingrid","msg":"Start of node method fillText"}
-{"level":30,"time":"2022-03-18T17:43:23.262Z","pid":55538,"hostname":"ingrid","msg":"Strict mode is enabled, find Locator with css=input[placeholder=\"Sua Altura\"] in page."}
-{"level":30,"time":"2022-03-18T17:43:23.381Z","pid":55538,"hostname":"ingrid","msg":"End of node method fillText"}
-{"level":30,"time":"2022-03-18T17:43:23.391Z","pid":55538,"hostname":"ingrid","msg":"Start of node method click"}
-{"level":30,"time":"2022-03-18T17:43:23.392Z","pid":55538,"hostname":"ingrid","msg":"Strict mode is enabled, find Locator with xpath=//button[text()=\"Salvar\"] in page."}
-{"level":30,"time":"2022-03-18T17:43:23.583Z","pid":55538,"hostname":"ingrid","msg":"End of node method click"}
-{"level":30,"time":"2022-03-18T17:43:23.592Z","pid":55538,"hostname":"ingrid","msg":"Start of node method waitForElementState"}
-{"level":30,"time":"2022-03-18T17:43:23.592Z","pid":55538,"hostname":"ingrid","msg":"Strict mode is enabled, find Locator with css=.Toastify__toast-body >> text=Aluno cadastrado com sucesso. in page."}
-{"level":30,"time":"2022-03-18T17:43:24.431Z","pid":55538,"hostname":"ingrid","msg":"End of node method waitForElementState"}
-{"level":30,"time":"2022-03-18T17:43:24.446Z","pid":55538,"hostname":"ingrid","msg":"On executeJavascript, supress ReferenceError: window is not defined for eval."}
-{"level":30,"time":"2022-03-18T17:43:24.508Z","pid":55538,"hostname":"ingrid","msg":"Start of node method takeScreenshot"}
-{"level":30,"time":"2022-03-18T17:43:25.125Z","pid":55538,"hostname":"ingrid","msg":"End of node method takeScreenshot"}
-{"level":30,"time":"2022-03-18T17:43:25.137Z","pid":55538,"hostname":"ingrid","msg":"Start of node method getBrowserCatalog"}
-{"level":30,"time":"2022-03-18T17:43:25.186Z","pid":55538,"hostname":"ingrid","msg":"End of node method getBrowserCatalog"}
-{"level":30,"time":"2022-03-18T17:43:25.192Z","pid":55538,"hostname":"ingrid","msg":"Start of node method getBrowserCatalog"}
-{"level":30,"time":"2022-03-18T17:43:25.211Z","pid":55538,"hostname":"ingrid","msg":"End of node method getBrowserCatalog"}
-{"level":30,"time":"2022-03-18T17:43:25.218Z","pid":55538,"hostname":"ingrid","msg":"Start of node method goTo"}
-{"level":30,"time":"2022-03-18T17:43:26.367Z","pid":55538,"hostname":"ingrid","msg":"End of node method goTo"}
-{"level":30,"time":"2022-03-18T17:43:26.383Z","pid":55538,"hostname":"ingrid","msg":"Start of node method fillText"}
-{"level":30,"time":"2022-03-18T17:43:26.385Z","pid":55538,"hostname":"ingrid","msg":"Strict mode is enabled, find Locator with css=#email in page."}
-{"level":30,"time":"2022-03-18T17:43:26.569Z","pid":55538,"hostname":"ingrid","msg":"End of node method fillText"}
-{"level":30,"time":"2022-03-18T17:43:26.576Z","pid":55538,"hostname":"ingrid","msg":"Start of node method fillText"}
-{"level":30,"time":"2022-03-18T17:43:26.576Z","pid":55538,"hostname":"ingrid","msg":"Strict mode is enabled, find Locator with css=#password in page."}
-{"level":30,"time":"2022-03-18T17:43:26.662Z","pid":55538,"hostname":"ingrid","msg":"End of node method fillText"}
-{"level":30,"time":"2022-03-18T17:43:26.667Z","pid":55538,"hostname":"ingrid","msg":"Start of node method click"}
-{"level":30,"time":"2022-03-18T17:43:26.667Z","pid":55538,"hostname":"ingrid","msg":"Strict mode is enabled, find Locator with css=button >> text=Entrar in page."}
-{"level":30,"time":"2022-03-18T17:43:26.879Z","pid":55538,"hostname":"ingrid","msg":"End of node method click"}
-{"level":30,"time":"2022-03-18T17:43:26.885Z","pid":55538,"hostname":"ingrid","msg":"Start of node method click"}
-{"level":30,"time":"2022-03-18T17:43:26.889Z","pid":55538,"hostname":"ingrid","msg":"Strict mode is enabled, find Locator with xpath=//a[@href=\"/alunos\"] in page."}
-{"level":30,"time":"2022-03-18T17:43:27.637Z","pid":55538,"hostname":"ingrid","msg":"End of node method click"}
-{"level":30,"time":"2022-03-18T17:43:27.642Z","pid":55538,"hostname":"ingrid","msg":"Start of node method click"}
-{"level":30,"time":"2022-03-18T17:43:27.642Z","pid":55538,"hostname":"ingrid","msg":"Strict mode is enabled, find Locator with xpath=//a[@href=\"/alunos/new\"] in page."}
-{"level":30,"time":"2022-03-18T17:43:28.040Z","pid":55538,"hostname":"ingrid","msg":"End of node method click"}
-{"level":30,"time":"2022-03-18T17:43:28.059Z","pid":55538,"hostname":"ingrid","msg":"Start of node method fillText"}
-{"level":30,"time":"2022-03-18T17:43:28.059Z","pid":55538,"hostname":"ingrid","msg":"Strict mode is enabled, find Locator with css=input[placeholder=\"Digite seu nome completo\"] in page."}
-{"level":30,"time":"2022-03-18T17:43:28.191Z","pid":55538,"hostname":"ingrid","msg":"End of node method fillText"}
-{"level":30,"time":"2022-03-18T17:43:28.196Z","pid":55538,"hostname":"ingrid","msg":"Start of node method fillText"}
-{"level":30,"time":"2022-03-18T17:43:28.196Z","pid":55538,"hostname":"ingrid","msg":"Strict mode is enabled, find Locator with css=input[placeholder=\"Digite seu endereço de e-Mail\"] in page."}
-{"level":30,"time":"2022-03-18T17:43:28.258Z","pid":55538,"hostname":"ingrid","msg":"End of node method fillText"}
-{"level":30,"time":"2022-03-18T17:43:28.264Z","pid":55538,"hostname":"ingrid","msg":"Start of node method fillText"}
-{"level":30,"time":"2022-03-18T17:43:28.264Z","pid":55538,"hostname":"ingrid","msg":"Strict mode is enabled, find Locator with css=input[placeholder=\"Sua Idade\"] in page."}
-{"level":30,"time":"2022-03-18T17:43:28.334Z","pid":55538,"hostname":"ingrid","msg":"End of node method fillText"}
-{"level":30,"time":"2022-03-18T17:43:28.341Z","pid":55538,"hostname":"ingrid","msg":"Start of node method fillText"}
-{"level":30,"time":"2022-03-18T17:43:28.341Z","pid":55538,"hostname":"ingrid","msg":"Strict mode is enabled, find Locator with css=input[placeholder=\"Seu Peso\"] in page."}
-{"level":30,"time":"2022-03-18T17:43:28.431Z","pid":55538,"hostname":"ingrid","msg":"End of node method fillText"}
-{"level":30,"time":"2022-03-18T17:43:28.438Z","pid":55538,"hostname":"ingrid","msg":"Start of node method fillText"}
-{"level":30,"time":"2022-03-18T17:43:28.438Z","pid":55538,"hostname":"ingrid","msg":"Strict mode is enabled, find Locator with css=input[placeholder=\"Sua Altura\"] in page."}
-{"level":30,"time":"2022-03-18T17:43:28.521Z","pid":55538,"hostname":"ingrid","msg":"End of node method fillText"}
-{"level":30,"time":"2022-03-18T17:43:28.530Z","pid":55538,"hostname":"ingrid","msg":"Start of node method click"}
-{"level":30,"time":"2022-03-18T17:43:28.533Z","pid":55538,"hostname":"ingrid","msg":"Strict mode is enabled, find Locator with xpath=//button[text()=\"Salvar\"] in page."}
-{"level":30,"time":"2022-03-18T17:43:28.704Z","pid":55538,"hostname":"ingrid","msg":"End of node method click"}
-{"level":30,"time":"2022-03-18T17:43:28.711Z","pid":55538,"hostname":"ingrid","msg":"Start of node method getText"}
-{"level":30,"time":"2022-03-18T17:43:28.712Z","pid":55538,"hostname":"ingrid","msg":"Strict mode is enabled, find Locator with css=span >> text=Nome é obrigatório in page."}
-{"level":30,"time":"2022-03-18T17:43:28.883Z","pid":55538,"hostname":"ingrid","msg":"Retrieved text for element css=span >> text=Nome é obrigatório containing Nome é obrigatório"}
-{"level":30,"time":"2022-03-18T17:43:28.884Z","pid":55538,"hostname":"ingrid","msg":"End of node method getText"}
-{"level":30,"time":"2022-03-18T17:43:28.889Z","pid":55538,"hostname":"ingrid","msg":"Start of node method getText"}
-{"level":30,"time":"2022-03-18T17:43:28.890Z","pid":55538,"hostname":"ingrid","msg":"Strict mode is enabled, find Locator with css=span >> text=O e-mail é obrigatório in page."}
-{"level":30,"time":"2022-03-18T17:43:28.936Z","pid":55538,"hostname":"ingrid","msg":"Retrieved text for element css=span >> text=O e-mail é obrigatório containing O e-mail é obrigatório"}
-{"level":30,"time":"2022-03-18T17:43:28.936Z","pid":55538,"hostname":"ingrid","msg":"End of node method getText"}
-{"level":30,"time":"2022-03-18T17:43:28.941Z","pid":55538,"hostname":"ingrid","msg":"Start of node method getText"}
-{"level":30,"time":"2022-03-18T17:43:28.941Z","pid":55538,"hostname":"ingrid","msg":"Strict mode is enabled, find Locator with css=span >> text=idade é obrigatória in page."}
-{"level":30,"time":"2022-03-18T17:43:28.981Z","pid":55538,"hostname":"ingrid","msg":"Retrieved text for element css=span >> text=idade é obrigatória containing idade é obrigatória"}
-{"level":30,"time":"2022-03-18T17:43:28.981Z","pid":55538,"hostname":"ingrid","msg":"End of node method getText"}
-{"level":30,"time":"2022-03-18T17:43:28.986Z","pid":55538,"hostname":"ingrid","msg":"Start of node method getText"}
-{"level":30,"time":"2022-03-18T17:43:28.986Z","pid":55538,"hostname":"ingrid","msg":"Strict mode is enabled, find Locator with css=span >> text=o peso é obrigatório in page."}
-{"level":30,"time":"2022-03-18T17:43:29.031Z","pid":55538,"hostname":"ingrid","msg":"Retrieved text for element css=span >> text=o peso é obrigatório containing o peso é obrigatório"}
-{"level":30,"time":"2022-03-18T17:43:29.031Z","pid":55538,"hostname":"ingrid","msg":"End of node method getText"}
-{"level":30,"time":"2022-03-18T17:43:29.038Z","pid":55538,"hostname":"ingrid","msg":"Start of node method getText"}
-{"level":30,"time":"2022-03-18T17:43:29.039Z","pid":55538,"hostname":"ingrid","msg":"Strict mode is enabled, find Locator with css=span >> text=a Altura é obrigatória in page."}
-{"level":30,"time":"2022-03-18T17:43:29.089Z","pid":55538,"hostname":"ingrid","msg":"Retrieved text for element css=span >> text=a Altura é obrigatória containing a Altura é obrigatória"}
-{"level":30,"time":"2022-03-18T17:43:29.089Z","pid":55538,"hostname":"ingrid","msg":"End of node method getText"}
-{"level":30,"time":"2022-03-18T17:43:29.095Z","pid":55538,"hostname":"ingrid","msg":"On executeJavascript, supress ReferenceError: window is not defined for eval."}
-{"level":30,"time":"2022-03-18T17:43:29.107Z","pid":55538,"hostname":"ingrid","msg":"Start of node method takeScreenshot"}
-{"level":30,"time":"2022-03-18T17:43:29.400Z","pid":55538,"hostname":"ingrid","msg":"End of node method takeScreenshot"}
-{"level":30,"time":"2022-03-18T17:43:29.412Z","pid":55538,"hostname":"ingrid","msg":"Start of node method getBrowserCatalog"}
-{"level":30,"time":"2022-03-18T17:43:29.434Z","pid":55538,"hostname":"ingrid","msg":"End of node method getBrowserCatalog"}
-{"level":30,"time":"2022-03-18T17:43:29.444Z","pid":55538,"hostname":"ingrid","msg":"Start of node method getBrowserCatalog"}
-{"level":30,"time":"2022-03-18T17:43:29.450Z","pid":55538,"hostname":"ingrid","msg":"End of node method getBrowserCatalog"}
-{"level":30,"time":"2022-03-18T17:43:29.461Z","pid":55538,"hostname":"ingrid","msg":"Start of node method goTo"}
-{"level":30,"time":"2022-03-18T17:43:30.484Z","pid":55538,"hostname":"ingrid","msg":"End of node method goTo"}
-{"level":30,"time":"2022-03-18T17:43:30.497Z","pid":55538,"hostname":"ingrid","msg":"Start of node method fillText"}
-{"level":30,"time":"2022-03-18T17:43:30.497Z","pid":55538,"hostname":"ingrid","msg":"Strict mode is enabled, find Locator with css=#email in page."}
-{"level":30,"time":"2022-03-18T17:43:30.674Z","pid":55538,"hostname":"ingrid","msg":"End of node method fillText"}
-{"level":30,"time":"2022-03-18T17:43:30.679Z","pid":55538,"hostname":"ingrid","msg":"Start of node method fillText"}
-{"level":30,"time":"2022-03-18T17:43:30.679Z","pid":55538,"hostname":"ingrid","msg":"Strict mode is enabled, find Locator with css=#password in page."}
-{"level":30,"time":"2022-03-18T17:43:30.770Z","pid":55538,"hostname":"ingrid","msg":"End of node method fillText"}
-{"level":30,"time":"2022-03-18T17:43:30.775Z","pid":55538,"hostname":"ingrid","msg":"Start of node method click"}
-{"level":30,"time":"2022-03-18T17:43:30.775Z","pid":55538,"hostname":"ingrid","msg":"Strict mode is enabled, find Locator with css=button >> text=Entrar in page."}
-{"level":30,"time":"2022-03-18T17:43:30.887Z","pid":55538,"hostname":"ingrid","msg":"End of node method click"}
-{"level":30,"time":"2022-03-18T17:43:30.901Z","pid":55538,"hostname":"ingrid","msg":"Start of node method click"}
-{"level":30,"time":"2022-03-18T17:43:30.902Z","pid":55538,"hostname":"ingrid","msg":"Strict mode is enabled, find Locator with xpath=//a[@href=\"/alunos\"] in page."}
-{"level":30,"time":"2022-03-18T17:43:31.468Z","pid":55538,"hostname":"ingrid","msg":"End of node method click"}
-{"level":30,"time":"2022-03-18T17:43:31.475Z","pid":55538,"hostname":"ingrid","msg":"Start of node method click"}
-{"level":30,"time":"2022-03-18T17:43:31.477Z","pid":55538,"hostname":"ingrid","msg":"Strict mode is enabled, find Locator with xpath=//a[@href=\"/alunos/new\"] in page."}
-{"level":30,"time":"2022-03-18T17:43:32.116Z","pid":55538,"hostname":"ingrid","msg":"End of node method click"}
-{"level":30,"time":"2022-03-18T17:43:32.126Z","pid":55538,"hostname":"ingrid","msg":"Start of node method fillText"}
-{"level":30,"time":"2022-03-18T17:43:32.129Z","pid":55538,"hostname":"ingrid","msg":"Strict mode is enabled, find Locator with css=input[placeholder=\"Digite seu nome completo\"] in page."}
-{"level":30,"time":"2022-03-18T17:43:32.248Z","pid":55538,"hostname":"ingrid","msg":"End of node method fillText"}
-{"level":30,"time":"2022-03-18T17:43:32.253Z","pid":55538,"hostname":"ingrid","msg":"Start of node method fillText"}
-{"level":30,"time":"2022-03-18T17:43:32.253Z","pid":55538,"hostname":"ingrid","msg":"Strict mode is enabled, find Locator with css=input[placeholder=\"Digite seu endereço de e-Mail\"] in page."}
-{"level":30,"time":"2022-03-18T17:43:32.347Z","pid":55538,"hostname":"ingrid","msg":"End of node method fillText"}
-{"level":30,"time":"2022-03-18T17:43:32.353Z","pid":55538,"hostname":"ingrid","msg":"Start of node method fillText"}
-{"level":30,"time":"2022-03-18T17:43:32.355Z","pid":55538,"hostname":"ingrid","msg":"Strict mode is enabled, find Locator with css=input[placeholder=\"Sua Idade\"] in page."}
-{"level":30,"time":"2022-03-18T17:43:32.443Z","pid":55538,"hostname":"ingrid","msg":"End of node method fillText"}
-{"level":30,"time":"2022-03-18T17:43:32.449Z","pid":55538,"hostname":"ingrid","msg":"Start of node method fillText"}
-{"level":30,"time":"2022-03-18T17:43:32.449Z","pid":55538,"hostname":"ingrid","msg":"Strict mode is enabled, find Locator with css=input[placeholder=\"Seu Peso\"] in page."}
-{"level":30,"time":"2022-03-18T17:43:32.584Z","pid":55538,"hostname":"ingrid","msg":"End of node method fillText"}
-{"level":30,"time":"2022-03-18T17:43:32.589Z","pid":55538,"hostname":"ingrid","msg":"Start of node method fillText"}
-{"level":30,"time":"2022-03-18T17:43:32.590Z","pid":55538,"hostname":"ingrid","msg":"Strict mode is enabled, find Locator with css=input[placeholder=\"Sua Altura\"] in page."}
-{"level":30,"time":"2022-03-18T17:43:32.696Z","pid":55538,"hostname":"ingrid","msg":"End of node method fillText"}
-{"level":30,"time":"2022-03-18T17:43:32.717Z","pid":55538,"hostname":"ingrid","msg":"Start of node method click"}
-{"level":30,"time":"2022-03-18T17:43:32.717Z","pid":55538,"hostname":"ingrid","msg":"Strict mode is enabled, find Locator with xpath=//button[text()=\"Salvar\"] in page."}
-{"level":30,"time":"2022-03-18T17:43:32.909Z","pid":55538,"hostname":"ingrid","msg":"End of node method click"}
-{"level":30,"time":"2022-03-18T17:43:32.917Z","pid":55538,"hostname":"ingrid","msg":"Start of node method getText"}
-{"level":30,"time":"2022-03-18T17:43:32.917Z","pid":55538,"hostname":"ingrid","msg":"Strict mode is enabled, find Locator with css=span >> text=Nome é obrigatório in page."}
-{"level":30,"time":"2022-03-18T17:43:33.115Z","pid":55538,"hostname":"ingrid","msg":"Retrieved text for element css=span >> text=Nome é obrigatório containing Nome é obrigatório"}
-{"level":30,"time":"2022-03-18T17:43:33.115Z","pid":55538,"hostname":"ingrid","msg":"End of node method getText"}
-{"level":30,"time":"2022-03-18T17:43:33.128Z","pid":55538,"hostname":"ingrid","msg":"On executeJavascript, supress ReferenceError: window is not defined for eval."}
-{"level":30,"time":"2022-03-18T17:43:33.146Z","pid":55538,"hostname":"ingrid","msg":"Start of node method takeScreenshot"}
-{"level":30,"time":"2022-03-18T17:43:33.425Z","pid":55538,"hostname":"ingrid","msg":"End of node method takeScreenshot"}
-{"level":30,"time":"2022-03-18T17:43:33.440Z","pid":55538,"hostname":"ingrid","msg":"Start of node method getBrowserCatalog"}
-{"level":30,"time":"2022-03-18T17:43:33.491Z","pid":55538,"hostname":"ingrid","msg":"End of node method getBrowserCatalog"}
-{"level":30,"time":"2022-03-18T17:43:33.501Z","pid":55538,"hostname":"ingrid","msg":"Start of node method getBrowserCatalog"}
-{"level":30,"time":"2022-03-18T17:43:33.507Z","pid":55538,"hostname":"ingrid","msg":"End of node method getBrowserCatalog"}
-{"level":30,"time":"2022-03-18T17:43:33.516Z","pid":55538,"hostname":"ingrid","msg":"Start of node method goTo"}
-{"level":30,"time":"2022-03-18T17:43:34.478Z","pid":55538,"hostname":"ingrid","msg":"End of node method goTo"}
-{"level":30,"time":"2022-03-18T17:43:34.498Z","pid":55538,"hostname":"ingrid","msg":"Start of node method fillText"}
-{"level":30,"time":"2022-03-18T17:43:34.499Z","pid":55538,"hostname":"ingrid","msg":"Strict mode is enabled, find Locator with css=#email in page."}
-{"level":30,"time":"2022-03-18T17:43:34.883Z","pid":55538,"hostname":"ingrid","msg":"End of node method fillText"}
-{"level":30,"time":"2022-03-18T17:43:34.895Z","pid":55538,"hostname":"ingrid","msg":"Start of node method fillText"}
-{"level":30,"time":"2022-03-18T17:43:34.895Z","pid":55538,"hostname":"ingrid","msg":"Strict mode is enabled, find Locator with css=#password in page."}
-{"level":30,"time":"2022-03-18T17:43:34.985Z","pid":55538,"hostname":"ingrid","msg":"End of node method fillText"}
-{"level":30,"time":"2022-03-18T17:43:34.995Z","pid":55538,"hostname":"ingrid","msg":"Start of node method click"}
-{"level":30,"time":"2022-03-18T17:43:34.995Z","pid":55538,"hostname":"ingrid","msg":"Strict mode is enabled, find Locator with css=button >> text=Entrar in page."}
-{"level":30,"time":"2022-03-18T17:43:35.118Z","pid":55538,"hostname":"ingrid","msg":"End of node method click"}
-{"level":30,"time":"2022-03-18T17:43:35.132Z","pid":55538,"hostname":"ingrid","msg":"Start of node method click"}
-{"level":30,"time":"2022-03-18T17:43:35.132Z","pid":55538,"hostname":"ingrid","msg":"Strict mode is enabled, find Locator with xpath=//a[@href=\"/alunos\"] in page."}
-{"level":30,"time":"2022-03-18T17:43:36.023Z","pid":55538,"hostname":"ingrid","msg":"End of node method click"}
-{"level":30,"time":"2022-03-18T17:43:36.028Z","pid":55538,"hostname":"ingrid","msg":"Start of node method click"}
-{"level":30,"time":"2022-03-18T17:43:36.028Z","pid":55538,"hostname":"ingrid","msg":"Strict mode is enabled, find Locator with xpath=//a[@href=\"/alunos/new\"] in page."}
-{"level":30,"time":"2022-03-18T17:43:36.457Z","pid":55538,"hostname":"ingrid","msg":"End of node method click"}
-{"level":30,"time":"2022-03-18T17:43:36.470Z","pid":55538,"hostname":"ingrid","msg":"Start of node method fillText"}
-{"level":30,"time":"2022-03-18T17:43:36.470Z","pid":55538,"hostname":"ingrid","msg":"Strict mode is enabled, find Locator with css=input[placeholder=\"Digite seu nome completo\"] in page."}
-{"level":30,"time":"2022-03-18T17:43:36.584Z","pid":55538,"hostname":"ingrid","msg":"End of node method fillText"}
-{"level":30,"time":"2022-03-18T17:43:36.589Z","pid":55538,"hostname":"ingrid","msg":"Start of node method fillText"}
-{"level":30,"time":"2022-03-18T17:43:36.589Z","pid":55538,"hostname":"ingrid","msg":"Strict mode is enabled, find Locator with css=input[placeholder=\"Digite seu endereço de e-Mail\"] in page."}
-{"level":30,"time":"2022-03-18T17:43:36.668Z","pid":55538,"hostname":"ingrid","msg":"End of node method fillText"}
-{"level":30,"time":"2022-03-18T17:43:36.673Z","pid":55538,"hostname":"ingrid","msg":"Start of node method fillText"}
-{"level":30,"time":"2022-03-18T17:43:36.673Z","pid":55538,"hostname":"ingrid","msg":"Strict mode is enabled, find Locator with css=input[placeholder=\"Sua Idade\"] in page."}
-{"level":30,"time":"2022-03-18T17:43:36.742Z","pid":55538,"hostname":"ingrid","msg":"End of node method fillText"}
-{"level":30,"time":"2022-03-18T17:43:36.759Z","pid":55538,"hostname":"ingrid","msg":"Start of node method fillText"}
-{"level":30,"time":"2022-03-18T17:43:36.759Z","pid":55538,"hostname":"ingrid","msg":"Strict mode is enabled, find Locator with css=input[placeholder=\"Seu Peso\"] in page."}
-{"level":30,"time":"2022-03-18T17:43:36.854Z","pid":55538,"hostname":"ingrid","msg":"End of node method fillText"}
-{"level":30,"time":"2022-03-18T17:43:36.859Z","pid":55538,"hostname":"ingrid","msg":"Start of node method fillText"}
-{"level":30,"time":"2022-03-18T17:43:36.859Z","pid":55538,"hostname":"ingrid","msg":"Strict mode is enabled, find Locator with css=input[placeholder=\"Sua Altura\"] in page."}
-{"level":30,"time":"2022-03-18T17:43:36.971Z","pid":55538,"hostname":"ingrid","msg":"End of node method fillText"}
-{"level":30,"time":"2022-03-18T17:43:36.980Z","pid":55538,"hostname":"ingrid","msg":"Start of node method click"}
-{"level":30,"time":"2022-03-18T17:43:36.980Z","pid":55538,"hostname":"ingrid","msg":"Strict mode is enabled, find Locator with xpath=//button[text()=\"Salvar\"] in page."}
-{"level":30,"time":"2022-03-18T17:43:37.148Z","pid":55538,"hostname":"ingrid","msg":"End of node method click"}
-{"level":30,"time":"2022-03-18T17:43:37.161Z","pid":55538,"hostname":"ingrid","msg":"Start of node method getText"}
-{"level":30,"time":"2022-03-18T17:43:37.161Z","pid":55538,"hostname":"ingrid","msg":"Strict mode is enabled, find Locator with css=span >> text=O e-mail é obrigatório in page."}
-{"level":30,"time":"2022-03-18T17:43:37.365Z","pid":55538,"hostname":"ingrid","msg":"Retrieved text for element css=span >> text=O e-mail é obrigatório containing O e-mail é obrigatório"}
-{"level":30,"time":"2022-03-18T17:43:37.365Z","pid":55538,"hostname":"ingrid","msg":"End of node method getText"}
-{"level":30,"time":"2022-03-18T17:43:37.395Z","pid":55538,"hostname":"ingrid","msg":"On executeJavascript, supress ReferenceError: window is not defined for eval."}
-{"level":30,"time":"2022-03-18T17:43:37.409Z","pid":55538,"hostname":"ingrid","msg":"Start of node method takeScreenshot"}
-{"level":30,"time":"2022-03-18T17:43:37.720Z","pid":55538,"hostname":"ingrid","msg":"End of node method takeScreenshot"}
-{"level":30,"time":"2022-03-18T17:43:37.726Z","pid":55538,"hostname":"ingrid","msg":"Start of node method getBrowserCatalog"}
-{"level":30,"time":"2022-03-18T17:43:37.767Z","pid":55538,"hostname":"ingrid","msg":"End of node method getBrowserCatalog"}
-{"level":30,"time":"2022-03-18T17:43:37.778Z","pid":55538,"hostname":"ingrid","msg":"Start of node method getBrowserCatalog"}
-{"level":30,"time":"2022-03-18T17:43:37.785Z","pid":55538,"hostname":"ingrid","msg":"End of node method getBrowserCatalog"}
-{"level":30,"time":"2022-03-18T17:43:37.795Z","pid":55538,"hostname":"ingrid","msg":"Start of node method goTo"}
-{"level":30,"time":"2022-03-18T17:43:38.717Z","pid":55538,"hostname":"ingrid","msg":"End of node method goTo"}
-{"level":30,"time":"2022-03-18T17:43:38.723Z","pid":55538,"hostname":"ingrid","msg":"Start of node method fillText"}
-{"level":30,"time":"2022-03-18T17:43:38.724Z","pid":55538,"hostname":"ingrid","msg":"Strict mode is enabled, find Locator with css=#email in page."}
-{"level":30,"time":"2022-03-18T17:43:38.897Z","pid":55538,"hostname":"ingrid","msg":"End of node method fillText"}
-{"level":30,"time":"2022-03-18T17:43:38.902Z","pid":55538,"hostname":"ingrid","msg":"Start of node method fillText"}
-{"level":30,"time":"2022-03-18T17:43:38.903Z","pid":55538,"hostname":"ingrid","msg":"Strict mode is enabled, find Locator with css=#password in page."}
-{"level":30,"time":"2022-03-18T17:43:39.002Z","pid":55538,"hostname":"ingrid","msg":"End of node method fillText"}
-{"level":30,"time":"2022-03-18T17:43:39.010Z","pid":55538,"hostname":"ingrid","msg":"Start of node method click"}
-{"level":30,"time":"2022-03-18T17:43:39.010Z","pid":55538,"hostname":"ingrid","msg":"Strict mode is enabled, find Locator with css=button >> text=Entrar in page."}
-{"level":30,"time":"2022-03-18T17:43:39.186Z","pid":55538,"hostname":"ingrid","msg":"End of node method click"}
-{"level":30,"time":"2022-03-18T17:43:39.197Z","pid":55538,"hostname":"ingrid","msg":"Start of node method click"}
-{"level":30,"time":"2022-03-18T17:43:39.197Z","pid":55538,"hostname":"ingrid","msg":"Strict mode is enabled, find Locator with xpath=//a[@href=\"/alunos\"] in page."}
-{"level":30,"time":"2022-03-18T17:43:40.017Z","pid":55538,"hostname":"ingrid","msg":"End of node method click"}
-{"level":30,"time":"2022-03-18T17:43:40.023Z","pid":55538,"hostname":"ingrid","msg":"Start of node method click"}
-{"level":30,"time":"2022-03-18T17:43:40.023Z","pid":55538,"hostname":"ingrid","msg":"Strict mode is enabled, find Locator with xpath=//a[@href=\"/alunos/new\"] in page."}
-{"level":30,"time":"2022-03-18T17:43:40.844Z","pid":55538,"hostname":"ingrid","msg":"End of node method click"}
-{"level":30,"time":"2022-03-18T17:43:40.853Z","pid":55538,"hostname":"ingrid","msg":"Start of node method fillText"}
-{"level":30,"time":"2022-03-18T17:43:40.854Z","pid":55538,"hostname":"ingrid","msg":"Strict mode is enabled, find Locator with css=input[placeholder=\"Digite seu nome completo\"] in page."}
-{"level":30,"time":"2022-03-18T17:43:41.129Z","pid":55538,"hostname":"ingrid","msg":"End of node method fillText"}
-{"level":30,"time":"2022-03-18T17:43:41.136Z","pid":55538,"hostname":"ingrid","msg":"Start of node method fillText"}
-{"level":30,"time":"2022-03-18T17:43:41.136Z","pid":55538,"hostname":"ingrid","msg":"Strict mode is enabled, find Locator with css=input[placeholder=\"Digite seu endereço de e-Mail\"] in page."}
-{"level":30,"time":"2022-03-18T17:43:41.246Z","pid":55538,"hostname":"ingrid","msg":"End of node method fillText"}
-{"level":30,"time":"2022-03-18T17:43:41.254Z","pid":55538,"hostname":"ingrid","msg":"Start of node method fillText"}
-{"level":30,"time":"2022-03-18T17:43:41.254Z","pid":55538,"hostname":"ingrid","msg":"Strict mode is enabled, find Locator with css=input[placeholder=\"Sua Idade\"] in page."}
-{"level":30,"time":"2022-03-18T17:43:41.354Z","pid":55538,"hostname":"ingrid","msg":"End of node method fillText"}
-{"level":30,"time":"2022-03-18T17:43:41.363Z","pid":55538,"hostname":"ingrid","msg":"Start of node method fillText"}
-{"level":30,"time":"2022-03-18T17:43:41.364Z","pid":55538,"hostname":"ingrid","msg":"Strict mode is enabled, find Locator with css=input[placeholder=\"Seu Peso\"] in page."}
-{"level":30,"time":"2022-03-18T17:43:41.442Z","pid":55538,"hostname":"ingrid","msg":"End of node method fillText"}
-{"level":30,"time":"2022-03-18T17:43:41.448Z","pid":55538,"hostname":"ingrid","msg":"Start of node method fillText"}
-{"level":30,"time":"2022-03-18T17:43:41.449Z","pid":55538,"hostname":"ingrid","msg":"Strict mode is enabled, find Locator with css=input[placeholder=\"Sua Altura\"] in page."}
-{"level":30,"time":"2022-03-18T17:43:41.523Z","pid":55538,"hostname":"ingrid","msg":"End of node method fillText"}
-{"level":30,"time":"2022-03-18T17:43:41.529Z","pid":55538,"hostname":"ingrid","msg":"Start of node method click"}
-{"level":30,"time":"2022-03-18T17:43:41.530Z","pid":55538,"hostname":"ingrid","msg":"Strict mode is enabled, find Locator with xpath=//button[text()=\"Salvar\"] in page."}
-{"level":30,"time":"2022-03-18T17:43:41.681Z","pid":55538,"hostname":"ingrid","msg":"End of node method click"}
-{"level":30,"time":"2022-03-18T17:43:41.689Z","pid":55538,"hostname":"ingrid","msg":"Start of node method getText"}
-{"level":30,"time":"2022-03-18T17:43:41.689Z","pid":55538,"hostname":"ingrid","msg":"Strict mode is enabled, find Locator with css=span >> text=idade é obrigatória in page."}
-{"level":30,"time":"2022-03-18T17:43:41.945Z","pid":55538,"hostname":"ingrid","msg":"Retrieved text for element css=span >> text=idade é obrigatória containing idade é obrigatória"}
-{"level":30,"time":"2022-03-18T17:43:41.945Z","pid":55538,"hostname":"ingrid","msg":"End of node method getText"}
-{"level":30,"time":"2022-03-18T17:43:41.953Z","pid":55538,"hostname":"ingrid","msg":"On executeJavascript, supress ReferenceError: window is not defined for eval."}
-{"level":30,"time":"2022-03-18T17:43:41.971Z","pid":55538,"hostname":"ingrid","msg":"Start of node method takeScreenshot"}
-{"level":30,"time":"2022-03-18T17:43:42.295Z","pid":55538,"hostname":"ingrid","msg":"End of node method takeScreenshot"}
-{"level":30,"time":"2022-03-18T17:43:42.304Z","pid":55538,"hostname":"ingrid","msg":"Start of node method getBrowserCatalog"}
-{"level":30,"time":"2022-03-18T17:43:42.333Z","pid":55538,"hostname":"ingrid","msg":"End of node method getBrowserCatalog"}
-{"level":30,"time":"2022-03-18T17:43:42.338Z","pid":55538,"hostname":"ingrid","msg":"Start of node method getBrowserCatalog"}
-{"level":30,"time":"2022-03-18T17:43:42.344Z","pid":55538,"hostname":"ingrid","msg":"End of node method getBrowserCatalog"}
-{"level":30,"time":"2022-03-18T17:43:42.354Z","pid":55538,"hostname":"ingrid","msg":"Start of node method goTo"}
-{"level":30,"time":"2022-03-18T17:43:43.399Z","pid":55538,"hostname":"ingrid","msg":"End of node method goTo"}
-{"level":30,"time":"2022-03-18T17:43:43.417Z","pid":55538,"hostname":"ingrid","msg":"Start of node method fillText"}
-{"level":30,"time":"2022-03-18T17:43:43.417Z","pid":55538,"hostname":"ingrid","msg":"Strict mode is enabled, find Locator with css=#email in page."}
-{"level":30,"time":"2022-03-18T17:43:43.583Z","pid":55538,"hostname":"ingrid","msg":"End of node method fillText"}
-{"level":30,"time":"2022-03-18T17:43:43.588Z","pid":55538,"hostname":"ingrid","msg":"Start of node method fillText"}
-{"level":30,"time":"2022-03-18T17:43:43.589Z","pid":55538,"hostname":"ingrid","msg":"Strict mode is enabled, find Locator with css=#password in page."}
-{"level":30,"time":"2022-03-18T17:43:43.675Z","pid":55538,"hostname":"ingrid","msg":"End of node method fillText"}
-{"level":30,"time":"2022-03-18T17:43:43.680Z","pid":55538,"hostname":"ingrid","msg":"Start of node method click"}
-{"level":30,"time":"2022-03-18T17:43:43.682Z","pid":55538,"hostname":"ingrid","msg":"Strict mode is enabled, find Locator with css=button >> text=Entrar in page."}
-{"level":30,"time":"2022-03-18T17:43:43.827Z","pid":55538,"hostname":"ingrid","msg":"End of node method click"}
-{"level":30,"time":"2022-03-18T17:43:43.835Z","pid":55538,"hostname":"ingrid","msg":"Start of node method click"}
-{"level":30,"time":"2022-03-18T17:43:43.836Z","pid":55538,"hostname":"ingrid","msg":"Strict mode is enabled, find Locator with xpath=//a[@href=\"/alunos\"] in page."}
-{"level":30,"time":"2022-03-18T17:43:44.785Z","pid":55538,"hostname":"ingrid","msg":"End of node method click"}
-{"level":30,"time":"2022-03-18T17:43:44.791Z","pid":55538,"hostname":"ingrid","msg":"Start of node method click"}
-{"level":30,"time":"2022-03-18T17:43:44.791Z","pid":55538,"hostname":"ingrid","msg":"Strict mode is enabled, find Locator with xpath=//a[@href=\"/alunos/new\"] in page."}
-{"level":30,"time":"2022-03-18T17:43:45.326Z","pid":55538,"hostname":"ingrid","msg":"End of node method click"}
-{"level":30,"time":"2022-03-18T17:43:45.339Z","pid":55538,"hostname":"ingrid","msg":"Start of node method fillText"}
-{"level":30,"time":"2022-03-18T17:43:45.340Z","pid":55538,"hostname":"ingrid","msg":"Strict mode is enabled, find Locator with css=input[placeholder=\"Digite seu nome completo\"] in page."}
-{"level":30,"time":"2022-03-18T17:43:45.453Z","pid":55538,"hostname":"ingrid","msg":"End of node method fillText"}
-{"level":30,"time":"2022-03-18T17:43:45.457Z","pid":55538,"hostname":"ingrid","msg":"Start of node method fillText"}
-{"level":30,"time":"2022-03-18T17:43:45.458Z","pid":55538,"hostname":"ingrid","msg":"Strict mode is enabled, find Locator with css=input[placeholder=\"Digite seu endereço de e-Mail\"] in page."}
-{"level":30,"time":"2022-03-18T17:43:45.531Z","pid":55538,"hostname":"ingrid","msg":"End of node method fillText"}
-{"level":30,"time":"2022-03-18T17:43:45.538Z","pid":55538,"hostname":"ingrid","msg":"Start of node method fillText"}
-{"level":30,"time":"2022-03-18T17:43:45.538Z","pid":55538,"hostname":"ingrid","msg":"Strict mode is enabled, find Locator with css=input[placeholder=\"Sua Idade\"] in page."}
-{"level":30,"time":"2022-03-18T17:43:45.609Z","pid":55538,"hostname":"ingrid","msg":"End of node method fillText"}
-{"level":30,"time":"2022-03-18T17:43:45.615Z","pid":55538,"hostname":"ingrid","msg":"Start of node method fillText"}
-{"level":30,"time":"2022-03-18T17:43:45.615Z","pid":55538,"hostname":"ingrid","msg":"Strict mode is enabled, find Locator with css=input[placeholder=\"Seu Peso\"] in page."}
-{"level":30,"time":"2022-03-18T17:43:45.692Z","pid":55538,"hostname":"ingrid","msg":"End of node method fillText"}
-{"level":30,"time":"2022-03-18T17:43:45.698Z","pid":55538,"hostname":"ingrid","msg":"Start of node method fillText"}
-{"level":30,"time":"2022-03-18T17:43:45.698Z","pid":55538,"hostname":"ingrid","msg":"Strict mode is enabled, find Locator with css=input[placeholder=\"Sua Altura\"] in page."}
-{"level":30,"time":"2022-03-18T17:43:45.775Z","pid":55538,"hostname":"ingrid","msg":"End of node method fillText"}
-{"level":30,"time":"2022-03-18T17:43:45.785Z","pid":55538,"hostname":"ingrid","msg":"Start of node method click"}
-{"level":30,"time":"2022-03-18T17:43:45.786Z","pid":55538,"hostname":"ingrid","msg":"Strict mode is enabled, find Locator with xpath=//button[text()=\"Salvar\"] in page."}
-{"level":30,"time":"2022-03-18T17:43:45.946Z","pid":55538,"hostname":"ingrid","msg":"End of node method click"}
-{"level":30,"time":"2022-03-18T17:43:45.967Z","pid":55538,"hostname":"ingrid","msg":"Start of node method getText"}
-{"level":30,"time":"2022-03-18T17:43:45.967Z","pid":55538,"hostname":"ingrid","msg":"Strict mode is enabled, find Locator with css=span >> text=o peso é obrigatório in page."}
-{"level":30,"time":"2022-03-18T17:43:46.177Z","pid":55538,"hostname":"ingrid","msg":"Retrieved text for element css=span >> text=o peso é obrigatório containing o peso é obrigatório"}
-{"level":30,"time":"2022-03-18T17:43:46.177Z","pid":55538,"hostname":"ingrid","msg":"End of node method getText"}
-{"level":30,"time":"2022-03-18T17:43:46.189Z","pid":55538,"hostname":"ingrid","msg":"On executeJavascript, supress ReferenceError: window is not defined for eval."}
-{"level":30,"time":"2022-03-18T17:43:46.224Z","pid":55538,"hostname":"ingrid","msg":"Start of node method takeScreenshot"}
-{"level":30,"time":"2022-03-18T17:43:46.597Z","pid":55538,"hostname":"ingrid","msg":"End of node method takeScreenshot"}
-{"level":30,"time":"2022-03-18T17:43:46.617Z","pid":55538,"hostname":"ingrid","msg":"Start of node method getBrowserCatalog"}
-{"level":30,"time":"2022-03-18T17:43:46.628Z","pid":55538,"hostname":"ingrid","msg":"End of node method getBrowserCatalog"}
-{"level":30,"time":"2022-03-18T17:43:46.633Z","pid":55538,"hostname":"ingrid","msg":"Start of node method getBrowserCatalog"}
-{"level":30,"time":"2022-03-18T17:43:46.637Z","pid":55538,"hostname":"ingrid","msg":"End of node method getBrowserCatalog"}
-{"level":30,"time":"2022-03-18T17:43:46.642Z","pid":55538,"hostname":"ingrid","msg":"Start of node method goTo"}
-{"level":30,"time":"2022-03-18T17:43:47.486Z","pid":55538,"hostname":"ingrid","msg":"End of node method goTo"}
-{"level":30,"time":"2022-03-18T17:43:47.495Z","pid":55538,"hostname":"ingrid","msg":"Start of node method fillText"}
-{"level":30,"time":"2022-03-18T17:43:47.496Z","pid":55538,"hostname":"ingrid","msg":"Strict mode is enabled, find Locator with css=#email in page."}
-{"level":30,"time":"2022-03-18T17:43:47.684Z","pid":55538,"hostname":"ingrid","msg":"End of node method fillText"}
-{"level":30,"time":"2022-03-18T17:43:47.689Z","pid":55538,"hostname":"ingrid","msg":"Start of node method fillText"}
-{"level":30,"time":"2022-03-18T17:43:47.689Z","pid":55538,"hostname":"ingrid","msg":"Strict mode is enabled, find Locator with css=#password in page."}
-{"level":30,"time":"2022-03-18T17:43:47.817Z","pid":55538,"hostname":"ingrid","msg":"End of node method fillText"}
-{"level":30,"time":"2022-03-18T17:43:47.822Z","pid":55538,"hostname":"ingrid","msg":"Start of node method click"}
-{"level":30,"time":"2022-03-18T17:43:47.822Z","pid":55538,"hostname":"ingrid","msg":"Strict mode is enabled, find Locator with css=button >> text=Entrar in page."}
-{"level":30,"time":"2022-03-18T17:43:48.060Z","pid":55538,"hostname":"ingrid","msg":"End of node method click"}
-{"level":30,"time":"2022-03-18T17:43:48.065Z","pid":55538,"hostname":"ingrid","msg":"Start of node method click"}
-{"level":30,"time":"2022-03-18T17:43:48.065Z","pid":55538,"hostname":"ingrid","msg":"Strict mode is enabled, find Locator with xpath=//a[@href=\"/alunos\"] in page."}
-{"level":30,"time":"2022-03-18T17:43:48.587Z","pid":55538,"hostname":"ingrid","msg":"End of node method click"}
-{"level":30,"time":"2022-03-18T17:43:48.606Z","pid":55538,"hostname":"ingrid","msg":"Start of node method click"}
-{"level":30,"time":"2022-03-18T17:43:48.606Z","pid":55538,"hostname":"ingrid","msg":"Strict mode is enabled, find Locator with xpath=//a[@href=\"/alunos/new\"] in page."}
-{"level":30,"time":"2022-03-18T17:43:49.232Z","pid":55538,"hostname":"ingrid","msg":"End of node method click"}
-{"level":30,"time":"2022-03-18T17:43:49.241Z","pid":55538,"hostname":"ingrid","msg":"Start of node method fillText"}
-{"level":30,"time":"2022-03-18T17:43:49.241Z","pid":55538,"hostname":"ingrid","msg":"Strict mode is enabled, find Locator with css=input[placeholder=\"Digite seu nome completo\"] in page."}
-{"level":30,"time":"2022-03-18T17:43:49.352Z","pid":55538,"hostname":"ingrid","msg":"End of node method fillText"}
-{"level":30,"time":"2022-03-18T17:43:49.357Z","pid":55538,"hostname":"ingrid","msg":"Start of node method fillText"}
-{"level":30,"time":"2022-03-18T17:43:49.357Z","pid":55538,"hostname":"ingrid","msg":"Strict mode is enabled, find Locator with css=input[placeholder=\"Digite seu endereço de e-Mail\"] in page."}
-{"level":30,"time":"2022-03-18T17:43:49.484Z","pid":55538,"hostname":"ingrid","msg":"End of node method fillText"}
-{"level":30,"time":"2022-03-18T17:43:49.488Z","pid":55538,"hostname":"ingrid","msg":"Start of node method fillText"}
-{"level":30,"time":"2022-03-18T17:43:49.488Z","pid":55538,"hostname":"ingrid","msg":"Strict mode is enabled, find Locator with css=input[placeholder=\"Sua Idade\"] in page."}
-{"level":30,"time":"2022-03-18T17:43:50.031Z","pid":55538,"hostname":"ingrid","msg":"End of node method fillText"}
-{"level":30,"time":"2022-03-18T17:43:50.037Z","pid":55538,"hostname":"ingrid","msg":"Start of node method fillText"}
-{"level":30,"time":"2022-03-18T17:43:50.037Z","pid":55538,"hostname":"ingrid","msg":"Strict mode is enabled, find Locator with css=input[placeholder=\"Seu Peso\"] in page."}
-{"level":30,"time":"2022-03-18T17:43:50.108Z","pid":55538,"hostname":"ingrid","msg":"End of node method fillText"}
-{"level":30,"time":"2022-03-18T17:43:50.115Z","pid":55538,"hostname":"ingrid","msg":"Start of node method fillText"}
-{"level":30,"time":"2022-03-18T17:43:50.115Z","pid":55538,"hostname":"ingrid","msg":"Strict mode is enabled, find Locator with css=input[placeholder=\"Sua Altura\"] in page."}
-{"level":30,"time":"2022-03-18T17:43:50.168Z","pid":55538,"hostname":"ingrid","msg":"End of node method fillText"}
-{"level":30,"time":"2022-03-18T17:43:50.176Z","pid":55538,"hostname":"ingrid","msg":"Start of node method click"}
-{"level":30,"time":"2022-03-18T17:43:50.176Z","pid":55538,"hostname":"ingrid","msg":"Strict mode is enabled, find Locator with xpath=//button[text()=\"Salvar\"] in page."}
-{"level":30,"time":"2022-03-18T17:43:50.304Z","pid":55538,"hostname":"ingrid","msg":"End of node method click"}
-{"level":30,"time":"2022-03-18T17:43:50.310Z","pid":55538,"hostname":"ingrid","msg":"Start of node method getText"}
-{"level":30,"time":"2022-03-18T17:43:50.310Z","pid":55538,"hostname":"ingrid","msg":"Strict mode is enabled, find Locator with css=span >> text=a Altura é obrigatória in page."}
-{"level":30,"time":"2022-03-18T17:43:50.498Z","pid":55538,"hostname":"ingrid","msg":"Retrieved text for element css=span >> text=a Altura é obrigatória containing a Altura é obrigatória"}
-{"level":30,"time":"2022-03-18T17:43:50.498Z","pid":55538,"hostname":"ingrid","msg":"End of node method getText"}
-{"level":30,"time":"2022-03-18T17:43:50.507Z","pid":55538,"hostname":"ingrid","msg":"On executeJavascript, supress ReferenceError: window is not defined for eval."}
-{"level":30,"time":"2022-03-18T17:43:50.540Z","pid":55538,"hostname":"ingrid","msg":"Start of node method takeScreenshot"}
-{"level":30,"time":"2022-03-18T17:43:50.867Z","pid":55538,"hostname":"ingrid","msg":"End of node method takeScreenshot"}
-{"level":30,"time":"2022-03-18T17:43:50.873Z","pid":55538,"hostname":"ingrid","msg":"Start of node method getBrowserCatalog"}
-{"level":30,"time":"2022-03-18T17:43:50.911Z","pid":55538,"hostname":"ingrid","msg":"End of node method getBrowserCatalog"}
-{"level":30,"time":"2022-03-18T17:43:50.916Z","pid":55538,"hostname":"ingrid","msg":"Start of node method getBrowserCatalog"}
-{"level":30,"time":"2022-03-18T17:43:50.921Z","pid":55538,"hostname":"ingrid","msg":"End of node method getBrowserCatalog"}
-{"level":30,"time":"2022-03-18T17:43:50.926Z","pid":55538,"hostname":"ingrid","msg":"Start of node method goTo"}
-{"level":30,"time":"2022-03-18T17:43:51.867Z","pid":55538,"hostname":"ingrid","msg":"End of node method goTo"}
-{"level":30,"time":"2022-03-18T17:43:51.879Z","pid":55538,"hostname":"ingrid","msg":"Start of node method fillText"}
-{"level":30,"time":"2022-03-18T17:43:51.879Z","pid":55538,"hostname":"ingrid","msg":"Strict mode is enabled, find Locator with css=#email in page."}
-{"level":30,"time":"2022-03-18T17:43:52.063Z","pid":55538,"hostname":"ingrid","msg":"End of node method fillText"}
-{"level":30,"time":"2022-03-18T17:43:52.069Z","pid":55538,"hostname":"ingrid","msg":"Start of node method fillText"}
-{"level":30,"time":"2022-03-18T17:43:52.069Z","pid":55538,"hostname":"ingrid","msg":"Strict mode is enabled, find Locator with css=#password in page."}
-{"level":30,"time":"2022-03-18T17:43:52.152Z","pid":55538,"hostname":"ingrid","msg":"End of node method fillText"}
-{"level":30,"time":"2022-03-18T17:43:52.156Z","pid":55538,"hostname":"ingrid","msg":"Start of node method click"}
-{"level":30,"time":"2022-03-18T17:43:52.156Z","pid":55538,"hostname":"ingrid","msg":"Strict mode is enabled, find Locator with css=button >> text=Entrar in page."}
-{"level":30,"time":"2022-03-18T17:43:52.287Z","pid":55538,"hostname":"ingrid","msg":"End of node method click"}
-{"level":30,"time":"2022-03-18T17:43:52.292Z","pid":55538,"hostname":"ingrid","msg":"Start of node method click"}
-{"level":30,"time":"2022-03-18T17:43:52.292Z","pid":55538,"hostname":"ingrid","msg":"Strict mode is enabled, find Locator with xpath=//a[@href=\"/alunos\"] in page."}
-{"level":30,"time":"2022-03-18T17:43:53.087Z","pid":55538,"hostname":"ingrid","msg":"End of node method click"}
-{"level":30,"time":"2022-03-18T17:43:53.094Z","pid":55538,"hostname":"ingrid","msg":"Start of node method click"}
-{"level":30,"time":"2022-03-18T17:43:53.094Z","pid":55538,"hostname":"ingrid","msg":"Strict mode is enabled, find Locator with xpath=//a[@href=\"/alunos/new\"] in page."}
-{"level":30,"time":"2022-03-18T17:43:53.552Z","pid":55538,"hostname":"ingrid","msg":"End of node method click"}
-{"level":30,"time":"2022-03-18T17:43:53.561Z","pid":55538,"hostname":"ingrid","msg":"Start of node method fillText"}
-{"level":30,"time":"2022-03-18T17:43:53.561Z","pid":55538,"hostname":"ingrid","msg":"Strict mode is enabled, find Locator with css=input[placeholder=\"Digite seu nome completo\"] in page."}
-{"level":30,"time":"2022-03-18T17:43:53.687Z","pid":55538,"hostname":"ingrid","msg":"End of node method fillText"}
-{"level":30,"time":"2022-03-18T17:43:53.692Z","pid":55538,"hostname":"ingrid","msg":"Start of node method fillText"}
-{"level":30,"time":"2022-03-18T17:43:53.692Z","pid":55538,"hostname":"ingrid","msg":"Strict mode is enabled, find Locator with css=input[placeholder=\"Digite seu endereço de e-Mail\"] in page."}
-{"level":30,"time":"2022-03-18T17:43:53.782Z","pid":55538,"hostname":"ingrid","msg":"End of node method fillText"}
-{"level":30,"time":"2022-03-18T17:43:53.789Z","pid":55538,"hostname":"ingrid","msg":"Start of node method fillText"}
-{"level":30,"time":"2022-03-18T17:43:53.790Z","pid":55538,"hostname":"ingrid","msg":"Strict mode is enabled, find Locator with css=input[placeholder=\"Sua Idade\"] in page."}
-{"level":30,"time":"2022-03-18T17:43:53.878Z","pid":55538,"hostname":"ingrid","msg":"End of node method fillText"}
-{"level":30,"time":"2022-03-18T17:43:53.882Z","pid":55538,"hostname":"ingrid","msg":"Start of node method fillText"}
-{"level":30,"time":"2022-03-18T17:43:53.882Z","pid":55538,"hostname":"ingrid","msg":"Strict mode is enabled, find Locator with css=input[placeholder=\"Seu Peso\"] in page."}
-{"level":30,"time":"2022-03-18T17:43:53.963Z","pid":55538,"hostname":"ingrid","msg":"End of node method fillText"}
-{"level":30,"time":"2022-03-18T17:43:53.968Z","pid":55538,"hostname":"ingrid","msg":"Start of node method fillText"}
-{"level":30,"time":"2022-03-18T17:43:53.968Z","pid":55538,"hostname":"ingrid","msg":"Strict mode is enabled, find Locator with css=input[placeholder=\"Sua Altura\"] in page."}
-{"level":30,"time":"2022-03-18T17:43:54.063Z","pid":55538,"hostname":"ingrid","msg":"End of node method fillText"}
-{"level":30,"time":"2022-03-18T17:43:54.070Z","pid":55538,"hostname":"ingrid","msg":"Start of node method click"}
-{"level":30,"time":"2022-03-18T17:43:54.070Z","pid":55538,"hostname":"ingrid","msg":"Strict mode is enabled, find Locator with xpath=//button[text()=\"Salvar\"] in page."}
-{"level":30,"time":"2022-03-18T17:43:54.273Z","pid":55538,"hostname":"ingrid","msg":"End of node method click"}
-{"level":30,"time":"2022-03-18T17:43:54.279Z","pid":55538,"hostname":"ingrid","msg":"On executeJavascript, supress ReferenceError: window is not defined for eval."}
-{"level":30,"time":"2022-03-18T17:43:54.297Z","pid":55538,"hostname":"ingrid","msg":"Start of node method takeScreenshot"}
-{"level":30,"time":"2022-03-18T17:43:55.245Z","pid":55538,"hostname":"ingrid","msg":"End of node method takeScreenshot"}
-{"level":30,"time":"2022-03-18T17:43:55.259Z","pid":55538,"hostname":"ingrid","msg":"Start of node method getBrowserCatalog"}
-{"level":30,"time":"2022-03-18T17:43:55.283Z","pid":55538,"hostname":"ingrid","msg":"End of node method getBrowserCatalog"}
-{"level":30,"time":"2022-03-18T17:43:55.289Z","pid":55538,"hostname":"ingrid","msg":"Start of node method getBrowserCatalog"}
-{"level":30,"time":"2022-03-18T17:43:55.299Z","pid":55538,"hostname":"ingrid","msg":"End of node method getBrowserCatalog"}
-{"level":30,"time":"2022-03-18T17:43:55.305Z","pid":55538,"hostname":"ingrid","msg":"Start of node method goTo"}
-{"level":30,"time":"2022-03-18T17:43:56.374Z","pid":55538,"hostname":"ingrid","msg":"End of node method goTo"}
-{"level":30,"time":"2022-03-18T17:43:56.387Z","pid":55538,"hostname":"ingrid","msg":"Start of node method fillText"}
-{"level":30,"time":"2022-03-18T17:43:56.387Z","pid":55538,"hostname":"ingrid","msg":"Strict mode is enabled, find Locator with css=#email in page."}
-{"level":30,"time":"2022-03-18T17:43:56.564Z","pid":55538,"hostname":"ingrid","msg":"End of node method fillText"}
-{"level":30,"time":"2022-03-18T17:43:56.571Z","pid":55538,"hostname":"ingrid","msg":"Start of node method fillText"}
-{"level":30,"time":"2022-03-18T17:43:56.571Z","pid":55538,"hostname":"ingrid","msg":"Strict mode is enabled, find Locator with css=#password in page."}
-{"level":30,"time":"2022-03-18T17:43:56.679Z","pid":55538,"hostname":"ingrid","msg":"End of node method fillText"}
-{"level":30,"time":"2022-03-18T17:43:56.684Z","pid":55538,"hostname":"ingrid","msg":"Start of node method click"}
-{"level":30,"time":"2022-03-18T17:43:56.684Z","pid":55538,"hostname":"ingrid","msg":"Strict mode is enabled, find Locator with css=button >> text=Entrar in page."}
-{"level":30,"time":"2022-03-18T17:43:56.842Z","pid":55538,"hostname":"ingrid","msg":"End of node method click"}
-{"level":30,"time":"2022-03-18T17:43:56.847Z","pid":55538,"hostname":"ingrid","msg":"Start of node method click"}
-{"level":30,"time":"2022-03-18T17:43:56.847Z","pid":55538,"hostname":"ingrid","msg":"Strict mode is enabled, find Locator with xpath=//a[@href=\"/alunos\"] in page."}
-{"level":30,"time":"2022-03-18T17:43:57.445Z","pid":55538,"hostname":"ingrid","msg":"End of node method click"}
-{"level":30,"time":"2022-03-18T17:43:57.450Z","pid":55538,"hostname":"ingrid","msg":"Start of node method click"}
-{"level":30,"time":"2022-03-18T17:43:57.450Z","pid":55538,"hostname":"ingrid","msg":"Strict mode is enabled, find Locator with xpath=//a[@href=\"/alunos/new\"] in page."}
-{"level":30,"time":"2022-03-18T17:43:58.277Z","pid":55538,"hostname":"ingrid","msg":"End of node method click"}
-{"level":30,"time":"2022-03-18T17:43:58.284Z","pid":55538,"hostname":"ingrid","msg":"Start of node method fillText"}
-{"level":30,"time":"2022-03-18T17:43:58.285Z","pid":55538,"hostname":"ingrid","msg":"Strict mode is enabled, find Locator with css=input[placeholder=\"Digite seu nome completo\"] in page."}
-{"level":30,"time":"2022-03-18T17:43:58.385Z","pid":55538,"hostname":"ingrid","msg":"End of node method fillText"}
-{"level":30,"time":"2022-03-18T17:43:58.390Z","pid":55538,"hostname":"ingrid","msg":"Start of node method fillText"}
-{"level":30,"time":"2022-03-18T17:43:58.390Z","pid":55538,"hostname":"ingrid","msg":"Strict mode is enabled, find Locator with css=input[placeholder=\"Digite seu endereço de e-Mail\"] in page."}
-{"level":30,"time":"2022-03-18T17:43:58.484Z","pid":55538,"hostname":"ingrid","msg":"End of node method fillText"}
-{"level":30,"time":"2022-03-18T17:43:58.502Z","pid":55538,"hostname":"ingrid","msg":"Start of node method fillText"}
-{"level":30,"time":"2022-03-18T17:43:58.502Z","pid":55538,"hostname":"ingrid","msg":"Strict mode is enabled, find Locator with css=input[placeholder=\"Sua Idade\"] in page."}
-{"level":30,"time":"2022-03-18T17:43:58.580Z","pid":55538,"hostname":"ingrid","msg":"End of node method fillText"}
-{"level":30,"time":"2022-03-18T17:43:58.586Z","pid":55538,"hostname":"ingrid","msg":"Start of node method fillText"}
-{"level":30,"time":"2022-03-18T17:43:58.587Z","pid":55538,"hostname":"ingrid","msg":"Strict mode is enabled, find Locator with css=input[placeholder=\"Seu Peso\"] in page."}
-{"level":30,"time":"2022-03-18T17:43:58.658Z","pid":55538,"hostname":"ingrid","msg":"End of node method fillText"}
-{"level":30,"time":"2022-03-18T17:43:58.663Z","pid":55538,"hostname":"ingrid","msg":"Start of node method fillText"}
-{"level":30,"time":"2022-03-18T17:43:58.664Z","pid":55538,"hostname":"ingrid","msg":"Strict mode is enabled, find Locator with css=input[placeholder=\"Sua Altura\"] in page."}
-{"level":30,"time":"2022-03-18T17:43:58.779Z","pid":55538,"hostname":"ingrid","msg":"End of node method fillText"}
-{"level":30,"time":"2022-03-18T17:43:58.798Z","pid":55538,"hostname":"ingrid","msg":"Start of node method click"}
-{"level":30,"time":"2022-03-18T17:43:58.798Z","pid":55538,"hostname":"ingrid","msg":"Strict mode is enabled, find Locator with xpath=//button[text()=\"Salvar\"] in page."}
-{"level":30,"time":"2022-03-18T17:43:58.997Z","pid":55538,"hostname":"ingrid","msg":"End of node method click"}
-{"level":30,"time":"2022-03-18T17:43:59.015Z","pid":55538,"hostname":"ingrid","msg":"Start of node method waitForElementState"}
-{"level":30,"time":"2022-03-18T17:43:59.015Z","pid":55538,"hostname":"ingrid","msg":"Strict mode is enabled, find Locator with css=.Toastify__toast-body >> text=Email já existe no sistema. in page."}
-{"level":30,"time":"2022-03-18T17:43:59.421Z","pid":55538,"hostname":"ingrid","msg":"End of node method waitForElementState"}
-{"level":30,"time":"2022-03-18T17:43:59.429Z","pid":55538,"hostname":"ingrid","msg":"On executeJavascript, supress ReferenceError: window is not defined for eval."}
-{"level":30,"time":"2022-03-18T17:43:59.454Z","pid":55538,"hostname":"ingrid","msg":"Start of node method takeScreenshot"}
-{"level":30,"time":"2022-03-18T17:43:59.802Z","pid":55538,"hostname":"ingrid","msg":"End of node method takeScreenshot"}
-{"level":30,"time":"2022-03-18T17:43:59.807Z","pid":55538,"hostname":"ingrid","msg":"Start of node method getBrowserCatalog"}
-{"level":30,"time":"2022-03-18T17:43:59.844Z","pid":55538,"hostname":"ingrid","msg":"End of node method getBrowserCatalog"}
-{"level":30,"time":"2022-03-18T17:43:59.851Z","pid":55538,"hostname":"ingrid","msg":"Start of node method getBrowserCatalog"}
-{"level":30,"time":"2022-03-18T17:43:59.890Z","pid":55538,"hostname":"ingrid","msg":"End of node method getBrowserCatalog"}
-{"level":30,"time":"2022-03-18T17:43:59.896Z","pid":55538,"hostname":"ingrid","msg":"Start of node method goTo"}
-{"level":30,"time":"2022-03-18T17:44:00.994Z","pid":55538,"hostname":"ingrid","msg":"End of node method goTo"}
-{"level":30,"time":"2022-03-18T17:44:01.006Z","pid":55538,"hostname":"ingrid","msg":"Start of node method fillText"}
-{"level":30,"time":"2022-03-18T17:44:01.012Z","pid":55538,"hostname":"ingrid","msg":"Strict mode is enabled, find Locator with css=#email in page."}
-{"level":30,"time":"2022-03-18T17:44:01.214Z","pid":55538,"hostname":"ingrid","msg":"End of node method fillText"}
-{"level":30,"time":"2022-03-18T17:44:01.220Z","pid":55538,"hostname":"ingrid","msg":"Start of node method fillText"}
-{"level":30,"time":"2022-03-18T17:44:01.220Z","pid":55538,"hostname":"ingrid","msg":"Strict mode is enabled, find Locator with css=#password in page."}
-{"level":30,"time":"2022-03-18T17:44:01.308Z","pid":55538,"hostname":"ingrid","msg":"End of node method fillText"}
-{"level":30,"time":"2022-03-18T17:44:01.313Z","pid":55538,"hostname":"ingrid","msg":"Start of node method click"}
-{"level":30,"time":"2022-03-18T17:44:01.313Z","pid":55538,"hostname":"ingrid","msg":"Strict mode is enabled, find Locator with css=button >> text=Entrar in page."}
-{"level":30,"time":"2022-03-18T17:44:01.462Z","pid":55538,"hostname":"ingrid","msg":"End of node method click"}
-{"level":30,"time":"2022-03-18T17:44:01.468Z","pid":55538,"hostname":"ingrid","msg":"Start of node method click"}
-{"level":30,"time":"2022-03-18T17:44:01.469Z","pid":55538,"hostname":"ingrid","msg":"Strict mode is enabled, find Locator with xpath=//a[@href=\"/alunos\"] in page."}
-{"level":30,"time":"2022-03-18T17:44:02.279Z","pid":55538,"hostname":"ingrid","msg":"End of node method click"}
-{"level":30,"time":"2022-03-18T17:44:02.297Z","pid":55538,"hostname":"ingrid","msg":"Start of node method click"}
-{"level":30,"time":"2022-03-18T17:44:02.297Z","pid":55538,"hostname":"ingrid","msg":"Strict mode is enabled, find Locator with xpath=//a[@href=\"/alunos/new\"] in page."}
-{"level":30,"time":"2022-03-18T17:44:02.810Z","pid":55538,"hostname":"ingrid","msg":"End of node method click"}
-{"level":30,"time":"2022-03-18T17:44:02.828Z","pid":55538,"hostname":"ingrid","msg":"Start of node method fillText"}
-{"level":30,"time":"2022-03-18T17:44:02.828Z","pid":55538,"hostname":"ingrid","msg":"Strict mode is enabled, find Locator with css=input[placeholder=\"Digite seu nome completo\"] in page."}
-{"level":30,"time":"2022-03-18T17:44:02.918Z","pid":55538,"hostname":"ingrid","msg":"End of node method fillText"}
-{"level":30,"time":"2022-03-18T17:44:02.923Z","pid":55538,"hostname":"ingrid","msg":"Start of node method fillText"}
-{"level":30,"time":"2022-03-18T17:44:02.923Z","pid":55538,"hostname":"ingrid","msg":"Strict mode is enabled, find Locator with css=input[placeholder=\"Digite seu endereço de e-Mail\"] in page."}
-{"level":30,"time":"2022-03-18T17:44:03.025Z","pid":55538,"hostname":"ingrid","msg":"End of node method fillText"}
-{"level":30,"time":"2022-03-18T17:44:03.030Z","pid":55538,"hostname":"ingrid","msg":"Start of node method fillText"}
-{"level":30,"time":"2022-03-18T17:44:03.030Z","pid":55538,"hostname":"ingrid","msg":"Strict mode is enabled, find Locator with css=input[placeholder=\"Sua Idade\"] in page."}
-{"level":30,"time":"2022-03-18T17:44:03.121Z","pid":55538,"hostname":"ingrid","msg":"End of node method fillText"}
-{"level":30,"time":"2022-03-18T17:44:03.126Z","pid":55538,"hostname":"ingrid","msg":"Start of node method fillText"}
-{"level":30,"time":"2022-03-18T17:44:03.126Z","pid":55538,"hostname":"ingrid","msg":"Strict mode is enabled, find Locator with css=input[placeholder=\"Seu Peso\"] in page."}
-{"level":30,"time":"2022-03-18T17:44:03.215Z","pid":55538,"hostname":"ingrid","msg":"End of node method fillText"}
-{"level":30,"time":"2022-03-18T17:44:03.220Z","pid":55538,"hostname":"ingrid","msg":"Start of node method fillText"}
-{"level":30,"time":"2022-03-18T17:44:03.221Z","pid":55538,"hostname":"ingrid","msg":"Strict mode is enabled, find Locator with css=input[placeholder=\"Sua Altura\"] in page."}
-{"level":30,"time":"2022-03-18T17:44:03.368Z","pid":55538,"hostname":"ingrid","msg":"End of node method fillText"}
-{"level":30,"time":"2022-03-18T17:44:03.376Z","pid":55538,"hostname":"ingrid","msg":"Start of node method click"}
-{"level":30,"time":"2022-03-18T17:44:03.377Z","pid":55538,"hostname":"ingrid","msg":"Strict mode is enabled, find Locator with xpath=//button[text()=\"Salvar\"] in page."}
-{"level":30,"time":"2022-03-18T17:44:03.538Z","pid":55538,"hostname":"ingrid","msg":"End of node method click"}
-{"level":30,"time":"2022-03-18T17:44:03.560Z","pid":55538,"hostname":"ingrid","msg":"Start of node method getText"}
-{"level":30,"time":"2022-03-18T17:44:03.560Z","pid":55538,"hostname":"ingrid","msg":"Strict mode is enabled, find Locator with css=span >> text=A idade deve ser menor ou igual 150 anos in page."}
-{"level":30,"time":"2022-03-18T17:44:03.788Z","pid":55538,"hostname":"ingrid","msg":"Retrieved text for element css=span >> text=A idade deve ser menor ou igual 150 anos containing A idade deve ser menor ou igual 150 anos"}
-{"level":30,"time":"2022-03-18T17:44:03.789Z","pid":55538,"hostname":"ingrid","msg":"End of node method getText"}
-{"level":30,"time":"2022-03-18T17:44:03.797Z","pid":55538,"hostname":"ingrid","msg":"On executeJavascript, supress ReferenceError: window is not defined for eval."}
-{"level":30,"time":"2022-03-18T17:44:03.813Z","pid":55538,"hostname":"ingrid","msg":"Start of node method takeScreenshot"}
-{"level":30,"time":"2022-03-18T17:44:04.133Z","pid":55538,"hostname":"ingrid","msg":"End of node method takeScreenshot"}
-{"level":30,"time":"2022-03-18T17:44:04.142Z","pid":55538,"hostname":"ingrid","msg":"Start of node method getBrowserCatalog"}
-{"level":30,"time":"2022-03-18T17:44:04.162Z","pid":55538,"hostname":"ingrid","msg":"End of node method getBrowserCatalog"}
-{"level":30,"time":"2022-03-18T17:44:04.179Z","pid":55538,"hostname":"ingrid","msg":"Start of node method getBrowserCatalog"}
-{"level":30,"time":"2022-03-18T17:44:04.183Z","pid":55538,"hostname":"ingrid","msg":"End of node method getBrowserCatalog"}
-{"level":30,"time":"2022-03-18T17:44:04.188Z","pid":55538,"hostname":"ingrid","msg":"Changed active context"}
-{"level":30,"time":"2022-03-18T17:44:04.189Z","pid":55538,"hostname":"ingrid","msg":"Changing current active page"}
-{"level":30,"time":"2022-03-18T17:44:04.189Z","pid":55538,"hostname":"ingrid","msg":"Changed active page"}
-{"level":30,"time":"2022-03-18T17:44:04.197Z","pid":55538,"hostname":"ingrid","msg":"Start of node method getBrowserCatalog"}
-{"level":30,"time":"2022-03-18T17:44:04.213Z","pid":55538,"hostname":"ingrid","msg":"End of node method getBrowserCatalog"}
-{"level":30,"time":"2022-03-18T17:44:04.220Z","pid":55538,"hostname":"ingrid","msg":"Start of node method switchBrowser"}
-{"level":30,"time":"2022-03-18T17:44:04.221Z","pid":55538,"hostname":"ingrid","msg":"End of node method switchBrowser"}
-{"level":30,"time":"2022-03-18T17:44:04.228Z","pid":55538,"hostname":"ingrid","msg":"Start of node method switchBrowser"}
-{"level":30,"time":"2022-03-18T17:44:04.228Z","pid":55538,"hostname":"ingrid","msg":"End of node method switchBrowser"}
-{"level":30,"time":"2022-03-18T17:44:04.237Z","pid":55538,"hostname":"ingrid","msg":"Changed active context"}
-{"level":30,"time":"2022-03-18T17:44:04.237Z","pid":55538,"hostname":"ingrid","msg":"Changing current active page"}
-{"level":30,"time":"2022-03-18T17:44:04.237Z","pid":55538,"hostname":"ingrid","msg":"Changed active page"}
-{"level":30,"time":"2022-03-18T17:44:04.249Z","pid":55538,"hostname":"ingrid","msg":"Start of node method closeContext"}
-{"level":30,"time":"2022-03-18T17:44:04.516Z","pid":55538,"hostname":"ingrid","msg":"End of node method closeContext"}
-{"level":30,"time":"2022-03-18T17:44:04.865Z","pid":55538,"hostname":"ingrid","msg":"Start of node method closeAllBrowsers"}
-{"level":30,"time":"2022-03-18T17:44:05.298Z","pid":55538,"hostname":"ingrid","msg":"End of node method closeAllBrowsers"}
+{"level":30,"time":"2022-03-18T20:48:14.127Z","pid":73594,"hostname":"ingrid","msg":"Listening on 52661"}
+{"level":30,"time":"2022-03-18T20:48:14.281Z","pid":73594,"hostname":"ingrid","msg":"Start of node method getBrowserCatalog"}
+{"level":30,"time":"2022-03-18T20:48:14.283Z","pid":73594,"hostname":"ingrid","msg":"End of node method getBrowserCatalog"}
+{"level":30,"time":"2022-03-18T20:48:14.301Z","pid":73594,"hostname":"ingrid","msg":"Start of node method newBrowser"}
+{"level":30,"time":"2022-03-18T20:48:15.464Z","pid":73594,"hostname":"ingrid","msg":"End of node method newBrowser"}
+{"level":30,"time":"2022-03-18T20:48:15.476Z","pid":73594,"hostname":"ingrid","msg":"Start of node method newPage"}
+{"level":30,"time":"2022-03-18T20:48:15.476Z","pid":73594,"hostname":"ingrid","msg":"currentBrowser: [object Object]"}
+{"level":30,"time":"2022-03-18T20:48:15.556Z","pid":73594,"hostname":"ingrid","msg":"Changed active context"}
+{"level":30,"time":"2022-03-18T20:48:16.669Z","pid":73594,"hostname":"ingrid","msg":"Video path: undefined"}
+{"level":30,"time":"2022-03-18T20:48:16.678Z","pid":73594,"hostname":"ingrid","msg":"Changed active page"}
+{"level":30,"time":"2022-03-18T20:48:16.862Z","pid":73594,"hostname":"ingrid","msg":"End of node method newPage"}
+{"level":30,"time":"2022-03-18T20:48:16.873Z","pid":73594,"hostname":"ingrid","msg":"Start of node method getBrowserCatalog"}
+{"level":30,"time":"2022-03-18T20:48:16.904Z","pid":73594,"hostname":"ingrid","msg":"End of node method getBrowserCatalog"}
+{"level":30,"time":"2022-03-18T20:48:16.913Z","pid":73594,"hostname":"ingrid","msg":"Start of node method goTo"}
+{"level":30,"time":"2022-03-18T20:48:26.224Z","pid":73594,"hostname":"ingrid","msg":"End of node method goTo"}
+{"level":30,"time":"2022-03-18T20:48:26.249Z","pid":73594,"hostname":"ingrid","msg":"Start of node method fillText"}
+{"level":30,"time":"2022-03-18T20:48:26.250Z","pid":73594,"hostname":"ingrid","msg":"Strict mode is enabled, find Locator with css=#email in page."}
+{"level":30,"time":"2022-03-18T20:48:26.592Z","pid":73594,"hostname":"ingrid","msg":"End of node method fillText"}
+{"level":30,"time":"2022-03-18T20:48:26.598Z","pid":73594,"hostname":"ingrid","msg":"Start of node method fillText"}
+{"level":30,"time":"2022-03-18T20:48:26.599Z","pid":73594,"hostname":"ingrid","msg":"Strict mode is enabled, find Locator with css=#password in page."}
+{"level":30,"time":"2022-03-18T20:48:26.740Z","pid":73594,"hostname":"ingrid","msg":"End of node method fillText"}
+{"level":30,"time":"2022-03-18T20:48:26.750Z","pid":73594,"hostname":"ingrid","msg":"Start of node method click"}
+{"level":30,"time":"2022-03-18T20:48:26.750Z","pid":73594,"hostname":"ingrid","msg":"Strict mode is enabled, find Locator with css=button >> text=Entrar in page."}
+{"level":30,"time":"2022-03-18T20:48:26.940Z","pid":73594,"hostname":"ingrid","msg":"End of node method click"}
+{"level":30,"time":"2022-03-18T20:48:26.947Z","pid":73594,"hostname":"ingrid","msg":"Start of node method click"}
+{"level":30,"time":"2022-03-18T20:48:26.948Z","pid":73594,"hostname":"ingrid","msg":"Strict mode is enabled, find Locator with xpath=//a[@href=\"/alunos\"] in page."}
+{"level":30,"time":"2022-03-18T20:48:28.518Z","pid":73594,"hostname":"ingrid","msg":"End of node method click"}
+{"level":30,"time":"2022-03-18T20:48:28.525Z","pid":73594,"hostname":"ingrid","msg":"Start of node method click"}
+{"level":30,"time":"2022-03-18T20:48:28.525Z","pid":73594,"hostname":"ingrid","msg":"Strict mode is enabled, find Locator with xpath=//a[@href=\"/alunos/new\"] in page."}
+{"level":30,"time":"2022-03-18T20:48:29.590Z","pid":73594,"hostname":"ingrid","msg":"End of node method click"}
+{"level":30,"time":"2022-03-18T20:48:29.605Z","pid":73594,"hostname":"ingrid","msg":"Start of node method fillText"}
+{"level":30,"time":"2022-03-18T20:48:29.605Z","pid":73594,"hostname":"ingrid","msg":"Strict mode is enabled, find Locator with css=input[placeholder=\"Digite seu nome completo\"] in page."}
+{"level":30,"time":"2022-03-18T20:48:29.893Z","pid":73594,"hostname":"ingrid","msg":"End of node method fillText"}
+{"level":30,"time":"2022-03-18T20:48:29.900Z","pid":73594,"hostname":"ingrid","msg":"Start of node method fillText"}
+{"level":30,"time":"2022-03-18T20:48:29.900Z","pid":73594,"hostname":"ingrid","msg":"Strict mode is enabled, find Locator with css=input[placeholder=\"Digite seu endereço de e-Mail\"] in page."}
+{"level":30,"time":"2022-03-18T20:48:30.088Z","pid":73594,"hostname":"ingrid","msg":"End of node method fillText"}
+{"level":30,"time":"2022-03-18T20:48:30.098Z","pid":73594,"hostname":"ingrid","msg":"Start of node method fillText"}
+{"level":30,"time":"2022-03-18T20:48:30.098Z","pid":73594,"hostname":"ingrid","msg":"Strict mode is enabled, find Locator with css=input[placeholder=\"Sua Idade\"] in page."}
+{"level":30,"time":"2022-03-18T20:48:30.190Z","pid":73594,"hostname":"ingrid","msg":"End of node method fillText"}
+{"level":30,"time":"2022-03-18T20:48:30.197Z","pid":73594,"hostname":"ingrid","msg":"Start of node method fillText"}
+{"level":30,"time":"2022-03-18T20:48:30.197Z","pid":73594,"hostname":"ingrid","msg":"Strict mode is enabled, find Locator with css=input[placeholder=\"Seu Peso\"] in page."}
+{"level":30,"time":"2022-03-18T20:48:30.336Z","pid":73594,"hostname":"ingrid","msg":"End of node method fillText"}
+{"level":30,"time":"2022-03-18T20:48:30.342Z","pid":73594,"hostname":"ingrid","msg":"Start of node method fillText"}
+{"level":30,"time":"2022-03-18T20:48:30.342Z","pid":73594,"hostname":"ingrid","msg":"Strict mode is enabled, find Locator with css=input[placeholder=\"Sua Altura\"] in page."}
+{"level":30,"time":"2022-03-18T20:48:30.453Z","pid":73594,"hostname":"ingrid","msg":"End of node method fillText"}
+{"level":30,"time":"2022-03-18T20:48:30.475Z","pid":73594,"hostname":"ingrid","msg":"Start of node method click"}
+{"level":30,"time":"2022-03-18T20:48:30.476Z","pid":73594,"hostname":"ingrid","msg":"Strict mode is enabled, find Locator with xpath=//button[text()=\"Salvar\"] in page."}
+{"level":30,"time":"2022-03-18T20:48:30.818Z","pid":73594,"hostname":"ingrid","msg":"End of node method click"}
+{"level":30,"time":"2022-03-18T20:48:30.837Z","pid":73594,"hostname":"ingrid","msg":"Start of node method waitForElementState"}
+{"level":30,"time":"2022-03-18T20:48:30.837Z","pid":73594,"hostname":"ingrid","msg":"Strict mode is enabled, find Locator with css=.Toastify__toast-body >> text=Aluno cadastrado com sucesso. in page."}
+{"level":30,"time":"2022-03-18T20:48:31.402Z","pid":73594,"hostname":"ingrid","msg":"End of node method waitForElementState"}
+{"level":30,"time":"2022-03-18T20:48:31.428Z","pid":73594,"hostname":"ingrid","msg":"On executeJavascript, supress ReferenceError: window is not defined for eval."}
+{"level":30,"time":"2022-03-18T20:48:31.751Z","pid":73594,"hostname":"ingrid","msg":"Start of node method takeScreenshot"}
+{"level":30,"time":"2022-03-18T20:48:32.510Z","pid":73594,"hostname":"ingrid","msg":"End of node method takeScreenshot"}
+{"level":30,"time":"2022-03-18T20:48:32.522Z","pid":73594,"hostname":"ingrid","msg":"Start of node method getBrowserCatalog"}
+{"level":30,"time":"2022-03-18T20:48:32.560Z","pid":73594,"hostname":"ingrid","msg":"End of node method getBrowserCatalog"}
+{"level":30,"time":"2022-03-18T20:48:32.566Z","pid":73594,"hostname":"ingrid","msg":"Start of node method getBrowserCatalog"}
+{"level":30,"time":"2022-03-18T20:48:32.572Z","pid":73594,"hostname":"ingrid","msg":"End of node method getBrowserCatalog"}
+{"level":30,"time":"2022-03-18T20:48:32.583Z","pid":73594,"hostname":"ingrid","msg":"Start of node method goTo"}
+{"level":30,"time":"2022-03-18T20:48:34.175Z","pid":73594,"hostname":"ingrid","msg":"End of node method goTo"}
+{"level":30,"time":"2022-03-18T20:48:34.188Z","pid":73594,"hostname":"ingrid","msg":"Start of node method fillText"}
+{"level":30,"time":"2022-03-18T20:48:34.188Z","pid":73594,"hostname":"ingrid","msg":"Strict mode is enabled, find Locator with css=#email in page."}
+{"level":30,"time":"2022-03-18T20:48:34.399Z","pid":73594,"hostname":"ingrid","msg":"End of node method fillText"}
+{"level":30,"time":"2022-03-18T20:48:34.404Z","pid":73594,"hostname":"ingrid","msg":"Start of node method fillText"}
+{"level":30,"time":"2022-03-18T20:48:34.405Z","pid":73594,"hostname":"ingrid","msg":"Strict mode is enabled, find Locator with css=#password in page."}
+{"level":30,"time":"2022-03-18T20:48:34.530Z","pid":73594,"hostname":"ingrid","msg":"End of node method fillText"}
+{"level":30,"time":"2022-03-18T20:48:34.535Z","pid":73594,"hostname":"ingrid","msg":"Start of node method click"}
+{"level":30,"time":"2022-03-18T20:48:34.535Z","pid":73594,"hostname":"ingrid","msg":"Strict mode is enabled, find Locator with css=button >> text=Entrar in page."}
+{"level":30,"time":"2022-03-18T20:48:34.794Z","pid":73594,"hostname":"ingrid","msg":"End of node method click"}
+{"level":30,"time":"2022-03-18T20:48:34.802Z","pid":73594,"hostname":"ingrid","msg":"Start of node method click"}
+{"level":30,"time":"2022-03-18T20:48:34.803Z","pid":73594,"hostname":"ingrid","msg":"Strict mode is enabled, find Locator with xpath=//a[@href=\"/alunos\"] in page."}
+{"level":30,"time":"2022-03-18T20:48:35.522Z","pid":73594,"hostname":"ingrid","msg":"End of node method click"}
+{"level":30,"time":"2022-03-18T20:48:35.529Z","pid":73594,"hostname":"ingrid","msg":"Start of node method click"}
+{"level":30,"time":"2022-03-18T20:48:35.532Z","pid":73594,"hostname":"ingrid","msg":"Strict mode is enabled, find Locator with xpath=//a[@href=\"/alunos/new\"] in page."}
+{"level":30,"time":"2022-03-18T20:48:36.277Z","pid":73594,"hostname":"ingrid","msg":"End of node method click"}
+{"level":30,"time":"2022-03-18T20:48:36.301Z","pid":73594,"hostname":"ingrid","msg":"Start of node method fillText"}
+{"level":30,"time":"2022-03-18T20:48:36.308Z","pid":73594,"hostname":"ingrid","msg":"Strict mode is enabled, find Locator with css=input[placeholder=\"Digite seu nome completo\"] in page."}
+{"level":30,"time":"2022-03-18T20:48:36.470Z","pid":73594,"hostname":"ingrid","msg":"End of node method fillText"}
+{"level":30,"time":"2022-03-18T20:48:36.485Z","pid":73594,"hostname":"ingrid","msg":"Start of node method fillText"}
+{"level":30,"time":"2022-03-18T20:48:36.486Z","pid":73594,"hostname":"ingrid","msg":"Strict mode is enabled, find Locator with css=input[placeholder=\"Digite seu endereço de e-Mail\"] in page."}
+{"level":30,"time":"2022-03-18T20:48:36.629Z","pid":73594,"hostname":"ingrid","msg":"End of node method fillText"}
+{"level":30,"time":"2022-03-18T20:48:36.634Z","pid":73594,"hostname":"ingrid","msg":"Start of node method fillText"}
+{"level":30,"time":"2022-03-18T20:48:36.634Z","pid":73594,"hostname":"ingrid","msg":"Strict mode is enabled, find Locator with css=input[placeholder=\"Sua Idade\"] in page."}
+{"level":30,"time":"2022-03-18T20:48:36.787Z","pid":73594,"hostname":"ingrid","msg":"End of node method fillText"}
+{"level":30,"time":"2022-03-18T20:48:36.793Z","pid":73594,"hostname":"ingrid","msg":"Start of node method fillText"}
+{"level":30,"time":"2022-03-18T20:48:36.793Z","pid":73594,"hostname":"ingrid","msg":"Strict mode is enabled, find Locator with css=input[placeholder=\"Seu Peso\"] in page."}
+{"level":30,"time":"2022-03-18T20:48:36.858Z","pid":73594,"hostname":"ingrid","msg":"End of node method fillText"}
+{"level":30,"time":"2022-03-18T20:48:36.863Z","pid":73594,"hostname":"ingrid","msg":"Start of node method fillText"}
+{"level":30,"time":"2022-03-18T20:48:36.863Z","pid":73594,"hostname":"ingrid","msg":"Strict mode is enabled, find Locator with css=input[placeholder=\"Sua Altura\"] in page."}
+{"level":30,"time":"2022-03-18T20:48:36.952Z","pid":73594,"hostname":"ingrid","msg":"End of node method fillText"}
+{"level":30,"time":"2022-03-18T20:48:36.975Z","pid":73594,"hostname":"ingrid","msg":"Start of node method click"}
+{"level":30,"time":"2022-03-18T20:48:36.976Z","pid":73594,"hostname":"ingrid","msg":"Strict mode is enabled, find Locator with xpath=//button[text()=\"Salvar\"] in page."}
+{"level":30,"time":"2022-03-18T20:48:37.133Z","pid":73594,"hostname":"ingrid","msg":"End of node method click"}
+{"level":30,"time":"2022-03-18T20:48:37.141Z","pid":73594,"hostname":"ingrid","msg":"Start of node method getText"}
+{"level":30,"time":"2022-03-18T20:48:37.142Z","pid":73594,"hostname":"ingrid","msg":"Strict mode is enabled, find Locator with css=span >> text=Nome é obrigatório in page."}
+{"level":30,"time":"2022-03-18T20:48:37.378Z","pid":73594,"hostname":"ingrid","msg":"Retrieved text for element css=span >> text=Nome é obrigatório containing Nome é obrigatório"}
+{"level":30,"time":"2022-03-18T20:48:37.378Z","pid":73594,"hostname":"ingrid","msg":"End of node method getText"}
+{"level":30,"time":"2022-03-18T20:48:37.384Z","pid":73594,"hostname":"ingrid","msg":"Start of node method getText"}
+{"level":30,"time":"2022-03-18T20:48:37.384Z","pid":73594,"hostname":"ingrid","msg":"Strict mode is enabled, find Locator with css=span >> text=O e-mail é obrigatório in page."}
+{"level":30,"time":"2022-03-18T20:48:37.459Z","pid":73594,"hostname":"ingrid","msg":"Retrieved text for element css=span >> text=O e-mail é obrigatório containing O e-mail é obrigatório"}
+{"level":30,"time":"2022-03-18T20:48:37.460Z","pid":73594,"hostname":"ingrid","msg":"End of node method getText"}
+{"level":30,"time":"2022-03-18T20:48:37.466Z","pid":73594,"hostname":"ingrid","msg":"Start of node method getText"}
+{"level":30,"time":"2022-03-18T20:48:37.467Z","pid":73594,"hostname":"ingrid","msg":"Strict mode is enabled, find Locator with css=span >> text=idade é obrigatória in page."}
+{"level":30,"time":"2022-03-18T20:48:37.518Z","pid":73594,"hostname":"ingrid","msg":"Retrieved text for element css=span >> text=idade é obrigatória containing idade é obrigatória"}
+{"level":30,"time":"2022-03-18T20:48:37.518Z","pid":73594,"hostname":"ingrid","msg":"End of node method getText"}
+{"level":30,"time":"2022-03-18T20:48:37.523Z","pid":73594,"hostname":"ingrid","msg":"Start of node method getText"}
+{"level":30,"time":"2022-03-18T20:48:37.525Z","pid":73594,"hostname":"ingrid","msg":"Strict mode is enabled, find Locator with css=span >> text=o peso é obrigatório in page."}
+{"level":30,"time":"2022-03-18T20:48:37.584Z","pid":73594,"hostname":"ingrid","msg":"Retrieved text for element css=span >> text=o peso é obrigatório containing o peso é obrigatório"}
+{"level":30,"time":"2022-03-18T20:48:37.584Z","pid":73594,"hostname":"ingrid","msg":"End of node method getText"}
+{"level":30,"time":"2022-03-18T20:48:37.589Z","pid":73594,"hostname":"ingrid","msg":"Start of node method getText"}
+{"level":30,"time":"2022-03-18T20:48:37.589Z","pid":73594,"hostname":"ingrid","msg":"Strict mode is enabled, find Locator with css=span >> text=a Altura é obrigatória in page."}
+{"level":30,"time":"2022-03-18T20:48:37.646Z","pid":73594,"hostname":"ingrid","msg":"Retrieved text for element css=span >> text=a Altura é obrigatória containing a Altura é obrigatória"}
+{"level":30,"time":"2022-03-18T20:48:37.646Z","pid":73594,"hostname":"ingrid","msg":"End of node method getText"}
+{"level":30,"time":"2022-03-18T20:48:37.654Z","pid":73594,"hostname":"ingrid","msg":"On executeJavascript, supress ReferenceError: window is not defined for eval."}
+{"level":30,"time":"2022-03-18T20:48:37.676Z","pid":73594,"hostname":"ingrid","msg":"Start of node method takeScreenshot"}
+{"level":30,"time":"2022-03-18T20:48:38.202Z","pid":73594,"hostname":"ingrid","msg":"End of node method takeScreenshot"}
+{"level":30,"time":"2022-03-18T20:48:38.215Z","pid":73594,"hostname":"ingrid","msg":"Start of node method getBrowserCatalog"}
+{"level":30,"time":"2022-03-18T20:48:38.247Z","pid":73594,"hostname":"ingrid","msg":"End of node method getBrowserCatalog"}
+{"level":30,"time":"2022-03-18T20:48:38.253Z","pid":73594,"hostname":"ingrid","msg":"Start of node method getBrowserCatalog"}
+{"level":30,"time":"2022-03-18T20:48:38.258Z","pid":73594,"hostname":"ingrid","msg":"End of node method getBrowserCatalog"}
+{"level":30,"time":"2022-03-18T20:48:38.265Z","pid":73594,"hostname":"ingrid","msg":"Start of node method goTo"}
+{"level":30,"time":"2022-03-18T20:48:39.562Z","pid":73594,"hostname":"ingrid","msg":"End of node method goTo"}
+{"level":30,"time":"2022-03-18T20:48:39.570Z","pid":73594,"hostname":"ingrid","msg":"Start of node method fillText"}
+{"level":30,"time":"2022-03-18T20:48:39.570Z","pid":73594,"hostname":"ingrid","msg":"Strict mode is enabled, find Locator with css=#email in page."}
+{"level":30,"time":"2022-03-18T20:48:39.783Z","pid":73594,"hostname":"ingrid","msg":"End of node method fillText"}
+{"level":30,"time":"2022-03-18T20:48:39.789Z","pid":73594,"hostname":"ingrid","msg":"Start of node method fillText"}
+{"level":30,"time":"2022-03-18T20:48:39.789Z","pid":73594,"hostname":"ingrid","msg":"Strict mode is enabled, find Locator with css=#password in page."}
+{"level":30,"time":"2022-03-18T20:48:39.911Z","pid":73594,"hostname":"ingrid","msg":"End of node method fillText"}
+{"level":30,"time":"2022-03-18T20:48:39.916Z","pid":73594,"hostname":"ingrid","msg":"Start of node method click"}
+{"level":30,"time":"2022-03-18T20:48:39.916Z","pid":73594,"hostname":"ingrid","msg":"Strict mode is enabled, find Locator with css=button >> text=Entrar in page."}
+{"level":30,"time":"2022-03-18T20:48:40.088Z","pid":73594,"hostname":"ingrid","msg":"End of node method click"}
+{"level":30,"time":"2022-03-18T20:48:40.094Z","pid":73594,"hostname":"ingrid","msg":"Start of node method click"}
+{"level":30,"time":"2022-03-18T20:48:40.094Z","pid":73594,"hostname":"ingrid","msg":"Strict mode is enabled, find Locator with xpath=//a[@href=\"/alunos\"] in page."}
+{"level":30,"time":"2022-03-18T20:48:40.826Z","pid":73594,"hostname":"ingrid","msg":"End of node method click"}
+{"level":30,"time":"2022-03-18T20:48:40.833Z","pid":73594,"hostname":"ingrid","msg":"Start of node method click"}
+{"level":30,"time":"2022-03-18T20:48:40.834Z","pid":73594,"hostname":"ingrid","msg":"Strict mode is enabled, find Locator with xpath=//a[@href=\"/alunos/new\"] in page."}
+{"level":30,"time":"2022-03-18T20:48:41.403Z","pid":73594,"hostname":"ingrid","msg":"End of node method click"}
+{"level":30,"time":"2022-03-18T20:48:41.413Z","pid":73594,"hostname":"ingrid","msg":"Start of node method fillText"}
+{"level":30,"time":"2022-03-18T20:48:41.417Z","pid":73594,"hostname":"ingrid","msg":"Strict mode is enabled, find Locator with css=input[placeholder=\"Digite seu nome completo\"] in page."}
+{"level":30,"time":"2022-03-18T20:48:41.498Z","pid":73594,"hostname":"ingrid","msg":"End of node method fillText"}
+{"level":30,"time":"2022-03-18T20:48:41.504Z","pid":73594,"hostname":"ingrid","msg":"Start of node method fillText"}
+{"level":30,"time":"2022-03-18T20:48:41.505Z","pid":73594,"hostname":"ingrid","msg":"Strict mode is enabled, find Locator with css=input[placeholder=\"Digite seu endereço de e-Mail\"] in page."}
+{"level":30,"time":"2022-03-18T20:48:41.681Z","pid":73594,"hostname":"ingrid","msg":"End of node method fillText"}
+{"level":30,"time":"2022-03-18T20:48:41.687Z","pid":73594,"hostname":"ingrid","msg":"Start of node method fillText"}
+{"level":30,"time":"2022-03-18T20:48:41.688Z","pid":73594,"hostname":"ingrid","msg":"Strict mode is enabled, find Locator with css=input[placeholder=\"Sua Idade\"] in page."}
+{"level":30,"time":"2022-03-18T20:48:41.809Z","pid":73594,"hostname":"ingrid","msg":"End of node method fillText"}
+{"level":30,"time":"2022-03-18T20:48:41.815Z","pid":73594,"hostname":"ingrid","msg":"Start of node method fillText"}
+{"level":30,"time":"2022-03-18T20:48:41.815Z","pid":73594,"hostname":"ingrid","msg":"Strict mode is enabled, find Locator with css=input[placeholder=\"Seu Peso\"] in page."}
+{"level":30,"time":"2022-03-18T20:48:41.948Z","pid":73594,"hostname":"ingrid","msg":"End of node method fillText"}
+{"level":30,"time":"2022-03-18T20:48:41.955Z","pid":73594,"hostname":"ingrid","msg":"Start of node method fillText"}
+{"level":30,"time":"2022-03-18T20:48:41.956Z","pid":73594,"hostname":"ingrid","msg":"Strict mode is enabled, find Locator with css=input[placeholder=\"Sua Altura\"] in page."}
+{"level":30,"time":"2022-03-18T20:48:42.072Z","pid":73594,"hostname":"ingrid","msg":"End of node method fillText"}
+{"level":30,"time":"2022-03-18T20:48:42.083Z","pid":73594,"hostname":"ingrid","msg":"Start of node method click"}
+{"level":30,"time":"2022-03-18T20:48:42.083Z","pid":73594,"hostname":"ingrid","msg":"Strict mode is enabled, find Locator with xpath=//button[text()=\"Salvar\"] in page."}
+{"level":30,"time":"2022-03-18T20:48:42.317Z","pid":73594,"hostname":"ingrid","msg":"End of node method click"}
+{"level":30,"time":"2022-03-18T20:48:42.324Z","pid":73594,"hostname":"ingrid","msg":"Start of node method getText"}
+{"level":30,"time":"2022-03-18T20:48:42.325Z","pid":73594,"hostname":"ingrid","msg":"Strict mode is enabled, find Locator with css=span >> text=Nome é obrigatório in page."}
+{"level":30,"time":"2022-03-18T20:48:42.515Z","pid":73594,"hostname":"ingrid","msg":"Retrieved text for element css=span >> text=Nome é obrigatório containing Nome é obrigatório"}
+{"level":30,"time":"2022-03-18T20:48:42.516Z","pid":73594,"hostname":"ingrid","msg":"End of node method getText"}
+{"level":30,"time":"2022-03-18T20:48:42.528Z","pid":73594,"hostname":"ingrid","msg":"On executeJavascript, supress ReferenceError: window is not defined for eval."}
+{"level":30,"time":"2022-03-18T20:48:42.548Z","pid":73594,"hostname":"ingrid","msg":"Start of node method takeScreenshot"}
+{"level":30,"time":"2022-03-18T20:48:42.998Z","pid":73594,"hostname":"ingrid","msg":"End of node method takeScreenshot"}
+{"level":30,"time":"2022-03-18T20:48:43.014Z","pid":73594,"hostname":"ingrid","msg":"Start of node method getBrowserCatalog"}
+{"level":30,"time":"2022-03-18T20:48:43.028Z","pid":73594,"hostname":"ingrid","msg":"End of node method getBrowserCatalog"}
+{"level":30,"time":"2022-03-18T20:48:43.034Z","pid":73594,"hostname":"ingrid","msg":"Start of node method getBrowserCatalog"}
+{"level":30,"time":"2022-03-18T20:48:43.044Z","pid":73594,"hostname":"ingrid","msg":"End of node method getBrowserCatalog"}
+{"level":30,"time":"2022-03-18T20:48:43.051Z","pid":73594,"hostname":"ingrid","msg":"Start of node method goTo"}
+{"level":30,"time":"2022-03-18T20:48:44.172Z","pid":73594,"hostname":"ingrid","msg":"End of node method goTo"}
+{"level":30,"time":"2022-03-18T20:48:44.180Z","pid":73594,"hostname":"ingrid","msg":"Start of node method fillText"}
+{"level":30,"time":"2022-03-18T20:48:44.180Z","pid":73594,"hostname":"ingrid","msg":"Strict mode is enabled, find Locator with css=#email in page."}
+{"level":30,"time":"2022-03-18T20:48:44.448Z","pid":73594,"hostname":"ingrid","msg":"End of node method fillText"}
+{"level":30,"time":"2022-03-18T20:48:44.458Z","pid":73594,"hostname":"ingrid","msg":"Start of node method fillText"}
+{"level":30,"time":"2022-03-18T20:48:44.458Z","pid":73594,"hostname":"ingrid","msg":"Strict mode is enabled, find Locator with css=#password in page."}
+{"level":30,"time":"2022-03-18T20:48:44.561Z","pid":73594,"hostname":"ingrid","msg":"End of node method fillText"}
+{"level":30,"time":"2022-03-18T20:48:44.568Z","pid":73594,"hostname":"ingrid","msg":"Start of node method click"}
+{"level":30,"time":"2022-03-18T20:48:44.568Z","pid":73594,"hostname":"ingrid","msg":"Strict mode is enabled, find Locator with css=button >> text=Entrar in page."}
+{"level":30,"time":"2022-03-18T20:48:44.774Z","pid":73594,"hostname":"ingrid","msg":"End of node method click"}
+{"level":30,"time":"2022-03-18T20:48:44.782Z","pid":73594,"hostname":"ingrid","msg":"Start of node method click"}
+{"level":30,"time":"2022-03-18T20:48:44.782Z","pid":73594,"hostname":"ingrid","msg":"Strict mode is enabled, find Locator with xpath=//a[@href=\"/alunos\"] in page."}
+{"level":30,"time":"2022-03-18T20:48:45.466Z","pid":73594,"hostname":"ingrid","msg":"End of node method click"}
+{"level":30,"time":"2022-03-18T20:48:45.473Z","pid":73594,"hostname":"ingrid","msg":"Start of node method click"}
+{"level":30,"time":"2022-03-18T20:48:45.473Z","pid":73594,"hostname":"ingrid","msg":"Strict mode is enabled, find Locator with xpath=//a[@href=\"/alunos/new\"] in page."}
+{"level":30,"time":"2022-03-18T20:48:46.146Z","pid":73594,"hostname":"ingrid","msg":"End of node method click"}
+{"level":30,"time":"2022-03-18T20:48:46.162Z","pid":73594,"hostname":"ingrid","msg":"Start of node method fillText"}
+{"level":30,"time":"2022-03-18T20:48:46.165Z","pid":73594,"hostname":"ingrid","msg":"Strict mode is enabled, find Locator with css=input[placeholder=\"Digite seu nome completo\"] in page."}
+{"level":30,"time":"2022-03-18T20:48:46.335Z","pid":73594,"hostname":"ingrid","msg":"End of node method fillText"}
+{"level":30,"time":"2022-03-18T20:48:46.341Z","pid":73594,"hostname":"ingrid","msg":"Start of node method fillText"}
+{"level":30,"time":"2022-03-18T20:48:46.341Z","pid":73594,"hostname":"ingrid","msg":"Strict mode is enabled, find Locator with css=input[placeholder=\"Digite seu endereço de e-Mail\"] in page."}
+{"level":30,"time":"2022-03-18T20:48:46.453Z","pid":73594,"hostname":"ingrid","msg":"End of node method fillText"}
+{"level":30,"time":"2022-03-18T20:48:46.459Z","pid":73594,"hostname":"ingrid","msg":"Start of node method fillText"}
+{"level":30,"time":"2022-03-18T20:48:46.459Z","pid":73594,"hostname":"ingrid","msg":"Strict mode is enabled, find Locator with css=input[placeholder=\"Sua Idade\"] in page."}
+{"level":30,"time":"2022-03-18T20:48:46.605Z","pid":73594,"hostname":"ingrid","msg":"End of node method fillText"}
+{"level":30,"time":"2022-03-18T20:48:46.610Z","pid":73594,"hostname":"ingrid","msg":"Start of node method fillText"}
+{"level":30,"time":"2022-03-18T20:48:46.612Z","pid":73594,"hostname":"ingrid","msg":"Strict mode is enabled, find Locator with css=input[placeholder=\"Seu Peso\"] in page."}
+{"level":30,"time":"2022-03-18T20:48:46.706Z","pid":73594,"hostname":"ingrid","msg":"End of node method fillText"}
+{"level":30,"time":"2022-03-18T20:48:46.712Z","pid":73594,"hostname":"ingrid","msg":"Start of node method fillText"}
+{"level":30,"time":"2022-03-18T20:48:46.713Z","pid":73594,"hostname":"ingrid","msg":"Strict mode is enabled, find Locator with css=input[placeholder=\"Sua Altura\"] in page."}
+{"level":30,"time":"2022-03-18T20:48:46.856Z","pid":73594,"hostname":"ingrid","msg":"End of node method fillText"}
+{"level":30,"time":"2022-03-18T20:48:46.865Z","pid":73594,"hostname":"ingrid","msg":"Start of node method click"}
+{"level":30,"time":"2022-03-18T20:48:46.888Z","pid":73594,"hostname":"ingrid","msg":"Strict mode is enabled, find Locator with xpath=//button[text()=\"Salvar\"] in page."}
+{"level":30,"time":"2022-03-18T20:48:47.112Z","pid":73594,"hostname":"ingrid","msg":"End of node method click"}
+{"level":30,"time":"2022-03-18T20:48:47.126Z","pid":73594,"hostname":"ingrid","msg":"Start of node method getText"}
+{"level":30,"time":"2022-03-18T20:48:47.137Z","pid":73594,"hostname":"ingrid","msg":"Strict mode is enabled, find Locator with css=span >> text=O e-mail é obrigatório in page."}
+{"level":30,"time":"2022-03-18T20:48:47.304Z","pid":73594,"hostname":"ingrid","msg":"Retrieved text for element css=span >> text=O e-mail é obrigatório containing O e-mail é obrigatório"}
+{"level":30,"time":"2022-03-18T20:48:47.304Z","pid":73594,"hostname":"ingrid","msg":"End of node method getText"}
+{"level":30,"time":"2022-03-18T20:48:47.317Z","pid":73594,"hostname":"ingrid","msg":"On executeJavascript, supress ReferenceError: window is not defined for eval."}
+{"level":30,"time":"2022-03-18T20:48:47.335Z","pid":73594,"hostname":"ingrid","msg":"Start of node method takeScreenshot"}
+{"level":30,"time":"2022-03-18T20:48:48.108Z","pid":73594,"hostname":"ingrid","msg":"End of node method takeScreenshot"}
+{"level":30,"time":"2022-03-18T20:48:48.115Z","pid":73594,"hostname":"ingrid","msg":"Start of node method getBrowserCatalog"}
+{"level":30,"time":"2022-03-18T20:48:48.207Z","pid":73594,"hostname":"ingrid","msg":"End of node method getBrowserCatalog"}
+{"level":30,"time":"2022-03-18T20:48:48.214Z","pid":73594,"hostname":"ingrid","msg":"Start of node method getBrowserCatalog"}
+{"level":30,"time":"2022-03-18T20:48:48.225Z","pid":73594,"hostname":"ingrid","msg":"End of node method getBrowserCatalog"}
+{"level":30,"time":"2022-03-18T20:48:48.230Z","pid":73594,"hostname":"ingrid","msg":"Start of node method goTo"}
+{"level":30,"time":"2022-03-18T20:48:49.257Z","pid":73594,"hostname":"ingrid","msg":"End of node method goTo"}
+{"level":30,"time":"2022-03-18T20:48:49.265Z","pid":73594,"hostname":"ingrid","msg":"Start of node method fillText"}
+{"level":30,"time":"2022-03-18T20:48:49.265Z","pid":73594,"hostname":"ingrid","msg":"Strict mode is enabled, find Locator with css=#email in page."}
+{"level":30,"time":"2022-03-18T20:48:49.494Z","pid":73594,"hostname":"ingrid","msg":"End of node method fillText"}
+{"level":30,"time":"2022-03-18T20:48:49.500Z","pid":73594,"hostname":"ingrid","msg":"Start of node method fillText"}
+{"level":30,"time":"2022-03-18T20:48:49.501Z","pid":73594,"hostname":"ingrid","msg":"Strict mode is enabled, find Locator with css=#password in page."}
+{"level":30,"time":"2022-03-18T20:48:49.642Z","pid":73594,"hostname":"ingrid","msg":"End of node method fillText"}
+{"level":30,"time":"2022-03-18T20:48:49.646Z","pid":73594,"hostname":"ingrid","msg":"Start of node method click"}
+{"level":30,"time":"2022-03-18T20:48:49.647Z","pid":73594,"hostname":"ingrid","msg":"Strict mode is enabled, find Locator with css=button >> text=Entrar in page."}
+{"level":30,"time":"2022-03-18T20:48:49.871Z","pid":73594,"hostname":"ingrid","msg":"End of node method click"}
+{"level":30,"time":"2022-03-18T20:48:49.877Z","pid":73594,"hostname":"ingrid","msg":"Start of node method click"}
+{"level":30,"time":"2022-03-18T20:48:49.877Z","pid":73594,"hostname":"ingrid","msg":"Strict mode is enabled, find Locator with xpath=//a[@href=\"/alunos\"] in page."}
+{"level":30,"time":"2022-03-18T20:48:50.616Z","pid":73594,"hostname":"ingrid","msg":"End of node method click"}
+{"level":30,"time":"2022-03-18T20:48:50.622Z","pid":73594,"hostname":"ingrid","msg":"Start of node method click"}
+{"level":30,"time":"2022-03-18T20:48:50.622Z","pid":73594,"hostname":"ingrid","msg":"Strict mode is enabled, find Locator with xpath=//a[@href=\"/alunos/new\"] in page."}
+{"level":30,"time":"2022-03-18T20:48:51.198Z","pid":73594,"hostname":"ingrid","msg":"End of node method click"}
+{"level":30,"time":"2022-03-18T20:48:51.207Z","pid":73594,"hostname":"ingrid","msg":"Start of node method fillText"}
+{"level":30,"time":"2022-03-18T20:48:51.208Z","pid":73594,"hostname":"ingrid","msg":"Strict mode is enabled, find Locator with css=input[placeholder=\"Digite seu nome completo\"] in page."}
+{"level":30,"time":"2022-03-18T20:48:51.393Z","pid":73594,"hostname":"ingrid","msg":"End of node method fillText"}
+{"level":30,"time":"2022-03-18T20:48:51.398Z","pid":73594,"hostname":"ingrid","msg":"Start of node method fillText"}
+{"level":30,"time":"2022-03-18T20:48:51.398Z","pid":73594,"hostname":"ingrid","msg":"Strict mode is enabled, find Locator with css=input[placeholder=\"Digite seu endereço de e-Mail\"] in page."}
+{"level":30,"time":"2022-03-18T20:48:51.637Z","pid":73594,"hostname":"ingrid","msg":"End of node method fillText"}
+{"level":30,"time":"2022-03-18T20:48:51.643Z","pid":73594,"hostname":"ingrid","msg":"Start of node method fillText"}
+{"level":30,"time":"2022-03-18T20:48:51.643Z","pid":73594,"hostname":"ingrid","msg":"Strict mode is enabled, find Locator with css=input[placeholder=\"Sua Idade\"] in page."}
+{"level":30,"time":"2022-03-18T20:48:51.756Z","pid":73594,"hostname":"ingrid","msg":"End of node method fillText"}
+{"level":30,"time":"2022-03-18T20:48:51.762Z","pid":73594,"hostname":"ingrid","msg":"Start of node method fillText"}
+{"level":30,"time":"2022-03-18T20:48:51.762Z","pid":73594,"hostname":"ingrid","msg":"Strict mode is enabled, find Locator with css=input[placeholder=\"Seu Peso\"] in page."}
+{"level":30,"time":"2022-03-18T20:48:51.848Z","pid":73594,"hostname":"ingrid","msg":"End of node method fillText"}
+{"level":30,"time":"2022-03-18T20:48:51.853Z","pid":73594,"hostname":"ingrid","msg":"Start of node method fillText"}
+{"level":30,"time":"2022-03-18T20:48:51.853Z","pid":73594,"hostname":"ingrid","msg":"Strict mode is enabled, find Locator with css=input[placeholder=\"Sua Altura\"] in page."}
+{"level":30,"time":"2022-03-18T20:48:51.942Z","pid":73594,"hostname":"ingrid","msg":"End of node method fillText"}
+{"level":30,"time":"2022-03-18T20:48:51.949Z","pid":73594,"hostname":"ingrid","msg":"Start of node method click"}
+{"level":30,"time":"2022-03-18T20:48:51.949Z","pid":73594,"hostname":"ingrid","msg":"Strict mode is enabled, find Locator with xpath=//button[text()=\"Salvar\"] in page."}
+{"level":30,"time":"2022-03-18T20:48:52.206Z","pid":73594,"hostname":"ingrid","msg":"End of node method click"}
+{"level":30,"time":"2022-03-18T20:48:52.213Z","pid":73594,"hostname":"ingrid","msg":"Start of node method getText"}
+{"level":30,"time":"2022-03-18T20:48:52.214Z","pid":73594,"hostname":"ingrid","msg":"Strict mode is enabled, find Locator with css=span >> text=idade é obrigatória in page."}
+{"level":30,"time":"2022-03-18T20:48:52.453Z","pid":73594,"hostname":"ingrid","msg":"Retrieved text for element css=span >> text=idade é obrigatória containing idade é obrigatória"}
+{"level":30,"time":"2022-03-18T20:48:52.453Z","pid":73594,"hostname":"ingrid","msg":"End of node method getText"}
+{"level":30,"time":"2022-03-18T20:48:52.460Z","pid":73594,"hostname":"ingrid","msg":"On executeJavascript, supress ReferenceError: window is not defined for eval."}
+{"level":30,"time":"2022-03-18T20:48:52.472Z","pid":73594,"hostname":"ingrid","msg":"Start of node method takeScreenshot"}
+{"level":30,"time":"2022-03-18T20:48:52.969Z","pid":73594,"hostname":"ingrid","msg":"End of node method takeScreenshot"}
+{"level":30,"time":"2022-03-18T20:48:52.974Z","pid":73594,"hostname":"ingrid","msg":"Start of node method getBrowserCatalog"}
+{"level":30,"time":"2022-03-18T20:48:53.016Z","pid":73594,"hostname":"ingrid","msg":"End of node method getBrowserCatalog"}
+{"level":30,"time":"2022-03-18T20:48:53.022Z","pid":73594,"hostname":"ingrid","msg":"Start of node method getBrowserCatalog"}
+{"level":30,"time":"2022-03-18T20:48:53.035Z","pid":73594,"hostname":"ingrid","msg":"End of node method getBrowserCatalog"}
+{"level":30,"time":"2022-03-18T20:48:53.041Z","pid":73594,"hostname":"ingrid","msg":"Start of node method goTo"}
+{"level":30,"time":"2022-03-18T20:48:54.051Z","pid":73594,"hostname":"ingrid","msg":"End of node method goTo"}
+{"level":30,"time":"2022-03-18T20:48:54.080Z","pid":73594,"hostname":"ingrid","msg":"Start of node method fillText"}
+{"level":30,"time":"2022-03-18T20:48:54.080Z","pid":73594,"hostname":"ingrid","msg":"Strict mode is enabled, find Locator with css=#email in page."}
+{"level":30,"time":"2022-03-18T20:48:54.325Z","pid":73594,"hostname":"ingrid","msg":"End of node method fillText"}
+{"level":30,"time":"2022-03-18T20:48:54.332Z","pid":73594,"hostname":"ingrid","msg":"Start of node method fillText"}
+{"level":30,"time":"2022-03-18T20:48:54.332Z","pid":73594,"hostname":"ingrid","msg":"Strict mode is enabled, find Locator with css=#password in page."}
+{"level":30,"time":"2022-03-18T20:48:54.454Z","pid":73594,"hostname":"ingrid","msg":"End of node method fillText"}
+{"level":30,"time":"2022-03-18T20:48:54.459Z","pid":73594,"hostname":"ingrid","msg":"Start of node method click"}
+{"level":30,"time":"2022-03-18T20:48:54.459Z","pid":73594,"hostname":"ingrid","msg":"Strict mode is enabled, find Locator with css=button >> text=Entrar in page."}
+{"level":30,"time":"2022-03-18T20:48:54.651Z","pid":73594,"hostname":"ingrid","msg":"End of node method click"}
+{"level":30,"time":"2022-03-18T20:48:54.658Z","pid":73594,"hostname":"ingrid","msg":"Start of node method click"}
+{"level":30,"time":"2022-03-18T20:48:54.658Z","pid":73594,"hostname":"ingrid","msg":"Strict mode is enabled, find Locator with xpath=//a[@href=\"/alunos\"] in page."}
+{"level":30,"time":"2022-03-18T20:48:55.466Z","pid":73594,"hostname":"ingrid","msg":"End of node method click"}
+{"level":30,"time":"2022-03-18T20:48:55.472Z","pid":73594,"hostname":"ingrid","msg":"Start of node method click"}
+{"level":30,"time":"2022-03-18T20:48:55.474Z","pid":73594,"hostname":"ingrid","msg":"Strict mode is enabled, find Locator with xpath=//a[@href=\"/alunos/new\"] in page."}
+{"level":30,"time":"2022-03-18T20:48:56.142Z","pid":73594,"hostname":"ingrid","msg":"End of node method click"}
+{"level":30,"time":"2022-03-18T20:48:56.154Z","pid":73594,"hostname":"ingrid","msg":"Start of node method fillText"}
+{"level":30,"time":"2022-03-18T20:48:56.154Z","pid":73594,"hostname":"ingrid","msg":"Strict mode is enabled, find Locator with css=input[placeholder=\"Digite seu nome completo\"] in page."}
+{"level":30,"time":"2022-03-18T20:48:56.270Z","pid":73594,"hostname":"ingrid","msg":"End of node method fillText"}
+{"level":30,"time":"2022-03-18T20:48:56.276Z","pid":73594,"hostname":"ingrid","msg":"Start of node method fillText"}
+{"level":30,"time":"2022-03-18T20:48:56.276Z","pid":73594,"hostname":"ingrid","msg":"Strict mode is enabled, find Locator with css=input[placeholder=\"Digite seu endereço de e-Mail\"] in page."}
+{"level":30,"time":"2022-03-18T20:48:56.436Z","pid":73594,"hostname":"ingrid","msg":"End of node method fillText"}
+{"level":30,"time":"2022-03-18T20:48:56.441Z","pid":73594,"hostname":"ingrid","msg":"Start of node method fillText"}
+{"level":30,"time":"2022-03-18T20:48:56.442Z","pid":73594,"hostname":"ingrid","msg":"Strict mode is enabled, find Locator with css=input[placeholder=\"Sua Idade\"] in page."}
+{"level":30,"time":"2022-03-18T20:48:56.568Z","pid":73594,"hostname":"ingrid","msg":"End of node method fillText"}
+{"level":30,"time":"2022-03-18T20:48:56.574Z","pid":73594,"hostname":"ingrid","msg":"Start of node method fillText"}
+{"level":30,"time":"2022-03-18T20:48:56.576Z","pid":73594,"hostname":"ingrid","msg":"Strict mode is enabled, find Locator with css=input[placeholder=\"Seu Peso\"] in page."}
+{"level":30,"time":"2022-03-18T20:48:56.684Z","pid":73594,"hostname":"ingrid","msg":"End of node method fillText"}
+{"level":30,"time":"2022-03-18T20:48:56.695Z","pid":73594,"hostname":"ingrid","msg":"Start of node method fillText"}
+{"level":30,"time":"2022-03-18T20:48:56.695Z","pid":73594,"hostname":"ingrid","msg":"Strict mode is enabled, find Locator with css=input[placeholder=\"Sua Altura\"] in page."}
+{"level":30,"time":"2022-03-18T20:48:56.765Z","pid":73594,"hostname":"ingrid","msg":"End of node method fillText"}
+{"level":30,"time":"2022-03-18T20:48:56.770Z","pid":73594,"hostname":"ingrid","msg":"Start of node method click"}
+{"level":30,"time":"2022-03-18T20:48:56.770Z","pid":73594,"hostname":"ingrid","msg":"Strict mode is enabled, find Locator with xpath=//button[text()=\"Salvar\"] in page."}
+{"level":30,"time":"2022-03-18T20:48:56.953Z","pid":73594,"hostname":"ingrid","msg":"End of node method click"}
+{"level":30,"time":"2022-03-18T20:48:56.959Z","pid":73594,"hostname":"ingrid","msg":"Start of node method getText"}
+{"level":30,"time":"2022-03-18T20:48:56.959Z","pid":73594,"hostname":"ingrid","msg":"Strict mode is enabled, find Locator with css=span >> text=o peso é obrigatório in page."}
+{"level":30,"time":"2022-03-18T20:48:57.159Z","pid":73594,"hostname":"ingrid","msg":"Retrieved text for element css=span >> text=o peso é obrigatório containing o peso é obrigatório"}
+{"level":30,"time":"2022-03-18T20:48:57.160Z","pid":73594,"hostname":"ingrid","msg":"End of node method getText"}
+{"level":30,"time":"2022-03-18T20:48:57.167Z","pid":73594,"hostname":"ingrid","msg":"On executeJavascript, supress ReferenceError: window is not defined for eval."}
+{"level":30,"time":"2022-03-18T20:48:57.204Z","pid":73594,"hostname":"ingrid","msg":"Start of node method takeScreenshot"}
+{"level":30,"time":"2022-03-18T20:48:57.701Z","pid":73594,"hostname":"ingrid","msg":"End of node method takeScreenshot"}
+{"level":30,"time":"2022-03-18T20:48:57.708Z","pid":73594,"hostname":"ingrid","msg":"Start of node method getBrowserCatalog"}
+{"level":30,"time":"2022-03-18T20:48:57.731Z","pid":73594,"hostname":"ingrid","msg":"End of node method getBrowserCatalog"}
+{"level":30,"time":"2022-03-18T20:48:57.736Z","pid":73594,"hostname":"ingrid","msg":"Start of node method getBrowserCatalog"}
+{"level":30,"time":"2022-03-18T20:48:57.741Z","pid":73594,"hostname":"ingrid","msg":"End of node method getBrowserCatalog"}
+{"level":30,"time":"2022-03-18T20:48:57.746Z","pid":73594,"hostname":"ingrid","msg":"Start of node method goTo"}
+{"level":30,"time":"2022-03-18T20:48:58.767Z","pid":73594,"hostname":"ingrid","msg":"End of node method goTo"}
+{"level":30,"time":"2022-03-18T20:48:58.774Z","pid":73594,"hostname":"ingrid","msg":"Start of node method fillText"}
+{"level":30,"time":"2022-03-18T20:48:58.775Z","pid":73594,"hostname":"ingrid","msg":"Strict mode is enabled, find Locator with css=#email in page."}
+{"level":30,"time":"2022-03-18T20:48:58.965Z","pid":73594,"hostname":"ingrid","msg":"End of node method fillText"}
+{"level":30,"time":"2022-03-18T20:48:58.971Z","pid":73594,"hostname":"ingrid","msg":"Start of node method fillText"}
+{"level":30,"time":"2022-03-18T20:48:58.971Z","pid":73594,"hostname":"ingrid","msg":"Strict mode is enabled, find Locator with css=#password in page."}
+{"level":30,"time":"2022-03-18T20:48:59.097Z","pid":73594,"hostname":"ingrid","msg":"End of node method fillText"}
+{"level":30,"time":"2022-03-18T20:48:59.103Z","pid":73594,"hostname":"ingrid","msg":"Start of node method click"}
+{"level":30,"time":"2022-03-18T20:48:59.103Z","pid":73594,"hostname":"ingrid","msg":"Strict mode is enabled, find Locator with css=button >> text=Entrar in page."}
+{"level":30,"time":"2022-03-18T20:48:59.307Z","pid":73594,"hostname":"ingrid","msg":"End of node method click"}
+{"level":30,"time":"2022-03-18T20:48:59.313Z","pid":73594,"hostname":"ingrid","msg":"Start of node method click"}
+{"level":30,"time":"2022-03-18T20:48:59.313Z","pid":73594,"hostname":"ingrid","msg":"Strict mode is enabled, find Locator with xpath=//a[@href=\"/alunos\"] in page."}
+{"level":30,"time":"2022-03-18T20:49:00.010Z","pid":73594,"hostname":"ingrid","msg":"End of node method click"}
+{"level":30,"time":"2022-03-18T20:49:00.017Z","pid":73594,"hostname":"ingrid","msg":"Start of node method click"}
+{"level":30,"time":"2022-03-18T20:49:00.018Z","pid":73594,"hostname":"ingrid","msg":"Strict mode is enabled, find Locator with xpath=//a[@href=\"/alunos/new\"] in page."}
+{"level":30,"time":"2022-03-18T20:49:00.587Z","pid":73594,"hostname":"ingrid","msg":"End of node method click"}
+{"level":30,"time":"2022-03-18T20:49:00.596Z","pid":73594,"hostname":"ingrid","msg":"Start of node method fillText"}
+{"level":30,"time":"2022-03-18T20:49:00.596Z","pid":73594,"hostname":"ingrid","msg":"Strict mode is enabled, find Locator with css=input[placeholder=\"Digite seu nome completo\"] in page."}
+{"level":30,"time":"2022-03-18T20:49:00.720Z","pid":73594,"hostname":"ingrid","msg":"End of node method fillText"}
+{"level":30,"time":"2022-03-18T20:49:00.725Z","pid":73594,"hostname":"ingrid","msg":"Start of node method fillText"}
+{"level":30,"time":"2022-03-18T20:49:00.725Z","pid":73594,"hostname":"ingrid","msg":"Strict mode is enabled, find Locator with css=input[placeholder=\"Digite seu endereço de e-Mail\"] in page."}
+{"level":30,"time":"2022-03-18T20:49:00.858Z","pid":73594,"hostname":"ingrid","msg":"End of node method fillText"}
+{"level":30,"time":"2022-03-18T20:49:00.863Z","pid":73594,"hostname":"ingrid","msg":"Start of node method fillText"}
+{"level":30,"time":"2022-03-18T20:49:00.863Z","pid":73594,"hostname":"ingrid","msg":"Strict mode is enabled, find Locator with css=input[placeholder=\"Sua Idade\"] in page."}
+{"level":30,"time":"2022-03-18T20:49:00.993Z","pid":73594,"hostname":"ingrid","msg":"End of node method fillText"}
+{"level":30,"time":"2022-03-18T20:49:00.998Z","pid":73594,"hostname":"ingrid","msg":"Start of node method fillText"}
+{"level":30,"time":"2022-03-18T20:49:00.998Z","pid":73594,"hostname":"ingrid","msg":"Strict mode is enabled, find Locator with css=input[placeholder=\"Seu Peso\"] in page."}
+{"level":30,"time":"2022-03-18T20:49:01.120Z","pid":73594,"hostname":"ingrid","msg":"End of node method fillText"}
+{"level":30,"time":"2022-03-18T20:49:01.126Z","pid":73594,"hostname":"ingrid","msg":"Start of node method fillText"}
+{"level":30,"time":"2022-03-18T20:49:01.126Z","pid":73594,"hostname":"ingrid","msg":"Strict mode is enabled, find Locator with css=input[placeholder=\"Sua Altura\"] in page."}
+{"level":30,"time":"2022-03-18T20:49:01.206Z","pid":73594,"hostname":"ingrid","msg":"End of node method fillText"}
+{"level":30,"time":"2022-03-18T20:49:01.213Z","pid":73594,"hostname":"ingrid","msg":"Start of node method click"}
+{"level":30,"time":"2022-03-18T20:49:01.213Z","pid":73594,"hostname":"ingrid","msg":"Strict mode is enabled, find Locator with xpath=//button[text()=\"Salvar\"] in page."}
+{"level":30,"time":"2022-03-18T20:49:01.415Z","pid":73594,"hostname":"ingrid","msg":"End of node method click"}
+{"level":30,"time":"2022-03-18T20:49:01.425Z","pid":73594,"hostname":"ingrid","msg":"Start of node method getText"}
+{"level":30,"time":"2022-03-18T20:49:01.426Z","pid":73594,"hostname":"ingrid","msg":"Strict mode is enabled, find Locator with css=span >> text=a Altura é obrigatória in page."}
+{"level":30,"time":"2022-03-18T20:49:01.681Z","pid":73594,"hostname":"ingrid","msg":"Retrieved text for element css=span >> text=a Altura é obrigatória containing a Altura é obrigatória"}
+{"level":30,"time":"2022-03-18T20:49:01.681Z","pid":73594,"hostname":"ingrid","msg":"End of node method getText"}
+{"level":30,"time":"2022-03-18T20:49:01.687Z","pid":73594,"hostname":"ingrid","msg":"On executeJavascript, supress ReferenceError: window is not defined for eval."}
+{"level":30,"time":"2022-03-18T20:49:01.703Z","pid":73594,"hostname":"ingrid","msg":"Start of node method takeScreenshot"}
+{"level":30,"time":"2022-03-18T20:49:02.175Z","pid":73594,"hostname":"ingrid","msg":"End of node method takeScreenshot"}
+{"level":30,"time":"2022-03-18T20:49:02.181Z","pid":73594,"hostname":"ingrid","msg":"Start of node method getBrowserCatalog"}
+{"level":30,"time":"2022-03-18T20:49:02.229Z","pid":73594,"hostname":"ingrid","msg":"End of node method getBrowserCatalog"}
+{"level":30,"time":"2022-03-18T20:49:02.241Z","pid":73594,"hostname":"ingrid","msg":"Start of node method getBrowserCatalog"}
+{"level":30,"time":"2022-03-18T20:49:02.252Z","pid":73594,"hostname":"ingrid","msg":"End of node method getBrowserCatalog"}
+{"level":30,"time":"2022-03-18T20:49:02.257Z","pid":73594,"hostname":"ingrid","msg":"Start of node method goTo"}
+{"level":30,"time":"2022-03-18T20:49:03.437Z","pid":73594,"hostname":"ingrid","msg":"End of node method goTo"}
+{"level":30,"time":"2022-03-18T20:49:03.445Z","pid":73594,"hostname":"ingrid","msg":"Start of node method fillText"}
+{"level":30,"time":"2022-03-18T20:49:03.446Z","pid":73594,"hostname":"ingrid","msg":"Strict mode is enabled, find Locator with css=#email in page."}
+{"level":30,"time":"2022-03-18T20:49:03.638Z","pid":73594,"hostname":"ingrid","msg":"End of node method fillText"}
+{"level":30,"time":"2022-03-18T20:49:03.643Z","pid":73594,"hostname":"ingrid","msg":"Start of node method fillText"}
+{"level":30,"time":"2022-03-18T20:49:03.643Z","pid":73594,"hostname":"ingrid","msg":"Strict mode is enabled, find Locator with css=#password in page."}
+{"level":30,"time":"2022-03-18T20:49:03.789Z","pid":73594,"hostname":"ingrid","msg":"End of node method fillText"}
+{"level":30,"time":"2022-03-18T20:49:03.794Z","pid":73594,"hostname":"ingrid","msg":"Start of node method click"}
+{"level":30,"time":"2022-03-18T20:49:03.795Z","pid":73594,"hostname":"ingrid","msg":"Strict mode is enabled, find Locator with css=button >> text=Entrar in page."}
+{"level":30,"time":"2022-03-18T20:49:04.018Z","pid":73594,"hostname":"ingrid","msg":"End of node method click"}
+{"level":30,"time":"2022-03-18T20:49:04.025Z","pid":73594,"hostname":"ingrid","msg":"Start of node method click"}
+{"level":30,"time":"2022-03-18T20:49:04.025Z","pid":73594,"hostname":"ingrid","msg":"Strict mode is enabled, find Locator with xpath=//a[@href=\"/alunos\"] in page."}
+{"level":30,"time":"2022-03-18T20:49:04.622Z","pid":73594,"hostname":"ingrid","msg":"End of node method click"}
+{"level":30,"time":"2022-03-18T20:49:04.630Z","pid":73594,"hostname":"ingrid","msg":"Start of node method click"}
+{"level":30,"time":"2022-03-18T20:49:04.630Z","pid":73594,"hostname":"ingrid","msg":"Strict mode is enabled, find Locator with xpath=//a[@href=\"/alunos/new\"] in page."}
+{"level":30,"time":"2022-03-18T20:49:05.443Z","pid":73594,"hostname":"ingrid","msg":"End of node method click"}
+{"level":30,"time":"2022-03-18T20:49:05.453Z","pid":73594,"hostname":"ingrid","msg":"Start of node method fillText"}
+{"level":30,"time":"2022-03-18T20:49:05.453Z","pid":73594,"hostname":"ingrid","msg":"Strict mode is enabled, find Locator with css=input[placeholder=\"Digite seu nome completo\"] in page."}
+{"level":30,"time":"2022-03-18T20:49:05.679Z","pid":73594,"hostname":"ingrid","msg":"End of node method fillText"}
+{"level":30,"time":"2022-03-18T20:49:05.684Z","pid":73594,"hostname":"ingrid","msg":"Start of node method fillText"}
+{"level":30,"time":"2022-03-18T20:49:05.684Z","pid":73594,"hostname":"ingrid","msg":"Strict mode is enabled, find Locator with css=input[placeholder=\"Digite seu endereço de e-Mail\"] in page."}
+{"level":30,"time":"2022-03-18T20:49:05.901Z","pid":73594,"hostname":"ingrid","msg":"End of node method fillText"}
+{"level":30,"time":"2022-03-18T20:49:05.906Z","pid":73594,"hostname":"ingrid","msg":"Start of node method fillText"}
+{"level":30,"time":"2022-03-18T20:49:05.906Z","pid":73594,"hostname":"ingrid","msg":"Strict mode is enabled, find Locator with css=input[placeholder=\"Sua Idade\"] in page."}
+{"level":30,"time":"2022-03-18T20:49:06.086Z","pid":73594,"hostname":"ingrid","msg":"End of node method fillText"}
+{"level":30,"time":"2022-03-18T20:49:06.091Z","pid":73594,"hostname":"ingrid","msg":"Start of node method fillText"}
+{"level":30,"time":"2022-03-18T20:49:06.091Z","pid":73594,"hostname":"ingrid","msg":"Strict mode is enabled, find Locator with css=input[placeholder=\"Seu Peso\"] in page."}
+{"level":30,"time":"2022-03-18T20:49:06.210Z","pid":73594,"hostname":"ingrid","msg":"End of node method fillText"}
+{"level":30,"time":"2022-03-18T20:49:06.216Z","pid":73594,"hostname":"ingrid","msg":"Start of node method fillText"}
+{"level":30,"time":"2022-03-18T20:49:06.216Z","pid":73594,"hostname":"ingrid","msg":"Strict mode is enabled, find Locator with css=input[placeholder=\"Sua Altura\"] in page."}
+{"level":30,"time":"2022-03-18T20:49:06.296Z","pid":73594,"hostname":"ingrid","msg":"End of node method fillText"}
+{"level":30,"time":"2022-03-18T20:49:06.302Z","pid":73594,"hostname":"ingrid","msg":"Start of node method click"}
+{"level":30,"time":"2022-03-18T20:49:06.302Z","pid":73594,"hostname":"ingrid","msg":"Strict mode is enabled, find Locator with xpath=//button[text()=\"Salvar\"] in page."}
+{"level":30,"time":"2022-03-18T20:49:06.562Z","pid":73594,"hostname":"ingrid","msg":"End of node method click"}
+{"level":30,"time":"2022-03-18T20:49:06.570Z","pid":73594,"hostname":"ingrid","msg":"On executeJavascript, supress ReferenceError: window is not defined for eval."}
+{"level":30,"time":"2022-03-18T20:49:06.613Z","pid":73594,"hostname":"ingrid","msg":"Start of node method takeScreenshot"}
+{"level":30,"time":"2022-03-18T20:49:08.110Z","pid":73594,"hostname":"ingrid","msg":"End of node method takeScreenshot"}
+{"level":30,"time":"2022-03-18T20:49:08.122Z","pid":73594,"hostname":"ingrid","msg":"Start of node method getBrowserCatalog"}
+{"level":30,"time":"2022-03-18T20:49:08.140Z","pid":73594,"hostname":"ingrid","msg":"End of node method getBrowserCatalog"}
+{"level":30,"time":"2022-03-18T20:49:08.146Z","pid":73594,"hostname":"ingrid","msg":"Start of node method getBrowserCatalog"}
+{"level":30,"time":"2022-03-18T20:49:08.195Z","pid":73594,"hostname":"ingrid","msg":"End of node method getBrowserCatalog"}
+{"level":30,"time":"2022-03-18T20:49:08.201Z","pid":73594,"hostname":"ingrid","msg":"Start of node method goTo"}
+{"level":30,"time":"2022-03-18T20:49:09.539Z","pid":73594,"hostname":"ingrid","msg":"End of node method goTo"}
+{"level":30,"time":"2022-03-18T20:49:09.548Z","pid":73594,"hostname":"ingrid","msg":"Start of node method fillText"}
+{"level":30,"time":"2022-03-18T20:49:09.552Z","pid":73594,"hostname":"ingrid","msg":"Strict mode is enabled, find Locator with css=#email in page."}
+{"level":30,"time":"2022-03-18T20:49:09.805Z","pid":73594,"hostname":"ingrid","msg":"End of node method fillText"}
+{"level":30,"time":"2022-03-18T20:49:09.810Z","pid":73594,"hostname":"ingrid","msg":"Start of node method fillText"}
+{"level":30,"time":"2022-03-18T20:49:09.810Z","pid":73594,"hostname":"ingrid","msg":"Strict mode is enabled, find Locator with css=#password in page."}
+{"level":30,"time":"2022-03-18T20:49:09.938Z","pid":73594,"hostname":"ingrid","msg":"End of node method fillText"}
+{"level":30,"time":"2022-03-18T20:49:09.942Z","pid":73594,"hostname":"ingrid","msg":"Start of node method click"}
+{"level":30,"time":"2022-03-18T20:49:09.943Z","pid":73594,"hostname":"ingrid","msg":"Strict mode is enabled, find Locator with css=button >> text=Entrar in page."}
+{"level":30,"time":"2022-03-18T20:49:10.165Z","pid":73594,"hostname":"ingrid","msg":"End of node method click"}
+{"level":30,"time":"2022-03-18T20:49:10.171Z","pid":73594,"hostname":"ingrid","msg":"Start of node method click"}
+{"level":30,"time":"2022-03-18T20:49:10.171Z","pid":73594,"hostname":"ingrid","msg":"Strict mode is enabled, find Locator with xpath=//a[@href=\"/alunos\"] in page."}
+{"level":30,"time":"2022-03-18T20:49:11.015Z","pid":73594,"hostname":"ingrid","msg":"End of node method click"}
+{"level":30,"time":"2022-03-18T20:49:11.022Z","pid":73594,"hostname":"ingrid","msg":"Start of node method click"}
+{"level":30,"time":"2022-03-18T20:49:11.023Z","pid":73594,"hostname":"ingrid","msg":"Strict mode is enabled, find Locator with xpath=//a[@href=\"/alunos/new\"] in page."}
+{"level":30,"time":"2022-03-18T20:49:11.885Z","pid":73594,"hostname":"ingrid","msg":"End of node method click"}
+{"level":30,"time":"2022-03-18T20:49:11.899Z","pid":73594,"hostname":"ingrid","msg":"Start of node method fillText"}
+{"level":30,"time":"2022-03-18T20:49:11.901Z","pid":73594,"hostname":"ingrid","msg":"Strict mode is enabled, find Locator with css=input[placeholder=\"Digite seu nome completo\"] in page."}
+{"level":30,"time":"2022-03-18T20:49:12.067Z","pid":73594,"hostname":"ingrid","msg":"End of node method fillText"}
+{"level":30,"time":"2022-03-18T20:49:12.076Z","pid":73594,"hostname":"ingrid","msg":"Start of node method fillText"}
+{"level":30,"time":"2022-03-18T20:49:12.076Z","pid":73594,"hostname":"ingrid","msg":"Strict mode is enabled, find Locator with css=input[placeholder=\"Digite seu endereço de e-Mail\"] in page."}
+{"level":30,"time":"2022-03-18T20:49:12.255Z","pid":73594,"hostname":"ingrid","msg":"End of node method fillText"}
+{"level":30,"time":"2022-03-18T20:49:12.260Z","pid":73594,"hostname":"ingrid","msg":"Start of node method fillText"}
+{"level":30,"time":"2022-03-18T20:49:12.260Z","pid":73594,"hostname":"ingrid","msg":"Strict mode is enabled, find Locator with css=input[placeholder=\"Sua Idade\"] in page."}
+{"level":30,"time":"2022-03-18T20:49:12.437Z","pid":73594,"hostname":"ingrid","msg":"End of node method fillText"}
+{"level":30,"time":"2022-03-18T20:49:12.441Z","pid":73594,"hostname":"ingrid","msg":"Start of node method fillText"}
+{"level":30,"time":"2022-03-18T20:49:12.442Z","pid":73594,"hostname":"ingrid","msg":"Strict mode is enabled, find Locator with css=input[placeholder=\"Seu Peso\"] in page."}
+{"level":30,"time":"2022-03-18T20:49:12.545Z","pid":73594,"hostname":"ingrid","msg":"End of node method fillText"}
+{"level":30,"time":"2022-03-18T20:49:12.551Z","pid":73594,"hostname":"ingrid","msg":"Start of node method fillText"}
+{"level":30,"time":"2022-03-18T20:49:12.551Z","pid":73594,"hostname":"ingrid","msg":"Strict mode is enabled, find Locator with css=input[placeholder=\"Sua Altura\"] in page."}
+{"level":30,"time":"2022-03-18T20:49:12.639Z","pid":73594,"hostname":"ingrid","msg":"End of node method fillText"}
+{"level":30,"time":"2022-03-18T20:49:12.647Z","pid":73594,"hostname":"ingrid","msg":"Start of node method click"}
+{"level":30,"time":"2022-03-18T20:49:12.648Z","pid":73594,"hostname":"ingrid","msg":"Strict mode is enabled, find Locator with xpath=//button[text()=\"Salvar\"] in page."}
+{"level":30,"time":"2022-03-18T20:49:12.996Z","pid":73594,"hostname":"ingrid","msg":"End of node method click"}
+{"level":30,"time":"2022-03-18T20:49:13.002Z","pid":73594,"hostname":"ingrid","msg":"Start of node method getText"}
+{"level":30,"time":"2022-03-18T20:49:13.002Z","pid":73594,"hostname":"ingrid","msg":"Strict mode is enabled, find Locator with css=span >> text=A idade deve ser menor ou igual 150 anos in page."}
+{"level":30,"time":"2022-03-18T20:49:13.299Z","pid":73594,"hostname":"ingrid","msg":"Retrieved text for element css=span >> text=A idade deve ser menor ou igual 150 anos containing A idade deve ser menor ou igual 150 anos"}
+{"level":30,"time":"2022-03-18T20:49:13.300Z","pid":73594,"hostname":"ingrid","msg":"End of node method getText"}
+{"level":30,"time":"2022-03-18T20:49:13.306Z","pid":73594,"hostname":"ingrid","msg":"On executeJavascript, supress ReferenceError: window is not defined for eval."}
+{"level":30,"time":"2022-03-18T20:49:13.320Z","pid":73594,"hostname":"ingrid","msg":"Start of node method takeScreenshot"}
+{"level":30,"time":"2022-03-18T20:49:13.849Z","pid":73594,"hostname":"ingrid","msg":"End of node method takeScreenshot"}
+{"level":30,"time":"2022-03-18T20:49:13.855Z","pid":73594,"hostname":"ingrid","msg":"Start of node method getBrowserCatalog"}
+{"level":30,"time":"2022-03-18T20:49:13.890Z","pid":73594,"hostname":"ingrid","msg":"End of node method getBrowserCatalog"}
+{"level":30,"time":"2022-03-18T20:49:13.895Z","pid":73594,"hostname":"ingrid","msg":"Start of node method getBrowserCatalog"}
+{"level":30,"time":"2022-03-18T20:49:13.910Z","pid":73594,"hostname":"ingrid","msg":"End of node method getBrowserCatalog"}
+{"level":30,"time":"2022-03-18T20:49:13.915Z","pid":73594,"hostname":"ingrid","msg":"Start of node method goTo"}
+{"level":30,"time":"2022-03-18T20:49:14.899Z","pid":73594,"hostname":"ingrid","msg":"End of node method goTo"}
+{"level":30,"time":"2022-03-18T20:49:14.912Z","pid":73594,"hostname":"ingrid","msg":"Start of node method fillText"}
+{"level":30,"time":"2022-03-18T20:49:14.913Z","pid":73594,"hostname":"ingrid","msg":"Strict mode is enabled, find Locator with css=#email in page."}
+{"level":30,"time":"2022-03-18T20:49:15.109Z","pid":73594,"hostname":"ingrid","msg":"End of node method fillText"}
+{"level":30,"time":"2022-03-18T20:49:15.118Z","pid":73594,"hostname":"ingrid","msg":"Start of node method fillText"}
+{"level":30,"time":"2022-03-18T20:49:15.118Z","pid":73594,"hostname":"ingrid","msg":"Strict mode is enabled, find Locator with css=#password in page."}
+{"level":30,"time":"2022-03-18T20:49:15.282Z","pid":73594,"hostname":"ingrid","msg":"End of node method fillText"}
+{"level":30,"time":"2022-03-18T20:49:15.286Z","pid":73594,"hostname":"ingrid","msg":"Start of node method click"}
+{"level":30,"time":"2022-03-18T20:49:15.287Z","pid":73594,"hostname":"ingrid","msg":"Strict mode is enabled, find Locator with css=button >> text=Entrar in page."}
+{"level":30,"time":"2022-03-18T20:49:15.629Z","pid":73594,"hostname":"ingrid","msg":"End of node method click"}
+{"level":30,"time":"2022-03-18T20:49:15.635Z","pid":73594,"hostname":"ingrid","msg":"Start of node method click"}
+{"level":30,"time":"2022-03-18T20:49:15.635Z","pid":73594,"hostname":"ingrid","msg":"Strict mode is enabled, find Locator with xpath=//a[@href=\"/alunos\"] in page."}
+{"level":30,"time":"2022-03-18T20:49:16.571Z","pid":73594,"hostname":"ingrid","msg":"End of node method click"}
+{"level":30,"time":"2022-03-18T20:49:16.588Z","pid":73594,"hostname":"ingrid","msg":"Start of node method click"}
+{"level":30,"time":"2022-03-18T20:49:16.588Z","pid":73594,"hostname":"ingrid","msg":"Strict mode is enabled, find Locator with xpath=//a[@href=\"/alunos/new\"] in page."}
+{"level":30,"time":"2022-03-18T20:49:17.333Z","pid":73594,"hostname":"ingrid","msg":"End of node method click"}
+{"level":30,"time":"2022-03-18T20:49:17.350Z","pid":73594,"hostname":"ingrid","msg":"Start of node method fillText"}
+{"level":30,"time":"2022-03-18T20:49:17.350Z","pid":73594,"hostname":"ingrid","msg":"Strict mode is enabled, find Locator with css=input[placeholder=\"Digite seu nome completo\"] in page."}
+{"level":30,"time":"2022-03-18T20:49:17.617Z","pid":73594,"hostname":"ingrid","msg":"End of node method fillText"}
+{"level":30,"time":"2022-03-18T20:49:17.624Z","pid":73594,"hostname":"ingrid","msg":"Start of node method fillText"}
+{"level":30,"time":"2022-03-18T20:49:17.624Z","pid":73594,"hostname":"ingrid","msg":"Strict mode is enabled, find Locator with css=input[placeholder=\"Digite seu endereço de e-Mail\"] in page."}
+{"level":30,"time":"2022-03-18T20:49:17.801Z","pid":73594,"hostname":"ingrid","msg":"End of node method fillText"}
+{"level":30,"time":"2022-03-18T20:49:17.806Z","pid":73594,"hostname":"ingrid","msg":"Start of node method fillText"}
+{"level":30,"time":"2022-03-18T20:49:17.806Z","pid":73594,"hostname":"ingrid","msg":"Strict mode is enabled, find Locator with css=input[placeholder=\"Sua Idade\"] in page."}
+{"level":30,"time":"2022-03-18T20:49:17.925Z","pid":73594,"hostname":"ingrid","msg":"End of node method fillText"}
+{"level":30,"time":"2022-03-18T20:49:17.931Z","pid":73594,"hostname":"ingrid","msg":"Start of node method fillText"}
+{"level":30,"time":"2022-03-18T20:49:17.932Z","pid":73594,"hostname":"ingrid","msg":"Strict mode is enabled, find Locator with css=input[placeholder=\"Seu Peso\"] in page."}
+{"level":30,"time":"2022-03-18T20:49:18.074Z","pid":73594,"hostname":"ingrid","msg":"End of node method fillText"}
+{"level":30,"time":"2022-03-18T20:49:18.079Z","pid":73594,"hostname":"ingrid","msg":"Start of node method fillText"}
+{"level":30,"time":"2022-03-18T20:49:18.080Z","pid":73594,"hostname":"ingrid","msg":"Strict mode is enabled, find Locator with css=input[placeholder=\"Sua Altura\"] in page."}
+{"level":30,"time":"2022-03-18T20:49:18.221Z","pid":73594,"hostname":"ingrid","msg":"End of node method fillText"}
+{"level":30,"time":"2022-03-18T20:49:18.229Z","pid":73594,"hostname":"ingrid","msg":"Start of node method click"}
+{"level":30,"time":"2022-03-18T20:49:18.231Z","pid":73594,"hostname":"ingrid","msg":"Strict mode is enabled, find Locator with xpath=//button[text()=\"Salvar\"] in page."}
+{"level":30,"time":"2022-03-18T20:49:18.542Z","pid":73594,"hostname":"ingrid","msg":"End of node method click"}
+{"level":30,"time":"2022-03-18T20:49:18.548Z","pid":73594,"hostname":"ingrid","msg":"Start of node method getText"}
+{"level":30,"time":"2022-03-18T20:49:18.549Z","pid":73594,"hostname":"ingrid","msg":"Strict mode is enabled, find Locator with css=span >> text=A idade deve ser maior ou igual 14 anos in page."}
+{"level":30,"time":"2022-03-18T20:49:18.805Z","pid":73594,"hostname":"ingrid","msg":"Retrieved text for element css=span >> text=A idade deve ser maior ou igual 14 anos containing A idade deve ser maior ou igual 14 anos"}
+{"level":30,"time":"2022-03-18T20:49:18.805Z","pid":73594,"hostname":"ingrid","msg":"End of node method getText"}
+{"level":30,"time":"2022-03-18T20:49:18.812Z","pid":73594,"hostname":"ingrid","msg":"On executeJavascript, supress ReferenceError: window is not defined for eval."}
+{"level":30,"time":"2022-03-18T20:49:18.836Z","pid":73594,"hostname":"ingrid","msg":"Start of node method takeScreenshot"}
+{"level":30,"time":"2022-03-18T20:49:19.464Z","pid":73594,"hostname":"ingrid","msg":"End of node method takeScreenshot"}
+{"level":30,"time":"2022-03-18T20:49:19.473Z","pid":73594,"hostname":"ingrid","msg":"Start of node method getBrowserCatalog"}
+{"level":30,"time":"2022-03-18T20:49:19.497Z","pid":73594,"hostname":"ingrid","msg":"End of node method getBrowserCatalog"}
+{"level":30,"time":"2022-03-18T20:49:19.527Z","pid":73594,"hostname":"ingrid","msg":"Start of node method getBrowserCatalog"}
+{"level":30,"time":"2022-03-18T20:49:19.534Z","pid":73594,"hostname":"ingrid","msg":"End of node method getBrowserCatalog"}
+{"level":30,"time":"2022-03-18T20:49:19.539Z","pid":73594,"hostname":"ingrid","msg":"Changed active context"}
+{"level":30,"time":"2022-03-18T20:49:19.539Z","pid":73594,"hostname":"ingrid","msg":"Changing current active page"}
+{"level":30,"time":"2022-03-18T20:49:19.540Z","pid":73594,"hostname":"ingrid","msg":"Changed active page"}
+{"level":30,"time":"2022-03-18T20:49:19.550Z","pid":73594,"hostname":"ingrid","msg":"Start of node method getBrowserCatalog"}
+{"level":30,"time":"2022-03-18T20:49:19.561Z","pid":73594,"hostname":"ingrid","msg":"End of node method getBrowserCatalog"}
+{"level":30,"time":"2022-03-18T20:49:19.566Z","pid":73594,"hostname":"ingrid","msg":"Start of node method switchBrowser"}
+{"level":30,"time":"2022-03-18T20:49:19.566Z","pid":73594,"hostname":"ingrid","msg":"End of node method switchBrowser"}
+{"level":30,"time":"2022-03-18T20:49:19.574Z","pid":73594,"hostname":"ingrid","msg":"Start of node method switchBrowser"}
+{"level":30,"time":"2022-03-18T20:49:19.574Z","pid":73594,"hostname":"ingrid","msg":"End of node method switchBrowser"}
+{"level":30,"time":"2022-03-18T20:49:19.588Z","pid":73594,"hostname":"ingrid","msg":"Changed active context"}
+{"level":30,"time":"2022-03-18T20:49:19.593Z","pid":73594,"hostname":"ingrid","msg":"Changing current active page"}
+{"level":30,"time":"2022-03-18T20:49:19.593Z","pid":73594,"hostname":"ingrid","msg":"Changed active page"}
+{"level":30,"time":"2022-03-18T20:49:19.604Z","pid":73594,"hostname":"ingrid","msg":"Start of node method closeContext"}
+{"level":30,"time":"2022-03-18T20:49:19.949Z","pid":73594,"hostname":"ingrid","msg":"End of node method closeContext"}
+{"level":30,"time":"2022-03-18T20:49:20.415Z","pid":73594,"hostname":"ingrid","msg":"Start of node method closeAllBrowsers"}
+{"level":30,"time":"2022-03-18T20:49:20.894Z","pid":73594,"hostname":"ingrid","msg":"End of node method closeAllBrowsers"}
