@@ -139,21 +139,21 @@ Cenário: Tentar cadastrar novo aluno com email inválido
     Click               xpath=//button[text()="Salvar"]
     [Teardown]      Clear Storage
 
-Cenário: Tentar cadastrar com usuário já existente
+# # Cenário: Tentar cadastrar com usuário já existente
 
-    cad.Go To Page
-    cad.Acceso          admin@bodytest.com          pwd123
-    Click               xpath=//a[@href="/alunos"]
-    Click               xpath=//a[@href="/alunos/new"]
-    Fill Cadastro
-    ...     Tony Stark
-    ...     tonyzinho@gmail.com
-    ...     56
-    ...     77
-    ...     1.73
-    Click                           xpath=//button[text()="Salvar"]
-    cad.Wait For Toast              Email já existe no sistema.
-    [Teardown]      Clear Storage
+# #     cad.Go To Page
+# #     cad.Acceso          admin@bodytest.com          pwd123
+# #     Click               xpath=//a[@href="/alunos"]
+# #     Click               xpath=//a[@href="/alunos/new"]
+# #     Fill Cadastro
+# #     ...     Tony Stark
+# #     ...     tonyzinho@gmail.com
+# #     ...     56
+# #     ...     77
+# #     ...     1.73
+# #     Click                       xpath=//button[text()="Salvar"]
+# #     cad.Wait For Toast              Email já existe no sistema.
+# #     [Teardown]      Clear Storage
 
 Cenário: Tentar cadastrar usuário pré-histórico
 
@@ -170,3 +170,45 @@ Cenário: Tentar cadastrar usuário pré-histórico
     Click                           xpath=//button[text()="Salvar"]
     Span Campo Obrigatório          A idade deve ser menor ou igual 150 anos
     [Teardown]      Clear Storage
+
+Cenário: Tentar cadastrar usuário bebê
+
+    cad.Go To Page
+    cad.Acceso          admin@bodytest.com          pwd123
+    Click               xpath=//a[@href="/alunos"]
+    Click               xpath=//a[@href="/alunos/new"]
+    Fill Cadastro
+    ...     Tony Stark
+    ...     tonyzinho@gmail.com
+    ...     2
+    ...     77
+    ...     1.73
+    Click                           xpath=//button[text()="Salvar"]
+    Span Campo Obrigatório          A idade deve ser maior ou igual 14 anos
+    [Teardown]      Clear Storage
+
+# Cenário: Excluir cadastro de aluno
+
+#     cad.Go To Page
+#     cad.Acceso          admin@bodytest.com          pwd123
+#     Click               xpath=//a[@href="/alunos"]
+#     Fill Text           css=input[placeholder="Buscar aluno"]       Tony
+#     Click               css=#trash
+#     Click               css=button >> text=SIM, pode apagar!
+#     cad.Wait For Toast              Aluno removido com sucesso.
+#     Click                           xpath=//button[text()="Salvar"]
+#     [Teardown]      Clear Storage
+
+# ###
+
+# Cenário: Editar cadastro de aluno completo
+
+#     cad.Go To Page
+#     cad.Acceso          admin@bodytest.com          pwd123
+#     Click               xpath=//a[@href="/alunos"]
+#     Fill Text           css=input[placeholder="Buscar aluno"]       Tony
+#     Click               css=a[href="/alunos/552/edit"]
+    
+    
+#     Click                           xpath=//button[text()="Salvar"]
+#     cad.Wait For Toast              Aluno Atualizado com sucesso.
