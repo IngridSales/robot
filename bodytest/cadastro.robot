@@ -3,7 +3,7 @@
 Resource            ${EXECDIR}/resources/base.robot
 
 Suite Setup          Inicio de Sesion
-Test Setup           Take Screenshot
+
 
 *** Test Cases ***
 
@@ -19,7 +19,7 @@ Cenário: Cadastrar novo aluno com sucesso
     ...     56
     ...     77
     ...     1.73
-    Click               xpath=//button[text()="Salvar"]
+    Click                       xpath=//button[text()="Salvar"]
     cad.Wait For Toast          Aluno cadastrado com sucesso.
     [Teardown]      Clear Storage
 
@@ -56,7 +56,7 @@ Cenário: Tentar cadastrar novo aluno "sem nome"
     ...     56
     ...     77
     ...     1.73
-    Click               xpath=//button[text()="Salvar"]
+    Click                           xpath=//button[text()="Salvar"]
     Span Campo Obrigatório          Nome é obrigatório
     [Teardown]      Clear Storage
 
@@ -72,7 +72,7 @@ Cenário: Tentar cadastrar novo aluno "sem email"
     ...     56
     ...     77
     ...     1.73
-    Click               xpath=//button[text()="Salvar"]
+    Click                           xpath=//button[text()="Salvar"]
     Span Campo Obrigatório          O e-mail é obrigatório
     [Teardown]      Clear Storage
 
@@ -88,7 +88,7 @@ Cenário: Tentar cadastrar novo aluno "sem idade"
     ...     ${EMPTY}
     ...     77
     ...     1.73
-    Click               xpath=//button[text()="Salvar"]
+    Click                           xpath=//button[text()="Salvar"]
     Span Campo Obrigatório          idade é obrigatória
     [Teardown]      Clear Storage
 
@@ -104,7 +104,7 @@ Cenário: Tentar cadastrar novo aluno "sem peso"
     ...     56
     ...     ${EMPTY}
     ...     1.73
-    Click               xpath=//button[text()="Salvar"]
+    Click                           xpath=//button[text()="Salvar"]
     Span Campo Obrigatório          o peso é obrigatório
     [Teardown]      Clear Storage
 
@@ -120,7 +120,7 @@ Cenário: Tentar cadastrar novo aluno "sem altura"
     ...     56
     ...     77
     ...     ${EMPTY}
-    Click               xpath=//button[text()="Salvar"]
+    Click                           xpath=//button[text()="Salvar"]
     Span Campo Obrigatório          a Altura é obrigatória
     [Teardown]      Clear Storage
 
@@ -151,6 +151,22 @@ Cenário: Tentar cadastrar com usuário já existente
     ...     56
     ...     77
     ...     1.73
-    Click               xpath=//button[text()="Salvar"]
-    cad.Wait For Toast          Email já existe no sistema.
+    Click                           xpath=//button[text()="Salvar"]
+    cad.Wait For Toast              Email já existe no sistema.
+    [Teardown]      Clear Storage
+
+Cenário: Tentar cadastrar usuário pré-histórico
+
+    cad.Go To Page
+    cad.Acceso          admin@bodytest.com          pwd123
+    Click               xpath=//a[@href="/alunos"]
+    Click               xpath=//a[@href="/alunos/new"]
+    Fill Cadastro
+    ...     Tony Stark
+    ...     tonyzinho@gmail.com
+    ...     5089
+    ...     77
+    ...     1.73
+    Click                           xpath=//button[text()="Salvar"]
+    Span Campo Obrigatório          A idade deve ser menor ou igual 150 anos
     [Teardown]      Clear Storage

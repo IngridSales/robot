@@ -19,7 +19,7 @@ cad.Acceso
 cad.Wait For Toast
 
     [Arguments]                     ${txt_esperado}
-    Wait For Elements State         css=.Toastify__toast-body >> text=${txt_esperado}       visible         10
+    Wait For Elements State         css=.Toastify__toast-body >> text=${txt_esperado}       visible         2
 
 Fill Cadastro
 
