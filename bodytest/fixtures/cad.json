@@ -1,0 +1,16 @@
+{
+    "page_text": "ALUNOS",
+    "cad_aluno": [
+        {
+            "name": "Tony Stark"
+        },{
+            "email":  "tonyzinho@gmail.com"
+        },{
+            "age": "56"
+        },{
+            "weight": "77"
+        },{
+            "feet_tall": "1,73"
+        }
+    ]
+}
