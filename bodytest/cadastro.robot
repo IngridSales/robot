@@ -187,7 +187,7 @@ Cenário: Tentar cadastrar usuário bebê
     Span Campo Obrigatório          A idade deve ser maior ou igual 14 anos
     [Teardown]      Clear Storage
 
-# Cenário: Excluir cadastro de aluno
+# Cenário: Editar cadastro de aluno completo
 
 #     cad.Go To Page
 #     cad.Acceso          admin@bodytest.com          pwd123
@@ -198,17 +198,3 @@ Cenário: Tentar cadastrar usuário bebê
 #     cad.Wait For Toast              Aluno removido com sucesso.
 #     Click                           xpath=//button[text()="Salvar"]
 #     [Teardown]      Clear Storage
-
-# ###
-
-# Cenário: Editar cadastro de aluno completo
-
-#     cad.Go To Page
-#     cad.Acceso          admin@bodytest.com          pwd123
-#     Click               xpath=//a[@href="/alunos"]
-#     Fill Text           css=input[placeholder="Buscar aluno"]       Tony
-#     Click               css=a[href="/alunos/552/edit"]
-    
-    
-#     Click                           xpath=//button[text()="Salvar"]
-#     cad.Wait For Toast              Aluno Atualizado com sucesso.
