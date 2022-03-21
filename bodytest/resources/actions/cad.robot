@@ -19,7 +19,7 @@ cad.Acceso
 cad.Wait For Toast
 
     [Arguments]                     ${txt_esperado}
-    Wait For Elements State         css=.Toastify__toast-body >> text=${txt_esperado}       visible         2
+    Wait For Elements State         css=.Toastify__toast-body >> text=${txt_esperado}       visible         3
 
 Fill Cadastro
 
@@ -43,6 +43,25 @@ Span Campo Obrigatório
 
     [Arguments]         ${span_obr}       
     Get Text            css=span >> text=${span_obr}
+
+Fill Searchbox
+
+    [Arguments]             ${search}
+    Fill Text               css=input[placeholder^="Buscar"]        ${search}
+
+Click navbar
+
+    [Arguments]             ${al_pl_ma}
+    Click                   xpath=//a[@href="${al_pl_ma}"]
+
+Click edit or trash
+
+    [Arguments]              ${edit_trash}
+    Click                    css=${edit_trash}
+
+Click Save
+
+    Click                    xpath=//button[text()="Salvar"]
 
 Clear Storage 
 
