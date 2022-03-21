@@ -2,7 +2,7 @@
 
 Resource            ${EXECDIR}/resources/base.robot
 
-Suite Setup          Inicio de Sesion
+Suite Setup          Inicio de Sesión
 
 
 *** Test Cases ***
@@ -14,8 +14,8 @@ Cenário: Cadastrar novo aluno com sucesso
     Click navbar                    /alunos
     Click navbar                    /alunos/new
     Fill Cadastro
-    ...     Tony Stark
-    ...     tonyzinho@gmail.com
+    ...     Test
+    ...     test@gmail.com
     ...     56
     ...     77
     ...     1.73
@@ -52,7 +52,7 @@ Cenário: Tentar cadastrar novo aluno "sem nome"
     Click navbar                    /alunos/new
     Fill Cadastro
     ...     ${EMPTY}
-    ...     tonyzinho@gmail.com
+    ...     test@gmail.com
     ...     56
     ...     77
     ...     1.73
@@ -67,7 +67,7 @@ Cenário: Tentar cadastrar novo aluno "sem email"
     Click navbar                    /alunos
     Click navbar                    /alunos/new
     Fill Cadastro
-    ...     Tony Stark
+    ...     Test
     ...     ${EMPTY}
     ...     56
     ...     77
@@ -83,8 +83,8 @@ Cenário: Tentar cadastrar novo aluno "sem idade"
     Click navbar                    /alunos
     Click navbar                    /alunos/new
     Fill Cadastro
-    ...     Tony Stark
-    ...     tonyzinho@gmail.com
+    ...     Test
+    ...     test@gmail.com
     ...     ${EMPTY}
     ...     77
     ...     1.73
@@ -99,8 +99,8 @@ Cenário: Tentar cadastrar novo aluno "sem peso"
     Click navbar                    /alunos
     Click navbar                    /alunos/new
     Fill Cadastro
-    ...     Tony Stark
-    ...     tonyzinho@gmail.com
+    ...     Test
+    ...     test@gmail.com
     ...     56
     ...     ${EMPTY}
     ...     1.73
@@ -115,8 +115,8 @@ Cenário: Tentar cadastrar novo aluno "sem altura"
     Click navbar                    /alunos
     Click navbar                    /alunos/new
     Fill Cadastro
-    ...     Tony Stark
-    ...     tonyzinho@gmail.com
+    ...     Test
+    ...     test@gmail.com
     ...     56
     ...     77
     ...     ${EMPTY}
@@ -131,8 +131,8 @@ Cenário: Tentar cadastrar novo aluno com email inválido
     Click navbar                    /alunos
     Click navbar                    /alunos/new
     Fill Cadastro
-    ...     Tony Stark
-    ...     tonyzinho$gmail.com
+    ...     Test
+    ...     test$gmail.com
     ...     56
     ...     77
     ...     1.73
@@ -146,8 +146,8 @@ Cenário: Tentar cadastrar com usuário já existente
     Click navbar                    /alunos
     Click navbar                    /alunos/new
     Fill Cadastro
-    ...     Tony Stark
-    ...     tonyzinho@gmail.com
+    ...     Test
+    ...     test@gmail.com
     ...     56
     ...     77
     ...     1.73
@@ -162,8 +162,8 @@ Cenário: Tentar cadastrar usuário pré-histórico
     Click navbar                    /alunos
     Click navbar                    /alunos/new
     Fill Cadastro
-    ...     Tony Stark
-    ...     tonyzinho@gmail.com
+    ...     Test
+    ...     test@gmail.com
     ...     5089
     ...     77
     ...     1.73
@@ -178,8 +178,8 @@ Cenário: Tentar cadastrar usuário bebê
     Click navbar                    /alunos
     Click navbar                    /alunos/new
     Fill Cadastro
-    ...     Tony Stark
-    ...     tonyzinho@gmail.com
+    ...     Test
+    ...     test@gmail.com
     ...     2
     ...     77
     ...     1.73
@@ -192,7 +192,7 @@ Cenário: Tentar cadastrar usuário bebê
 #     cad.Go To Page
 #     cad.Acceso          admin@bodytest.com          pwd123
 #     Click navbar                    /alunos
-#     Fill Searchbox                  Tony
+#     Fill Searchbox                  Test
 #     Click edit or trash             .edit
 
 
@@ -201,8 +201,8 @@ Cenário: Remover cadastro de aluno
     cad.Go To Page
     cad.Acceso          admin@bodytest.com          pwd123
     Click navbar                    /alunos
-    Fill Searchbox                  Tony
-    Wait For Elements State         xpath=//tr//td[text()="Tony Stark"]         visible         5
+    Fill Searchbox                  Test
+    Wait For Elements State         xpath=//tr//td[text()="Test"]         visible         5
     Click                           css=#trash
     Click                           css=button >> text=SIM, pode apagar!
     cad.Wait For Toast              Aluno removido com sucesso.

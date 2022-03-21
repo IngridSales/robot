@@ -8,7 +8,7 @@ Resource            ${EXECDIR}/resources/actions/cad.robot
 
 *** Keywords ***
 
-Inicio de Sesion
+Inicio de Sesión
 
     New Browser     chromium        false
     New Page        about:blank
