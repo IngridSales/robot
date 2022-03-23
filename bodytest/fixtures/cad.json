@@ -1,0 +1,18 @@
+{
+    "valid":{
+        "name": "Test",
+        "email": "test@gmail.com",
+        "age": "56",
+        "weight": "77",
+        "height": "1.73"
+
+    },
+    "invalid_mail":{
+        "name": "Test",
+        "email": "test$gmail.com",
+        "age": "56",
+        "weight": "77",
+        "height": "1.73"
+    }
+
+}

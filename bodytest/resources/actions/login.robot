@@ -2,8 +2,6 @@
 
 Documentation           Ações do projeto - Login
 
-Resource                ${EXECDIR}/resources/base.robot
-
 *** Keywords ***
 Go To Page
 
