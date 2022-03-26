@@ -7,18 +7,25 @@ Test Teardown           Take Screenshot
 
 
 *** Test Cases ***
-Cenario: Novo Aluno
-    &{student}          Create Dictionary       name=Josevaldo da Silva       email=josevaldo@gmail.com        age=56      weight=77       feet_tall=1.73
-    Remove Student          ${student.email}
+Cenário: Novo Aluno
+    
+
+    # &{student}          Create Dictionary       name=Josevaldo da Silva       email=josevaldo@gmail.com        age=56      weight=77       feet_tall=1.73
+
+    ${json}         Get File        resources/fixtures/cad.json
+    ${aluno}      Evaluate        json.loads($json)       json
+
+    Remove Student          ${aluno['new']['email']}
     Go To Students
     Go To Form Students
-    New Student             ${student}
+    New Student             ${aluno}
     Wait For Toast          Aluno cadastrado com sucesso.
     [Teardown]              Thinking and Screenshot         2
 
 Cenário: Não deve permitir email duplicado
 
     &{student}          Create Dictionary       name=Juninho da Silva       email=juninho@gmail.com        age=56      weight=77       feet_tall=1.73
+
     Insert Student          ${student}
     Go To Students
     Go To Form Students
@@ -26,92 +33,62 @@ Cenário: Não deve permitir email duplicado
     Wait For Toast          Email já existe no sistema.
     [Teardown]              Thinking and Screenshot         2
 
-# Cenário: Cadastrar novo aluno com sucesso
-#     &{student}          Create Dictionary       name=Juninho da Silva       email=juninho@gmail.com        age=56               weight=77       feet_tall=1.73
-#     Go To Students
-#     Go To Form Students
-#     New Student             ${student}
-#     Wait For Toast          Aluno cadastrado com sucesso.
-#     [Teardown]              Thinking and Screenshot         2
-
-Cenário: Enviar formulário vazio       
-    &{SPAN}         Create Dictionary       sname=Nome é obrigatório        semail=O e-mail é obrigatório       sage=idade é obrigatória        sweight=o peso é obrigatório        sheight=a Altura é obrigatória
-
+Cenário: Todos os campos devem ser obrigatórios
+    [tags]          alertas
+    @{expected_alerts}          Set Variable        Nome é obrigatório      O e-mail é obrigatório      idade é obrigatória     o peso é obrigatório        a Altura é obrigatória
+    @{got_alerts}               Create List
     Go To Students
     Go To Form Students
-    Click Save
-    Span Campos Obrigatório         ${SPAN}
-    [Teardown]                      Thinking and Screenshot         2
+    Submit Form
 
-# Cenário: Tentar cadastrar novo aluno "sem nome"
+        FOR     ${index}        IN RANGE        1       6
+            ${span}             Get Required Alerts     ${index}
+            Append To List      ${got_alerts}           ${span}
+        END
+    Log                         ${expected_alerts}
+    Log                         ${got_alerts}
+    Lists Should Be Equal       ${expected_alerts}          ${got_alerts}
 
-#     Click navbar                    /alunos
-#     Click navbar                    /alunos/new
-#     Fill Cadastro
-#     ...     ${EMPTY}
-#     ...     test@gmail.com
-#     ...     56
-#     ...     77
-#     ...     1.73
-#     Click Save
-#     Span Campo Obrigatório          Nome é obrigatório
-#     [Teardown]      Clear Storage
+Cenário: Validação dos campos numéricos
+    
+    [Template]      Check Type Field On Student Form
+    ${AGE_FIELD}        number
+    ${WEIGHT_FIELD}     number
+    ${FEET_TALL_FIELD}  number
 
-# Cenário: Tentar cadastrar novo aluno "sem email"
+Cenário: Validar campo do tipo email
+    [tags]          field
+    [Template]      Check Type Field On Student Form
+    ${EMAIL_FIELD}      email
 
-#     Click navbar                    /alunos
-#     Click navbar                    /alunos/new
-#     Fill Cadastro
-#     ...     Test
-#     ...     ${EMPTY}
-#     ...     56
-#     ...     77
-#     ...     1.73
-#     Click Save
-#     Span Campo Obrigatório          O e-mail é obrigatório
-#     [Teardown]      Clear Storage
+Cenário: Menor de 14 anos não pode fazer cadastro
 
-# Cenário: Tentar cadastrar novo aluno "sem idade"
+*** Variables ***
+${NAME_FIELD}         css=input[name=name]
+${EMAIL_FIELD}        css=input[name=email]
+${AGE_FIELD}          css=input[name=age]
+${WEIGHT_FIELD}       css=input[name=weight]
+${FEET_TALL_FIELD}    css=input[name=feet_tall]
 
-#     Click navbar                    /alunos
-#     Click navbar                    /alunos/new
-#     Fill Cadastro
-#     ...     Test
-#     ...     test@gmail.com
-#     ...     ${EMPTY}
-#     ...     77
-#     ...     1.73
-#     Click Save
-#     Span Campo Obrigatório          idade é obrigatória
-#     [Teardown]      Clear Storage
+*** Keywords ***
+Check Type Field On Student Form
+    [Arguments]     ${element}      ${type}
+    Go To Students
+    Go To Form Students
+    Field Should Be Type  ${element}  ${type}
 
-# Cenário: Tentar cadastrar novo aluno "sem peso"
+Field Should Be Type
+    [Arguments]         ${element}          ${type}
+    ${attr}             Get Attribute       ${element}     type
+    Should Be Equal     ${attr}             ${type}
 
-#     Click navbar                    /alunos
-#     Click navbar                    /alunos/new
-#     Fill Cadastro
-#     ...     Test
-#     ...     test@gmail.com
-#     ...     56
-#     ...     ${EMPTY}
-#     ...     1.73
-#     Click Save
-#     Span Campo Obrigatório          o peso é obrigatório
-#     [Teardown]      Clear Storage
+# Cenário: Enviar formulário vazio
 
-# Cenário: Tentar cadastrar novo aluno "sem altura"
+#     Go To Students
+#     Go To Form Students
+#     Submit Form Empty       
+#     [Teardown]                      Thinking and Screenshot         2
 
-#     Click navbar                    /alunos
-#     Click navbar                    /alunos/new
-#     Fill Cadastro
-#     ...     Test
-#     ...     test@gmail.com
-#     ...     56
-#     ...     77
-#     ...     ${EMPTY}
-#     Click Save
-#     Span Campo Obrigatório          a Altura é obrigatória
-#     [Teardown]      Clear Storage
 
 # Cenário: Tentar cadastrar novo aluno com email inválido
 
@@ -127,33 +104,6 @@ Cenário: Enviar formulário vazio
 #     [Teardown]      Clear Storage
 
 
-# Cenário: Tentar cadastrar usuário pré-histórico
-
-#     Click navbar                    /alunos
-#     Click navbar                    /alunos/new
-#     Fill Cadastro
-#     ...     Test
-#     ...     test@gmail.com
-#     ...     5089
-#     ...     77
-#     ...     1.73
-#     Click Save
-#     Span Campo Obrigatório          A idade deve ser menor ou igual 150 anos
-#     [Teardown]      Clear Storage
-
-# Cenário: Tentar cadastrar usuário bebê
-
-#     Click navbar                    /alunos
-#     Click navbar                    /alunos/new
-#     Fill Cadastro
-#     ...     Test
-#     ...     test@gmail.com
-#     ...     2
-#     ...     77
-#     ...     1.73
-#     Click Save
-#     Span Campo Obrigatório          A idade deve ser maior ou igual 14 anos
-#     [Teardown]      Clear Storage
 
 # # Cenário: Editar cadastro de aluno
 

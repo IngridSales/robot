@@ -3,16 +3,19 @@
 Documentation       Base do Projeto
 
 Library             Browser
+Library             OperatingSystem
+Library             Collections
+Library             String
 Library             libs/IngridLibrary.py
 Resource            ${EXECDIR}/resources/actions/login.robot
-Resource            ${EXECDIR}/resources/actions/cad.robot
+Resource            ${EXECDIR}/resources/actions/student.robot
 Resource            ${EXECDIR}/resources/actions/nav.robot
 
 *** Keywords ***
 
 Inicio de Sesión
 
-    New Browser     chromium        false
+    New Browser     chromium        true
     New Page        about:blank
 
 Start Admin Session
