@@ -10,10 +10,7 @@ Test Teardown           Take Screenshot
 Cenário: Novo Aluno
     # [tags]      temp
 
-    &{student}          Create Dictionary       name=Josevaldo da Silva       email=josevaldo@gmail.com        age=56      weight=77       feet_tall=1.73
-
-    # ${json}         Get File        resources/fixtures/student.json
-    # ${aluno}      Evaluate        json.loads($json)       json
+    &{student}          Create Dictionary       name=Floriano Silva       email=floriano@gmail.com        age=56      weight=77       feet_tall=1.73
 
     Remove Student          ${student.email}
     Go To Students
@@ -23,12 +20,9 @@ Cenário: Novo Aluno
     [Teardown]              Thinking and Screenshot         2
 
 Cenário: Não deve permitir email duplicado
-    # [tags]      temp
+    
 
-    &{student}          Create Dictionary       name=Juninho da Silva       email=juninho@gmail.com        age=56      weight=77       feet_tall=1.73
-
-    # ${json}         Get File        resources/fixtures/student.json
-    # ${duplic}      Evaluate        json.loads($json)       json
+    &{student}          Create Dictionary       name=Maria Isabel Silva       email=bebelsilva@gmail.com        age=56      weight=77       feet_tall=1.73
 
     Insert Student          ${student}
     Go To Students
@@ -66,43 +60,94 @@ Cenário: Validar campo do tipo email
     ${EMAIL_FIELD}      email
 
 Cenário: Menor de 14 anos não pode fazer cadastro
-    # [tags]      temp
+    
 
-    &{student}          Create Dictionary       name=Jubileu da Silva       email=jubileu@gmail.com        age=13      weight=77       feet_tall=1.73
+    &{student}          Create Dictionary       name=Arthur Silva       email=tucosilva@gmail.com        age=13      weight=77       feet_tall=1.73
 
     
     Remove student          ${student.email}
     Go To Students
     Go To Form Students
     New Student             ${student}
-    Get Span                    
+    Get Span                A idade
    
     [Teardown]              Thinking and Screenshot         2
 
 
-# Cenário: Tentar cadastrar novo aluno com email inválido
+Cenário: Email inválido
+
+    
+    &{student}          Create Dictionary       name=Irene Silva       email=irene$gmail.com        age=13      weight=77       feet_tall=1.73 
+    
+    Remove student          ${student.email}
+    Go To Students
+    Go To Form Students
+    New Student             ${student}
+    Get Span                Informe um
+    [Teardown]              Thinking and Screenshot         2
+
+Cenário: Remover aluno cadastrado
+
+    &{student}          Create Dictionary       name=Lineu Silva       email=lineuzinho@gmail.com        age=56      weight=77       feet_tall=1.73
+
+    Insert Student          ${student}
+    Go To Students
+    Fill Searchbox          Lineu
+    Confirm Remove         
+    [Teardown]              Thinking and Screenshot         2
+    
+Cenário: Desistir da exclusão
+
+    &{student}          Create Dictionary       name=Agostinho Carrara       email=carrarataxioutaxicarrara@gmail.com        age=56      weight=77       feet_tall=1.73
+
+    Insert Student          ${student}
+    Go To Students
+    Fill Searchbox          Agostinho
+    Cancel Remove        
+    [Teardown]              Thinking and Screenshot         2
+
+Cenário: Busca exata
+
+    &{student}          Create Dictionary       name=Doutor Abelardo       email=drabelardo@gmail.com        age=56      weight=77       feet_tall=1.73
+
+    Insert Student          ${student}
+    Go To Students
+    Fill Searchbox         Doutor Abelardo
+    [Teardown]             Thinking and Screenshot         2
+
+Cenário: Registro não encontrado
+    [tags]      temp
+    Go To Students
+    Get Register Not Found         Abigail 
+    [Teardown]             Thinking and Screenshot         2
+
+Cenário: Busca por um único termo
+
+    &{student}          Create Dictionary       name=Paulão da Regulagem       email=paulao@gmail.com        age=56      weight=77       feet_tall=1.73
+
+    Insert Student          ${student}
+    Go To Students
+    Fill Searchbox         Paulão
+    [Teardown]             Thinking and Screenshot         2    
+
+Cenário: Busca por um único termo
+
+    ${json}         Get File        resources/fixtures/student.json
+    ${students}      Evaluate        json.loads($json)       json
+
+    Insert Student          ${json["students"]}
+    Go To Students
+    Fill Searchbox         Paulão
+    [Teardown]             Thinking and Screenshot         2  
+
+ 
+    
+    
 
 
 
 
-# # Cenário: Editar cadastro de aluno
-
-# #     cad.Go To Page
-# #     cad.Acceso          admin@bodytest.com          pwd123
-# #     Click navbar                    /alunos
-# #     Fill Searchbox                  Test
-# #     Click edit or trash             .edit
-
-
-# Cenário: Remover cadastro de aluno
-
-#     Click navbar                    /alunos
-#     Fill Searchbox                  Test
-#     Wait For Elements State         xpath=//tr//td[text()="Test"]         visible         5
-#     Click                           css=#trash
-#     Click                           css=button >> text=SIM, pode apagar!
-#     cad.Wait For Toast              Aluno removido com sucesso.
-#     [Teardown]      Clear Storage
+# Cenário: Editar cadastro de aluno
 
 
 

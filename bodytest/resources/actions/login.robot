@@ -45,3 +45,8 @@ Span Campos Obrigatórios
     [Arguments]         ${span_email_obr}       ${span_senha_obr}
     Get Text            css=span >> text=${span_email_obr}
     Get Text            css=span >> text=${span_senha_obr}
+
+    ###testar mais tarde
+    #Get Span 
+    #[Arguments]     ${msg}
+    #${element}      Set Variable        xpath=//span[text()^="${msg}"]
