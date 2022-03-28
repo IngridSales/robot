@@ -8,23 +8,27 @@ Test Teardown           Take Screenshot
 
 *** Test Cases ***
 Cenário: Novo Aluno
-    
+    # [tags]      temp
 
-    # &{student}          Create Dictionary       name=Josevaldo da Silva       email=josevaldo@gmail.com        age=56      weight=77       feet_tall=1.73
+    &{student}          Create Dictionary       name=Josevaldo da Silva       email=josevaldo@gmail.com        age=56      weight=77       feet_tall=1.73
 
-    ${json}         Get File        resources/fixtures/cad.json
-    ${aluno}      Evaluate        json.loads($json)       json
+    # ${json}         Get File        resources/fixtures/student.json
+    # ${aluno}      Evaluate        json.loads($json)       json
 
-    Remove Student          ${aluno['new']['email']}
+    Remove Student          ${student.email}
     Go To Students
     Go To Form Students
-    New Student             ${aluno}
+    New Student             ${student}
     Wait For Toast          Aluno cadastrado com sucesso.
     [Teardown]              Thinking and Screenshot         2
 
 Cenário: Não deve permitir email duplicado
+    # [tags]      temp
 
     &{student}          Create Dictionary       name=Juninho da Silva       email=juninho@gmail.com        age=56      weight=77       feet_tall=1.73
+
+    # ${json}         Get File        resources/fixtures/student.json
+    # ${duplic}      Evaluate        json.loads($json)       json
 
     Insert Student          ${student}
     Go To Students
@@ -34,7 +38,7 @@ Cenário: Não deve permitir email duplicado
     [Teardown]              Thinking and Screenshot         2
 
 Cenário: Todos os campos devem ser obrigatórios
-    [tags]          alertas
+    
     @{expected_alerts}          Set Variable        Nome é obrigatório      O e-mail é obrigatório      idade é obrigatória     o peso é obrigatório        a Altura é obrigatória
     @{got_alerts}               Create List
     Go To Students
@@ -57,51 +61,27 @@ Cenário: Validação dos campos numéricos
     ${FEET_TALL_FIELD}  number
 
 Cenário: Validar campo do tipo email
-    [tags]          field
+
     [Template]      Check Type Field On Student Form
     ${EMAIL_FIELD}      email
 
 Cenário: Menor de 14 anos não pode fazer cadastro
+    # [tags]      temp
 
-*** Variables ***
-${NAME_FIELD}         css=input[name=name]
-${EMAIL_FIELD}        css=input[name=email]
-${AGE_FIELD}          css=input[name=age]
-${WEIGHT_FIELD}       css=input[name=weight]
-${FEET_TALL_FIELD}    css=input[name=feet_tall]
+    &{student}          Create Dictionary       name=Jubileu da Silva       email=jubileu@gmail.com        age=13      weight=77       feet_tall=1.73
 
-*** Keywords ***
-Check Type Field On Student Form
-    [Arguments]     ${element}      ${type}
+    
+    Remove student          ${student.email}
     Go To Students
     Go To Form Students
-    Field Should Be Type  ${element}  ${type}
-
-Field Should Be Type
-    [Arguments]         ${element}          ${type}
-    ${attr}             Get Attribute       ${element}     type
-    Should Be Equal     ${attr}             ${type}
-
-# Cenário: Enviar formulário vazio
-
-#     Go To Students
-#     Go To Form Students
-#     Submit Form Empty       
-#     [Teardown]                      Thinking and Screenshot         2
+    New Student             ${student}
+    Get Span                    
+   
+    [Teardown]              Thinking and Screenshot         2
 
 
 # Cenário: Tentar cadastrar novo aluno com email inválido
 
-#     Click navbar                    /alunos
-#     Click navbar                    /alunos/new
-#     Fill Cadastro
-#     ...     Test
-#     ...     test$gmail.com
-#     ...     56
-#     ...     77
-#     ...     1.73
-#     Click Save
-#     [Teardown]      Clear Storage
 
 
 
@@ -123,3 +103,14 @@ Field Should Be Type
 #     Click                           css=button >> text=SIM, pode apagar!
 #     cad.Wait For Toast              Aluno removido com sucesso.
 #     [Teardown]      Clear Storage
+
+
+
+
+
+# *** Variables ***
+# ${NAME_FIELD}         css=input[name=name]
+# ${EMAIL_FIELD}        css=input[name=email]
+# ${AGE_FIELD}          css=input[name=age]
+# ${WEIGHT_FIELD}       css=input[name=weight]
+# ${FEET_TALL_FIELD}    css=input[name=feet_tall]

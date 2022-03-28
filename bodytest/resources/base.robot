@@ -11,6 +11,14 @@ Resource            ${EXECDIR}/resources/actions/login.robot
 Resource            ${EXECDIR}/resources/actions/student.robot
 Resource            ${EXECDIR}/resources/actions/nav.robot
 
+*** Variables ***
+${NAME_FIELD}         css=input[name=name]
+${EMAIL_FIELD}        css=input[name=email]
+${AGE_FIELD}          css=input[name=age]
+${WEIGHT_FIELD}       css=input[name=weight]
+${FEET_TALL_FIELD}    css=input[name=feet_tall]
+
+
 *** Keywords ***
 
 Inicio de Sesión

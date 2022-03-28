@@ -14,7 +14,7 @@ class IngridLibrary():
     
 
     def remove_student(self, email):
-        query = "delete from students where email = '{}'".format(email)
+        query = "delete from students where email = '{}'". format(email)
 
         info(query)
         conn = self.connect()

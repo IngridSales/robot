@@ -3,38 +3,41 @@
 Documentation           Ações do projeto - Cadastro
 
 *** Keywords ***
-Submit Form Empty
 
-    Submit Form
-    Get Text            css=span >> text=Nome é obrigatório             
-    Get Text            css=span >> text=O e-mail é obrigatório         
-    Get Text            css=span >> text=idade é obrigatória            
-    Get Text            css=span >> text=o peso é obrigatório           
-    Get Text            css=span >> text=a Altura é obrigatória    
+Check Type Field On Student Form
+    [Arguments]     ${element}      ${type}
+    Go To Students
+    Go To Form Students
+    Field Should Be Type  ${element}  ${type}
+
+Field Should Be Type
+    [Arguments]         ${element}          ${type}
+    ${attr}             Get Attribute       ${element}     type
+    Should Be Equal     ${attr}             ${type}
+
+   
  
 Go To Form Students
     Click                           xpath=//a[@href="/alunos/new"]
     Wait For Elements State         h1 >> text=Novo aluno           visible         5
 
-# cad.Wait For Toast
 
-#     [Arguments]                     ${txt_esperado}
-#     Wait For Elements State         css=.Toastify__toast-body >> text=${txt_esperado}       visible         3
 
 New Student
 
-    [Arguments]         ${aluno}
-    Fill Text           css=input[id="name"]            ${aluno["new"]["name"]}
-    Fill Text           css=input[name=email]           ${aluno["new"]["email"]}
-    Fill Text           css=input[name=age]             ${aluno["new"]["age"]}
-    Fill Text           css=input[name=weight]          ${aluno["new"]["weight"]}
-    Fill Text           css=input[name=feet_tall]       ${aluno["new"]["feet_tall"]}
+    [Arguments]         ${student}        
+    
+    Fill Text           css=input[name="name"]          ${student.name}
+    Fill Text           css=input[name=email]           ${student.email}
+    Fill Text           css=input[name=age]             ${student.age}
+    Fill Text           css=input[name=weight]          ${student.weight}
+    Fill Text           css=input[name=feet_tall]       ${student.feet_tall}
     Submit Form
 
-Span Campo Obrigatório
+Get Span   
 
-    [Arguments]         ${span_obr}       
-    Get Text            css=span >> text=${span_obr}
+    ${element}      Set Variable        xpath=//span[text()^="A idade"]
+    # Get Text        ${element}      contains        A idade deve ser maior ou igual 14 anos
 
 Fill Searchbox
 
