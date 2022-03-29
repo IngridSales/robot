@@ -28,12 +28,13 @@ Cenario: Busca alunos por um único termo
     Total Items Should Be               ${total}
 
 Cenário: Busca exata
-
+    
     &{student}          Create Dictionary       name=Doutor Abelardo       email=drabelardo@gmail.com        age=56      weight=77       feet_tall=1.73
 
-    Insert Student          ${student}
+    Insert Student                      ${student}
     Go To Students
-    Fill Searchbox         Doutor Abelardo
+    Search Student By Name              ${student["name"]}
+    Student Name Should Be Visible      ${student["name"]}
     [Teardown]             Clear Storage and Screenshot 
 
 Cenário: Registro não encontrado

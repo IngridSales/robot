@@ -14,14 +14,14 @@ Cenário: Email não cadastrado
     ...         Usuário e/ou senha inválidos.
     [Teardown]  Thinking and Screenshot       2
     
-Cenário: Entrar com um usuário cadastrado
+Cenário: Login do admin
     
     Go To Page
     Acceso           admin@bodytest.com       pwd123
     Get Text        css=div strong      contains        Administrador
     [Teardown]      Clear Storage e Screenshot
 
-Cenário: Clicar em entrar sem preencher os campos
+Cenário: Os campos devem ser obrigatórios
 
     Go To Page
     Acceso      ${EMPTY}        ${EMPTY}
@@ -29,27 +29,27 @@ Cenário: Clicar em entrar sem preencher os campos
     ...     A senha é obrigatória
     ...     O e-mail é obrigatório
 
-Cenário: Clicar em entrar sem preencher o campo de email
+Cenário: O email deve ser obrigatório
 
     Go To Page
     Acceso      ${EMPTY}       pwd123
     Click           css=button >> text=Entrar
     Buscar Span Email Inválido         O e-mail é obrigatório
 
-Cenário: Clicar em entrar sem preencher o campo de senha
+Cenário: A senha deve ser obrigatória
 
     Go To Page
     Acceso        admin@bodytest.com           ${EMPTY}
     Click           css=button >> text=Entrar
     Buscar Span Senha Inválida          A senha é obrigatória
 
-Cenário: Tentar entrar com um email inválido
+Cenário: Email inválido
 
     Go To Page
     Acceso          admin%bodytest.com          123123
     Buscar Span Email Inválido         Informe um e-mail válido
 
-Cenário: Tentar entrar com uma senha inválida
+Cenário: Senha inválida
 
     Go To Page
     Acceso           admin@bodytest.com       pwd

@@ -12,3 +12,8 @@ User Should Be Logged In
 
 Submit Form
     Click               xpath=//button[text()="Salvar"]
+
+Clear Storage and Screenshot
+
+    LocalStorage Clear
+    Take Screenshot

@@ -20,7 +20,6 @@ Cenário: Novo Aluno
 
 Cenário: Não deve permitir email duplicado
     
-
     &{student}          Create Dictionary       name=Maria Isabel Silva       email=bebelsilva@gmail.com        age=56      weight=77       feet_tall=1.73
 
     Insert Student          ${student}
@@ -63,7 +62,6 @@ Cenário: Menor de 14 anos não pode fazer cadastro
 
     &{student}          Create Dictionary       name=Arthur Silva       email=tucosilva@gmail.com        age=13      weight=77       feet_tall=1.73
 
-    
     Remove student          ${student.email}
     Go To Students
     Go To Form Students
@@ -85,11 +83,3 @@ Cenário: Email inválido
     [Teardown]              Clear Storage and Screenshot 
 
 
-# Cenário: Busca por um único termo
-
-#     &{student}          Create Dictionary       name=Paulão da Regulagem       email=paulao@gmail.com        age=56      weight=77       feet_tall=1.73
-
-#     Insert Student          ${student}
-#     Go To Students
-#     Fill Searchbox         Paulão
-#     [Teardown]             Clear Storage and Screenshot 

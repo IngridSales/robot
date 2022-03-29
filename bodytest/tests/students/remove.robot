@@ -10,18 +10,20 @@ Cenário: Remover aluno cadastrado
 
     &{student}          Create Dictionary       name=Lineu Silva       email=lineuzinho@gmail.com        age=56      weight=77       feet_tall=1.73
 
-    Insert Student          ${student}
+    Insert Student                      ${student}
     Go To Students
-    Fill Searchbox          Lineu
+    Search Student By Name              ${student["name"]}
+    Student Name Should Be Visible      ${student["name"]}
     Confirm Remove         
     [Teardown]              Clear Storage and Screenshot 
     
 Cenário: Desistir da exclusão
 
-    &{student}          Create Dictionary       name=Agostinho Carrara       email=carrarataxioutaxicarrara@gmail.com        age=56      weight=77       feet_tall=1.73
+    &{student}          Create Dictionary       name=Agostinho Carrara       email=carrarataxioutaxicarrara@aindanaodecidimos.com        age=46      weight=70       feet_tall=1.73
 
-    Insert Student          ${student}
+    Insert Student                      ${student}
     Go To Students
-    Fill Searchbox          Agostinho
+    Search Student By Name              ${student["name"]}
+    Student Name Should Be Visible      ${student["name"]}
     Cancel Remove        
     [Teardown]              Clear Storage and Screenshot 
