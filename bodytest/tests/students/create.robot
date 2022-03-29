@@ -16,7 +16,7 @@ Cenário: Novo Aluno
     Go To Form Students
     New Student             ${student}
     Wait For Toast          Aluno cadastrado com sucesso.
-    [Teardown]              Clear Storage 
+    [Teardown]              Clear Storage and Screenshot 
 
 Cenário: Não deve permitir email duplicado
     
@@ -28,7 +28,7 @@ Cenário: Não deve permitir email duplicado
     Go To Form Students
     New Student             ${student}
     Wait For Toast          Email já existe no sistema.
-    [Teardown]              Clear Storage 
+    [Teardown]              Clear Storage and Screenshot 
 
 Cenário: Todos os campos devem ser obrigatórios
     
@@ -60,7 +60,6 @@ Cenário: Validar campo do tipo email
     ${EMAIL_FIELD}      email
 
 Cenário: Menor de 14 anos não pode fazer cadastro
-    
 
     &{student}          Create Dictionary       name=Arthur Silva       email=tucosilva@gmail.com        age=13      weight=77       feet_tall=1.73
 
@@ -71,12 +70,11 @@ Cenário: Menor de 14 anos não pode fazer cadastro
     New Student             ${student}
     Get Span                A idade
    
-    [Teardown]              Clear Storage 
+    [Teardown]              Clear Storage and Screenshot 
 
 
 Cenário: Email inválido
 
-    
     &{student}          Create Dictionary       name=Irene Silva       email=irene$gmail.com        age=13      weight=77       feet_tall=1.73 
     
     Remove student          ${student.email}
@@ -84,78 +82,14 @@ Cenário: Email inválido
     Go To Form Students
     New Student             ${student}
     Get Span                Informe um
-    [Teardown]              Clear Storage 
+    [Teardown]              Clear Storage and Screenshot 
 
-Cenário: Remover aluno cadastrado
-
-    &{student}          Create Dictionary       name=Lineu Silva       email=lineuzinho@gmail.com        age=56      weight=77       feet_tall=1.73
-
-    Insert Student          ${student}
-    Go To Students
-    Fill Searchbox          Lineu
-    Confirm Remove         
-    [Teardown]              Clear Storage 
-    
-Cenário: Desistir da exclusão
-
-    &{student}          Create Dictionary       name=Agostinho Carrara       email=carrarataxioutaxicarrara@gmail.com        age=56      weight=77       feet_tall=1.73
-
-    Insert Student          ${student}
-    Go To Students
-    Fill Searchbox          Agostinho
-    Cancel Remove        
-    [Teardown]              Clear Storage 
-
-Cenário: Busca exata
-
-    &{student}          Create Dictionary       name=Doutor Abelardo       email=drabelardo@gmail.com        age=56      weight=77       feet_tall=1.73
-
-    Insert Student          ${student}
-    Go To Students
-    Fill Searchbox         Doutor Abelardo
-    [Teardown]             Clear Storage 
-
-Cenário: Registro não encontrado
-    
-    Go To Students
-    Get Register Not Found         Abigail 
-    [Teardown]             Clear Storage 
-
-Cenário: Busca por um único termo
-
-    &{student}          Create Dictionary       name=Paulão da Regulagem       email=paulao@gmail.com        age=56      weight=77       feet_tall=1.73
-
-    Insert Student          ${student}
-    Go To Students
-    Fill Searchbox         Paulão
-    [Teardown]             Clear Storage 
 
 # Cenário: Busca por um único termo
 
-#     ${json}         Get File        resources/fixtures/student.json
-#     ${students}      Evaluate        json.loads($json)       json
+#     &{student}          Create Dictionary       name=Paulão da Regulagem       email=paulao@gmail.com        age=56      weight=77       feet_tall=1.73
 
-#     Insert Student          ${json["students"]}
+#     Insert Student          ${student}
 #     Go To Students
 #     Fill Searchbox         Paulão
-#     [Teardown]             Clear Storage 
-
- 
-    
-    
-
-
-
-
-# Cenário: Editar cadastro de aluno
-
-
-
-
-
-# *** Variables ***
-# ${NAME_FIELD}         css=input[name=name]
-# ${EMAIL_FIELD}        css=input[name=email]
-# ${AGE_FIELD}          css=input[name=age]
-# ${WEIGHT_FIELD}       css=input[name=weight]
-# ${FEET_TALL_FIELD}    css=input[name=feet_tall]
+#     [Teardown]             Clear Storage and Screenshot 

@@ -1,9 +1,19 @@
 {
-    "Students": [
-        {
-            "name": "Paulão da Regulagem"
-        },{
-            "name": "Paulão e Marilsa"
+    "Students": "Students",
+    
+    "Student1": {
+            "name": "Paulão da Regulagem",
+            "email": "paulao@gmail.com",
+            "age": 56,
+            "weight": 77,
+            "feet_tall": 1.73
+        },
+    "Student2": {
+            "name": "Paulão e Marilsa",
+            "email": "paulao@gmail.com",
+            "age": 56,
+            "weight": 77,
+            "feet_tall": 1.73
         }
-    ]
+
 }

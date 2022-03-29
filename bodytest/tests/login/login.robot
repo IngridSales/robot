@@ -2,7 +2,7 @@
 
 Resource            ${EXECDIR}/resources/base.robot
 
-Suite Setup          Inicio de Sesion
+Suite Setup          Inicio de Sesión
 Test Teardown        Take Screenshot
 
 *** Test Cases ***

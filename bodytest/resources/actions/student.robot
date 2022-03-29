@@ -60,9 +60,9 @@ Fill Searchbox
 
     [Arguments]         ${search}
     Fill Text               css=input[placeholder^="Buscar"]        ${search}
-    Wait For Elements State        xpath=//tr//td[1]          visible         5
+    Wait For Elements State        xpath=//tr//td[2]          visible         5
 
-Clear Storage 
+Clear Storage and Screenshot
 
     LocalStorage Clear
     Take Screenshot
@@ -72,4 +72,26 @@ Get Required Alerts
     [Arguments]     ${index}
     ${span}         Get Text            xpath=(//form//span)[${index}]
     [return]        ${span}
+
+Search Student By Name
+    [Arguments]         ${name}
+    Fill Text           css=input[placeholder="Buscar aluno"]           ${name}
+
+Go To Student Update Form
+    [Arguments]                 ${email}
+    Click                       xpath=//td[contains(text(), "${email}")]/..//a[@class="edit"]
+    Wait For Elements State     css=h1 >> text=Edição de aluno              visible             5
+
+Update A Student
+    [Arguments]         ${student}        
+    Fill Text           ${NAME_FIELD}            ${student['name']}
+    Fill Text           ${EMAIL_FIELD}           ${student['email']}
+    Fill Text           ${AGE_FIELD}             ${student['age']}
+    Fill Text           ${WEIGHT_FIELD}          ${student['weight']}
+    Fill Text           ${FEET_TALL_FIELD}       ${student['feet_tall']}
+    Submit Form
+
+Student Name Should Be Visible
+    [Arguments]                     ${name}
+    Wait For Elements State         css=table tbody tr >> text=${name}              Visible         5
 

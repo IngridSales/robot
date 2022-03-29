@@ -3,22 +3,15 @@
 Documentation           Ações do projeto - Login
 
 *** Keywords ***
-Go To Page
+Go To Page 
 
     Go To           https://bodytest-web-drakke.herokuapp.com/
-
 Acceso
-
     [Arguments]         ${email}        ${pass}
-    Fill Text           css=#email          ${email}
-    Fill Text           css=#password       ${pass}
+    Fill Text           xpath=//input[@name="email"]          ${email}
+    Fill Text           xpath=//input[@name="password"]       ${pass}
     Click               css=button >> text=Entrar
 
-Wait For Toast
-
-    [Arguments]                     ${txt_esperado}
-    Wait For Elements State         css=.Toastify__toast-body >> text=${txt_esperado}       visible         3
-    
 Buscar Span Email Inválido
 
     [Arguments]         ${span_email_inv}     
