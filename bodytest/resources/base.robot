@@ -23,7 +23,7 @@ ${FEET_TALL_FIELD}    css=input[name=feet_tall]
 
 Inicio de Sesión
 
-    New Browser     chromium        true
+    New Browser     chromium        false
     New Page        about:blank
 
 Start Admin Session

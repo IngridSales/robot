@@ -17,7 +17,7 @@ Acceso
 Wait For Toast
 
     [Arguments]                     ${txt_esperado}
-    Wait For Elements State         css=.Toastify__toast-body >> text=${txt_esperado}       visible         5
+    Wait For Elements State         css=.Toastify__toast-body >> text=${txt_esperado}       visible         3
     
 Buscar Span Email Inválido
 

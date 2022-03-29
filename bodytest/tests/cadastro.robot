@@ -8,7 +8,6 @@ Test Teardown           Take Screenshot
 
 *** Test Cases ***
 Cenário: Novo Aluno
-    # [tags]      temp
 
     &{student}          Create Dictionary       name=Floriano Silva       email=floriano@gmail.com        age=56      weight=77       feet_tall=1.73
 
@@ -17,7 +16,7 @@ Cenário: Novo Aluno
     Go To Form Students
     New Student             ${student}
     Wait For Toast          Aluno cadastrado com sucesso.
-    [Teardown]              Thinking and Screenshot         2
+    [Teardown]              Clear Storage 
 
 Cenário: Não deve permitir email duplicado
     
@@ -29,7 +28,7 @@ Cenário: Não deve permitir email duplicado
     Go To Form Students
     New Student             ${student}
     Wait For Toast          Email já existe no sistema.
-    [Teardown]              Thinking and Screenshot         2
+    [Teardown]              Clear Storage 
 
 Cenário: Todos os campos devem ser obrigatórios
     
@@ -46,6 +45,7 @@ Cenário: Todos os campos devem ser obrigatórios
     Log                         ${expected_alerts}
     Log                         ${got_alerts}
     Lists Should Be Equal       ${expected_alerts}          ${got_alerts}
+    [Teardown]              Thinking and Screenshot         2
 
 Cenário: Validação dos campos numéricos
     
@@ -71,7 +71,7 @@ Cenário: Menor de 14 anos não pode fazer cadastro
     New Student             ${student}
     Get Span                A idade
    
-    [Teardown]              Thinking and Screenshot         2
+    [Teardown]              Clear Storage 
 
 
 Cenário: Email inválido
@@ -84,7 +84,7 @@ Cenário: Email inválido
     Go To Form Students
     New Student             ${student}
     Get Span                Informe um
-    [Teardown]              Thinking and Screenshot         2
+    [Teardown]              Clear Storage 
 
 Cenário: Remover aluno cadastrado
 
@@ -94,7 +94,7 @@ Cenário: Remover aluno cadastrado
     Go To Students
     Fill Searchbox          Lineu
     Confirm Remove         
-    [Teardown]              Thinking and Screenshot         2
+    [Teardown]              Clear Storage 
     
 Cenário: Desistir da exclusão
 
@@ -104,7 +104,7 @@ Cenário: Desistir da exclusão
     Go To Students
     Fill Searchbox          Agostinho
     Cancel Remove        
-    [Teardown]              Thinking and Screenshot         2
+    [Teardown]              Clear Storage 
 
 Cenário: Busca exata
 
@@ -113,13 +113,13 @@ Cenário: Busca exata
     Insert Student          ${student}
     Go To Students
     Fill Searchbox         Doutor Abelardo
-    [Teardown]             Thinking and Screenshot         2
+    [Teardown]             Clear Storage 
 
 Cenário: Registro não encontrado
-    [tags]      temp
+    
     Go To Students
     Get Register Not Found         Abigail 
-    [Teardown]             Thinking and Screenshot         2
+    [Teardown]             Clear Storage 
 
 Cenário: Busca por um único termo
 
@@ -128,17 +128,17 @@ Cenário: Busca por um único termo
     Insert Student          ${student}
     Go To Students
     Fill Searchbox         Paulão
-    [Teardown]             Thinking and Screenshot         2    
+    [Teardown]             Clear Storage 
 
-Cenário: Busca por um único termo
+# Cenário: Busca por um único termo
 
-    ${json}         Get File        resources/fixtures/student.json
-    ${students}      Evaluate        json.loads($json)       json
+#     ${json}         Get File        resources/fixtures/student.json
+#     ${students}      Evaluate        json.loads($json)       json
 
-    Insert Student          ${json["students"]}
-    Go To Students
-    Fill Searchbox         Paulão
-    [Teardown]             Thinking and Screenshot         2  
+#     Insert Student          ${json["students"]}
+#     Go To Students
+#     Fill Searchbox         Paulão
+#     [Teardown]             Clear Storage 
 
  
     
