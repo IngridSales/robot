@@ -11,6 +11,7 @@ Resource            ${EXECDIR}/resources/actions/login.robot
 Resource            ${EXECDIR}/resources/actions/student.robot
 Resource            ${EXECDIR}/resources/actions/nav.robot
 Resource            ${EXECDIR}/resources/actions/componentes.robot
+Resource            ${EXECDIR}/resources/actions/plans.robot
 
 *** Variables ***
 ${NAME_FIELD}         css=input[name=name]
@@ -20,10 +21,13 @@ ${WEIGHT_FIELD}       css=input[name=weight]
 ${FEET_TALL_FIELD}    css=input[name=feet_tall]
 
 
+${TITLE_FIELD}        css=input[name="title"]           
+${DURATION_FIELD}     css=input[name="duration"]        
+${PRICE_FIELD}        css=input[name="price"]
+
 *** Keywords ***
 Inicio de Sesión
-
-    New Browser     chromium        true
+    New Browser     chromium        false
     New Page        about:blank
 
 Start Admin Session

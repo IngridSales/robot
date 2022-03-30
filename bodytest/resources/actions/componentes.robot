@@ -1,12 +1,12 @@
 *** Settings ***
 Documentation           Ações de componentes genericos
 
-
 *** Keywords ***
-
 Wait For Toast
     [Arguments]                     ${txt_esperado}
-    Wait For Elements State         css=.Toastify__toast-body >> text=${txt_esperado}       visible         3
+    Log                             ${txt_esperado}
+    Wait For Elements State         css=.Toastify__toast-body >> text=${txt_esperado}       visible         5
+    
 
 Total Items Should Be
     [Arguments]                     ${number}
@@ -16,7 +16,9 @@ Total Items Should Be
 
 Get Span   
     [Arguments]     ${msg}
-    ${element}      Set Variable        xpath=//span[text()^="${msg}"]
+    Log             ${msg}
+    ${element}      Set Variable        ${msg}
+    
 
 Check Type Field On Student Form
 
@@ -29,3 +31,10 @@ Field Should Be Type
 
     [Arguments]         ${element}          ${type}
     ${attr}             Get Attribute       ${element}     type
+
+Check Type Field On Plans Form
+
+    [Arguments]     ${element}      ${type}
+    Go To Plans
+    Go To Form Plans
+    Field Should Be Type  ${element}  ${type}

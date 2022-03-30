@@ -1,793 +1,254 @@
-{"level":30,"time":"2022-03-29T19:47:39.469Z","pid":58105,"hostname":"ingrid","msg":"Listening on 46965"}
-{"level":30,"time":"2022-03-29T19:47:44.067Z","pid":58105,"hostname":"ingrid","msg":"Start of node method getBrowserCatalog"}
-{"level":30,"time":"2022-03-29T19:47:44.068Z","pid":58105,"hostname":"ingrid","msg":"End of node method getBrowserCatalog"}
-{"level":30,"time":"2022-03-29T19:47:44.081Z","pid":58105,"hostname":"ingrid","msg":"Start of node method newBrowser"}
-{"level":30,"time":"2022-03-29T19:47:44.769Z","pid":58105,"hostname":"ingrid","msg":"End of node method newBrowser"}
-{"level":30,"time":"2022-03-29T19:47:44.795Z","pid":58105,"hostname":"ingrid","msg":"Start of node method newPage"}
-{"level":30,"time":"2022-03-29T19:47:44.796Z","pid":58105,"hostname":"ingrid","msg":"currentBrowser: [object Object]"}
-{"level":30,"time":"2022-03-29T19:47:44.839Z","pid":58105,"hostname":"ingrid","msg":"Changed active context"}
-{"level":30,"time":"2022-03-29T19:47:45.024Z","pid":58105,"hostname":"ingrid","msg":"Video path: undefined"}
-{"level":30,"time":"2022-03-29T19:47:45.026Z","pid":58105,"hostname":"ingrid","msg":"Changed active page"}
-{"level":30,"time":"2022-03-29T19:47:45.097Z","pid":58105,"hostname":"ingrid","msg":"End of node method newPage"}
-{"level":30,"time":"2022-03-29T19:47:45.119Z","pid":58105,"hostname":"ingrid","msg":"Start of node method getBrowserCatalog"}
-{"level":30,"time":"2022-03-29T19:47:45.139Z","pid":58105,"hostname":"ingrid","msg":"End of node method getBrowserCatalog"}
-{"level":30,"time":"2022-03-29T19:47:45.147Z","pid":58105,"hostname":"ingrid","msg":"Start of node method goTo"}
-{"level":30,"time":"2022-03-29T19:47:51.566Z","pid":58105,"hostname":"ingrid","msg":"End of node method goTo"}
-{"level":30,"time":"2022-03-29T19:47:51.603Z","pid":58105,"hostname":"ingrid","msg":"Start of node method fillText"}
-{"level":30,"time":"2022-03-29T19:47:51.604Z","pid":58105,"hostname":"ingrid","msg":"Strict mode is enabled, find Locator with xpath=//input[@name=\"email\"] in page."}
-{"level":30,"time":"2022-03-29T19:47:51.793Z","pid":58105,"hostname":"ingrid","msg":"End of node method fillText"}
-{"level":30,"time":"2022-03-29T19:47:51.799Z","pid":58105,"hostname":"ingrid","msg":"Start of node method fillText"}
-{"level":30,"time":"2022-03-29T19:47:51.800Z","pid":58105,"hostname":"ingrid","msg":"Strict mode is enabled, find Locator with xpath=//input[@name=\"password\"] in page."}
-{"level":30,"time":"2022-03-29T19:47:51.881Z","pid":58105,"hostname":"ingrid","msg":"End of node method fillText"}
-{"level":30,"time":"2022-03-29T19:47:51.890Z","pid":58105,"hostname":"ingrid","msg":"Start of node method click"}
-{"level":30,"time":"2022-03-29T19:47:51.891Z","pid":58105,"hostname":"ingrid","msg":"Strict mode is enabled, find Locator with css=button >> text=Entrar in page."}
-{"level":30,"time":"2022-03-29T19:47:52.055Z","pid":58105,"hostname":"ingrid","msg":"End of node method click"}
-{"level":30,"time":"2022-03-29T19:47:52.086Z","pid":58105,"hostname":"ingrid","msg":"Start of node method waitForElementState"}
-{"level":30,"time":"2022-03-29T19:47:52.087Z","pid":58105,"hostname":"ingrid","msg":"Strict mode is enabled, find Locator with css=.Toastify__toast-body >> text=Usuário e/ou senha inválidos. in page."}
-{"level":30,"time":"2022-03-29T19:47:53.362Z","pid":58105,"hostname":"ingrid","msg":"End of node method waitForElementState"}
-{"level":30,"time":"2022-03-29T19:47:55.386Z","pid":58105,"hostname":"ingrid","msg":"Start of node method takeScreenshot"}
-{"level":30,"time":"2022-03-29T19:47:55.776Z","pid":58105,"hostname":"ingrid","msg":"End of node method takeScreenshot"}
-{"level":30,"time":"2022-03-29T19:47:55.816Z","pid":58105,"hostname":"ingrid","msg":"Start of node method getBrowserCatalog"}
-{"level":30,"time":"2022-03-29T19:47:55.828Z","pid":58105,"hostname":"ingrid","msg":"End of node method getBrowserCatalog"}
-{"level":30,"time":"2022-03-29T19:47:55.852Z","pid":58105,"hostname":"ingrid","msg":"Start of node method getBrowserCatalog"}
-{"level":30,"time":"2022-03-29T19:47:55.861Z","pid":58105,"hostname":"ingrid","msg":"End of node method getBrowserCatalog"}
-{"level":30,"time":"2022-03-29T19:47:55.875Z","pid":58105,"hostname":"ingrid","msg":"Start of node method goTo"}
-{"level":30,"time":"2022-03-29T19:47:56.850Z","pid":58105,"hostname":"ingrid","msg":"End of node method goTo"}
-{"level":30,"time":"2022-03-29T19:47:56.866Z","pid":58105,"hostname":"ingrid","msg":"Start of node method fillText"}
-{"level":30,"time":"2022-03-29T19:47:56.877Z","pid":58105,"hostname":"ingrid","msg":"Strict mode is enabled, find Locator with xpath=//input[@name=\"email\"] in page."}
-{"level":30,"time":"2022-03-29T19:47:56.969Z","pid":58105,"hostname":"ingrid","msg":"End of node method fillText"}
-{"level":30,"time":"2022-03-29T19:47:56.975Z","pid":58105,"hostname":"ingrid","msg":"Start of node method fillText"}
-{"level":30,"time":"2022-03-29T19:47:56.975Z","pid":58105,"hostname":"ingrid","msg":"Strict mode is enabled, find Locator with xpath=//input[@name=\"password\"] in page."}
-{"level":30,"time":"2022-03-29T19:47:57.054Z","pid":58105,"hostname":"ingrid","msg":"End of node method fillText"}
-{"level":30,"time":"2022-03-29T19:47:57.061Z","pid":58105,"hostname":"ingrid","msg":"Start of node method click"}
-{"level":30,"time":"2022-03-29T19:47:57.061Z","pid":58105,"hostname":"ingrid","msg":"Strict mode is enabled, find Locator with css=button >> text=Entrar in page."}
-{"level":30,"time":"2022-03-29T19:47:57.223Z","pid":58105,"hostname":"ingrid","msg":"End of node method click"}
-{"level":30,"time":"2022-03-29T19:47:57.234Z","pid":58105,"hostname":"ingrid","msg":"Start of node method getText"}
-{"level":30,"time":"2022-03-29T19:47:57.235Z","pid":58105,"hostname":"ingrid","msg":"Strict mode is enabled, find Locator with css=div strong in page."}
-{"level":30,"time":"2022-03-29T19:47:57.789Z","pid":58105,"hostname":"ingrid","msg":"Retrieved text for element css=div strong containing Administrador"}
-{"level":30,"time":"2022-03-29T19:47:57.790Z","pid":58105,"hostname":"ingrid","msg":"End of node method getText"}
-{"level":30,"time":"2022-03-29T19:47:57.802Z","pid":58105,"hostname":"ingrid","msg":"On executeJavascript, supress ReferenceError: window is not defined for eval."}
-{"level":30,"time":"2022-03-29T19:47:57.834Z","pid":58105,"hostname":"ingrid","msg":"Start of node method takeScreenshot"}
-{"level":30,"time":"2022-03-29T19:47:58.200Z","pid":58105,"hostname":"ingrid","msg":"End of node method takeScreenshot"}
-{"level":30,"time":"2022-03-29T19:47:58.206Z","pid":58105,"hostname":"ingrid","msg":"Start of node method getBrowserCatalog"}
-{"level":30,"time":"2022-03-29T19:47:58.227Z","pid":58105,"hostname":"ingrid","msg":"End of node method getBrowserCatalog"}
-{"level":30,"time":"2022-03-29T19:47:58.234Z","pid":58105,"hostname":"ingrid","msg":"Start of node method getBrowserCatalog"}
-{"level":30,"time":"2022-03-29T19:47:58.238Z","pid":58105,"hostname":"ingrid","msg":"End of node method getBrowserCatalog"}
-{"level":30,"time":"2022-03-29T19:47:58.245Z","pid":58105,"hostname":"ingrid","msg":"Start of node method goTo"}
-{"level":30,"time":"2022-03-29T19:47:59.309Z","pid":58105,"hostname":"ingrid","msg":"End of node method goTo"}
-{"level":30,"time":"2022-03-29T19:47:59.336Z","pid":58105,"hostname":"ingrid","msg":"Start of node method fillText"}
-{"level":30,"time":"2022-03-29T19:47:59.336Z","pid":58105,"hostname":"ingrid","msg":"Strict mode is enabled, find Locator with xpath=//input[@name=\"email\"] in page."}
-{"level":30,"time":"2022-03-29T19:47:59.465Z","pid":58105,"hostname":"ingrid","msg":"End of node method fillText"}
-{"level":30,"time":"2022-03-29T19:47:59.471Z","pid":58105,"hostname":"ingrid","msg":"Start of node method fillText"}
-{"level":30,"time":"2022-03-29T19:47:59.471Z","pid":58105,"hostname":"ingrid","msg":"Strict mode is enabled, find Locator with xpath=//input[@name=\"password\"] in page."}
-{"level":30,"time":"2022-03-29T19:47:59.543Z","pid":58105,"hostname":"ingrid","msg":"End of node method fillText"}
-{"level":30,"time":"2022-03-29T19:47:59.548Z","pid":58105,"hostname":"ingrid","msg":"Start of node method click"}
-{"level":30,"time":"2022-03-29T19:47:59.548Z","pid":58105,"hostname":"ingrid","msg":"Strict mode is enabled, find Locator with css=button >> text=Entrar in page."}
-{"level":30,"time":"2022-03-29T19:47:59.665Z","pid":58105,"hostname":"ingrid","msg":"End of node method click"}
-{"level":30,"time":"2022-03-29T19:47:59.672Z","pid":58105,"hostname":"ingrid","msg":"Start of node method getText"}
-{"level":30,"time":"2022-03-29T19:47:59.672Z","pid":58105,"hostname":"ingrid","msg":"Strict mode is enabled, find Locator with css=span >> text=A senha é obrigatória in page."}
-{"level":30,"time":"2022-03-29T19:47:59.762Z","pid":58105,"hostname":"ingrid","msg":"Retrieved text for element css=span >> text=A senha é obrigatória containing A senha é obrigatória"}
-{"level":30,"time":"2022-03-29T19:47:59.763Z","pid":58105,"hostname":"ingrid","msg":"End of node method getText"}
-{"level":30,"time":"2022-03-29T19:47:59.772Z","pid":58105,"hostname":"ingrid","msg":"Start of node method getText"}
-{"level":30,"time":"2022-03-29T19:47:59.772Z","pid":58105,"hostname":"ingrid","msg":"Strict mode is enabled, find Locator with css=span >> text=O e-mail é obrigatório in page."}
-{"level":30,"time":"2022-03-29T19:47:59.822Z","pid":58105,"hostname":"ingrid","msg":"Retrieved text for element css=span >> text=O e-mail é obrigatório containing O e-mail é obrigatório"}
-{"level":30,"time":"2022-03-29T19:47:59.822Z","pid":58105,"hostname":"ingrid","msg":"End of node method getText"}
-{"level":30,"time":"2022-03-29T19:47:59.829Z","pid":58105,"hostname":"ingrid","msg":"Start of node method takeScreenshot"}
-{"level":30,"time":"2022-03-29T19:48:00.274Z","pid":58105,"hostname":"ingrid","msg":"End of node method takeScreenshot"}
-{"level":30,"time":"2022-03-29T19:48:00.279Z","pid":58105,"hostname":"ingrid","msg":"Start of node method getBrowserCatalog"}
-{"level":30,"time":"2022-03-29T19:48:00.299Z","pid":58105,"hostname":"ingrid","msg":"End of node method getBrowserCatalog"}
-{"level":30,"time":"2022-03-29T19:48:00.308Z","pid":58105,"hostname":"ingrid","msg":"Start of node method getBrowserCatalog"}
-{"level":30,"time":"2022-03-29T19:48:00.315Z","pid":58105,"hostname":"ingrid","msg":"End of node method getBrowserCatalog"}
-{"level":30,"time":"2022-03-29T19:48:00.322Z","pid":58105,"hostname":"ingrid","msg":"Start of node method goTo"}
-{"level":30,"time":"2022-03-29T19:48:01.241Z","pid":58105,"hostname":"ingrid","msg":"End of node method goTo"}
-{"level":30,"time":"2022-03-29T19:48:01.261Z","pid":58105,"hostname":"ingrid","msg":"Start of node method fillText"}
-{"level":30,"time":"2022-03-29T19:48:01.262Z","pid":58105,"hostname":"ingrid","msg":"Strict mode is enabled, find Locator with xpath=//input[@name=\"email\"] in page."}
-{"level":30,"time":"2022-03-29T19:48:01.371Z","pid":58105,"hostname":"ingrid","msg":"End of node method fillText"}
-{"level":30,"time":"2022-03-29T19:48:01.377Z","pid":58105,"hostname":"ingrid","msg":"Start of node method fillText"}
-{"level":30,"time":"2022-03-29T19:48:01.377Z","pid":58105,"hostname":"ingrid","msg":"Strict mode is enabled, find Locator with xpath=//input[@name=\"password\"] in page."}
-{"level":30,"time":"2022-03-29T19:48:01.460Z","pid":58105,"hostname":"ingrid","msg":"End of node method fillText"}
-{"level":30,"time":"2022-03-29T19:48:01.466Z","pid":58105,"hostname":"ingrid","msg":"Start of node method click"}
-{"level":30,"time":"2022-03-29T19:48:01.466Z","pid":58105,"hostname":"ingrid","msg":"Strict mode is enabled, find Locator with css=button >> text=Entrar in page."}
-{"level":30,"time":"2022-03-29T19:48:01.583Z","pid":58105,"hostname":"ingrid","msg":"End of node method click"}
-{"level":30,"time":"2022-03-29T19:48:01.589Z","pid":58105,"hostname":"ingrid","msg":"Start of node method click"}
-{"level":30,"time":"2022-03-29T19:48:01.590Z","pid":58105,"hostname":"ingrid","msg":"Strict mode is enabled, find Locator with css=button >> text=Entrar in page."}
-{"level":30,"time":"2022-03-29T19:48:01.773Z","pid":58105,"hostname":"ingrid","msg":"End of node method click"}
-{"level":30,"time":"2022-03-29T19:48:01.790Z","pid":58105,"hostname":"ingrid","msg":"Start of node method getText"}
-{"level":30,"time":"2022-03-29T19:48:01.790Z","pid":58105,"hostname":"ingrid","msg":"Strict mode is enabled, find Locator with css=span in page."}
-{"level":30,"time":"2022-03-29T19:48:01.883Z","pid":58105,"hostname":"ingrid","msg":"Retrieved text for element css=span containing O e-mail é obrigatório"}
-{"level":30,"time":"2022-03-29T19:48:01.884Z","pid":58105,"hostname":"ingrid","msg":"End of node method getText"}
-{"level":30,"time":"2022-03-29T19:48:01.893Z","pid":58105,"hostname":"ingrid","msg":"Start of node method takeScreenshot"}
-{"level":30,"time":"2022-03-29T19:48:02.326Z","pid":58105,"hostname":"ingrid","msg":"End of node method takeScreenshot"}
-{"level":30,"time":"2022-03-29T19:48:02.331Z","pid":58105,"hostname":"ingrid","msg":"Start of node method getBrowserCatalog"}
-{"level":30,"time":"2022-03-29T19:48:02.353Z","pid":58105,"hostname":"ingrid","msg":"End of node method getBrowserCatalog"}
-{"level":30,"time":"2022-03-29T19:48:02.360Z","pid":58105,"hostname":"ingrid","msg":"Start of node method getBrowserCatalog"}
-{"level":30,"time":"2022-03-29T19:48:02.364Z","pid":58105,"hostname":"ingrid","msg":"End of node method getBrowserCatalog"}
-{"level":30,"time":"2022-03-29T19:48:02.371Z","pid":58105,"hostname":"ingrid","msg":"Start of node method goTo"}
-{"level":30,"time":"2022-03-29T19:48:03.228Z","pid":58105,"hostname":"ingrid","msg":"End of node method goTo"}
-{"level":30,"time":"2022-03-29T19:48:03.245Z","pid":58105,"hostname":"ingrid","msg":"Start of node method fillText"}
-{"level":30,"time":"2022-03-29T19:48:03.245Z","pid":58105,"hostname":"ingrid","msg":"Strict mode is enabled, find Locator with xpath=//input[@name=\"email\"] in page."}
-{"level":30,"time":"2022-03-29T19:48:03.356Z","pid":58105,"hostname":"ingrid","msg":"End of node method fillText"}
-{"level":30,"time":"2022-03-29T19:48:03.362Z","pid":58105,"hostname":"ingrid","msg":"Start of node method fillText"}
-{"level":30,"time":"2022-03-29T19:48:03.362Z","pid":58105,"hostname":"ingrid","msg":"Strict mode is enabled, find Locator with xpath=//input[@name=\"password\"] in page."}
-{"level":30,"time":"2022-03-29T19:48:03.437Z","pid":58105,"hostname":"ingrid","msg":"End of node method fillText"}
-{"level":30,"time":"2022-03-29T19:48:03.445Z","pid":58105,"hostname":"ingrid","msg":"Start of node method click"}
-{"level":30,"time":"2022-03-29T19:48:03.445Z","pid":58105,"hostname":"ingrid","msg":"Strict mode is enabled, find Locator with css=button >> text=Entrar in page."}
-{"level":30,"time":"2022-03-29T19:48:03.638Z","pid":58105,"hostname":"ingrid","msg":"End of node method click"}
-{"level":30,"time":"2022-03-29T19:48:03.643Z","pid":58105,"hostname":"ingrid","msg":"Start of node method click"}
-{"level":30,"time":"2022-03-29T19:48:03.643Z","pid":58105,"hostname":"ingrid","msg":"Strict mode is enabled, find Locator with css=button >> text=Entrar in page."}
-{"level":30,"time":"2022-03-29T19:48:03.882Z","pid":58105,"hostname":"ingrid","msg":"End of node method click"}
-{"level":30,"time":"2022-03-29T19:48:03.889Z","pid":58105,"hostname":"ingrid","msg":"Start of node method getText"}
-{"level":30,"time":"2022-03-29T19:48:03.889Z","pid":58105,"hostname":"ingrid","msg":"Strict mode is enabled, find Locator with css=span in page."}
-{"level":30,"time":"2022-03-29T19:48:03.954Z","pid":58105,"hostname":"ingrid","msg":"Retrieved text for element css=span containing A senha é obrigatória"}
-{"level":30,"time":"2022-03-29T19:48:03.954Z","pid":58105,"hostname":"ingrid","msg":"End of node method getText"}
-{"level":30,"time":"2022-03-29T19:48:03.962Z","pid":58105,"hostname":"ingrid","msg":"Start of node method takeScreenshot"}
-{"level":30,"time":"2022-03-29T19:48:04.408Z","pid":58105,"hostname":"ingrid","msg":"End of node method takeScreenshot"}
-{"level":30,"time":"2022-03-29T19:48:04.414Z","pid":58105,"hostname":"ingrid","msg":"Start of node method getBrowserCatalog"}
-{"level":30,"time":"2022-03-29T19:48:04.441Z","pid":58105,"hostname":"ingrid","msg":"End of node method getBrowserCatalog"}
-{"level":30,"time":"2022-03-29T19:48:04.446Z","pid":58105,"hostname":"ingrid","msg":"Start of node method getBrowserCatalog"}
-{"level":30,"time":"2022-03-29T19:48:04.453Z","pid":58105,"hostname":"ingrid","msg":"End of node method getBrowserCatalog"}
-{"level":30,"time":"2022-03-29T19:48:04.459Z","pid":58105,"hostname":"ingrid","msg":"Start of node method goTo"}
-{"level":30,"time":"2022-03-29T19:48:05.368Z","pid":58105,"hostname":"ingrid","msg":"End of node method goTo"}
-{"level":30,"time":"2022-03-29T19:48:05.382Z","pid":58105,"hostname":"ingrid","msg":"Start of node method fillText"}
-{"level":30,"time":"2022-03-29T19:48:05.382Z","pid":58105,"hostname":"ingrid","msg":"Strict mode is enabled, find Locator with xpath=//input[@name=\"email\"] in page."}
-{"level":30,"time":"2022-03-29T19:48:05.518Z","pid":58105,"hostname":"ingrid","msg":"End of node method fillText"}
-{"level":30,"time":"2022-03-29T19:48:05.529Z","pid":58105,"hostname":"ingrid","msg":"Start of node method fillText"}
-{"level":30,"time":"2022-03-29T19:48:05.530Z","pid":58105,"hostname":"ingrid","msg":"Strict mode is enabled, find Locator with xpath=//input[@name=\"password\"] in page."}
-{"level":30,"time":"2022-03-29T19:48:05.593Z","pid":58105,"hostname":"ingrid","msg":"End of node method fillText"}
-{"level":30,"time":"2022-03-29T19:48:05.599Z","pid":58105,"hostname":"ingrid","msg":"Start of node method click"}
-{"level":30,"time":"2022-03-29T19:48:05.599Z","pid":58105,"hostname":"ingrid","msg":"Strict mode is enabled, find Locator with css=button >> text=Entrar in page."}
-{"level":30,"time":"2022-03-29T19:48:05.740Z","pid":58105,"hostname":"ingrid","msg":"End of node method click"}
-{"level":30,"time":"2022-03-29T19:48:05.747Z","pid":58105,"hostname":"ingrid","msg":"Start of node method getText"}
-{"level":30,"time":"2022-03-29T19:48:05.747Z","pid":58105,"hostname":"ingrid","msg":"Strict mode is enabled, find Locator with css=span in page."}
-{"level":30,"time":"2022-03-29T19:48:05.889Z","pid":58105,"hostname":"ingrid","msg":"Retrieved text for element css=span containing Informe um e-mail válido"}
-{"level":30,"time":"2022-03-29T19:48:05.889Z","pid":58105,"hostname":"ingrid","msg":"End of node method getText"}
-{"level":30,"time":"2022-03-29T19:48:05.897Z","pid":58105,"hostname":"ingrid","msg":"Start of node method takeScreenshot"}
-{"level":30,"time":"2022-03-29T19:48:06.306Z","pid":58105,"hostname":"ingrid","msg":"End of node method takeScreenshot"}
-{"level":30,"time":"2022-03-29T19:48:06.312Z","pid":58105,"hostname":"ingrid","msg":"Start of node method getBrowserCatalog"}
-{"level":30,"time":"2022-03-29T19:48:06.333Z","pid":58105,"hostname":"ingrid","msg":"End of node method getBrowserCatalog"}
-{"level":30,"time":"2022-03-29T19:48:06.339Z","pid":58105,"hostname":"ingrid","msg":"Start of node method getBrowserCatalog"}
-{"level":30,"time":"2022-03-29T19:48:06.343Z","pid":58105,"hostname":"ingrid","msg":"End of node method getBrowserCatalog"}
-{"level":30,"time":"2022-03-29T19:48:06.351Z","pid":58105,"hostname":"ingrid","msg":"Start of node method goTo"}
-{"level":30,"time":"2022-03-29T19:48:07.195Z","pid":58105,"hostname":"ingrid","msg":"End of node method goTo"}
-{"level":30,"time":"2022-03-29T19:48:07.201Z","pid":58105,"hostname":"ingrid","msg":"Start of node method fillText"}
-{"level":30,"time":"2022-03-29T19:48:07.201Z","pid":58105,"hostname":"ingrid","msg":"Strict mode is enabled, find Locator with xpath=//input[@name=\"email\"] in page."}
-{"level":30,"time":"2022-03-29T19:48:07.317Z","pid":58105,"hostname":"ingrid","msg":"End of node method fillText"}
-{"level":30,"time":"2022-03-29T19:48:07.322Z","pid":58105,"hostname":"ingrid","msg":"Start of node method fillText"}
-{"level":30,"time":"2022-03-29T19:48:07.322Z","pid":58105,"hostname":"ingrid","msg":"Strict mode is enabled, find Locator with xpath=//input[@name=\"password\"] in page."}
-{"level":30,"time":"2022-03-29T19:48:07.397Z","pid":58105,"hostname":"ingrid","msg":"End of node method fillText"}
-{"level":30,"time":"2022-03-29T19:48:07.401Z","pid":58105,"hostname":"ingrid","msg":"Start of node method click"}
-{"level":30,"time":"2022-03-29T19:48:07.402Z","pid":58105,"hostname":"ingrid","msg":"Strict mode is enabled, find Locator with css=button >> text=Entrar in page."}
-{"level":30,"time":"2022-03-29T19:48:07.575Z","pid":58105,"hostname":"ingrid","msg":"End of node method click"}
-{"level":30,"time":"2022-03-29T19:48:07.584Z","pid":58105,"hostname":"ingrid","msg":"Start of node method waitForElementState"}
-{"level":30,"time":"2022-03-29T19:48:07.585Z","pid":58105,"hostname":"ingrid","msg":"Strict mode is enabled, find Locator with css=.Toastify__toast-body >> text=Usuário e/ou senha inválidos. in page."}
-{"level":30,"time":"2022-03-29T19:48:08.050Z","pid":58105,"hostname":"ingrid","msg":"End of node method waitForElementState"}
-{"level":30,"time":"2022-03-29T19:48:10.064Z","pid":58105,"hostname":"ingrid","msg":"Start of node method takeScreenshot"}
-{"level":30,"time":"2022-03-29T19:48:10.503Z","pid":58105,"hostname":"ingrid","msg":"End of node method takeScreenshot"}
-{"level":30,"time":"2022-03-29T19:48:10.518Z","pid":58105,"hostname":"ingrid","msg":"Start of node method getBrowserCatalog"}
-{"level":30,"time":"2022-03-29T19:48:10.560Z","pid":58105,"hostname":"ingrid","msg":"End of node method getBrowserCatalog"}
-{"level":30,"time":"2022-03-29T19:48:10.568Z","pid":58105,"hostname":"ingrid","msg":"Start of node method getBrowserCatalog"}
-{"level":30,"time":"2022-03-29T19:48:10.582Z","pid":58105,"hostname":"ingrid","msg":"End of node method getBrowserCatalog"}
-{"level":30,"time":"2022-03-29T19:48:10.587Z","pid":58105,"hostname":"ingrid","msg":"Changed active context"}
-{"level":30,"time":"2022-03-29T19:48:10.587Z","pid":58105,"hostname":"ingrid","msg":"Changing current active page"}
-{"level":30,"time":"2022-03-29T19:48:10.587Z","pid":58105,"hostname":"ingrid","msg":"Changed active page"}
-{"level":30,"time":"2022-03-29T19:48:10.606Z","pid":58105,"hostname":"ingrid","msg":"Start of node method getBrowserCatalog"}
-{"level":30,"time":"2022-03-29T19:48:10.609Z","pid":58105,"hostname":"ingrid","msg":"End of node method getBrowserCatalog"}
-{"level":30,"time":"2022-03-29T19:48:10.615Z","pid":58105,"hostname":"ingrid","msg":"Start of node method switchBrowser"}
-{"level":30,"time":"2022-03-29T19:48:10.616Z","pid":58105,"hostname":"ingrid","msg":"End of node method switchBrowser"}
-{"level":30,"time":"2022-03-29T19:48:10.623Z","pid":58105,"hostname":"ingrid","msg":"Start of node method switchBrowser"}
-{"level":30,"time":"2022-03-29T19:48:10.623Z","pid":58105,"hostname":"ingrid","msg":"End of node method switchBrowser"}
-{"level":30,"time":"2022-03-29T19:48:10.632Z","pid":58105,"hostname":"ingrid","msg":"Changed active context"}
-{"level":30,"time":"2022-03-29T19:48:10.633Z","pid":58105,"hostname":"ingrid","msg":"Changing current active page"}
-{"level":30,"time":"2022-03-29T19:48:10.633Z","pid":58105,"hostname":"ingrid","msg":"Changed active page"}
-{"level":30,"time":"2022-03-29T19:48:10.642Z","pid":58105,"hostname":"ingrid","msg":"Start of node method closeContext"}
-{"level":30,"time":"2022-03-29T19:48:10.713Z","pid":58105,"hostname":"ingrid","msg":"End of node method closeContext"}
-{"level":30,"time":"2022-03-29T19:48:10.796Z","pid":58105,"hostname":"ingrid","msg":"Start of node method getBrowserCatalog"}
-{"level":30,"time":"2022-03-29T19:48:10.796Z","pid":58105,"hostname":"ingrid","msg":"End of node method getBrowserCatalog"}
-{"level":30,"time":"2022-03-29T19:48:10.813Z","pid":58105,"hostname":"ingrid","msg":"Start of node method newBrowser"}
-{"level":30,"time":"2022-03-29T19:48:12.093Z","pid":58105,"hostname":"ingrid","msg":"End of node method newBrowser"}
-{"level":30,"time":"2022-03-29T19:48:12.100Z","pid":58105,"hostname":"ingrid","msg":"Start of node method newPage"}
-{"level":30,"time":"2022-03-29T19:48:12.101Z","pid":58105,"hostname":"ingrid","msg":"currentBrowser: [object Object]"}
-{"level":30,"time":"2022-03-29T19:48:12.134Z","pid":58105,"hostname":"ingrid","msg":"Changed active context"}
-{"level":30,"time":"2022-03-29T19:48:12.595Z","pid":58105,"hostname":"ingrid","msg":"Video path: undefined"}
-{"level":30,"time":"2022-03-29T19:48:12.595Z","pid":58105,"hostname":"ingrid","msg":"Changed active page"}
-{"level":30,"time":"2022-03-29T19:48:12.685Z","pid":58105,"hostname":"ingrid","msg":"End of node method newPage"}
-{"level":30,"time":"2022-03-29T19:48:12.692Z","pid":58105,"hostname":"ingrid","msg":"Start of node method goTo"}
-{"level":30,"time":"2022-03-29T19:48:19.172Z","pid":58105,"hostname":"ingrid","msg":"End of node method goTo"}
-{"level":30,"time":"2022-03-29T19:48:19.179Z","pid":58105,"hostname":"ingrid","msg":"Start of node method fillText"}
-{"level":30,"time":"2022-03-29T19:48:19.179Z","pid":58105,"hostname":"ingrid","msg":"Strict mode is enabled, find Locator with xpath=//input[@name=\"email\"] in page."}
-{"level":30,"time":"2022-03-29T19:48:19.447Z","pid":58105,"hostname":"ingrid","msg":"End of node method fillText"}
-{"level":30,"time":"2022-03-29T19:48:19.452Z","pid":58105,"hostname":"ingrid","msg":"Start of node method fillText"}
-{"level":30,"time":"2022-03-29T19:48:19.452Z","pid":58105,"hostname":"ingrid","msg":"Strict mode is enabled, find Locator with xpath=//input[@name=\"password\"] in page."}
-{"level":30,"time":"2022-03-29T19:48:19.537Z","pid":58105,"hostname":"ingrid","msg":"End of node method fillText"}
-{"level":30,"time":"2022-03-29T19:48:19.545Z","pid":58105,"hostname":"ingrid","msg":"Start of node method click"}
-{"level":30,"time":"2022-03-29T19:48:19.546Z","pid":58105,"hostname":"ingrid","msg":"Strict mode is enabled, find Locator with css=button >> text=Entrar in page."}
-{"level":30,"time":"2022-03-29T19:48:19.777Z","pid":58105,"hostname":"ingrid","msg":"End of node method click"}
-{"level":30,"time":"2022-03-29T19:48:19.785Z","pid":58105,"hostname":"ingrid","msg":"Start of node method getText"}
-{"level":30,"time":"2022-03-29T19:48:19.788Z","pid":58105,"hostname":"ingrid","msg":"Strict mode is enabled, find Locator with css=aside strong in page."}
-{"level":30,"time":"2022-03-29T19:48:20.915Z","pid":58105,"hostname":"ingrid","msg":"Retrieved text for element css=aside strong containing Administrador"}
-{"level":30,"time":"2022-03-29T19:48:20.915Z","pid":58105,"hostname":"ingrid","msg":"End of node method getText"}
-{"level":30,"time":"2022-03-29T19:48:20.922Z","pid":58105,"hostname":"ingrid","msg":"Start of node method getBrowserCatalog"}
-{"level":30,"time":"2022-03-29T19:48:20.927Z","pid":58105,"hostname":"ingrid","msg":"End of node method getBrowserCatalog"}
-{"level":30,"time":"2022-03-29T19:48:22.590Z","pid":58105,"hostname":"ingrid","msg":"Start of node method click"}
-{"level":30,"time":"2022-03-29T19:48:22.590Z","pid":58105,"hostname":"ingrid","msg":"Strict mode is enabled, find Locator with xpath=//a[text()=\"ALUNOS\"] in page."}
-{"level":30,"time":"2022-03-29T19:48:22.837Z","pid":58105,"hostname":"ingrid","msg":"End of node method click"}
-{"level":30,"time":"2022-03-29T19:48:22.844Z","pid":58105,"hostname":"ingrid","msg":"Start of node method waitForElementState"}
-{"level":30,"time":"2022-03-29T19:48:22.844Z","pid":58105,"hostname":"ingrid","msg":"Strict mode is enabled, find Locator with h1 >> text=Gestão de Alunos in page."}
-{"level":30,"time":"2022-03-29T19:48:22.879Z","pid":58105,"hostname":"ingrid","msg":"End of node method waitForElementState"}
-{"level":30,"time":"2022-03-29T19:48:22.898Z","pid":58105,"hostname":"ingrid","msg":"Start of node method click"}
-{"level":30,"time":"2022-03-29T19:48:22.898Z","pid":58105,"hostname":"ingrid","msg":"Strict mode is enabled, find Locator with xpath=//a[@href=\"/alunos/new\"] in page."}
-{"level":30,"time":"2022-03-29T19:48:23.250Z","pid":58105,"hostname":"ingrid","msg":"End of node method click"}
-{"level":30,"time":"2022-03-29T19:48:23.255Z","pid":58105,"hostname":"ingrid","msg":"Start of node method waitForElementState"}
-{"level":30,"time":"2022-03-29T19:48:23.256Z","pid":58105,"hostname":"ingrid","msg":"Strict mode is enabled, find Locator with h1 >> text=Novo aluno in page."}
-{"level":30,"time":"2022-03-29T19:48:23.327Z","pid":58105,"hostname":"ingrid","msg":"End of node method waitForElementState"}
-{"level":30,"time":"2022-03-29T19:48:23.340Z","pid":58105,"hostname":"ingrid","msg":"Start of node method fillText"}
-{"level":30,"time":"2022-03-29T19:48:23.340Z","pid":58105,"hostname":"ingrid","msg":"Strict mode is enabled, find Locator with css=input[name=\"name\"] in page."}
-{"level":30,"time":"2022-03-29T19:48:23.486Z","pid":58105,"hostname":"ingrid","msg":"End of node method fillText"}
-{"level":30,"time":"2022-03-29T19:48:23.494Z","pid":58105,"hostname":"ingrid","msg":"Start of node method fillText"}
-{"level":30,"time":"2022-03-29T19:48:23.494Z","pid":58105,"hostname":"ingrid","msg":"Strict mode is enabled, find Locator with css=input[name=email] in page."}
-{"level":30,"time":"2022-03-29T19:48:23.591Z","pid":58105,"hostname":"ingrid","msg":"End of node method fillText"}
-{"level":30,"time":"2022-03-29T19:48:23.598Z","pid":58105,"hostname":"ingrid","msg":"Start of node method fillText"}
-{"level":30,"time":"2022-03-29T19:48:23.598Z","pid":58105,"hostname":"ingrid","msg":"Strict mode is enabled, find Locator with css=input[name=age] in page."}
-{"level":30,"time":"2022-03-29T19:48:23.729Z","pid":58105,"hostname":"ingrid","msg":"End of node method fillText"}
-{"level":30,"time":"2022-03-29T19:48:23.744Z","pid":58105,"hostname":"ingrid","msg":"Start of node method fillText"}
-{"level":30,"time":"2022-03-29T19:48:23.745Z","pid":58105,"hostname":"ingrid","msg":"Strict mode is enabled, find Locator with css=input[name=weight] in page."}
-{"level":30,"time":"2022-03-29T19:48:23.838Z","pid":58105,"hostname":"ingrid","msg":"End of node method fillText"}
-{"level":30,"time":"2022-03-29T19:48:23.846Z","pid":58105,"hostname":"ingrid","msg":"Start of node method fillText"}
-{"level":30,"time":"2022-03-29T19:48:23.846Z","pid":58105,"hostname":"ingrid","msg":"Strict mode is enabled, find Locator with css=input[name=feet_tall] in page."}
-{"level":30,"time":"2022-03-29T19:48:23.931Z","pid":58105,"hostname":"ingrid","msg":"End of node method fillText"}
-{"level":30,"time":"2022-03-29T19:48:23.938Z","pid":58105,"hostname":"ingrid","msg":"Start of node method click"}
-{"level":30,"time":"2022-03-29T19:48:23.938Z","pid":58105,"hostname":"ingrid","msg":"Strict mode is enabled, find Locator with xpath=//button[text()=\"Salvar\"] in page."}
-{"level":30,"time":"2022-03-29T19:48:24.106Z","pid":58105,"hostname":"ingrid","msg":"End of node method click"}
-{"level":30,"time":"2022-03-29T19:48:24.116Z","pid":58105,"hostname":"ingrid","msg":"Start of node method waitForElementState"}
-{"level":30,"time":"2022-03-29T19:48:24.116Z","pid":58105,"hostname":"ingrid","msg":"Strict mode is enabled, find Locator with css=.Toastify__toast-body >> text=Aluno cadastrado com sucesso. in page."}
-{"level":30,"time":"2022-03-29T19:48:24.779Z","pid":58105,"hostname":"ingrid","msg":"End of node method waitForElementState"}
-{"level":30,"time":"2022-03-29T19:48:24.791Z","pid":58105,"hostname":"ingrid","msg":"On executeJavascript, supress ReferenceError: window is not defined for eval."}
-{"level":30,"time":"2022-03-29T19:48:24.814Z","pid":58105,"hostname":"ingrid","msg":"Start of node method takeScreenshot"}
-{"level":30,"time":"2022-03-29T19:48:25.432Z","pid":58105,"hostname":"ingrid","msg":"End of node method takeScreenshot"}
-{"level":30,"time":"2022-03-29T19:48:25.442Z","pid":58105,"hostname":"ingrid","msg":"Start of node method getBrowserCatalog"}
-{"level":30,"time":"2022-03-29T19:48:25.516Z","pid":58105,"hostname":"ingrid","msg":"End of node method getBrowserCatalog"}
-{"level":30,"time":"2022-03-29T19:48:25.525Z","pid":58105,"hostname":"ingrid","msg":"Start of node method getBrowserCatalog"}
-{"level":30,"time":"2022-03-29T19:48:25.535Z","pid":58105,"hostname":"ingrid","msg":"End of node method getBrowserCatalog"}
-{"level":30,"time":"2022-03-29T19:48:28.710Z","pid":58105,"hostname":"ingrid","msg":"Start of node method click"}
-{"level":30,"time":"2022-03-29T19:48:28.710Z","pid":58105,"hostname":"ingrid","msg":"Strict mode is enabled, find Locator with xpath=//a[text()=\"ALUNOS\"] in page."}
-{"level":30,"time":"2022-03-29T19:48:28.984Z","pid":58105,"hostname":"ingrid","msg":"End of node method click"}
-{"level":30,"time":"2022-03-29T19:48:28.990Z","pid":58105,"hostname":"ingrid","msg":"Start of node method waitForElementState"}
-{"level":30,"time":"2022-03-29T19:48:28.991Z","pid":58105,"hostname":"ingrid","msg":"Strict mode is enabled, find Locator with h1 >> text=Gestão de Alunos in page."}
-{"level":30,"time":"2022-03-29T19:48:29.109Z","pid":58105,"hostname":"ingrid","msg":"End of node method waitForElementState"}
-{"level":30,"time":"2022-03-29T19:48:29.123Z","pid":58105,"hostname":"ingrid","msg":"Start of node method click"}
-{"level":30,"time":"2022-03-29T19:48:29.124Z","pid":58105,"hostname":"ingrid","msg":"Strict mode is enabled, find Locator with xpath=//a[@href=\"/alunos/new\"] in page."}
-{"level":30,"time":"2022-03-29T19:48:29.343Z","pid":58105,"hostname":"ingrid","msg":"End of node method click"}
-{"level":30,"time":"2022-03-29T19:48:29.348Z","pid":58105,"hostname":"ingrid","msg":"Start of node method waitForElementState"}
-{"level":30,"time":"2022-03-29T19:48:29.348Z","pid":58105,"hostname":"ingrid","msg":"Strict mode is enabled, find Locator with h1 >> text=Novo aluno in page."}
-{"level":30,"time":"2022-03-29T19:48:29.376Z","pid":58105,"hostname":"ingrid","msg":"End of node method waitForElementState"}
-{"level":30,"time":"2022-03-29T19:48:29.388Z","pid":58105,"hostname":"ingrid","msg":"Start of node method fillText"}
-{"level":30,"time":"2022-03-29T19:48:29.389Z","pid":58105,"hostname":"ingrid","msg":"Strict mode is enabled, find Locator with css=input[name=\"name\"] in page."}
-{"level":30,"time":"2022-03-29T19:48:29.470Z","pid":58105,"hostname":"ingrid","msg":"End of node method fillText"}
-{"level":30,"time":"2022-03-29T19:48:29.476Z","pid":58105,"hostname":"ingrid","msg":"Start of node method fillText"}
-{"level":30,"time":"2022-03-29T19:48:29.477Z","pid":58105,"hostname":"ingrid","msg":"Strict mode is enabled, find Locator with css=input[name=email] in page."}
-{"level":30,"time":"2022-03-29T19:48:29.579Z","pid":58105,"hostname":"ingrid","msg":"End of node method fillText"}
-{"level":30,"time":"2022-03-29T19:48:29.585Z","pid":58105,"hostname":"ingrid","msg":"Start of node method fillText"}
-{"level":30,"time":"2022-03-29T19:48:29.585Z","pid":58105,"hostname":"ingrid","msg":"Strict mode is enabled, find Locator with css=input[name=age] in page."}
-{"level":30,"time":"2022-03-29T19:48:29.662Z","pid":58105,"hostname":"ingrid","msg":"End of node method fillText"}
-{"level":30,"time":"2022-03-29T19:48:29.674Z","pid":58105,"hostname":"ingrid","msg":"Start of node method fillText"}
-{"level":30,"time":"2022-03-29T19:48:29.674Z","pid":58105,"hostname":"ingrid","msg":"Strict mode is enabled, find Locator with css=input[name=weight] in page."}
-{"level":30,"time":"2022-03-29T19:48:29.790Z","pid":58105,"hostname":"ingrid","msg":"End of node method fillText"}
-{"level":30,"time":"2022-03-29T19:48:29.796Z","pid":58105,"hostname":"ingrid","msg":"Start of node method fillText"}
-{"level":30,"time":"2022-03-29T19:48:29.796Z","pid":58105,"hostname":"ingrid","msg":"Strict mode is enabled, find Locator with css=input[name=feet_tall] in page."}
-{"level":30,"time":"2022-03-29T19:48:29.899Z","pid":58105,"hostname":"ingrid","msg":"End of node method fillText"}
-{"level":30,"time":"2022-03-29T19:48:29.906Z","pid":58105,"hostname":"ingrid","msg":"Start of node method click"}
-{"level":30,"time":"2022-03-29T19:48:29.906Z","pid":58105,"hostname":"ingrid","msg":"Strict mode is enabled, find Locator with xpath=//button[text()=\"Salvar\"] in page."}
-{"level":30,"time":"2022-03-29T19:48:30.059Z","pid":58105,"hostname":"ingrid","msg":"End of node method click"}
-{"level":30,"time":"2022-03-29T19:48:30.074Z","pid":58105,"hostname":"ingrid","msg":"Start of node method waitForElementState"}
-{"level":30,"time":"2022-03-29T19:48:30.075Z","pid":58105,"hostname":"ingrid","msg":"Strict mode is enabled, find Locator with css=.Toastify__toast-body >> text=Email já existe no sistema. in page."}
-{"level":30,"time":"2022-03-29T19:48:30.488Z","pid":58105,"hostname":"ingrid","msg":"End of node method waitForElementState"}
-{"level":30,"time":"2022-03-29T19:48:30.501Z","pid":58105,"hostname":"ingrid","msg":"On executeJavascript, supress ReferenceError: window is not defined for eval."}
-{"level":30,"time":"2022-03-29T19:48:30.519Z","pid":58105,"hostname":"ingrid","msg":"Start of node method takeScreenshot"}
-{"level":30,"time":"2022-03-29T19:48:31.000Z","pid":58105,"hostname":"ingrid","msg":"End of node method takeScreenshot"}
-{"level":30,"time":"2022-03-29T19:48:31.011Z","pid":58105,"hostname":"ingrid","msg":"Start of node method getBrowserCatalog"}
-{"level":30,"time":"2022-03-29T19:48:31.041Z","pid":58105,"hostname":"ingrid","msg":"End of node method getBrowserCatalog"}
-{"level":30,"time":"2022-03-29T19:48:31.047Z","pid":58105,"hostname":"ingrid","msg":"Start of node method getBrowserCatalog"}
-{"level":30,"time":"2022-03-29T19:48:31.061Z","pid":58105,"hostname":"ingrid","msg":"End of node method getBrowserCatalog"}
-{"level":30,"time":"2022-03-29T19:48:31.079Z","pid":58105,"hostname":"ingrid","msg":"Start of node method click"}
-{"level":30,"time":"2022-03-29T19:48:31.080Z","pid":58105,"hostname":"ingrid","msg":"Strict mode is enabled, find Locator with xpath=//a[text()=\"ALUNOS\"] in page."}
-{"level":30,"time":"2022-03-29T19:48:31.320Z","pid":58105,"hostname":"ingrid","msg":"End of node method click"}
-{"level":30,"time":"2022-03-29T19:48:31.325Z","pid":58105,"hostname":"ingrid","msg":"Start of node method waitForElementState"}
-{"level":30,"time":"2022-03-29T19:48:31.325Z","pid":58105,"hostname":"ingrid","msg":"Strict mode is enabled, find Locator with h1 >> text=Gestão de Alunos in page."}
-{"level":30,"time":"2022-03-29T19:48:31.367Z","pid":58105,"hostname":"ingrid","msg":"End of node method waitForElementState"}
-{"level":30,"time":"2022-03-29T19:48:31.375Z","pid":58105,"hostname":"ingrid","msg":"Start of node method click"}
-{"level":30,"time":"2022-03-29T19:48:31.375Z","pid":58105,"hostname":"ingrid","msg":"Strict mode is enabled, find Locator with xpath=//a[@href=\"/alunos/new\"] in page."}
-{"level":30,"time":"2022-03-29T19:48:31.578Z","pid":58105,"hostname":"ingrid","msg":"End of node method click"}
-{"level":30,"time":"2022-03-29T19:48:31.583Z","pid":58105,"hostname":"ingrid","msg":"Start of node method waitForElementState"}
-{"level":30,"time":"2022-03-29T19:48:31.585Z","pid":58105,"hostname":"ingrid","msg":"Strict mode is enabled, find Locator with h1 >> text=Novo aluno in page."}
-{"level":30,"time":"2022-03-29T19:48:31.620Z","pid":58105,"hostname":"ingrid","msg":"End of node method waitForElementState"}
-{"level":30,"time":"2022-03-29T19:48:31.631Z","pid":58105,"hostname":"ingrid","msg":"Start of node method click"}
-{"level":30,"time":"2022-03-29T19:48:31.636Z","pid":58105,"hostname":"ingrid","msg":"Strict mode is enabled, find Locator with xpath=//button[text()=\"Salvar\"] in page."}
-{"level":30,"time":"2022-03-29T19:48:31.822Z","pid":58105,"hostname":"ingrid","msg":"End of node method click"}
-{"level":30,"time":"2022-03-29T19:48:31.851Z","pid":58105,"hostname":"ingrid","msg":"Start of node method getText"}
-{"level":30,"time":"2022-03-29T19:48:31.851Z","pid":58105,"hostname":"ingrid","msg":"Strict mode is enabled, find Locator with xpath=(//form//span)[1] in page."}
-{"level":30,"time":"2022-03-29T19:48:31.966Z","pid":58105,"hostname":"ingrid","msg":"Retrieved text for element xpath=(//form//span)[1] containing Nome é obrigatório"}
-{"level":30,"time":"2022-03-29T19:48:31.966Z","pid":58105,"hostname":"ingrid","msg":"End of node method getText"}
-{"level":30,"time":"2022-03-29T19:48:31.982Z","pid":58105,"hostname":"ingrid","msg":"Start of node method getText"}
-{"level":30,"time":"2022-03-29T19:48:31.982Z","pid":58105,"hostname":"ingrid","msg":"Strict mode is enabled, find Locator with xpath=(//form//span)[2] in page."}
-{"level":30,"time":"2022-03-29T19:48:32.058Z","pid":58105,"hostname":"ingrid","msg":"Retrieved text for element xpath=(//form//span)[2] containing O e-mail é obrigatório"}
-{"level":30,"time":"2022-03-29T19:48:32.059Z","pid":58105,"hostname":"ingrid","msg":"End of node method getText"}
-{"level":30,"time":"2022-03-29T19:48:32.071Z","pid":58105,"hostname":"ingrid","msg":"Start of node method getText"}
-{"level":30,"time":"2022-03-29T19:48:32.072Z","pid":58105,"hostname":"ingrid","msg":"Strict mode is enabled, find Locator with xpath=(//form//span)[3] in page."}
-{"level":30,"time":"2022-03-29T19:48:32.133Z","pid":58105,"hostname":"ingrid","msg":"Retrieved text for element xpath=(//form//span)[3] containing idade é obrigatória"}
-{"level":30,"time":"2022-03-29T19:48:32.133Z","pid":58105,"hostname":"ingrid","msg":"End of node method getText"}
-{"level":30,"time":"2022-03-29T19:48:32.146Z","pid":58105,"hostname":"ingrid","msg":"Start of node method getText"}
-{"level":30,"time":"2022-03-29T19:48:32.147Z","pid":58105,"hostname":"ingrid","msg":"Strict mode is enabled, find Locator with xpath=(//form//span)[4] in page."}
-{"level":30,"time":"2022-03-29T19:48:32.214Z","pid":58105,"hostname":"ingrid","msg":"Retrieved text for element xpath=(//form//span)[4] containing o peso é obrigatório"}
-{"level":30,"time":"2022-03-29T19:48:32.214Z","pid":58105,"hostname":"ingrid","msg":"End of node method getText"}
-{"level":30,"time":"2022-03-29T19:48:32.225Z","pid":58105,"hostname":"ingrid","msg":"Start of node method getText"}
-{"level":30,"time":"2022-03-29T19:48:32.225Z","pid":58105,"hostname":"ingrid","msg":"Strict mode is enabled, find Locator with xpath=(//form//span)[5] in page."}
-{"level":30,"time":"2022-03-29T19:48:32.301Z","pid":58105,"hostname":"ingrid","msg":"Retrieved text for element xpath=(//form//span)[5] containing a Altura é obrigatória"}
-{"level":30,"time":"2022-03-29T19:48:32.301Z","pid":58105,"hostname":"ingrid","msg":"End of node method getText"}
-{"level":30,"time":"2022-03-29T19:48:34.327Z","pid":58105,"hostname":"ingrid","msg":"Start of node method takeScreenshot"}
-{"level":30,"time":"2022-03-29T19:48:34.786Z","pid":58105,"hostname":"ingrid","msg":"End of node method takeScreenshot"}
-{"level":30,"time":"2022-03-29T19:48:34.792Z","pid":58105,"hostname":"ingrid","msg":"Start of node method getBrowserCatalog"}
-{"level":30,"time":"2022-03-29T19:48:34.800Z","pid":58105,"hostname":"ingrid","msg":"End of node method getBrowserCatalog"}
-{"level":30,"time":"2022-03-29T19:48:34.806Z","pid":58105,"hostname":"ingrid","msg":"Start of node method getBrowserCatalog"}
-{"level":30,"time":"2022-03-29T19:48:34.834Z","pid":58105,"hostname":"ingrid","msg":"End of node method getBrowserCatalog"}
-{"level":30,"time":"2022-03-29T19:48:34.845Z","pid":58105,"hostname":"ingrid","msg":"Start of node method click"}
-{"level":30,"time":"2022-03-29T19:48:34.845Z","pid":58105,"hostname":"ingrid","msg":"Strict mode is enabled, find Locator with xpath=//a[text()=\"ALUNOS\"] in page."}
-{"level":30,"time":"2022-03-29T19:48:35.130Z","pid":58105,"hostname":"ingrid","msg":"End of node method click"}
-{"level":30,"time":"2022-03-29T19:48:35.135Z","pid":58105,"hostname":"ingrid","msg":"Start of node method waitForElementState"}
-{"level":30,"time":"2022-03-29T19:48:35.135Z","pid":58105,"hostname":"ingrid","msg":"Strict mode is enabled, find Locator with h1 >> text=Gestão de Alunos in page."}
-{"level":30,"time":"2022-03-29T19:48:35.216Z","pid":58105,"hostname":"ingrid","msg":"End of node method waitForElementState"}
-{"level":30,"time":"2022-03-29T19:48:35.223Z","pid":58105,"hostname":"ingrid","msg":"Start of node method click"}
-{"level":30,"time":"2022-03-29T19:48:35.223Z","pid":58105,"hostname":"ingrid","msg":"Strict mode is enabled, find Locator with xpath=//a[@href=\"/alunos/new\"] in page."}
-{"level":30,"time":"2022-03-29T19:48:35.445Z","pid":58105,"hostname":"ingrid","msg":"End of node method click"}
-{"level":30,"time":"2022-03-29T19:48:35.451Z","pid":58105,"hostname":"ingrid","msg":"Start of node method waitForElementState"}
-{"level":30,"time":"2022-03-29T19:48:35.451Z","pid":58105,"hostname":"ingrid","msg":"Strict mode is enabled, find Locator with h1 >> text=Novo aluno in page."}
-{"level":30,"time":"2022-03-29T19:48:35.486Z","pid":58105,"hostname":"ingrid","msg":"End of node method waitForElementState"}
-{"level":30,"time":"2022-03-29T19:48:35.498Z","pid":58105,"hostname":"ingrid","msg":"Start of node method getElementAttribute"}
-{"level":30,"time":"2022-03-29T19:48:35.501Z","pid":58105,"hostname":"ingrid","msg":"Strict mode is enabled, find Locator with css=input[name=age] in page."}
-{"level":30,"time":"2022-03-29T19:48:35.570Z","pid":58105,"hostname":"ingrid","msg":"Retrieved attribute for element css=input[name=age] containing number"}
-{"level":30,"time":"2022-03-29T19:48:35.570Z","pid":58105,"hostname":"ingrid","msg":"End of node method getElementAttribute"}
-{"level":30,"time":"2022-03-29T19:48:35.585Z","pid":58105,"hostname":"ingrid","msg":"Start of node method click"}
-{"level":30,"time":"2022-03-29T19:48:35.585Z","pid":58105,"hostname":"ingrid","msg":"Strict mode is enabled, find Locator with xpath=//a[text()=\"ALUNOS\"] in page."}
-{"level":30,"time":"2022-03-29T19:48:35.802Z","pid":58105,"hostname":"ingrid","msg":"End of node method click"}
-{"level":30,"time":"2022-03-29T19:48:35.808Z","pid":58105,"hostname":"ingrid","msg":"Start of node method waitForElementState"}
-{"level":30,"time":"2022-03-29T19:48:35.808Z","pid":58105,"hostname":"ingrid","msg":"Strict mode is enabled, find Locator with h1 >> text=Gestão de Alunos in page."}
-{"level":30,"time":"2022-03-29T19:48:35.840Z","pid":58105,"hostname":"ingrid","msg":"End of node method waitForElementState"}
-{"level":30,"time":"2022-03-29T19:48:35.847Z","pid":58105,"hostname":"ingrid","msg":"Start of node method click"}
-{"level":30,"time":"2022-03-29T19:48:35.847Z","pid":58105,"hostname":"ingrid","msg":"Strict mode is enabled, find Locator with xpath=//a[@href=\"/alunos/new\"] in page."}
-{"level":30,"time":"2022-03-29T19:48:36.042Z","pid":58105,"hostname":"ingrid","msg":"End of node method click"}
-{"level":30,"time":"2022-03-29T19:48:36.048Z","pid":58105,"hostname":"ingrid","msg":"Start of node method waitForElementState"}
-{"level":30,"time":"2022-03-29T19:48:36.049Z","pid":58105,"hostname":"ingrid","msg":"Strict mode is enabled, find Locator with h1 >> text=Novo aluno in page."}
-{"level":30,"time":"2022-03-29T19:48:36.115Z","pid":58105,"hostname":"ingrid","msg":"End of node method waitForElementState"}
-{"level":30,"time":"2022-03-29T19:48:36.122Z","pid":58105,"hostname":"ingrid","msg":"Start of node method getElementAttribute"}
-{"level":30,"time":"2022-03-29T19:48:36.122Z","pid":58105,"hostname":"ingrid","msg":"Strict mode is enabled, find Locator with css=input[name=weight] in page."}
-{"level":30,"time":"2022-03-29T19:48:36.185Z","pid":58105,"hostname":"ingrid","msg":"Retrieved attribute for element css=input[name=weight] containing number"}
-{"level":30,"time":"2022-03-29T19:48:36.185Z","pid":58105,"hostname":"ingrid","msg":"End of node method getElementAttribute"}
-{"level":30,"time":"2022-03-29T19:48:36.200Z","pid":58105,"hostname":"ingrid","msg":"Start of node method click"}
-{"level":30,"time":"2022-03-29T19:48:36.201Z","pid":58105,"hostname":"ingrid","msg":"Strict mode is enabled, find Locator with xpath=//a[text()=\"ALUNOS\"] in page."}
-{"level":30,"time":"2022-03-29T19:48:36.433Z","pid":58105,"hostname":"ingrid","msg":"End of node method click"}
-{"level":30,"time":"2022-03-29T19:48:36.438Z","pid":58105,"hostname":"ingrid","msg":"Start of node method waitForElementState"}
-{"level":30,"time":"2022-03-29T19:48:36.439Z","pid":58105,"hostname":"ingrid","msg":"Strict mode is enabled, find Locator with h1 >> text=Gestão de Alunos in page."}
-{"level":30,"time":"2022-03-29T19:48:36.502Z","pid":58105,"hostname":"ingrid","msg":"End of node method waitForElementState"}
-{"level":30,"time":"2022-03-29T19:48:36.567Z","pid":58105,"hostname":"ingrid","msg":"Start of node method click"}
-{"level":30,"time":"2022-03-29T19:48:36.568Z","pid":58105,"hostname":"ingrid","msg":"Strict mode is enabled, find Locator with xpath=//a[@href=\"/alunos/new\"] in page."}
-{"level":30,"time":"2022-03-29T19:48:36.844Z","pid":58105,"hostname":"ingrid","msg":"End of node method click"}
-{"level":30,"time":"2022-03-29T19:48:36.850Z","pid":58105,"hostname":"ingrid","msg":"Start of node method waitForElementState"}
-{"level":30,"time":"2022-03-29T19:48:36.850Z","pid":58105,"hostname":"ingrid","msg":"Strict mode is enabled, find Locator with h1 >> text=Novo aluno in page."}
-{"level":30,"time":"2022-03-29T19:48:36.881Z","pid":58105,"hostname":"ingrid","msg":"End of node method waitForElementState"}
-{"level":30,"time":"2022-03-29T19:48:36.888Z","pid":58105,"hostname":"ingrid","msg":"Start of node method getElementAttribute"}
-{"level":30,"time":"2022-03-29T19:48:36.889Z","pid":58105,"hostname":"ingrid","msg":"Strict mode is enabled, find Locator with css=input[name=feet_tall] in page."}
-{"level":30,"time":"2022-03-29T19:48:36.958Z","pid":58105,"hostname":"ingrid","msg":"Retrieved attribute for element css=input[name=feet_tall] containing number"}
-{"level":30,"time":"2022-03-29T19:48:36.958Z","pid":58105,"hostname":"ingrid","msg":"End of node method getElementAttribute"}
-{"level":30,"time":"2022-03-29T19:48:36.974Z","pid":58105,"hostname":"ingrid","msg":"Start of node method takeScreenshot"}
-{"level":30,"time":"2022-03-29T19:48:37.327Z","pid":58105,"hostname":"ingrid","msg":"End of node method takeScreenshot"}
-{"level":30,"time":"2022-03-29T19:48:37.332Z","pid":58105,"hostname":"ingrid","msg":"Start of node method getBrowserCatalog"}
-{"level":30,"time":"2022-03-29T19:48:37.355Z","pid":58105,"hostname":"ingrid","msg":"End of node method getBrowserCatalog"}
-{"level":30,"time":"2022-03-29T19:48:37.361Z","pid":58105,"hostname":"ingrid","msg":"Start of node method getBrowserCatalog"}
-{"level":30,"time":"2022-03-29T19:48:37.367Z","pid":58105,"hostname":"ingrid","msg":"End of node method getBrowserCatalog"}
-{"level":30,"time":"2022-03-29T19:48:37.374Z","pid":58105,"hostname":"ingrid","msg":"Start of node method click"}
-{"level":30,"time":"2022-03-29T19:48:37.374Z","pid":58105,"hostname":"ingrid","msg":"Strict mode is enabled, find Locator with xpath=//a[text()=\"ALUNOS\"] in page."}
-{"level":30,"time":"2022-03-29T19:48:37.512Z","pid":58105,"hostname":"ingrid","msg":"End of node method click"}
-{"level":30,"time":"2022-03-29T19:48:37.517Z","pid":58105,"hostname":"ingrid","msg":"Start of node method waitForElementState"}
-{"level":30,"time":"2022-03-29T19:48:37.518Z","pid":58105,"hostname":"ingrid","msg":"Strict mode is enabled, find Locator with h1 >> text=Gestão de Alunos in page."}
-{"level":30,"time":"2022-03-29T19:48:37.557Z","pid":58105,"hostname":"ingrid","msg":"End of node method waitForElementState"}
-{"level":30,"time":"2022-03-29T19:48:37.565Z","pid":58105,"hostname":"ingrid","msg":"Start of node method click"}
-{"level":30,"time":"2022-03-29T19:48:37.565Z","pid":58105,"hostname":"ingrid","msg":"Strict mode is enabled, find Locator with xpath=//a[@href=\"/alunos/new\"] in page."}
-{"level":30,"time":"2022-03-29T19:48:37.763Z","pid":58105,"hostname":"ingrid","msg":"End of node method click"}
-{"level":30,"time":"2022-03-29T19:48:37.768Z","pid":58105,"hostname":"ingrid","msg":"Start of node method waitForElementState"}
-{"level":30,"time":"2022-03-29T19:48:37.768Z","pid":58105,"hostname":"ingrid","msg":"Strict mode is enabled, find Locator with h1 >> text=Novo aluno in page."}
-{"level":30,"time":"2022-03-29T19:48:37.806Z","pid":58105,"hostname":"ingrid","msg":"End of node method waitForElementState"}
-{"level":30,"time":"2022-03-29T19:48:37.813Z","pid":58105,"hostname":"ingrid","msg":"Start of node method getElementAttribute"}
-{"level":30,"time":"2022-03-29T19:48:37.813Z","pid":58105,"hostname":"ingrid","msg":"Strict mode is enabled, find Locator with css=input[name=email] in page."}
-{"level":30,"time":"2022-03-29T19:48:37.876Z","pid":58105,"hostname":"ingrid","msg":"Retrieved attribute for element css=input[name=email] containing email"}
-{"level":30,"time":"2022-03-29T19:48:37.876Z","pid":58105,"hostname":"ingrid","msg":"End of node method getElementAttribute"}
-{"level":30,"time":"2022-03-29T19:48:37.905Z","pid":58105,"hostname":"ingrid","msg":"Start of node method takeScreenshot"}
-{"level":30,"time":"2022-03-29T19:48:38.306Z","pid":58105,"hostname":"ingrid","msg":"End of node method takeScreenshot"}
-{"level":30,"time":"2022-03-29T19:48:38.314Z","pid":58105,"hostname":"ingrid","msg":"Start of node method getBrowserCatalog"}
-{"level":30,"time":"2022-03-29T19:48:38.340Z","pid":58105,"hostname":"ingrid","msg":"End of node method getBrowserCatalog"}
-{"level":30,"time":"2022-03-29T19:48:38.346Z","pid":58105,"hostname":"ingrid","msg":"Start of node method getBrowserCatalog"}
-{"level":30,"time":"2022-03-29T19:48:38.357Z","pid":58105,"hostname":"ingrid","msg":"End of node method getBrowserCatalog"}
-{"level":30,"time":"2022-03-29T19:48:40.256Z","pid":58105,"hostname":"ingrid","msg":"Start of node method click"}
-{"level":30,"time":"2022-03-29T19:48:40.256Z","pid":58105,"hostname":"ingrid","msg":"Strict mode is enabled, find Locator with xpath=//a[text()=\"ALUNOS\"] in page."}
-{"level":30,"time":"2022-03-29T19:48:40.438Z","pid":58105,"hostname":"ingrid","msg":"End of node method click"}
-{"level":30,"time":"2022-03-29T19:48:40.443Z","pid":58105,"hostname":"ingrid","msg":"Start of node method waitForElementState"}
-{"level":30,"time":"2022-03-29T19:48:40.444Z","pid":58105,"hostname":"ingrid","msg":"Strict mode is enabled, find Locator with h1 >> text=Gestão de Alunos in page."}
-{"level":30,"time":"2022-03-29T19:48:40.493Z","pid":58105,"hostname":"ingrid","msg":"End of node method waitForElementState"}
-{"level":30,"time":"2022-03-29T19:48:40.499Z","pid":58105,"hostname":"ingrid","msg":"Start of node method click"}
-{"level":30,"time":"2022-03-29T19:48:40.500Z","pid":58105,"hostname":"ingrid","msg":"Strict mode is enabled, find Locator with xpath=//a[@href=\"/alunos/new\"] in page."}
-{"level":30,"time":"2022-03-29T19:48:40.786Z","pid":58105,"hostname":"ingrid","msg":"End of node method click"}
-{"level":30,"time":"2022-03-29T19:48:40.791Z","pid":58105,"hostname":"ingrid","msg":"Start of node method waitForElementState"}
-{"level":30,"time":"2022-03-29T19:48:40.791Z","pid":58105,"hostname":"ingrid","msg":"Strict mode is enabled, find Locator with h1 >> text=Novo aluno in page."}
-{"level":30,"time":"2022-03-29T19:48:40.847Z","pid":58105,"hostname":"ingrid","msg":"End of node method waitForElementState"}
-{"level":30,"time":"2022-03-29T19:48:40.874Z","pid":58105,"hostname":"ingrid","msg":"Start of node method fillText"}
-{"level":30,"time":"2022-03-29T19:48:40.875Z","pid":58105,"hostname":"ingrid","msg":"Strict mode is enabled, find Locator with css=input[name=\"name\"] in page."}
-{"level":30,"time":"2022-03-29T19:48:40.975Z","pid":58105,"hostname":"ingrid","msg":"End of node method fillText"}
-{"level":30,"time":"2022-03-29T19:48:40.989Z","pid":58105,"hostname":"ingrid","msg":"Start of node method fillText"}
-{"level":30,"time":"2022-03-29T19:48:40.989Z","pid":58105,"hostname":"ingrid","msg":"Strict mode is enabled, find Locator with css=input[name=email] in page."}
-{"level":30,"time":"2022-03-29T19:48:41.095Z","pid":58105,"hostname":"ingrid","msg":"End of node method fillText"}
-{"level":30,"time":"2022-03-29T19:48:41.102Z","pid":58105,"hostname":"ingrid","msg":"Start of node method fillText"}
-{"level":30,"time":"2022-03-29T19:48:41.103Z","pid":58105,"hostname":"ingrid","msg":"Strict mode is enabled, find Locator with css=input[name=age] in page."}
-{"level":30,"time":"2022-03-29T19:48:41.202Z","pid":58105,"hostname":"ingrid","msg":"End of node method fillText"}
-{"level":30,"time":"2022-03-29T19:48:41.226Z","pid":58105,"hostname":"ingrid","msg":"Start of node method fillText"}
-{"level":30,"time":"2022-03-29T19:48:41.226Z","pid":58105,"hostname":"ingrid","msg":"Strict mode is enabled, find Locator with css=input[name=weight] in page."}
-{"level":30,"time":"2022-03-29T19:48:41.324Z","pid":58105,"hostname":"ingrid","msg":"End of node method fillText"}
-{"level":30,"time":"2022-03-29T19:48:41.331Z","pid":58105,"hostname":"ingrid","msg":"Start of node method fillText"}
-{"level":30,"time":"2022-03-29T19:48:41.331Z","pid":58105,"hostname":"ingrid","msg":"Strict mode is enabled, find Locator with css=input[name=feet_tall] in page."}
-{"level":30,"time":"2022-03-29T19:48:41.436Z","pid":58105,"hostname":"ingrid","msg":"End of node method fillText"}
-{"level":30,"time":"2022-03-29T19:48:41.444Z","pid":58105,"hostname":"ingrid","msg":"Start of node method click"}
-{"level":30,"time":"2022-03-29T19:48:41.444Z","pid":58105,"hostname":"ingrid","msg":"Strict mode is enabled, find Locator with xpath=//button[text()=\"Salvar\"] in page."}
-{"level":30,"time":"2022-03-29T19:48:41.577Z","pid":58105,"hostname":"ingrid","msg":"End of node method click"}
-{"level":30,"time":"2022-03-29T19:48:41.586Z","pid":58105,"hostname":"ingrid","msg":"On executeJavascript, supress ReferenceError: window is not defined for eval."}
-{"level":30,"time":"2022-03-29T19:48:41.610Z","pid":58105,"hostname":"ingrid","msg":"Start of node method takeScreenshot"}
-{"level":30,"time":"2022-03-29T19:48:42.042Z","pid":58105,"hostname":"ingrid","msg":"End of node method takeScreenshot"}
-{"level":30,"time":"2022-03-29T19:48:42.050Z","pid":58105,"hostname":"ingrid","msg":"Start of node method getBrowserCatalog"}
-{"level":30,"time":"2022-03-29T19:48:42.082Z","pid":58105,"hostname":"ingrid","msg":"End of node method getBrowserCatalog"}
-{"level":30,"time":"2022-03-29T19:48:42.088Z","pid":58105,"hostname":"ingrid","msg":"Start of node method getBrowserCatalog"}
-{"level":30,"time":"2022-03-29T19:48:42.091Z","pid":58105,"hostname":"ingrid","msg":"End of node method getBrowserCatalog"}
-{"level":30,"time":"2022-03-29T19:48:43.895Z","pid":58105,"hostname":"ingrid","msg":"Start of node method click"}
-{"level":30,"time":"2022-03-29T19:48:43.896Z","pid":58105,"hostname":"ingrid","msg":"Strict mode is enabled, find Locator with xpath=//a[text()=\"ALUNOS\"] in page."}
-{"level":30,"time":"2022-03-29T19:48:44.123Z","pid":58105,"hostname":"ingrid","msg":"End of node method click"}
-{"level":30,"time":"2022-03-29T19:48:44.128Z","pid":58105,"hostname":"ingrid","msg":"Start of node method waitForElementState"}
-{"level":30,"time":"2022-03-29T19:48:44.129Z","pid":58105,"hostname":"ingrid","msg":"Strict mode is enabled, find Locator with h1 >> text=Gestão de Alunos in page."}
-{"level":30,"time":"2022-03-29T19:48:44.154Z","pid":58105,"hostname":"ingrid","msg":"End of node method waitForElementState"}
-{"level":30,"time":"2022-03-29T19:48:44.162Z","pid":58105,"hostname":"ingrid","msg":"Start of node method click"}
-{"level":30,"time":"2022-03-29T19:48:44.162Z","pid":58105,"hostname":"ingrid","msg":"Strict mode is enabled, find Locator with xpath=//a[@href=\"/alunos/new\"] in page."}
-{"level":30,"time":"2022-03-29T19:48:44.410Z","pid":58105,"hostname":"ingrid","msg":"End of node method click"}
-{"level":30,"time":"2022-03-29T19:48:44.415Z","pid":58105,"hostname":"ingrid","msg":"Start of node method waitForElementState"}
-{"level":30,"time":"2022-03-29T19:48:44.415Z","pid":58105,"hostname":"ingrid","msg":"Strict mode is enabled, find Locator with h1 >> text=Novo aluno in page."}
-{"level":30,"time":"2022-03-29T19:48:44.484Z","pid":58105,"hostname":"ingrid","msg":"End of node method waitForElementState"}
-{"level":30,"time":"2022-03-29T19:48:44.493Z","pid":58105,"hostname":"ingrid","msg":"Start of node method fillText"}
-{"level":30,"time":"2022-03-29T19:48:44.493Z","pid":58105,"hostname":"ingrid","msg":"Strict mode is enabled, find Locator with css=input[name=\"name\"] in page."}
-{"level":30,"time":"2022-03-29T19:48:44.595Z","pid":58105,"hostname":"ingrid","msg":"End of node method fillText"}
-{"level":30,"time":"2022-03-29T19:48:44.602Z","pid":58105,"hostname":"ingrid","msg":"Start of node method fillText"}
-{"level":30,"time":"2022-03-29T19:48:44.602Z","pid":58105,"hostname":"ingrid","msg":"Strict mode is enabled, find Locator with css=input[name=email] in page."}
-{"level":30,"time":"2022-03-29T19:48:44.694Z","pid":58105,"hostname":"ingrid","msg":"End of node method fillText"}
-{"level":30,"time":"2022-03-29T19:48:44.702Z","pid":58105,"hostname":"ingrid","msg":"Start of node method fillText"}
-{"level":30,"time":"2022-03-29T19:48:44.702Z","pid":58105,"hostname":"ingrid","msg":"Strict mode is enabled, find Locator with css=input[name=age] in page."}
-{"level":30,"time":"2022-03-29T19:48:44.764Z","pid":58105,"hostname":"ingrid","msg":"End of node method fillText"}
-{"level":30,"time":"2022-03-29T19:48:44.771Z","pid":58105,"hostname":"ingrid","msg":"Start of node method fillText"}
-{"level":30,"time":"2022-03-29T19:48:44.771Z","pid":58105,"hostname":"ingrid","msg":"Strict mode is enabled, find Locator with css=input[name=weight] in page."}
-{"level":30,"time":"2022-03-29T19:48:44.906Z","pid":58105,"hostname":"ingrid","msg":"End of node method fillText"}
-{"level":30,"time":"2022-03-29T19:48:44.919Z","pid":58105,"hostname":"ingrid","msg":"Start of node method fillText"}
-{"level":30,"time":"2022-03-29T19:48:44.920Z","pid":58105,"hostname":"ingrid","msg":"Strict mode is enabled, find Locator with css=input[name=feet_tall] in page."}
-{"level":30,"time":"2022-03-29T19:48:45.017Z","pid":58105,"hostname":"ingrid","msg":"End of node method fillText"}
-{"level":30,"time":"2022-03-29T19:48:45.027Z","pid":58105,"hostname":"ingrid","msg":"Start of node method click"}
-{"level":30,"time":"2022-03-29T19:48:45.027Z","pid":58105,"hostname":"ingrid","msg":"Strict mode is enabled, find Locator with xpath=//button[text()=\"Salvar\"] in page."}
-{"level":30,"time":"2022-03-29T19:48:45.241Z","pid":58105,"hostname":"ingrid","msg":"End of node method click"}
-{"level":30,"time":"2022-03-29T19:48:45.251Z","pid":58105,"hostname":"ingrid","msg":"On executeJavascript, supress ReferenceError: window is not defined for eval."}
-{"level":30,"time":"2022-03-29T19:48:45.270Z","pid":58105,"hostname":"ingrid","msg":"Start of node method takeScreenshot"}
-{"level":30,"time":"2022-03-29T19:48:46.075Z","pid":58105,"hostname":"ingrid","msg":"End of node method takeScreenshot"}
-{"level":30,"time":"2022-03-29T19:48:46.087Z","pid":58105,"hostname":"ingrid","msg":"Start of node method getBrowserCatalog"}
-{"level":30,"time":"2022-03-29T19:48:46.104Z","pid":58105,"hostname":"ingrid","msg":"End of node method getBrowserCatalog"}
-{"level":30,"time":"2022-03-29T19:48:46.111Z","pid":58105,"hostname":"ingrid","msg":"Start of node method getBrowserCatalog"}
-{"level":30,"time":"2022-03-29T19:48:46.163Z","pid":58105,"hostname":"ingrid","msg":"End of node method getBrowserCatalog"}
-{"level":30,"time":"2022-03-29T19:48:46.166Z","pid":58105,"hostname":"ingrid","msg":"Changed active context"}
-{"level":30,"time":"2022-03-29T19:48:46.166Z","pid":58105,"hostname":"ingrid","msg":"Changing current active page"}
-{"level":30,"time":"2022-03-29T19:48:46.166Z","pid":58105,"hostname":"ingrid","msg":"Changed active page"}
-{"level":30,"time":"2022-03-29T19:48:46.172Z","pid":58105,"hostname":"ingrid","msg":"Start of node method getBrowserCatalog"}
-{"level":30,"time":"2022-03-29T19:48:46.182Z","pid":58105,"hostname":"ingrid","msg":"End of node method getBrowserCatalog"}
-{"level":30,"time":"2022-03-29T19:48:46.189Z","pid":58105,"hostname":"ingrid","msg":"Start of node method switchBrowser"}
-{"level":30,"time":"2022-03-29T19:48:46.189Z","pid":58105,"hostname":"ingrid","msg":"End of node method switchBrowser"}
-{"level":30,"time":"2022-03-29T19:48:46.203Z","pid":58105,"hostname":"ingrid","msg":"Start of node method switchBrowser"}
-{"level":30,"time":"2022-03-29T19:48:46.203Z","pid":58105,"hostname":"ingrid","msg":"End of node method switchBrowser"}
-{"level":30,"time":"2022-03-29T19:48:46.217Z","pid":58105,"hostname":"ingrid","msg":"Changed active context"}
-{"level":30,"time":"2022-03-29T19:48:46.217Z","pid":58105,"hostname":"ingrid","msg":"Changing current active page"}
-{"level":30,"time":"2022-03-29T19:48:46.217Z","pid":58105,"hostname":"ingrid","msg":"Changed active page"}
-{"level":30,"time":"2022-03-29T19:48:46.226Z","pid":58105,"hostname":"ingrid","msg":"Start of node method closeContext"}
-{"level":30,"time":"2022-03-29T19:48:46.255Z","pid":58105,"hostname":"ingrid","msg":"End of node method closeContext"}
-{"level":30,"time":"2022-03-29T19:48:46.309Z","pid":58105,"hostname":"ingrid","msg":"Start of node method getBrowserCatalog"}
-{"level":30,"time":"2022-03-29T19:48:46.309Z","pid":58105,"hostname":"ingrid","msg":"End of node method getBrowserCatalog"}
-{"level":30,"time":"2022-03-29T19:48:46.326Z","pid":58105,"hostname":"ingrid","msg":"Start of node method newBrowser"}
-{"level":30,"time":"2022-03-29T19:48:47.484Z","pid":58105,"hostname":"ingrid","msg":"End of node method newBrowser"}
-{"level":30,"time":"2022-03-29T19:48:47.490Z","pid":58105,"hostname":"ingrid","msg":"Start of node method newPage"}
-{"level":30,"time":"2022-03-29T19:48:47.490Z","pid":58105,"hostname":"ingrid","msg":"currentBrowser: [object Object]"}
-{"level":30,"time":"2022-03-29T19:48:47.508Z","pid":58105,"hostname":"ingrid","msg":"Changed active context"}
-{"level":30,"time":"2022-03-29T19:48:47.865Z","pid":58105,"hostname":"ingrid","msg":"Video path: undefined"}
-{"level":30,"time":"2022-03-29T19:48:47.866Z","pid":58105,"hostname":"ingrid","msg":"Changed active page"}
-{"level":30,"time":"2022-03-29T19:48:47.936Z","pid":58105,"hostname":"ingrid","msg":"End of node method newPage"}
-{"level":30,"time":"2022-03-29T19:48:47.943Z","pid":58105,"hostname":"ingrid","msg":"Start of node method goTo"}
-{"level":30,"time":"2022-03-29T19:48:53.145Z","pid":58105,"hostname":"ingrid","msg":"End of node method goTo"}
-{"level":30,"time":"2022-03-29T19:48:53.152Z","pid":58105,"hostname":"ingrid","msg":"Start of node method fillText"}
-{"level":30,"time":"2022-03-29T19:48:53.153Z","pid":58105,"hostname":"ingrid","msg":"Strict mode is enabled, find Locator with xpath=//input[@name=\"email\"] in page."}
-{"level":30,"time":"2022-03-29T19:48:53.308Z","pid":58105,"hostname":"ingrid","msg":"End of node method fillText"}
-{"level":30,"time":"2022-03-29T19:48:53.313Z","pid":58105,"hostname":"ingrid","msg":"Start of node method fillText"}
-{"level":30,"time":"2022-03-29T19:48:53.313Z","pid":58105,"hostname":"ingrid","msg":"Strict mode is enabled, find Locator with xpath=//input[@name=\"password\"] in page."}
-{"level":30,"time":"2022-03-29T19:48:53.376Z","pid":58105,"hostname":"ingrid","msg":"End of node method fillText"}
-{"level":30,"time":"2022-03-29T19:48:53.381Z","pid":58105,"hostname":"ingrid","msg":"Start of node method click"}
-{"level":30,"time":"2022-03-29T19:48:53.382Z","pid":58105,"hostname":"ingrid","msg":"Strict mode is enabled, find Locator with css=button >> text=Entrar in page."}
-{"level":30,"time":"2022-03-29T19:48:53.584Z","pid":58105,"hostname":"ingrid","msg":"End of node method click"}
-{"level":30,"time":"2022-03-29T19:48:53.590Z","pid":58105,"hostname":"ingrid","msg":"Start of node method getText"}
-{"level":30,"time":"2022-03-29T19:48:53.591Z","pid":58105,"hostname":"ingrid","msg":"Strict mode is enabled, find Locator with css=aside strong in page."}
-{"level":30,"time":"2022-03-29T19:48:54.693Z","pid":58105,"hostname":"ingrid","msg":"Retrieved text for element css=aside strong containing Administrador"}
-{"level":30,"time":"2022-03-29T19:48:54.693Z","pid":58105,"hostname":"ingrid","msg":"End of node method getText"}
-{"level":30,"time":"2022-03-29T19:48:54.701Z","pid":58105,"hostname":"ingrid","msg":"Start of node method getBrowserCatalog"}
-{"level":30,"time":"2022-03-29T19:48:54.715Z","pid":58105,"hostname":"ingrid","msg":"End of node method getBrowserCatalog"}
-{"level":30,"time":"2022-03-29T19:48:58.375Z","pid":58105,"hostname":"ingrid","msg":"Start of node method click"}
-{"level":30,"time":"2022-03-29T19:48:58.376Z","pid":58105,"hostname":"ingrid","msg":"Strict mode is enabled, find Locator with xpath=//a[text()=\"ALUNOS\"] in page."}
-{"level":30,"time":"2022-03-29T19:48:58.576Z","pid":58105,"hostname":"ingrid","msg":"End of node method click"}
-{"level":30,"time":"2022-03-29T19:48:58.581Z","pid":58105,"hostname":"ingrid","msg":"Start of node method waitForElementState"}
-{"level":30,"time":"2022-03-29T19:48:58.581Z","pid":58105,"hostname":"ingrid","msg":"Strict mode is enabled, find Locator with h1 >> text=Gestão de Alunos in page."}
-{"level":30,"time":"2022-03-29T19:48:58.616Z","pid":58105,"hostname":"ingrid","msg":"End of node method waitForElementState"}
-{"level":30,"time":"2022-03-29T19:48:58.627Z","pid":58105,"hostname":"ingrid","msg":"Start of node method fillText"}
-{"level":30,"time":"2022-03-29T19:48:58.630Z","pid":58105,"hostname":"ingrid","msg":"Strict mode is enabled, find Locator with css=input[placeholder=\"Buscar aluno\"] in page."}
-{"level":30,"time":"2022-03-29T19:48:58.703Z","pid":58105,"hostname":"ingrid","msg":"End of node method fillText"}
-{"level":30,"time":"2022-03-29T19:48:58.715Z","pid":58105,"hostname":"ingrid","msg":"Start of node method waitForElementState"}
-{"level":30,"time":"2022-03-29T19:48:58.719Z","pid":58105,"hostname":"ingrid","msg":"Strict mode is enabled, find Locator with css=table tbody tr >> text=Lineu Silva in page."}
-{"level":30,"time":"2022-03-29T19:48:59.950Z","pid":58105,"hostname":"ingrid","msg":"End of node method waitForElementState"}
-{"level":30,"time":"2022-03-29T19:48:59.958Z","pid":58105,"hostname":"ingrid","msg":"Start of node method click"}
-{"level":30,"time":"2022-03-29T19:48:59.958Z","pid":58105,"hostname":"ingrid","msg":"Strict mode is enabled, find Locator with xpath=//span[text()=\" Apagar\"] in page."}
-{"level":30,"time":"2022-03-29T19:49:00.227Z","pid":58105,"hostname":"ingrid","msg":"End of node method click"}
-{"level":30,"time":"2022-03-29T19:49:00.231Z","pid":58105,"hostname":"ingrid","msg":"Start of node method getText"}
-{"level":30,"time":"2022-03-29T19:49:00.231Z","pid":58105,"hostname":"ingrid","msg":"Strict mode is enabled, find Locator with xpath=//div//h2[text()=\"Você está certo disso?\"] in page."}
-{"level":30,"time":"2022-03-29T19:49:00.336Z","pid":58105,"hostname":"ingrid","msg":"Retrieved text for element xpath=//div//h2[text()=\"Você está certo disso?\"] containing Você está certo disso?"}
-{"level":30,"time":"2022-03-29T19:49:00.336Z","pid":58105,"hostname":"ingrid","msg":"End of node method getText"}
-{"level":30,"time":"2022-03-29T19:49:00.341Z","pid":58105,"hostname":"ingrid","msg":"Start of node method click"}
-{"level":30,"time":"2022-03-29T19:49:00.341Z","pid":58105,"hostname":"ingrid","msg":"Strict mode is enabled, find Locator with xpath=//div//button[text()=\"SIM, pode apagar!\"] in page."}
-{"level":30,"time":"2022-03-29T19:49:00.636Z","pid":58105,"hostname":"ingrid","msg":"End of node method click"}
-{"level":30,"time":"2022-03-29T19:49:00.642Z","pid":58105,"hostname":"ingrid","msg":"Start of node method waitForElementState"}
-{"level":30,"time":"2022-03-29T19:49:00.643Z","pid":58105,"hostname":"ingrid","msg":"Strict mode is enabled, find Locator with css=.Toastify__toast-body >> text=Aluno removido com sucesso. in page."}
-{"level":30,"time":"2022-03-29T19:49:01.169Z","pid":58105,"hostname":"ingrid","msg":"End of node method waitForElementState"}
-{"level":30,"time":"2022-03-29T19:49:01.179Z","pid":58105,"hostname":"ingrid","msg":"On executeJavascript, supress ReferenceError: window is not defined for eval."}
-{"level":30,"time":"2022-03-29T19:49:01.200Z","pid":58105,"hostname":"ingrid","msg":"Start of node method takeScreenshot"}
-{"level":30,"time":"2022-03-29T19:49:01.630Z","pid":58105,"hostname":"ingrid","msg":"End of node method takeScreenshot"}
-{"level":30,"time":"2022-03-29T19:49:01.637Z","pid":58105,"hostname":"ingrid","msg":"Start of node method getBrowserCatalog"}
-{"level":30,"time":"2022-03-29T19:49:01.647Z","pid":58105,"hostname":"ingrid","msg":"End of node method getBrowserCatalog"}
-{"level":30,"time":"2022-03-29T19:49:01.652Z","pid":58105,"hostname":"ingrid","msg":"Start of node method getBrowserCatalog"}
-{"level":30,"time":"2022-03-29T19:49:01.676Z","pid":58105,"hostname":"ingrid","msg":"End of node method getBrowserCatalog"}
-{"level":30,"time":"2022-03-29T19:49:05.343Z","pid":58105,"hostname":"ingrid","msg":"Start of node method click"}
-{"level":30,"time":"2022-03-29T19:49:05.343Z","pid":58105,"hostname":"ingrid","msg":"Strict mode is enabled, find Locator with xpath=//a[text()=\"ALUNOS\"] in page."}
-{"level":30,"time":"2022-03-29T19:49:05.488Z","pid":58105,"hostname":"ingrid","msg":"End of node method click"}
-{"level":30,"time":"2022-03-29T19:49:05.498Z","pid":58105,"hostname":"ingrid","msg":"Start of node method waitForElementState"}
-{"level":30,"time":"2022-03-29T19:49:05.499Z","pid":58105,"hostname":"ingrid","msg":"Strict mode is enabled, find Locator with h1 >> text=Gestão de Alunos in page."}
-{"level":30,"time":"2022-03-29T19:49:05.528Z","pid":58105,"hostname":"ingrid","msg":"End of node method waitForElementState"}
-{"level":30,"time":"2022-03-29T19:49:05.544Z","pid":58105,"hostname":"ingrid","msg":"Start of node method fillText"}
-{"level":30,"time":"2022-03-29T19:49:05.544Z","pid":58105,"hostname":"ingrid","msg":"Strict mode is enabled, find Locator with css=input[placeholder=\"Buscar aluno\"] in page."}
-{"level":30,"time":"2022-03-29T19:49:05.647Z","pid":58105,"hostname":"ingrid","msg":"End of node method fillText"}
-{"level":30,"time":"2022-03-29T19:49:05.661Z","pid":58105,"hostname":"ingrid","msg":"Start of node method waitForElementState"}
-{"level":30,"time":"2022-03-29T19:49:05.662Z","pid":58105,"hostname":"ingrid","msg":"Strict mode is enabled, find Locator with css=table tbody tr >> text=Agostinho Carrara in page."}
-{"level":30,"time":"2022-03-29T19:49:06.572Z","pid":58105,"hostname":"ingrid","msg":"End of node method waitForElementState"}
-{"level":30,"time":"2022-03-29T19:49:06.580Z","pid":58105,"hostname":"ingrid","msg":"Start of node method click"}
-{"level":30,"time":"2022-03-29T19:49:06.584Z","pid":58105,"hostname":"ingrid","msg":"Strict mode is enabled, find Locator with xpath=//span[text()=\" Apagar\"] in page."}
-{"level":30,"time":"2022-03-29T19:49:06.761Z","pid":58105,"hostname":"ingrid","msg":"End of node method click"}
-{"level":30,"time":"2022-03-29T19:49:06.766Z","pid":58105,"hostname":"ingrid","msg":"Start of node method getText"}
-{"level":30,"time":"2022-03-29T19:49:06.766Z","pid":58105,"hostname":"ingrid","msg":"Strict mode is enabled, find Locator with xpath=//div//h2[text()=\"Você está certo disso?\"] in page."}
-{"level":30,"time":"2022-03-29T19:49:06.876Z","pid":58105,"hostname":"ingrid","msg":"Retrieved text for element xpath=//div//h2[text()=\"Você está certo disso?\"] containing Você está certo disso?"}
-{"level":30,"time":"2022-03-29T19:49:06.876Z","pid":58105,"hostname":"ingrid","msg":"End of node method getText"}
-{"level":30,"time":"2022-03-29T19:49:06.881Z","pid":58105,"hostname":"ingrid","msg":"Start of node method click"}
-{"level":30,"time":"2022-03-29T19:49:06.881Z","pid":58105,"hostname":"ingrid","msg":"Strict mode is enabled, find Locator with xpath=//div//button[text()=\"NÃO\"] in page."}
-{"level":30,"time":"2022-03-29T19:49:07.161Z","pid":58105,"hostname":"ingrid","msg":"End of node method click"}
-{"level":30,"time":"2022-03-29T19:49:07.176Z","pid":58105,"hostname":"ingrid","msg":"On executeJavascript, supress ReferenceError: window is not defined for eval."}
-{"level":30,"time":"2022-03-29T19:49:07.199Z","pid":58105,"hostname":"ingrid","msg":"Start of node method takeScreenshot"}
-{"level":30,"time":"2022-03-29T19:49:07.697Z","pid":58105,"hostname":"ingrid","msg":"End of node method takeScreenshot"}
-{"level":30,"time":"2022-03-29T19:49:07.704Z","pid":58105,"hostname":"ingrid","msg":"Start of node method getBrowserCatalog"}
-{"level":30,"time":"2022-03-29T19:49:07.730Z","pid":58105,"hostname":"ingrid","msg":"End of node method getBrowserCatalog"}
-{"level":30,"time":"2022-03-29T19:49:07.737Z","pid":58105,"hostname":"ingrid","msg":"Start of node method getBrowserCatalog"}
-{"level":30,"time":"2022-03-29T19:49:07.741Z","pid":58105,"hostname":"ingrid","msg":"End of node method getBrowserCatalog"}
-{"level":30,"time":"2022-03-29T19:49:07.745Z","pid":58105,"hostname":"ingrid","msg":"Changed active context"}
-{"level":30,"time":"2022-03-29T19:49:07.745Z","pid":58105,"hostname":"ingrid","msg":"Changing current active page"}
-{"level":30,"time":"2022-03-29T19:49:07.745Z","pid":58105,"hostname":"ingrid","msg":"Changed active page"}
-{"level":30,"time":"2022-03-29T19:49:07.750Z","pid":58105,"hostname":"ingrid","msg":"Start of node method getBrowserCatalog"}
-{"level":30,"time":"2022-03-29T19:49:07.754Z","pid":58105,"hostname":"ingrid","msg":"End of node method getBrowserCatalog"}
-{"level":30,"time":"2022-03-29T19:49:07.758Z","pid":58105,"hostname":"ingrid","msg":"Start of node method switchBrowser"}
-{"level":30,"time":"2022-03-29T19:49:07.758Z","pid":58105,"hostname":"ingrid","msg":"End of node method switchBrowser"}
-{"level":30,"time":"2022-03-29T19:49:07.761Z","pid":58105,"hostname":"ingrid","msg":"Start of node method switchBrowser"}
-{"level":30,"time":"2022-03-29T19:49:07.762Z","pid":58105,"hostname":"ingrid","msg":"End of node method switchBrowser"}
-{"level":30,"time":"2022-03-29T19:49:07.769Z","pid":58105,"hostname":"ingrid","msg":"Changed active context"}
-{"level":30,"time":"2022-03-29T19:49:07.769Z","pid":58105,"hostname":"ingrid","msg":"Changing current active page"}
-{"level":30,"time":"2022-03-29T19:49:07.769Z","pid":58105,"hostname":"ingrid","msg":"Changed active page"}
-{"level":30,"time":"2022-03-29T19:49:07.789Z","pid":58105,"hostname":"ingrid","msg":"Start of node method closeContext"}
-{"level":30,"time":"2022-03-29T19:49:07.804Z","pid":58105,"hostname":"ingrid","msg":"End of node method closeContext"}
-{"level":30,"time":"2022-03-29T19:49:07.871Z","pid":58105,"hostname":"ingrid","msg":"Start of node method getBrowserCatalog"}
-{"level":30,"time":"2022-03-29T19:49:07.872Z","pid":58105,"hostname":"ingrid","msg":"End of node method getBrowserCatalog"}
-{"level":30,"time":"2022-03-29T19:49:07.883Z","pid":58105,"hostname":"ingrid","msg":"Start of node method newBrowser"}
-{"level":30,"time":"2022-03-29T19:49:08.925Z","pid":58105,"hostname":"ingrid","msg":"End of node method newBrowser"}
-{"level":30,"time":"2022-03-29T19:49:08.933Z","pid":58105,"hostname":"ingrid","msg":"Start of node method newPage"}
-{"level":30,"time":"2022-03-29T19:49:08.934Z","pid":58105,"hostname":"ingrid","msg":"currentBrowser: [object Object]"}
-{"level":30,"time":"2022-03-29T19:49:08.998Z","pid":58105,"hostname":"ingrid","msg":"Changed active context"}
-{"level":30,"time":"2022-03-29T19:49:09.583Z","pid":58105,"hostname":"ingrid","msg":"Video path: undefined"}
-{"level":30,"time":"2022-03-29T19:49:09.584Z","pid":58105,"hostname":"ingrid","msg":"Changed active page"}
-{"level":30,"time":"2022-03-29T19:49:09.675Z","pid":58105,"hostname":"ingrid","msg":"End of node method newPage"}
-{"level":30,"time":"2022-03-29T19:49:09.686Z","pid":58105,"hostname":"ingrid","msg":"Start of node method goTo"}
-{"level":30,"time":"2022-03-29T19:49:14.347Z","pid":58105,"hostname":"ingrid","msg":"End of node method goTo"}
-{"level":30,"time":"2022-03-29T19:49:14.355Z","pid":58105,"hostname":"ingrid","msg":"Start of node method fillText"}
-{"level":30,"time":"2022-03-29T19:49:14.356Z","pid":58105,"hostname":"ingrid","msg":"Strict mode is enabled, find Locator with xpath=//input[@name=\"email\"] in page."}
-{"level":30,"time":"2022-03-29T19:49:14.553Z","pid":58105,"hostname":"ingrid","msg":"End of node method fillText"}
-{"level":30,"time":"2022-03-29T19:49:14.558Z","pid":58105,"hostname":"ingrid","msg":"Start of node method fillText"}
-{"level":30,"time":"2022-03-29T19:49:14.558Z","pid":58105,"hostname":"ingrid","msg":"Strict mode is enabled, find Locator with xpath=//input[@name=\"password\"] in page."}
-{"level":30,"time":"2022-03-29T19:49:14.631Z","pid":58105,"hostname":"ingrid","msg":"End of node method fillText"}
-{"level":30,"time":"2022-03-29T19:49:14.637Z","pid":58105,"hostname":"ingrid","msg":"Start of node method click"}
-{"level":30,"time":"2022-03-29T19:49:14.638Z","pid":58105,"hostname":"ingrid","msg":"Strict mode is enabled, find Locator with css=button >> text=Entrar in page."}
-{"level":30,"time":"2022-03-29T19:49:14.822Z","pid":58105,"hostname":"ingrid","msg":"End of node method click"}
-{"level":30,"time":"2022-03-29T19:49:14.828Z","pid":58105,"hostname":"ingrid","msg":"Start of node method getText"}
-{"level":30,"time":"2022-03-29T19:49:14.828Z","pid":58105,"hostname":"ingrid","msg":"Strict mode is enabled, find Locator with css=aside strong in page."}
-{"level":30,"time":"2022-03-29T19:49:15.992Z","pid":58105,"hostname":"ingrid","msg":"Retrieved text for element css=aside strong containing Administrador"}
-{"level":30,"time":"2022-03-29T19:49:15.993Z","pid":58105,"hostname":"ingrid","msg":"End of node method getText"}
-{"level":30,"time":"2022-03-29T19:49:16.000Z","pid":58105,"hostname":"ingrid","msg":"Start of node method getBrowserCatalog"}
-{"level":30,"time":"2022-03-29T19:49:16.008Z","pid":58105,"hostname":"ingrid","msg":"End of node method getBrowserCatalog"}
-{"level":30,"time":"2022-03-29T19:49:28.788Z","pid":58105,"hostname":"ingrid","msg":"Start of node method click"}
-{"level":30,"time":"2022-03-29T19:49:28.788Z","pid":58105,"hostname":"ingrid","msg":"Strict mode is enabled, find Locator with xpath=//a[text()=\"ALUNOS\"] in page."}
-{"level":30,"time":"2022-03-29T19:49:28.978Z","pid":58105,"hostname":"ingrid","msg":"End of node method click"}
-{"level":30,"time":"2022-03-29T19:49:28.985Z","pid":58105,"hostname":"ingrid","msg":"Start of node method waitForElementState"}
-{"level":30,"time":"2022-03-29T19:49:28.985Z","pid":58105,"hostname":"ingrid","msg":"Strict mode is enabled, find Locator with h1 >> text=Gestão de Alunos in page."}
-{"level":30,"time":"2022-03-29T19:49:29.016Z","pid":58105,"hostname":"ingrid","msg":"End of node method waitForElementState"}
-{"level":30,"time":"2022-03-29T19:49:29.039Z","pid":58105,"hostname":"ingrid","msg":"Start of node method fillText"}
-{"level":30,"time":"2022-03-29T19:49:29.039Z","pid":58105,"hostname":"ingrid","msg":"Strict mode is enabled, find Locator with css=input[placeholder=\"Buscar aluno\"] in page."}
-{"level":30,"time":"2022-03-29T19:49:29.124Z","pid":58105,"hostname":"ingrid","msg":"End of node method fillText"}
-{"level":30,"time":"2022-03-29T19:49:29.146Z","pid":58105,"hostname":"ingrid","msg":"Start of node method waitForElementState"}
-{"level":30,"time":"2022-03-29T19:49:29.147Z","pid":58105,"hostname":"ingrid","msg":"Strict mode is enabled, find Locator with css=table tbody tr >> text=David Guetta in page."}
-{"level":30,"time":"2022-03-29T19:49:29.883Z","pid":58105,"hostname":"ingrid","msg":"End of node method waitForElementState"}
-{"level":30,"time":"2022-03-29T19:49:29.891Z","pid":58105,"hostname":"ingrid","msg":"Start of node method waitForElementState"}
-{"level":30,"time":"2022-03-29T19:49:29.891Z","pid":58105,"hostname":"ingrid","msg":"Strict mode is enabled, find Locator with css=table tbody tr >> text=David Bowie in page."}
-{"level":30,"time":"2022-03-29T19:49:30.267Z","pid":58105,"hostname":"ingrid","msg":"End of node method waitForElementState"}
-{"level":30,"time":"2022-03-29T19:49:30.285Z","pid":58105,"hostname":"ingrid","msg":"Start of node method waitForElementState"}
-{"level":30,"time":"2022-03-29T19:49:30.285Z","pid":58105,"hostname":"ingrid","msg":"Strict mode is enabled, find Locator with css=table tbody tr >> text=David Beckham in page."}
-{"level":30,"time":"2022-03-29T19:49:30.308Z","pid":58105,"hostname":"ingrid","msg":"End of node method waitForElementState"}
-{"level":30,"time":"2022-03-29T19:49:30.318Z","pid":58105,"hostname":"ingrid","msg":"Start of node method waitForElementState"}
-{"level":30,"time":"2022-03-29T19:49:30.318Z","pid":58105,"hostname":"ingrid","msg":"Strict mode is enabled, find Locator with css=#pagination .total in page."}
-{"level":30,"time":"2022-03-29T19:49:30.357Z","pid":58105,"hostname":"ingrid","msg":"End of node method waitForElementState"}
-{"level":30,"time":"2022-03-29T19:49:30.363Z","pid":58105,"hostname":"ingrid","msg":"Start of node method getText"}
-{"level":30,"time":"2022-03-29T19:49:30.363Z","pid":58105,"hostname":"ingrid","msg":"Strict mode is enabled, find Locator with css=#pagination .total in page."}
-{"level":30,"time":"2022-03-29T19:49:30.443Z","pid":58105,"hostname":"ingrid","msg":"Retrieved text for element css=#pagination .total containing Total: 3"}
-{"level":30,"time":"2022-03-29T19:49:30.443Z","pid":58105,"hostname":"ingrid","msg":"End of node method getText"}
-{"level":30,"time":"2022-03-29T19:49:30.473Z","pid":58105,"hostname":"ingrid","msg":"Start of node method takeScreenshot"}
-{"level":30,"time":"2022-03-29T19:49:30.898Z","pid":58105,"hostname":"ingrid","msg":"End of node method takeScreenshot"}
-{"level":30,"time":"2022-03-29T19:49:30.910Z","pid":58105,"hostname":"ingrid","msg":"Start of node method getBrowserCatalog"}
-{"level":30,"time":"2022-03-29T19:49:30.929Z","pid":58105,"hostname":"ingrid","msg":"End of node method getBrowserCatalog"}
-{"level":30,"time":"2022-03-29T19:49:30.935Z","pid":58105,"hostname":"ingrid","msg":"Start of node method getBrowserCatalog"}
-{"level":30,"time":"2022-03-29T19:49:30.941Z","pid":58105,"hostname":"ingrid","msg":"End of node method getBrowserCatalog"}
-{"level":30,"time":"2022-03-29T19:49:34.056Z","pid":58105,"hostname":"ingrid","msg":"Start of node method click"}
-{"level":30,"time":"2022-03-29T19:49:34.056Z","pid":58105,"hostname":"ingrid","msg":"Strict mode is enabled, find Locator with xpath=//a[text()=\"ALUNOS\"] in page."}
-{"level":30,"time":"2022-03-29T19:49:34.216Z","pid":58105,"hostname":"ingrid","msg":"End of node method click"}
-{"level":30,"time":"2022-03-29T19:49:34.222Z","pid":58105,"hostname":"ingrid","msg":"Start of node method waitForElementState"}
-{"level":30,"time":"2022-03-29T19:49:34.223Z","pid":58105,"hostname":"ingrid","msg":"Strict mode is enabled, find Locator with h1 >> text=Gestão de Alunos in page."}
-{"level":30,"time":"2022-03-29T19:49:34.251Z","pid":58105,"hostname":"ingrid","msg":"End of node method waitForElementState"}
-{"level":30,"time":"2022-03-29T19:49:34.264Z","pid":58105,"hostname":"ingrid","msg":"Start of node method fillText"}
-{"level":30,"time":"2022-03-29T19:49:34.264Z","pid":58105,"hostname":"ingrid","msg":"Strict mode is enabled, find Locator with css=input[placeholder=\"Buscar aluno\"] in page."}
-{"level":30,"time":"2022-03-29T19:49:34.355Z","pid":58105,"hostname":"ingrid","msg":"End of node method fillText"}
-{"level":30,"time":"2022-03-29T19:49:34.368Z","pid":58105,"hostname":"ingrid","msg":"Start of node method waitForElementState"}
-{"level":30,"time":"2022-03-29T19:49:34.368Z","pid":58105,"hostname":"ingrid","msg":"Strict mode is enabled, find Locator with css=table tbody tr >> text=Doutor Abelardo in page."}
-{"level":30,"time":"2022-03-29T19:49:35.388Z","pid":58105,"hostname":"ingrid","msg":"End of node method waitForElementState"}
-{"level":30,"time":"2022-03-29T19:49:35.406Z","pid":58105,"hostname":"ingrid","msg":"On executeJavascript, supress ReferenceError: window is not defined for eval."}
-{"level":30,"time":"2022-03-29T19:49:35.421Z","pid":58105,"hostname":"ingrid","msg":"Start of node method takeScreenshot"}
-{"level":30,"time":"2022-03-29T19:49:35.821Z","pid":58105,"hostname":"ingrid","msg":"End of node method takeScreenshot"}
-{"level":30,"time":"2022-03-29T19:49:35.829Z","pid":58105,"hostname":"ingrid","msg":"Start of node method getBrowserCatalog"}
-{"level":30,"time":"2022-03-29T19:49:35.854Z","pid":58105,"hostname":"ingrid","msg":"End of node method getBrowserCatalog"}
-{"level":30,"time":"2022-03-29T19:49:35.861Z","pid":58105,"hostname":"ingrid","msg":"Start of node method getBrowserCatalog"}
-{"level":30,"time":"2022-03-29T19:49:35.873Z","pid":58105,"hostname":"ingrid","msg":"End of node method getBrowserCatalog"}
-{"level":30,"time":"2022-03-29T19:49:35.889Z","pid":58105,"hostname":"ingrid","msg":"Start of node method click"}
-{"level":30,"time":"2022-03-29T19:49:35.889Z","pid":58105,"hostname":"ingrid","msg":"Strict mode is enabled, find Locator with xpath=//a[text()=\"ALUNOS\"] in page."}
-{"level":30,"time":"2022-03-29T19:49:36.039Z","pid":58105,"hostname":"ingrid","msg":"End of node method click"}
-{"level":30,"time":"2022-03-29T19:49:36.045Z","pid":58105,"hostname":"ingrid","msg":"Start of node method waitForElementState"}
-{"level":30,"time":"2022-03-29T19:49:36.045Z","pid":58105,"hostname":"ingrid","msg":"Strict mode is enabled, find Locator with h1 >> text=Gestão de Alunos in page."}
-{"level":30,"time":"2022-03-29T19:49:36.073Z","pid":58105,"hostname":"ingrid","msg":"End of node method waitForElementState"}
-{"level":30,"time":"2022-03-29T19:49:36.082Z","pid":58105,"hostname":"ingrid","msg":"Start of node method fillText"}
-{"level":30,"time":"2022-03-29T19:49:36.089Z","pid":58105,"hostname":"ingrid","msg":"Strict mode is enabled, find Locator with css=input[placeholder^=\"Buscar\"] in page."}
-{"level":30,"time":"2022-03-29T19:49:36.156Z","pid":58105,"hostname":"ingrid","msg":"End of node method fillText"}
-{"level":30,"time":"2022-03-29T19:49:36.161Z","pid":58105,"hostname":"ingrid","msg":"Start of node method getText"}
-{"level":30,"time":"2022-03-29T19:49:36.161Z","pid":58105,"hostname":"ingrid","msg":"Strict mode is enabled, find Locator with xpath=//div[text()=\"Nenhum registro encontrado.\"] in page."}
-{"level":30,"time":"2022-03-29T19:49:37.133Z","pid":58105,"hostname":"ingrid","msg":"Retrieved text for element xpath=//div[text()=\"Nenhum registro encontrado.\"] containing Nenhum registro encontrado."}
-{"level":30,"time":"2022-03-29T19:49:37.133Z","pid":58105,"hostname":"ingrid","msg":"End of node method getText"}
-{"level":30,"time":"2022-03-29T19:49:37.141Z","pid":58105,"hostname":"ingrid","msg":"On executeJavascript, supress ReferenceError: window is not defined for eval."}
-{"level":30,"time":"2022-03-29T19:49:37.157Z","pid":58105,"hostname":"ingrid","msg":"Start of node method takeScreenshot"}
-{"level":30,"time":"2022-03-29T19:49:37.517Z","pid":58105,"hostname":"ingrid","msg":"End of node method takeScreenshot"}
-{"level":30,"time":"2022-03-29T19:49:37.524Z","pid":58105,"hostname":"ingrid","msg":"Start of node method getBrowserCatalog"}
-{"level":30,"time":"2022-03-29T19:49:37.537Z","pid":58105,"hostname":"ingrid","msg":"End of node method getBrowserCatalog"}
-{"level":30,"time":"2022-03-29T19:49:37.545Z","pid":58105,"hostname":"ingrid","msg":"Start of node method getBrowserCatalog"}
-{"level":30,"time":"2022-03-29T19:49:37.553Z","pid":58105,"hostname":"ingrid","msg":"End of node method getBrowserCatalog"}
-{"level":30,"time":"2022-03-29T19:49:37.561Z","pid":58105,"hostname":"ingrid","msg":"Changed active context"}
-{"level":30,"time":"2022-03-29T19:49:37.561Z","pid":58105,"hostname":"ingrid","msg":"Changing current active page"}
-{"level":30,"time":"2022-03-29T19:49:37.562Z","pid":58105,"hostname":"ingrid","msg":"Changed active page"}
-{"level":30,"time":"2022-03-29T19:49:37.569Z","pid":58105,"hostname":"ingrid","msg":"Start of node method getBrowserCatalog"}
-{"level":30,"time":"2022-03-29T19:49:37.579Z","pid":58105,"hostname":"ingrid","msg":"End of node method getBrowserCatalog"}
-{"level":30,"time":"2022-03-29T19:49:37.592Z","pid":58105,"hostname":"ingrid","msg":"Start of node method switchBrowser"}
-{"level":30,"time":"2022-03-29T19:49:37.593Z","pid":58105,"hostname":"ingrid","msg":"End of node method switchBrowser"}
-{"level":30,"time":"2022-03-29T19:49:37.599Z","pid":58105,"hostname":"ingrid","msg":"Start of node method switchBrowser"}
-{"level":30,"time":"2022-03-29T19:49:37.600Z","pid":58105,"hostname":"ingrid","msg":"End of node method switchBrowser"}
-{"level":30,"time":"2022-03-29T19:49:37.618Z","pid":58105,"hostname":"ingrid","msg":"Changed active context"}
-{"level":30,"time":"2022-03-29T19:49:37.618Z","pid":58105,"hostname":"ingrid","msg":"Changing current active page"}
-{"level":30,"time":"2022-03-29T19:49:37.618Z","pid":58105,"hostname":"ingrid","msg":"Changed active page"}
-{"level":30,"time":"2022-03-29T19:49:37.627Z","pid":58105,"hostname":"ingrid","msg":"Start of node method closeContext"}
-{"level":30,"time":"2022-03-29T19:49:37.680Z","pid":58105,"hostname":"ingrid","msg":"End of node method closeContext"}
-{"level":30,"time":"2022-03-29T19:49:37.730Z","pid":58105,"hostname":"ingrid","msg":"Start of node method getBrowserCatalog"}
-{"level":30,"time":"2022-03-29T19:49:37.731Z","pid":58105,"hostname":"ingrid","msg":"End of node method getBrowserCatalog"}
-{"level":30,"time":"2022-03-29T19:49:37.744Z","pid":58105,"hostname":"ingrid","msg":"Start of node method newBrowser"}
-{"level":30,"time":"2022-03-29T19:49:38.838Z","pid":58105,"hostname":"ingrid","msg":"End of node method newBrowser"}
-{"level":30,"time":"2022-03-29T19:49:38.844Z","pid":58105,"hostname":"ingrid","msg":"Start of node method newPage"}
-{"level":30,"time":"2022-03-29T19:49:38.844Z","pid":58105,"hostname":"ingrid","msg":"currentBrowser: [object Object]"}
-{"level":30,"time":"2022-03-29T19:49:38.867Z","pid":58105,"hostname":"ingrid","msg":"Changed active context"}
-{"level":30,"time":"2022-03-29T19:49:39.258Z","pid":58105,"hostname":"ingrid","msg":"Video path: undefined"}
-{"level":30,"time":"2022-03-29T19:49:39.258Z","pid":58105,"hostname":"ingrid","msg":"Changed active page"}
-{"level":30,"time":"2022-03-29T19:49:39.327Z","pid":58105,"hostname":"ingrid","msg":"End of node method newPage"}
-{"level":30,"time":"2022-03-29T19:49:39.337Z","pid":58105,"hostname":"ingrid","msg":"Start of node method goTo"}
-{"level":30,"time":"2022-03-29T19:49:44.898Z","pid":58105,"hostname":"ingrid","msg":"End of node method goTo"}
-{"level":30,"time":"2022-03-29T19:49:44.905Z","pid":58105,"hostname":"ingrid","msg":"Start of node method fillText"}
-{"level":30,"time":"2022-03-29T19:49:44.905Z","pid":58105,"hostname":"ingrid","msg":"Strict mode is enabled, find Locator with xpath=//input[@name=\"email\"] in page."}
-{"level":30,"time":"2022-03-29T19:49:45.019Z","pid":58105,"hostname":"ingrid","msg":"End of node method fillText"}
-{"level":30,"time":"2022-03-29T19:49:45.024Z","pid":58105,"hostname":"ingrid","msg":"Start of node method fillText"}
-{"level":30,"time":"2022-03-29T19:49:45.024Z","pid":58105,"hostname":"ingrid","msg":"Strict mode is enabled, find Locator with xpath=//input[@name=\"password\"] in page."}
-{"level":30,"time":"2022-03-29T19:49:45.083Z","pid":58105,"hostname":"ingrid","msg":"End of node method fillText"}
-{"level":30,"time":"2022-03-29T19:49:45.088Z","pid":58105,"hostname":"ingrid","msg":"Start of node method click"}
-{"level":30,"time":"2022-03-29T19:49:45.088Z","pid":58105,"hostname":"ingrid","msg":"Strict mode is enabled, find Locator with css=button >> text=Entrar in page."}
-{"level":30,"time":"2022-03-29T19:49:45.249Z","pid":58105,"hostname":"ingrid","msg":"End of node method click"}
-{"level":30,"time":"2022-03-29T19:49:45.257Z","pid":58105,"hostname":"ingrid","msg":"Start of node method getText"}
-{"level":30,"time":"2022-03-29T19:49:45.257Z","pid":58105,"hostname":"ingrid","msg":"Strict mode is enabled, find Locator with css=aside strong in page."}
-{"level":30,"time":"2022-03-29T19:49:46.389Z","pid":58105,"hostname":"ingrid","msg":"Retrieved text for element css=aside strong containing Administrador"}
-{"level":30,"time":"2022-03-29T19:49:46.389Z","pid":58105,"hostname":"ingrid","msg":"End of node method getText"}
-{"level":30,"time":"2022-03-29T19:49:46.406Z","pid":58105,"hostname":"ingrid","msg":"Start of node method getBrowserCatalog"}
-{"level":30,"time":"2022-03-29T19:49:46.410Z","pid":58105,"hostname":"ingrid","msg":"End of node method getBrowserCatalog"}
-{"level":30,"time":"2022-03-29T19:49:53.496Z","pid":58105,"hostname":"ingrid","msg":"Start of node method click"}
-{"level":30,"time":"2022-03-29T19:49:53.496Z","pid":58105,"hostname":"ingrid","msg":"Strict mode is enabled, find Locator with xpath=//a[text()=\"ALUNOS\"] in page."}
-{"level":30,"time":"2022-03-29T19:49:53.739Z","pid":58105,"hostname":"ingrid","msg":"End of node method click"}
-{"level":30,"time":"2022-03-29T19:49:53.744Z","pid":58105,"hostname":"ingrid","msg":"Start of node method waitForElementState"}
-{"level":30,"time":"2022-03-29T19:49:53.744Z","pid":58105,"hostname":"ingrid","msg":"Strict mode is enabled, find Locator with h1 >> text=Gestão de Alunos in page."}
-{"level":30,"time":"2022-03-29T19:49:53.790Z","pid":58105,"hostname":"ingrid","msg":"End of node method waitForElementState"}
-{"level":30,"time":"2022-03-29T19:49:53.799Z","pid":58105,"hostname":"ingrid","msg":"Start of node method fillText"}
-{"level":30,"time":"2022-03-29T19:49:53.799Z","pid":58105,"hostname":"ingrid","msg":"Strict mode is enabled, find Locator with css=input[placeholder=\"Buscar aluno\"] in page."}
-{"level":30,"time":"2022-03-29T19:49:53.890Z","pid":58105,"hostname":"ingrid","msg":"End of node method fillText"}
-{"level":30,"time":"2022-03-29T19:49:53.909Z","pid":58105,"hostname":"ingrid","msg":"Start of node method click"}
-{"level":30,"time":"2022-03-29T19:49:53.909Z","pid":58105,"hostname":"ingrid","msg":"Strict mode is enabled, find Locator with xpath=//td[contains(text(), \"kamalakhan@gmail.com\")]/..//a[@class=\"edit\"] in page."}
-{"level":30,"time":"2022-03-29T19:49:55.052Z","pid":58105,"hostname":"ingrid","msg":"End of node method click"}
-{"level":30,"time":"2022-03-29T19:49:55.058Z","pid":58105,"hostname":"ingrid","msg":"Start of node method waitForElementState"}
-{"level":30,"time":"2022-03-29T19:49:55.059Z","pid":58105,"hostname":"ingrid","msg":"Strict mode is enabled, find Locator with css=h1 >> text=Edição de aluno in page."}
-{"level":30,"time":"2022-03-29T19:49:55.097Z","pid":58105,"hostname":"ingrid","msg":"End of node method waitForElementState"}
-{"level":30,"time":"2022-03-29T19:49:55.132Z","pid":58105,"hostname":"ingrid","msg":"Start of node method fillText"}
-{"level":30,"time":"2022-03-29T19:49:55.133Z","pid":58105,"hostname":"ingrid","msg":"Strict mode is enabled, find Locator with css=input[name=name] in page."}
-{"level":30,"time":"2022-03-29T19:49:55.217Z","pid":58105,"hostname":"ingrid","msg":"End of node method fillText"}
-{"level":30,"time":"2022-03-29T19:49:55.224Z","pid":58105,"hostname":"ingrid","msg":"Start of node method fillText"}
-{"level":30,"time":"2022-03-29T19:49:55.224Z","pid":58105,"hostname":"ingrid","msg":"Strict mode is enabled, find Locator with css=input[name=email] in page."}
-{"level":30,"time":"2022-03-29T19:49:55.318Z","pid":58105,"hostname":"ingrid","msg":"End of node method fillText"}
-{"level":30,"time":"2022-03-29T19:49:55.325Z","pid":58105,"hostname":"ingrid","msg":"Start of node method fillText"}
-{"level":30,"time":"2022-03-29T19:49:55.326Z","pid":58105,"hostname":"ingrid","msg":"Strict mode is enabled, find Locator with css=input[name=age] in page."}
-{"level":30,"time":"2022-03-29T19:49:55.405Z","pid":58105,"hostname":"ingrid","msg":"End of node method fillText"}
-{"level":30,"time":"2022-03-29T19:49:55.411Z","pid":58105,"hostname":"ingrid","msg":"Start of node method fillText"}
-{"level":30,"time":"2022-03-29T19:49:55.412Z","pid":58105,"hostname":"ingrid","msg":"Strict mode is enabled, find Locator with css=input[name=weight] in page."}
-{"level":30,"time":"2022-03-29T19:49:55.489Z","pid":58105,"hostname":"ingrid","msg":"End of node method fillText"}
-{"level":30,"time":"2022-03-29T19:49:55.498Z","pid":58105,"hostname":"ingrid","msg":"Start of node method fillText"}
-{"level":30,"time":"2022-03-29T19:49:55.498Z","pid":58105,"hostname":"ingrid","msg":"Strict mode is enabled, find Locator with css=input[name=feet_tall] in page."}
-{"level":30,"time":"2022-03-29T19:49:55.609Z","pid":58105,"hostname":"ingrid","msg":"End of node method fillText"}
-{"level":30,"time":"2022-03-29T19:49:55.615Z","pid":58105,"hostname":"ingrid","msg":"Start of node method click"}
-{"level":30,"time":"2022-03-29T19:49:55.615Z","pid":58105,"hostname":"ingrid","msg":"Strict mode is enabled, find Locator with xpath=//button[text()=\"Salvar\"] in page."}
-{"level":30,"time":"2022-03-29T19:49:55.752Z","pid":58105,"hostname":"ingrid","msg":"End of node method click"}
-{"level":30,"time":"2022-03-29T19:49:55.760Z","pid":58105,"hostname":"ingrid","msg":"Start of node method waitForElementState"}
-{"level":30,"time":"2022-03-29T19:49:55.760Z","pid":58105,"hostname":"ingrid","msg":"Strict mode is enabled, find Locator with css=.Toastify__toast-body >> text=Aluno atualizado com sucesso. in page."}
-{"level":30,"time":"2022-03-29T19:49:56.198Z","pid":58105,"hostname":"ingrid","msg":"End of node method waitForElementState"}
-{"level":30,"time":"2022-03-29T19:49:58.213Z","pid":58105,"hostname":"ingrid","msg":"Start of node method takeScreenshot"}
-{"level":30,"time":"2022-03-29T19:49:58.573Z","pid":58105,"hostname":"ingrid","msg":"End of node method takeScreenshot"}
-{"level":30,"time":"2022-03-29T19:49:58.588Z","pid":58105,"hostname":"ingrid","msg":"Start of node method getBrowserCatalog"}
-{"level":30,"time":"2022-03-29T19:49:58.611Z","pid":58105,"hostname":"ingrid","msg":"End of node method getBrowserCatalog"}
-{"level":30,"time":"2022-03-29T19:49:58.621Z","pid":58105,"hostname":"ingrid","msg":"Start of node method getBrowserCatalog"}
-{"level":30,"time":"2022-03-29T19:49:58.634Z","pid":58105,"hostname":"ingrid","msg":"End of node method getBrowserCatalog"}
-{"level":30,"time":"2022-03-29T19:49:58.638Z","pid":58105,"hostname":"ingrid","msg":"Changed active context"}
-{"level":30,"time":"2022-03-29T19:49:58.638Z","pid":58105,"hostname":"ingrid","msg":"Changing current active page"}
-{"level":30,"time":"2022-03-29T19:49:58.638Z","pid":58105,"hostname":"ingrid","msg":"Changed active page"}
-{"level":30,"time":"2022-03-29T19:49:58.643Z","pid":58105,"hostname":"ingrid","msg":"Start of node method getBrowserCatalog"}
-{"level":30,"time":"2022-03-29T19:49:58.651Z","pid":58105,"hostname":"ingrid","msg":"End of node method getBrowserCatalog"}
-{"level":30,"time":"2022-03-29T19:49:58.657Z","pid":58105,"hostname":"ingrid","msg":"Start of node method switchBrowser"}
-{"level":30,"time":"2022-03-29T19:49:58.658Z","pid":58105,"hostname":"ingrid","msg":"End of node method switchBrowser"}
-{"level":30,"time":"2022-03-29T19:49:58.663Z","pid":58105,"hostname":"ingrid","msg":"Start of node method switchBrowser"}
-{"level":30,"time":"2022-03-29T19:49:58.663Z","pid":58105,"hostname":"ingrid","msg":"End of node method switchBrowser"}
-{"level":30,"time":"2022-03-29T19:49:58.672Z","pid":58105,"hostname":"ingrid","msg":"Changed active context"}
-{"level":30,"time":"2022-03-29T19:49:58.673Z","pid":58105,"hostname":"ingrid","msg":"Changing current active page"}
-{"level":30,"time":"2022-03-29T19:49:58.673Z","pid":58105,"hostname":"ingrid","msg":"Changed active page"}
-{"level":30,"time":"2022-03-29T19:49:58.685Z","pid":58105,"hostname":"ingrid","msg":"Start of node method closeContext"}
-{"level":30,"time":"2022-03-29T19:49:58.723Z","pid":58105,"hostname":"ingrid","msg":"End of node method closeContext"}
-{"level":30,"time":"2022-03-29T19:49:59.270Z","pid":58105,"hostname":"ingrid","msg":"Start of node method closeAllBrowsers"}
-{"level":30,"time":"2022-03-29T19:49:59.532Z","pid":58105,"hostname":"ingrid","msg":"End of node method closeAllBrowsers"}
+{"level":30,"time":"2022-03-30T16:36:10.828Z","pid":44930,"hostname":"ingrid","msg":"Listening on 58153"}
+{"level":30,"time":"2022-03-30T16:36:10.924Z","pid":44930,"hostname":"ingrid","msg":"Start of node method getBrowserCatalog"}
+{"level":30,"time":"2022-03-30T16:36:10.925Z","pid":44930,"hostname":"ingrid","msg":"End of node method getBrowserCatalog"}
+{"level":30,"time":"2022-03-30T16:36:10.938Z","pid":44930,"hostname":"ingrid","msg":"Start of node method newBrowser"}
+{"level":30,"time":"2022-03-30T16:36:11.809Z","pid":44930,"hostname":"ingrid","msg":"End of node method newBrowser"}
+{"level":30,"time":"2022-03-30T16:36:11.822Z","pid":44930,"hostname":"ingrid","msg":"Start of node method newPage"}
+{"level":30,"time":"2022-03-30T16:36:11.825Z","pid":44930,"hostname":"ingrid","msg":"currentBrowser: [object Object]"}
+{"level":30,"time":"2022-03-30T16:36:11.869Z","pid":44930,"hostname":"ingrid","msg":"Changed active context"}
+{"level":30,"time":"2022-03-30T16:36:12.815Z","pid":44930,"hostname":"ingrid","msg":"Video path: undefined"}
+{"level":30,"time":"2022-03-30T16:36:12.815Z","pid":44930,"hostname":"ingrid","msg":"Changed active page"}
+{"level":30,"time":"2022-03-30T16:36:12.924Z","pid":44930,"hostname":"ingrid","msg":"End of node method newPage"}
+{"level":30,"time":"2022-03-30T16:36:12.947Z","pid":44930,"hostname":"ingrid","msg":"Start of node method goTo"}
+{"level":30,"time":"2022-03-30T16:36:18.159Z","pid":44930,"hostname":"ingrid","msg":"End of node method goTo"}
+{"level":30,"time":"2022-03-30T16:36:18.172Z","pid":44930,"hostname":"ingrid","msg":"Start of node method fillText"}
+{"level":30,"time":"2022-03-30T16:36:18.174Z","pid":44930,"hostname":"ingrid","msg":"Strict mode is enabled, find Locator with xpath=//input[@name=\"email\"] in page."}
+{"level":30,"time":"2022-03-30T16:36:18.274Z","pid":44930,"hostname":"ingrid","msg":"End of node method fillText"}
+{"level":30,"time":"2022-03-30T16:36:18.280Z","pid":44930,"hostname":"ingrid","msg":"Start of node method fillText"}
+{"level":30,"time":"2022-03-30T16:36:18.280Z","pid":44930,"hostname":"ingrid","msg":"Strict mode is enabled, find Locator with xpath=//input[@name=\"password\"] in page."}
+{"level":30,"time":"2022-03-30T16:36:18.325Z","pid":44930,"hostname":"ingrid","msg":"End of node method fillText"}
+{"level":30,"time":"2022-03-30T16:36:18.331Z","pid":44930,"hostname":"ingrid","msg":"Start of node method click"}
+{"level":30,"time":"2022-03-30T16:36:18.331Z","pid":44930,"hostname":"ingrid","msg":"Strict mode is enabled, find Locator with css=button >> text=Entrar in page."}
+{"level":30,"time":"2022-03-30T16:36:18.453Z","pid":44930,"hostname":"ingrid","msg":"End of node method click"}
+{"level":30,"time":"2022-03-30T16:36:18.460Z","pid":44930,"hostname":"ingrid","msg":"Start of node method getText"}
+{"level":30,"time":"2022-03-30T16:36:18.460Z","pid":44930,"hostname":"ingrid","msg":"Strict mode is enabled, find Locator with css=aside strong in page."}
+{"level":30,"time":"2022-03-30T16:36:19.639Z","pid":44930,"hostname":"ingrid","msg":"Retrieved text for element css=aside strong containing Administrador"}
+{"level":30,"time":"2022-03-30T16:36:19.639Z","pid":44930,"hostname":"ingrid","msg":"End of node method getText"}
+{"level":30,"time":"2022-03-30T16:36:19.647Z","pid":44930,"hostname":"ingrid","msg":"Start of node method getBrowserCatalog"}
+{"level":30,"time":"2022-03-30T16:36:19.659Z","pid":44930,"hostname":"ingrid","msg":"End of node method getBrowserCatalog"}
+{"level":30,"time":"2022-03-30T16:36:21.363Z","pid":44930,"hostname":"ingrid","msg":"Start of node method click"}
+{"level":30,"time":"2022-03-30T16:36:21.363Z","pid":44930,"hostname":"ingrid","msg":"Strict mode is enabled, find Locator with xpath=//a[text()=\"PLANOS\"] in page."}
+{"level":30,"time":"2022-03-30T16:36:21.512Z","pid":44930,"hostname":"ingrid","msg":"End of node method click"}
+{"level":30,"time":"2022-03-30T16:36:21.521Z","pid":44930,"hostname":"ingrid","msg":"Start of node method waitForElementState"}
+{"level":30,"time":"2022-03-30T16:36:21.522Z","pid":44930,"hostname":"ingrid","msg":"Strict mode is enabled, find Locator with h1 >> text=Gestão de Planos in page."}
+{"level":30,"time":"2022-03-30T16:36:21.540Z","pid":44930,"hostname":"ingrid","msg":"End of node method waitForElementState"}
+{"level":30,"time":"2022-03-30T16:36:21.560Z","pid":44930,"hostname":"ingrid","msg":"Start of node method click"}
+{"level":30,"time":"2022-03-30T16:36:21.560Z","pid":44930,"hostname":"ingrid","msg":"Strict mode is enabled, find Locator with xpath=//a[@href=\"/planos/new\"] in page."}
+{"level":30,"time":"2022-03-30T16:36:21.880Z","pid":44930,"hostname":"ingrid","msg":"End of node method click"}
+{"level":30,"time":"2022-03-30T16:36:21.885Z","pid":44930,"hostname":"ingrid","msg":"Start of node method waitForElementState"}
+{"level":30,"time":"2022-03-30T16:36:21.885Z","pid":44930,"hostname":"ingrid","msg":"Strict mode is enabled, find Locator with h1 >> text=Novo plano in page."}
+{"level":30,"time":"2022-03-30T16:36:21.898Z","pid":44930,"hostname":"ingrid","msg":"End of node method waitForElementState"}
+{"level":30,"time":"2022-03-30T16:36:21.914Z","pid":44930,"hostname":"ingrid","msg":"Start of node method fillText"}
+{"level":30,"time":"2022-03-30T16:36:21.914Z","pid":44930,"hostname":"ingrid","msg":"Strict mode is enabled, find Locator with css=input[name=\"title\"] in page."}
+{"level":30,"time":"2022-03-30T16:36:21.980Z","pid":44930,"hostname":"ingrid","msg":"End of node method fillText"}
+{"level":30,"time":"2022-03-30T16:36:21.986Z","pid":44930,"hostname":"ingrid","msg":"Start of node method fillText"}
+{"level":30,"time":"2022-03-30T16:36:21.986Z","pid":44930,"hostname":"ingrid","msg":"Strict mode is enabled, find Locator with css=input[name=\"duration\"] in page."}
+{"level":30,"time":"2022-03-30T16:36:22.047Z","pid":44930,"hostname":"ingrid","msg":"End of node method fillText"}
+{"level":30,"time":"2022-03-30T16:36:22.053Z","pid":44930,"hostname":"ingrid","msg":"Start of node method fillText"}
+{"level":30,"time":"2022-03-30T16:36:22.053Z","pid":44930,"hostname":"ingrid","msg":"Strict mode is enabled, find Locator with css=input[name=\"price\"] in page."}
+{"level":30,"time":"2022-03-30T16:36:22.112Z","pid":44930,"hostname":"ingrid","msg":"End of node method fillText"}
+{"level":30,"time":"2022-03-30T16:36:22.117Z","pid":44930,"hostname":"ingrid","msg":"Start of node method click"}
+{"level":30,"time":"2022-03-30T16:36:22.117Z","pid":44930,"hostname":"ingrid","msg":"Strict mode is enabled, find Locator with xpath=//button[text()=\"Salvar\"] in page."}
+{"level":30,"time":"2022-03-30T16:36:22.210Z","pid":44930,"hostname":"ingrid","msg":"End of node method click"}
+{"level":30,"time":"2022-03-30T16:36:22.217Z","pid":44930,"hostname":"ingrid","msg":"Start of node method waitForElementState"}
+{"level":30,"time":"2022-03-30T16:36:22.217Z","pid":44930,"hostname":"ingrid","msg":"Strict mode is enabled, find Locator with css=.Toastify__toast-body >> text=Plano cadastrado com sucesso in page."}
+{"level":30,"time":"2022-03-30T16:36:22.668Z","pid":44930,"hostname":"ingrid","msg":"End of node method waitForElementState"}
+{"level":30,"time":"2022-03-30T16:36:24.680Z","pid":44930,"hostname":"ingrid","msg":"Start of node method takeScreenshot"}
+{"level":30,"time":"2022-03-30T16:36:24.964Z","pid":44930,"hostname":"ingrid","msg":"End of node method takeScreenshot"}
+{"level":30,"time":"2022-03-30T16:36:24.970Z","pid":44930,"hostname":"ingrid","msg":"Start of node method getBrowserCatalog"}
+{"level":30,"time":"2022-03-30T16:36:25.004Z","pid":44930,"hostname":"ingrid","msg":"End of node method getBrowserCatalog"}
+{"level":30,"time":"2022-03-30T16:36:25.009Z","pid":44930,"hostname":"ingrid","msg":"Start of node method getBrowserCatalog"}
+{"level":30,"time":"2022-03-30T16:36:25.016Z","pid":44930,"hostname":"ingrid","msg":"End of node method getBrowserCatalog"}
+{"level":30,"time":"2022-03-30T16:36:25.023Z","pid":44930,"hostname":"ingrid","msg":"Start of node method click"}
+{"level":30,"time":"2022-03-30T16:36:25.023Z","pid":44930,"hostname":"ingrid","msg":"Strict mode is enabled, find Locator with xpath=//a[text()=\"PLANOS\"] in page."}
+{"level":30,"time":"2022-03-30T16:36:25.252Z","pid":44930,"hostname":"ingrid","msg":"End of node method click"}
+{"level":30,"time":"2022-03-30T16:36:25.256Z","pid":44930,"hostname":"ingrid","msg":"Start of node method waitForElementState"}
+{"level":30,"time":"2022-03-30T16:36:25.256Z","pid":44930,"hostname":"ingrid","msg":"Strict mode is enabled, find Locator with h1 >> text=Gestão de Planos in page."}
+{"level":30,"time":"2022-03-30T16:36:25.274Z","pid":44930,"hostname":"ingrid","msg":"End of node method waitForElementState"}
+{"level":30,"time":"2022-03-30T16:36:25.280Z","pid":44930,"hostname":"ingrid","msg":"Start of node method click"}
+{"level":30,"time":"2022-03-30T16:36:25.280Z","pid":44930,"hostname":"ingrid","msg":"Strict mode is enabled, find Locator with xpath=//a[@href=\"/planos/new\"] in page."}
+{"level":30,"time":"2022-03-30T16:36:25.441Z","pid":44930,"hostname":"ingrid","msg":"End of node method click"}
+{"level":30,"time":"2022-03-30T16:36:25.446Z","pid":44930,"hostname":"ingrid","msg":"Start of node method waitForElementState"}
+{"level":30,"time":"2022-03-30T16:36:25.446Z","pid":44930,"hostname":"ingrid","msg":"Strict mode is enabled, find Locator with h1 >> text=Novo plano in page."}
+{"level":30,"time":"2022-03-30T16:36:25.469Z","pid":44930,"hostname":"ingrid","msg":"End of node method waitForElementState"}
+{"level":30,"time":"2022-03-30T16:36:25.474Z","pid":44930,"hostname":"ingrid","msg":"Start of node method getElementAttribute"}
+{"level":30,"time":"2022-03-30T16:36:25.477Z","pid":44930,"hostname":"ingrid","msg":"Strict mode is enabled, find Locator with css=input[name=\"price\"] in page."}
+{"level":30,"time":"2022-03-30T16:36:25.521Z","pid":44930,"hostname":"ingrid","msg":"Retrieved attribute for element css=input[name=\"price\"] containing text"}
+{"level":30,"time":"2022-03-30T16:36:25.521Z","pid":44930,"hostname":"ingrid","msg":"End of node method getElementAttribute"}
+{"level":30,"time":"2022-03-30T16:36:25.535Z","pid":44930,"hostname":"ingrid","msg":"Start of node method takeScreenshot"}
+{"level":30,"time":"2022-03-30T16:36:25.995Z","pid":44930,"hostname":"ingrid","msg":"End of node method takeScreenshot"}
+{"level":30,"time":"2022-03-30T16:36:26.000Z","pid":44930,"hostname":"ingrid","msg":"Start of node method getBrowserCatalog"}
+{"level":30,"time":"2022-03-30T16:36:26.014Z","pid":44930,"hostname":"ingrid","msg":"End of node method getBrowserCatalog"}
+{"level":30,"time":"2022-03-30T16:36:26.031Z","pid":44930,"hostname":"ingrid","msg":"Start of node method getBrowserCatalog"}
+{"level":30,"time":"2022-03-30T16:36:26.058Z","pid":44930,"hostname":"ingrid","msg":"End of node method getBrowserCatalog"}
+{"level":30,"time":"2022-03-30T16:36:26.067Z","pid":44930,"hostname":"ingrid","msg":"Start of node method click"}
+{"level":30,"time":"2022-03-30T16:36:26.067Z","pid":44930,"hostname":"ingrid","msg":"Strict mode is enabled, find Locator with xpath=//a[text()=\"PLANOS\"] in page."}
+{"level":30,"time":"2022-03-30T16:36:26.250Z","pid":44930,"hostname":"ingrid","msg":"End of node method click"}
+{"level":30,"time":"2022-03-30T16:36:26.254Z","pid":44930,"hostname":"ingrid","msg":"Start of node method waitForElementState"}
+{"level":30,"time":"2022-03-30T16:36:26.254Z","pid":44930,"hostname":"ingrid","msg":"Strict mode is enabled, find Locator with h1 >> text=Gestão de Planos in page."}
+{"level":30,"time":"2022-03-30T16:36:26.318Z","pid":44930,"hostname":"ingrid","msg":"End of node method waitForElementState"}
+{"level":30,"time":"2022-03-30T16:36:26.325Z","pid":44930,"hostname":"ingrid","msg":"Start of node method click"}
+{"level":30,"time":"2022-03-30T16:36:26.325Z","pid":44930,"hostname":"ingrid","msg":"Strict mode is enabled, find Locator with xpath=//a[@href=\"/planos/new\"] in page."}
+{"level":30,"time":"2022-03-30T16:36:26.625Z","pid":44930,"hostname":"ingrid","msg":"End of node method click"}
+{"level":30,"time":"2022-03-30T16:36:26.630Z","pid":44930,"hostname":"ingrid","msg":"Start of node method waitForElementState"}
+{"level":30,"time":"2022-03-30T16:36:26.630Z","pid":44930,"hostname":"ingrid","msg":"Strict mode is enabled, find Locator with h1 >> text=Novo plano in page."}
+{"level":30,"time":"2022-03-30T16:36:26.650Z","pid":44930,"hostname":"ingrid","msg":"End of node method waitForElementState"}
+{"level":30,"time":"2022-03-30T16:36:26.660Z","pid":44930,"hostname":"ingrid","msg":"Start of node method click"}
+{"level":30,"time":"2022-03-30T16:36:26.661Z","pid":44930,"hostname":"ingrid","msg":"Strict mode is enabled, find Locator with xpath=//button[text()=\"Salvar\"] in page."}
+{"level":30,"time":"2022-03-30T16:36:26.757Z","pid":44930,"hostname":"ingrid","msg":"End of node method click"}
+{"level":30,"time":"2022-03-30T16:36:26.763Z","pid":44930,"hostname":"ingrid","msg":"Start of node method getText"}
+{"level":30,"time":"2022-03-30T16:36:26.763Z","pid":44930,"hostname":"ingrid","msg":"Strict mode is enabled, find Locator with xpath=(//form//span)[1] in page."}
+{"level":30,"time":"2022-03-30T16:36:26.886Z","pid":44930,"hostname":"ingrid","msg":"Retrieved text for element xpath=(//form//span)[1] containing Informe o título do plano"}
+{"level":30,"time":"2022-03-30T16:36:26.886Z","pid":44930,"hostname":"ingrid","msg":"End of node method getText"}
+{"level":30,"time":"2022-03-30T16:36:26.899Z","pid":44930,"hostname":"ingrid","msg":"Start of node method getText"}
+{"level":30,"time":"2022-03-30T16:36:26.899Z","pid":44930,"hostname":"ingrid","msg":"Strict mode is enabled, find Locator with xpath=(//form//span)[2] in page."}
+{"level":30,"time":"2022-03-30T16:36:26.995Z","pid":44930,"hostname":"ingrid","msg":"Retrieved text for element xpath=(//form//span)[2] containing Informe a duração do plano em meses"}
+{"level":30,"time":"2022-03-30T16:36:26.995Z","pid":44930,"hostname":"ingrid","msg":"End of node method getText"}
+{"level":30,"time":"2022-03-30T16:36:29.022Z","pid":44930,"hostname":"ingrid","msg":"Start of node method takeScreenshot"}
+{"level":30,"time":"2022-03-30T16:36:29.267Z","pid":44930,"hostname":"ingrid","msg":"End of node method takeScreenshot"}
+{"level":30,"time":"2022-03-30T16:36:29.278Z","pid":44930,"hostname":"ingrid","msg":"Start of node method getBrowserCatalog"}
+{"level":30,"time":"2022-03-30T16:36:29.285Z","pid":44930,"hostname":"ingrid","msg":"End of node method getBrowserCatalog"}
+{"level":30,"time":"2022-03-30T16:36:29.290Z","pid":44930,"hostname":"ingrid","msg":"Start of node method getBrowserCatalog"}
+{"level":30,"time":"2022-03-30T16:36:29.302Z","pid":44930,"hostname":"ingrid","msg":"End of node method getBrowserCatalog"}
+{"level":30,"time":"2022-03-30T16:36:31.190Z","pid":44930,"hostname":"ingrid","msg":"Start of node method click"}
+{"level":30,"time":"2022-03-30T16:36:31.190Z","pid":44930,"hostname":"ingrid","msg":"Strict mode is enabled, find Locator with xpath=//a[text()=\"PLANOS\"] in page."}
+{"level":30,"time":"2022-03-30T16:36:31.301Z","pid":44930,"hostname":"ingrid","msg":"End of node method click"}
+{"level":30,"time":"2022-03-30T16:36:31.311Z","pid":44930,"hostname":"ingrid","msg":"Start of node method waitForElementState"}
+{"level":30,"time":"2022-03-30T16:36:31.311Z","pid":44930,"hostname":"ingrid","msg":"Strict mode is enabled, find Locator with h1 >> text=Gestão de Planos in page."}
+{"level":30,"time":"2022-03-30T16:36:31.326Z","pid":44930,"hostname":"ingrid","msg":"End of node method waitForElementState"}
+{"level":30,"time":"2022-03-30T16:36:31.337Z","pid":44930,"hostname":"ingrid","msg":"Start of node method click"}
+{"level":30,"time":"2022-03-30T16:36:31.337Z","pid":44930,"hostname":"ingrid","msg":"Strict mode is enabled, find Locator with xpath=//a[@href=\"/planos/new\"] in page."}
+{"level":30,"time":"2022-03-30T16:36:31.552Z","pid":44930,"hostname":"ingrid","msg":"End of node method click"}
+{"level":30,"time":"2022-03-30T16:36:31.561Z","pid":44930,"hostname":"ingrid","msg":"Start of node method waitForElementState"}
+{"level":30,"time":"2022-03-30T16:36:31.561Z","pid":44930,"hostname":"ingrid","msg":"Strict mode is enabled, find Locator with h1 >> text=Novo plano in page."}
+{"level":30,"time":"2022-03-30T16:36:31.592Z","pid":44930,"hostname":"ingrid","msg":"End of node method waitForElementState"}
+{"level":30,"time":"2022-03-30T16:36:31.600Z","pid":44930,"hostname":"ingrid","msg":"Start of node method fillText"}
+{"level":30,"time":"2022-03-30T16:36:31.600Z","pid":44930,"hostname":"ingrid","msg":"Strict mode is enabled, find Locator with css=input[name=\"title\"] in page."}
+{"level":30,"time":"2022-03-30T16:36:31.695Z","pid":44930,"hostname":"ingrid","msg":"End of node method fillText"}
+{"level":30,"time":"2022-03-30T16:36:31.699Z","pid":44930,"hostname":"ingrid","msg":"Start of node method fillText"}
+{"level":30,"time":"2022-03-30T16:36:31.699Z","pid":44930,"hostname":"ingrid","msg":"Strict mode is enabled, find Locator with css=input[name=\"duration\"] in page."}
+{"level":30,"time":"2022-03-30T16:36:31.757Z","pid":44930,"hostname":"ingrid","msg":"End of node method fillText"}
+{"level":30,"time":"2022-03-30T16:36:31.762Z","pid":44930,"hostname":"ingrid","msg":"Start of node method fillText"}
+{"level":30,"time":"2022-03-30T16:36:31.762Z","pid":44930,"hostname":"ingrid","msg":"Strict mode is enabled, find Locator with css=input[name=\"price\"] in page."}
+{"level":30,"time":"2022-03-30T16:36:31.851Z","pid":44930,"hostname":"ingrid","msg":"End of node method fillText"}
+{"level":30,"time":"2022-03-30T16:36:31.856Z","pid":44930,"hostname":"ingrid","msg":"Start of node method click"}
+{"level":30,"time":"2022-03-30T16:36:31.857Z","pid":44930,"hostname":"ingrid","msg":"Strict mode is enabled, find Locator with xpath=//button[text()=\"Salvar\"] in page."}
+{"level":30,"time":"2022-03-30T16:36:31.943Z","pid":44930,"hostname":"ingrid","msg":"End of node method click"}
+{"level":30,"time":"2022-03-30T16:36:33.962Z","pid":44930,"hostname":"ingrid","msg":"Start of node method takeScreenshot"}
+{"level":30,"time":"2022-03-30T16:36:34.173Z","pid":44930,"hostname":"ingrid","msg":"End of node method takeScreenshot"}
+{"level":30,"time":"2022-03-30T16:36:34.179Z","pid":44930,"hostname":"ingrid","msg":"Start of node method getBrowserCatalog"}
+{"level":30,"time":"2022-03-30T16:36:34.212Z","pid":44930,"hostname":"ingrid","msg":"End of node method getBrowserCatalog"}
+{"level":30,"time":"2022-03-30T16:36:34.217Z","pid":44930,"hostname":"ingrid","msg":"Start of node method getBrowserCatalog"}
+{"level":30,"time":"2022-03-30T16:36:34.224Z","pid":44930,"hostname":"ingrid","msg":"End of node method getBrowserCatalog"}
+{"level":30,"time":"2022-03-30T16:36:35.919Z","pid":44930,"hostname":"ingrid","msg":"Start of node method click"}
+{"level":30,"time":"2022-03-30T16:36:35.919Z","pid":44930,"hostname":"ingrid","msg":"Strict mode is enabled, find Locator with xpath=//a[text()=\"PLANOS\"] in page."}
+{"level":30,"time":"2022-03-30T16:36:36.041Z","pid":44930,"hostname":"ingrid","msg":"End of node method click"}
+{"level":30,"time":"2022-03-30T16:36:36.045Z","pid":44930,"hostname":"ingrid","msg":"Start of node method waitForElementState"}
+{"level":30,"time":"2022-03-30T16:36:36.046Z","pid":44930,"hostname":"ingrid","msg":"Strict mode is enabled, find Locator with h1 >> text=Gestão de Planos in page."}
+{"level":30,"time":"2022-03-30T16:36:36.060Z","pid":44930,"hostname":"ingrid","msg":"End of node method waitForElementState"}
+{"level":30,"time":"2022-03-30T16:36:36.093Z","pid":44930,"hostname":"ingrid","msg":"Start of node method click"}
+{"level":30,"time":"2022-03-30T16:36:36.094Z","pid":44930,"hostname":"ingrid","msg":"Strict mode is enabled, find Locator with xpath=//a[@href=\"/planos/new\"] in page."}
+{"level":30,"time":"2022-03-30T16:36:36.264Z","pid":44930,"hostname":"ingrid","msg":"End of node method click"}
+{"level":30,"time":"2022-03-30T16:36:36.269Z","pid":44930,"hostname":"ingrid","msg":"Start of node method waitForElementState"}
+{"level":30,"time":"2022-03-30T16:36:36.269Z","pid":44930,"hostname":"ingrid","msg":"Strict mode is enabled, find Locator with h1 >> text=Novo plano in page."}
+{"level":30,"time":"2022-03-30T16:36:36.281Z","pid":44930,"hostname":"ingrid","msg":"End of node method waitForElementState"}
+{"level":30,"time":"2022-03-30T16:36:36.288Z","pid":44930,"hostname":"ingrid","msg":"Start of node method fillText"}
+{"level":30,"time":"2022-03-30T16:36:36.288Z","pid":44930,"hostname":"ingrid","msg":"Strict mode is enabled, find Locator with css=input[name=\"title\"] in page."}
+{"level":30,"time":"2022-03-30T16:36:36.373Z","pid":44930,"hostname":"ingrid","msg":"End of node method fillText"}
+{"level":30,"time":"2022-03-30T16:36:36.377Z","pid":44930,"hostname":"ingrid","msg":"Start of node method fillText"}
+{"level":30,"time":"2022-03-30T16:36:36.377Z","pid":44930,"hostname":"ingrid","msg":"Strict mode is enabled, find Locator with css=input[name=\"duration\"] in page."}
+{"level":30,"time":"2022-03-30T16:36:36.428Z","pid":44930,"hostname":"ingrid","msg":"End of node method fillText"}
+{"level":30,"time":"2022-03-30T16:36:36.436Z","pid":44930,"hostname":"ingrid","msg":"Start of node method fillText"}
+{"level":30,"time":"2022-03-30T16:36:36.438Z","pid":44930,"hostname":"ingrid","msg":"Strict mode is enabled, find Locator with css=input[name=\"price\"] in page."}
+{"level":30,"time":"2022-03-30T16:36:36.505Z","pid":44930,"hostname":"ingrid","msg":"End of node method fillText"}
+{"level":30,"time":"2022-03-30T16:36:36.511Z","pid":44930,"hostname":"ingrid","msg":"Start of node method click"}
+{"level":30,"time":"2022-03-30T16:36:36.513Z","pid":44930,"hostname":"ingrid","msg":"Strict mode is enabled, find Locator with xpath=//button[text()=\"Salvar\"] in page."}
+{"level":30,"time":"2022-03-30T16:36:36.610Z","pid":44930,"hostname":"ingrid","msg":"End of node method click"}
+{"level":30,"time":"2022-03-30T16:36:36.623Z","pid":44930,"hostname":"ingrid","msg":"Start of node method waitForElementState"}
+{"level":30,"time":"2022-03-30T16:36:36.624Z","pid":44930,"hostname":"ingrid","msg":"Strict mode is enabled, find Locator with css=.Toastify__toast-body >> text=Erro cadastrar aluno! in page."}
+{"level":30,"time":"2022-03-30T16:36:37.057Z","pid":44930,"hostname":"ingrid","msg":"End of node method waitForElementState"}
+{"level":30,"time":"2022-03-30T16:36:39.066Z","pid":44930,"hostname":"ingrid","msg":"Start of node method takeScreenshot"}
+{"level":30,"time":"2022-03-30T16:36:39.305Z","pid":44930,"hostname":"ingrid","msg":"End of node method takeScreenshot"}
+{"level":30,"time":"2022-03-30T16:36:39.319Z","pid":44930,"hostname":"ingrid","msg":"Start of node method getBrowserCatalog"}
+{"level":30,"time":"2022-03-30T16:36:39.341Z","pid":44930,"hostname":"ingrid","msg":"End of node method getBrowserCatalog"}
+{"level":30,"time":"2022-03-30T16:36:39.347Z","pid":44930,"hostname":"ingrid","msg":"Start of node method getBrowserCatalog"}
+{"level":30,"time":"2022-03-30T16:36:39.355Z","pid":44930,"hostname":"ingrid","msg":"End of node method getBrowserCatalog"}
+{"level":30,"time":"2022-03-30T16:36:41.231Z","pid":44930,"hostname":"ingrid","msg":"Start of node method click"}
+{"level":30,"time":"2022-03-30T16:36:41.231Z","pid":44930,"hostname":"ingrid","msg":"Strict mode is enabled, find Locator with xpath=//a[text()=\"PLANOS\"] in page."}
+{"level":30,"time":"2022-03-30T16:36:41.374Z","pid":44930,"hostname":"ingrid","msg":"End of node method click"}
+{"level":30,"time":"2022-03-30T16:36:41.378Z","pid":44930,"hostname":"ingrid","msg":"Start of node method waitForElementState"}
+{"level":30,"time":"2022-03-30T16:36:41.378Z","pid":44930,"hostname":"ingrid","msg":"Strict mode is enabled, find Locator with h1 >> text=Gestão de Planos in page."}
+{"level":30,"time":"2022-03-30T16:36:41.389Z","pid":44930,"hostname":"ingrid","msg":"End of node method waitForElementState"}
+{"level":30,"time":"2022-03-30T16:36:41.396Z","pid":44930,"hostname":"ingrid","msg":"Start of node method click"}
+{"level":30,"time":"2022-03-30T16:36:41.396Z","pid":44930,"hostname":"ingrid","msg":"Strict mode is enabled, find Locator with xpath=//a[@href=\"/planos/new\"] in page."}
+{"level":30,"time":"2022-03-30T16:36:41.533Z","pid":44930,"hostname":"ingrid","msg":"End of node method click"}
+{"level":30,"time":"2022-03-30T16:36:41.537Z","pid":44930,"hostname":"ingrid","msg":"Start of node method waitForElementState"}
+{"level":30,"time":"2022-03-30T16:36:41.538Z","pid":44930,"hostname":"ingrid","msg":"Strict mode is enabled, find Locator with h1 >> text=Novo plano in page."}
+{"level":30,"time":"2022-03-30T16:36:41.560Z","pid":44930,"hostname":"ingrid","msg":"End of node method waitForElementState"}
+{"level":30,"time":"2022-03-30T16:36:41.567Z","pid":44930,"hostname":"ingrid","msg":"Start of node method fillText"}
+{"level":30,"time":"2022-03-30T16:36:41.567Z","pid":44930,"hostname":"ingrid","msg":"Strict mode is enabled, find Locator with css=input[name=\"title\"] in page."}
+{"level":30,"time":"2022-03-30T16:36:41.651Z","pid":44930,"hostname":"ingrid","msg":"End of node method fillText"}
+{"level":30,"time":"2022-03-30T16:36:41.657Z","pid":44930,"hostname":"ingrid","msg":"Start of node method fillText"}
+{"level":30,"time":"2022-03-30T16:36:41.657Z","pid":44930,"hostname":"ingrid","msg":"Strict mode is enabled, find Locator with css=input[name=\"duration\"] in page."}
+{"level":30,"time":"2022-03-30T16:36:41.695Z","pid":44930,"hostname":"ingrid","msg":"End of node method fillText"}
+{"level":30,"time":"2022-03-30T16:36:41.700Z","pid":44930,"hostname":"ingrid","msg":"Start of node method fillText"}
+{"level":30,"time":"2022-03-30T16:36:41.701Z","pid":44930,"hostname":"ingrid","msg":"Strict mode is enabled, find Locator with css=input[name=\"price\"] in page."}
+{"level":30,"time":"2022-03-30T16:36:41.786Z","pid":44930,"hostname":"ingrid","msg":"End of node method fillText"}
+{"level":30,"time":"2022-03-30T16:36:41.798Z","pid":44930,"hostname":"ingrid","msg":"Start of node method click"}
+{"level":30,"time":"2022-03-30T16:36:41.798Z","pid":44930,"hostname":"ingrid","msg":"Strict mode is enabled, find Locator with xpath=//button[text()=\"Salvar\"] in page."}
+{"level":30,"time":"2022-03-30T16:36:41.885Z","pid":44930,"hostname":"ingrid","msg":"End of node method click"}
+{"level":30,"time":"2022-03-30T16:36:41.894Z","pid":44930,"hostname":"ingrid","msg":"Start of node method waitForElementState"}
+{"level":30,"time":"2022-03-30T16:36:41.894Z","pid":44930,"hostname":"ingrid","msg":"Strict mode is enabled, find Locator with css=.Toastify__toast-body >> text=O valor do plano deve ser maior que zero! in page."}
+{"level":30,"time":"2022-03-30T16:36:41.959Z","pid":44930,"hostname":"ingrid","msg":"End of node method waitForElementState"}
+{"level":30,"time":"2022-03-30T16:36:43.968Z","pid":44930,"hostname":"ingrid","msg":"Start of node method takeScreenshot"}
+{"level":30,"time":"2022-03-30T16:36:44.197Z","pid":44930,"hostname":"ingrid","msg":"End of node method takeScreenshot"}
+{"level":30,"time":"2022-03-30T16:36:44.205Z","pid":44930,"hostname":"ingrid","msg":"Start of node method getBrowserCatalog"}
+{"level":30,"time":"2022-03-30T16:36:44.213Z","pid":44930,"hostname":"ingrid","msg":"End of node method getBrowserCatalog"}
+{"level":30,"time":"2022-03-30T16:36:44.217Z","pid":44930,"hostname":"ingrid","msg":"Start of node method getBrowserCatalog"}
+{"level":30,"time":"2022-03-30T16:36:44.227Z","pid":44930,"hostname":"ingrid","msg":"End of node method getBrowserCatalog"}
+{"level":30,"time":"2022-03-30T16:36:45.981Z","pid":44930,"hostname":"ingrid","msg":"Start of node method click"}
+{"level":30,"time":"2022-03-30T16:36:45.982Z","pid":44930,"hostname":"ingrid","msg":"Strict mode is enabled, find Locator with xpath=//a[text()=\"PLANOS\"] in page."}
+{"level":30,"time":"2022-03-30T16:36:46.118Z","pid":44930,"hostname":"ingrid","msg":"End of node method click"}
+{"level":30,"time":"2022-03-30T16:36:46.122Z","pid":44930,"hostname":"ingrid","msg":"Start of node method waitForElementState"}
+{"level":30,"time":"2022-03-30T16:36:46.122Z","pid":44930,"hostname":"ingrid","msg":"Strict mode is enabled, find Locator with h1 >> text=Gestão de Planos in page."}
+{"level":30,"time":"2022-03-30T16:36:46.136Z","pid":44930,"hostname":"ingrid","msg":"End of node method waitForElementState"}
+{"level":30,"time":"2022-03-30T16:36:46.142Z","pid":44930,"hostname":"ingrid","msg":"Start of node method click"}
+{"level":30,"time":"2022-03-30T16:36:46.142Z","pid":44930,"hostname":"ingrid","msg":"Strict mode is enabled, find Locator with xpath=//a[@href=\"/planos/new\"] in page."}
+{"level":30,"time":"2022-03-30T16:36:46.297Z","pid":44930,"hostname":"ingrid","msg":"End of node method click"}
+{"level":30,"time":"2022-03-30T16:36:46.301Z","pid":44930,"hostname":"ingrid","msg":"Start of node method waitForElementState"}
+{"level":30,"time":"2022-03-30T16:36:46.301Z","pid":44930,"hostname":"ingrid","msg":"Strict mode is enabled, find Locator with h1 >> text=Novo plano in page."}
+{"level":30,"time":"2022-03-30T16:36:46.318Z","pid":44930,"hostname":"ingrid","msg":"End of node method waitForElementState"}
+{"level":30,"time":"2022-03-30T16:36:46.330Z","pid":44930,"hostname":"ingrid","msg":"Start of node method fillText"}
+{"level":30,"time":"2022-03-30T16:36:46.330Z","pid":44930,"hostname":"ingrid","msg":"Strict mode is enabled, find Locator with css=input[name=\"title\"] in page."}
+{"level":30,"time":"2022-03-30T16:36:46.426Z","pid":44930,"hostname":"ingrid","msg":"End of node method fillText"}
+{"level":30,"time":"2022-03-30T16:36:46.430Z","pid":44930,"hostname":"ingrid","msg":"Start of node method fillText"}
+{"level":30,"time":"2022-03-30T16:36:46.430Z","pid":44930,"hostname":"ingrid","msg":"Strict mode is enabled, find Locator with css=input[name=\"duration\"] in page."}
+{"level":30,"time":"2022-03-30T16:36:46.483Z","pid":44930,"hostname":"ingrid","msg":"End of node method fillText"}
+{"level":30,"time":"2022-03-30T16:36:46.490Z","pid":44930,"hostname":"ingrid","msg":"Start of node method fillText"}
+{"level":30,"time":"2022-03-30T16:36:46.490Z","pid":44930,"hostname":"ingrid","msg":"Strict mode is enabled, find Locator with css=input[name=\"price\"] in page."}
+{"level":30,"time":"2022-03-30T16:36:46.536Z","pid":44930,"hostname":"ingrid","msg":"End of node method fillText"}
+{"level":30,"time":"2022-03-30T16:36:46.540Z","pid":44930,"hostname":"ingrid","msg":"Start of node method click"}
+{"level":30,"time":"2022-03-30T16:36:46.540Z","pid":44930,"hostname":"ingrid","msg":"Strict mode is enabled, find Locator with xpath=//button[text()=\"Salvar\"] in page."}
+{"level":30,"time":"2022-03-30T16:36:46.642Z","pid":44930,"hostname":"ingrid","msg":"End of node method click"}
+{"level":30,"time":"2022-03-30T16:36:48.658Z","pid":44930,"hostname":"ingrid","msg":"Start of node method takeScreenshot"}
+{"level":30,"time":"2022-03-30T16:36:48.878Z","pid":44930,"hostname":"ingrid","msg":"End of node method takeScreenshot"}
+{"level":30,"time":"2022-03-30T16:36:48.883Z","pid":44930,"hostname":"ingrid","msg":"Start of node method getBrowserCatalog"}
+{"level":30,"time":"2022-03-30T16:36:48.911Z","pid":44930,"hostname":"ingrid","msg":"End of node method getBrowserCatalog"}
+{"level":30,"time":"2022-03-30T16:36:48.918Z","pid":44930,"hostname":"ingrid","msg":"Start of node method getBrowserCatalog"}
+{"level":30,"time":"2022-03-30T16:36:48.928Z","pid":44930,"hostname":"ingrid","msg":"End of node method getBrowserCatalog"}
+{"level":30,"time":"2022-03-30T16:36:48.934Z","pid":44930,"hostname":"ingrid","msg":"Changed active context"}
+{"level":30,"time":"2022-03-30T16:36:48.934Z","pid":44930,"hostname":"ingrid","msg":"Changing current active page"}
+{"level":30,"time":"2022-03-30T16:36:48.934Z","pid":44930,"hostname":"ingrid","msg":"Changed active page"}
+{"level":30,"time":"2022-03-30T16:36:48.941Z","pid":44930,"hostname":"ingrid","msg":"Start of node method getBrowserCatalog"}
+{"level":30,"time":"2022-03-30T16:36:48.956Z","pid":44930,"hostname":"ingrid","msg":"End of node method getBrowserCatalog"}
+{"level":30,"time":"2022-03-30T16:36:48.960Z","pid":44930,"hostname":"ingrid","msg":"Start of node method switchBrowser"}
+{"level":30,"time":"2022-03-30T16:36:48.960Z","pid":44930,"hostname":"ingrid","msg":"End of node method switchBrowser"}
+{"level":30,"time":"2022-03-30T16:36:48.963Z","pid":44930,"hostname":"ingrid","msg":"Start of node method switchBrowser"}
+{"level":30,"time":"2022-03-30T16:36:48.963Z","pid":44930,"hostname":"ingrid","msg":"End of node method switchBrowser"}
+{"level":30,"time":"2022-03-30T16:36:48.969Z","pid":44930,"hostname":"ingrid","msg":"Changed active context"}
+{"level":30,"time":"2022-03-30T16:36:48.970Z","pid":44930,"hostname":"ingrid","msg":"Changing current active page"}
+{"level":30,"time":"2022-03-30T16:36:48.970Z","pid":44930,"hostname":"ingrid","msg":"Changed active page"}
+{"level":30,"time":"2022-03-30T16:36:48.979Z","pid":44930,"hostname":"ingrid","msg":"Start of node method closeContext"}
+{"level":30,"time":"2022-03-30T16:36:49.099Z","pid":44930,"hostname":"ingrid","msg":"End of node method closeContext"}
+{"level":30,"time":"2022-03-30T16:36:49.299Z","pid":44930,"hostname":"ingrid","msg":"Start of node method closeAllBrowsers"}
+{"level":30,"time":"2022-03-30T16:36:49.626Z","pid":44930,"hostname":"ingrid","msg":"End of node method closeAllBrowsers"}

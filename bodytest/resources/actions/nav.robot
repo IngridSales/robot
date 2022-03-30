@@ -13,7 +13,6 @@ User Should Be Logged In
 Submit Form
     Click               xpath=//button[text()="Salvar"]
 
-Clear Storage and Screenshot
-
-    LocalStorage Clear
-    Take Screenshot
+Go To Plans
+    Click                           xpath=//a[text()="PLANOS"]
+    Wait For Elements State         h1 >> text=Gestão de Planos         visible         5

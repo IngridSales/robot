@@ -12,7 +12,7 @@ class IngridLibrary():
             password='01cc32c66225e60b21b27751ee88ba0c30b3123407a749c79de2d5cbd815c099'
         )
     
-
+#####ALUNOS
     def remove_student(self, email):
         query = "delete from students where email = '{}'".format(email)
 
@@ -39,6 +39,31 @@ class IngridLibrary():
         query = ("insert into students (name, email, age, weight, feet_tall, created_at, updated_at)"
                  "values('{}','{}',{},{},{}, now(), now());"
                  .format(student['name'], student['email'], student['age'], student['weight'], student['feet_tall']))
+        
+        info(query)
+        conn = self.connect()
+        cur = conn.cursor()
+        cur.execute(query)
+        conn.commit()
+        conn.close()
+    
+#####PLANOS
+    def remove_plan(self, title):
+        query = "delete from plans where title = '{}'".format(title)
+
+        info(query)
+        conn = self.connect()
+        cur = conn.cursor()
+        cur.execute(query)
+        conn.commit()
+        conn.close()
+
+    def insert_plan(self, plan):
+        self.insert_plan(plan['title'])
+
+        query = ("insert into plans (title, duration, price, created_at, updated_at)"
+                 "values('{}', {}, {}, now(), now());"
+                 .format(plan['title'], plan['duration'], plan['price']))
         
         info(query)
         conn = self.connect()

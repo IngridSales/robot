@@ -1,6 +1,5 @@
 *** Settings ***
-
-Documentation           Ações do projeto - Cadastro
+Documentation           Ações do projeto - Alunos
 
 *** Keywords ***
 Get Register Not Found
@@ -36,12 +35,6 @@ New Student
     Fill Text           css=input[name=weight]          ${student.weight}
     Fill Text           css=input[name=feet_tall]       ${student.feet_tall}
     Submit Form
-
-# Fill Searchbox
-
-#     [Arguments]         ${search}
-#     Fill Text               css=input[placeholder^="Buscar"]        ${search}
-#     Wait For Elements State        xpath=//tr//td[2]          visible         5
 
 Get Required Alerts
     [Arguments]     ${index}
