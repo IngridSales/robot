@@ -11,4 +11,24 @@ New Plan
     Fill Text           css=input[name="title"]            ${plan.title}
     Fill Text           css=input[name="duration"]         ${plan.duration}
     Fill Text           css=input[name="price"]            ${plan.price}
+    Submit Form 
+
+Search Plan By Title
+    [Arguments]         ${title}
+    Fill Text           css=input[placeholder="Buscar plano"]           ${title}
+
+Update A Plan
+    [Arguments]         ${plan}                
+    Fill Text           ${TITLE_FIELD}         ${plan["title"]}         
+    Fill Text           ${DURATION_FIELD}      ${plan["duration"]}
+    Fill Text           ${PRICE_FIELD}         ${plan["price"]}
     Submit Form
+
+Go To Plan Update Form
+    [Arguments]                 ${title}
+    Click                       xpath=//td[text()="Plano B1"]/..//a
+    Wait For Elements State     css=h1 >> text=Edição de plano              visible             3
+
+Total Plan Should Be
+    [Arguments]         ${total}
+    Get Attribute       ${TOTAL_FIELD}          value               ==              ${total}    

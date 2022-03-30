@@ -11,8 +11,8 @@ class IngridLibrary():
             user='hmntfvbdoitzxu',
             password='01cc32c66225e60b21b27751ee88ba0c30b3123407a749c79de2d5cbd815c099'
         )
-    
-#####ALUNOS
+ 
+
     def remove_student(self, email):
         query = "delete from students where email = '{}'".format(email)
 
@@ -47,7 +47,6 @@ class IngridLibrary():
         conn.commit()
         conn.close()
     
-#####PLANOS
     def remove_plan(self, title):
         query = "delete from plans where title = '{}'".format(title)
 
@@ -59,7 +58,7 @@ class IngridLibrary():
         conn.close()
 
     def insert_plan(self, plan):
-        self.insert_plan(plan['title'])
+        self.remove_plan(plan['title'])
 
         query = ("insert into plans (title, duration, price, created_at, updated_at)"
                  "values('{}', {}, {}, now(), now());"

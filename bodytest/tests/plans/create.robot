@@ -6,23 +6,23 @@ Test Teardown           Take Screenshot
 
 *** Test Case ***
 Cenário: Novo plano
-   [tags]      temp
-    &{plans}        Create Dictionary       title=Plano A       duration=12         price=10,00
+   
+    &{plan}        Create Dictionary       title=Plano A       duration=12         price=10,00              total=${EMPTY}
 
-    Remove Plan             ${plans.title}
+    Remove Plan             ${plan.title}
     Go To Plans             
     Go To Form Plans        
-    New Plan                ${plans}
+    New Plan                ${plan}
     Wait For Toast          Plano cadastrado com sucesso
     [Teardown]              Thinking and Screenshot         2
 
 Cenário: Validação dos campos numericos
-     [tags]      temp
+    
     [Template]      Check Type Field On Plans Form
     ${PRICE_FIELD}      number
 
 Cenário: Tiulo e Duração devem ser obrigatórios
-    [tags]      temp
+  
     @{alerts}       Set Variable        Informe o título do plano       Informe a duração do plano em meses         
     @{got_alerts}       Create List
     Go To Plans             
@@ -39,48 +39,70 @@ Cenário: Tiulo e Duração devem ser obrigatórios
     [Teardown]              Thinking and Screenshot         2
 
 Cenário: A duração do plano deve ser no máximo 60 meses
-    [tags]      temp
-    &{plans}        Create Dictionary       title=Plano B       duration=61         price=10,00
+    
+    &{plan}        Create Dictionary       title=Plano B       duration=61         price=10,00              total=${EMPTY}
 
-    Remove Plan             ${plans.title}
+    Remove Plan             ${plan.title}
     Go To Plans             
     Go To Form Plans        
-    New Plan                ${plans}
+    New Plan                ${plan}
     Get Span                A duração dever ser no máximo 60 meses
     [Teardown]              Thinking and Screenshot         2
 
 Cenário: Calcular o preço total do plano
+
+    &{plan}        Create Dictionary       title=Plano C       duration=4         price=10,00            total=R$ 40,00
+
+    Remove Plan             ${plan.title}
+    Go To Plans             
+    Go To Form Plans        
+    New Plan                ${plan}
+    Total Plan Should Be    ${plan.total}
     
 
 Cenário: O preço mensal deve ser menor que 100.000.000,00
-    [tags]      temp
-    &{plans}        Create Dictionary       title=Plano C       duration=4         price=100.000.000,00
+    
+    &{plan}        Create Dictionary       title=Plano D       duration=4         price=100.000.000,00              total=${EMPTY}
 
-    Remove Plan             ${plans.title}
+    Remove Plan             ${plan.title}
     Go To Plans             
     Go To Form Plans        
-    New Plan                ${plans}
+    New Plan                ${plan}
     Wait For Toast          Erro cadastrar aluno!
     [Teardown]              Thinking and Screenshot         2
-Cenário: O preço deve ser obrigatório e maior que zero
-    [tags]      temp
-    &{plans}        Create Dictionary       title=Plano D      duration=4         price=0,00
 
-    Remove Plan             ${plans.title}
+Cenario: Campo Preço do Plano deve ser obrigatório e maior do que zero
+    [tags]          temp
+    &{plan}                 Create Dictionary       title=Plano Louco       duration=12     price=${EMPTY}          total=${EMPTY}
+    ${expected_alert}       Set Variable            O preço é obrigatório
+    Go To Plans
+    Go To Form Plans
+    New Plan                ${plan}
+    ${got_alert}            Get Text                xpath=//form//span
+    Log                     ${expected_alert}
+    Log                     ${got_alert}
+    Should Be String        ${expected_alert}           ${got_alert}
+    [Teardown]              Thinking and Screenshot     2
+
+Cenário: O preço deve ser obrigatório e maior que zero
+    
+    &{plan}        Create Dictionary       title=Plano E      duration=4         price=${EMPTY}             total=${EMPTY}
+
+    Remove Plan             ${plan.title}
     Go To Plans             
     Go To Form Plans        
-    New Plan                ${plans}
+    New Plan                ${plan}
     Wait For Toast          O valor do plano deve ser maior que zero!
     [Teardown]              Thinking and Screenshot         2
 
 Cenário: A duração do plano deve ser no minimo 1 mês
-    [tags]      temp
-    &{plans}        Create Dictionary       title=Plano E       duration=-1         price=10,00
+    
+    &{plan}        Create Dictionary       title=Plano F       duration=-1         price=10,00              total=${EMPTY}
 
-    Remove Plan             ${plans.title}
+    Remove Plan             ${plan.title}
     Go To Plans             
     Go To Form Plans        
-    New Plan                ${plans}
+    New Plan                ${plan}
     Get Span                A duração dever ser no mínimo 1 mês
     [Teardown]              Thinking and Screenshot         2
 

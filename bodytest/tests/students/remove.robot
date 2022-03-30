@@ -4,7 +4,6 @@ Resource                ${EXECDIR}/resources/base.robot
 Suite Setup             Start Admin Session
 Test Teardown           Take Screenshot
 
-
 *** Test Case ***
 Cenário: Remover aluno cadastrado
 
@@ -15,7 +14,7 @@ Cenário: Remover aluno cadastrado
     Search Student By Name              ${student["name"]}
     Student Name Should Be Visible      ${student["name"]}
     Confirm Remove         
-    [Teardown]              Clear Storage and Screenshot 
+    [Teardown]              Thinking and Screenshot         2
     
 Cenário: Desistir da exclusão
 
@@ -26,4 +25,4 @@ Cenário: Desistir da exclusão
     Search Student By Name              ${student["name"]}
     Student Name Should Be Visible      ${student["name"]}
     Cancel Remove        
-    [Teardown]              Clear Storage and Screenshot 
+    [Teardown]              Thinking and Screenshot         2

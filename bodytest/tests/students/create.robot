@@ -16,8 +16,7 @@ Cenário: Novo Aluno
     Go To Form Students
     New Student             ${student}
     Wait For Toast          Aluno cadastrado com sucesso.
-    [Teardown]              Clear Storage and Screenshot 
-
+    [Teardown]              Thinking and Screenshot         2
 Cenário: Não deve permitir email duplicado
     
     &{student}          Create Dictionary       name=Maria Isabel Silva       email=bebelsilva@gmail.com        age=56      weight=77       feet_tall=1.73
@@ -27,7 +26,7 @@ Cenário: Não deve permitir email duplicado
     Go To Form Students
     New Student             ${student}
     Wait For Toast          Email já existe no sistema.
-    [Teardown]              Clear Storage and Screenshot 
+    [Teardown]              Thinking and Screenshot         2
 
 Cenário: Todos os campos devem ser obrigatórios
     
@@ -68,8 +67,7 @@ Cenário: Menor de 14 anos não pode fazer cadastro
     New Student             ${student}
     Get Span                A idade
    
-    [Teardown]              Clear Storage and Screenshot 
-
+    [Teardown]              Thinking and Screenshot         2
 
 Cenário: Email inválido
 
@@ -80,6 +78,5 @@ Cenário: Email inválido
     Go To Form Students
     New Student             ${student}
     Get Span                Informe um
-    [Teardown]              Clear Storage and Screenshot 
-
+    [Teardown]              Thinking and Screenshot         2
 

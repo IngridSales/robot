@@ -35,10 +35,10 @@ Cenário: Busca exata
     Go To Students
     Search Student By Name              ${student["name"]}
     Student Name Should Be Visible      ${student["name"]}
-    [Teardown]             Clear Storage and Screenshot 
+    [Teardown]              Thinking and Screenshot         2
 
 Cenário: Registro não encontrado
     
     Go To Students
     Get Register Not Found         Abigail 
-    [Teardown]             Clear Storage and Screenshot 
+    [Teardown]              Thinking and Screenshot         2

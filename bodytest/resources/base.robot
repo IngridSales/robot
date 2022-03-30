@@ -24,10 +24,10 @@ ${FEET_TALL_FIELD}    css=input[name=feet_tall]
 ${TITLE_FIELD}        css=input[name="title"]           
 ${DURATION_FIELD}     css=input[name="duration"]        
 ${PRICE_FIELD}        css=input[name="price"]
-
+${TOTAL_FIELD}        css=input[name=total]   
 *** Keywords ***
 Inicio de Sesión
-    New Browser     chromium        false
+    New Browser     chromium        true
     New Page        about:blank
 
 Start Admin Session
