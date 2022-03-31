@@ -72,7 +72,7 @@ Cenário: O preço mensal deve ser menor que 100.000.000,00
     [Teardown]              Thinking and Screenshot         2
 
 Cenario: Campo Preço do Plano deve ser obrigatório e maior do que zero
-    [tags]          temp
+    
     &{plan}                 Create Dictionary       title=Plano Louco       duration=12     price=${EMPTY}          total=${EMPTY}
     ${expected_alert}       Set Variable            O preço é obrigatório
     Go To Plans
@@ -83,17 +83,6 @@ Cenario: Campo Preço do Plano deve ser obrigatório e maior do que zero
     Log                     ${got_alert}
     Should Be String        ${expected_alert}           ${got_alert}
     [Teardown]              Thinking and Screenshot     2
-
-Cenário: O preço deve ser obrigatório e maior que zero
-    
-    &{plan}        Create Dictionary       title=Plano E      duration=4         price=${EMPTY}             total=${EMPTY}
-
-    Remove Plan             ${plan.title}
-    Go To Plans             
-    Go To Form Plans        
-    New Plan                ${plan}
-    Wait For Toast          O valor do plano deve ser maior que zero!
-    [Teardown]              Thinking and Screenshot         2
 
 Cenário: A duração do plano deve ser no minimo 1 mês
     

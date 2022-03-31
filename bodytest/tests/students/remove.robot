@@ -13,7 +13,7 @@ Cenário: Remover aluno cadastrado
     Go To Students
     Search Student By Name              ${student["name"]}
     Student Name Should Be Visible      ${student["name"]}
-    Confirm Remove         
+    Confirm Remove                      Aluno removido com sucesso.
     [Teardown]              Thinking and Screenshot         2
     
 Cenário: Desistir da exclusão

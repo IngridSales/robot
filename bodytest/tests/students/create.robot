@@ -68,6 +68,17 @@ Cenário: Menor de 14 anos não pode fazer cadastro
     Get Span                A idade
    
     [Teardown]              Thinking and Screenshot         2
+    
+Cenário: Maior de 150 anos não pode fazer cadastro
+    &{student}          Create Dictionary       name=Mendonça       email=mendoncinha@gmail.com        age=151      weight=77       feet_tall=1.73
+
+    Remove student          ${student.email}
+    Go To Students
+    Go To Form Students
+    New Student             ${student}
+    Get Span                A idade
+   
+    [Teardown]              Thinking and Screenshot         2
 
 Cenário: Email inválido
 

@@ -9,11 +9,11 @@ Get Register Not Found
     Get Text           xpath=//div[text()="Nenhum registro encontrado."]
 
 Confirm Remove
-
+    [Arguments]         ${txt_expect}
     Click               xpath=//span[text()=" Apagar"]
     Get Text            xpath=//div//h2[text()="Você está certo disso?"]
     Click               xpath=//div//button[text()="SIM, pode apagar!"]
-    Wait For Toast      Aluno removido com sucesso.
+    Wait For Toast      ${txt_expect}
 
 Cancel Remove
 

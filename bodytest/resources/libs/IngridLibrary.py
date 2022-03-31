@@ -61,7 +61,7 @@ class IngridLibrary():
         self.remove_plan(plan['title'])
 
         query = ("insert into plans (title, duration, price, created_at, updated_at)"
-                 "values('{}', {}, {}, now(), now());"
+                 "values('{}',{},{}, now(), now());"
                  .format(plan['title'], plan['duration'], plan['price']))
         
         info(query)

@@ -4,7 +4,6 @@ Resource                ${EXECDIR}/resources/base.robot
 Suite Setup             Start Admin Session
 Test Teardown           Take Screenshot
 
-
 *** Test Case ***
 Cenario: Busca alunos por um único termo
     ${fixture}          Get JSON        students-search.json

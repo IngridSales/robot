@@ -8,9 +8,9 @@ Go To Form Plans
 
 New Plan
     [Arguments]         ${plan}        
-    Fill Text           css=input[name="title"]            ${plan.title}
-    Fill Text           css=input[name="duration"]         ${plan.duration}
-    Fill Text           css=input[name="price"]            ${plan.price}
+    Fill Text           ${TITLE_FIELD}            ${plan.title}
+    Fill Text           ${DURATION_FIELD}         ${plan.duration}
+    Fill Text           ${PRICE_FIELD}            ${plan.price}
     Submit Form 
 
 Search Plan By Title
@@ -32,3 +32,7 @@ Go To Plan Update Form
 Total Plan Should Be
     [Arguments]         ${total}
     Get Attribute       ${TOTAL_FIELD}          value               ==              ${total}    
+
+Plan Title Should Be Visible
+    [Arguments]                     ${title}
+    Wait For Elements State         css=table tbody tr >> text=${title}              Visible         5
